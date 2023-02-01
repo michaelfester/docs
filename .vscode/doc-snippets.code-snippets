@@ -1,0 +1,163 @@
+{
+	// file made by jack - snippets for documentation writers. 
+	"Title & Description": {
+		"prefix": [
+			"meta",
+		],
+		"body": [
+			"---",
+			"title:",
+			"description:"
+			"video:"
+			"slug:"
+			"---"
+		],
+		"description": "Standard documentation header."
+	},
+	"Video": {
+		"prefix": [
+			"video",
+		],
+		"body": [
+			"{% video src=\"https://www.youtube.com/embed/${1:}\" /%}",
+		],
+		"description": "YouTube Embed"
+	},
+	"Playlist": {
+		"prefix": [
+			"playlist",
+		],
+		"body": [
+			"{% video src=\"https://www.youtube.com/embed/videoseries?list=${1:}\" /%}",
+		],
+		"description": "YouTube Embed"
+	},
+	"Nav Item Internal": {
+		"prefix": [
+			"nav-internal",
+		],
+		"body": [
+			"{ href: \"/welcome\", title: \"Welcome\"},",
+		],
+		"description": "A navigation item to an internal doc"
+	},
+	"Nav Item External": {
+		"prefix": [
+			"nav-external",
+		],
+		"body": [
+			"{",
+			"	href: \"https://www.youtube.com/playlist?list=PL9fJR6JJ89mUyHHweZnW4yY1aA2QmDd8k,\"",
+			"	title: \"Link title,\"",
+			"},"
+		],
+		"description": "A navigation item to an internal doc"
+	},
+	"Callout": {
+		"prefix": [
+			"callout",
+		],
+		"body": [
+			"{% callout title=\"Example of callout\" %}",
+			"Here's how you do a callout, Jack :D",
+			"{% /callout %}",
+		],
+		"description": "Callout component"
+	},
+	"Topics": {
+		"prefix": [
+			"topics",
+		],
+		"body": [
+			"{% .lead %}"
+		],
+		"description": "Show the list of topics in this folder"
+	},
+	"Image": {
+		"prefix": [
+			"image",
+		],
+		"body": [
+			"{% figure src=\"/${1:}\" caption=\"${2:}\" /%}"
+		],
+		"description": "Image component for Glide Docs"
+	},
+	"Callout": {
+		"prefix": [
+			"callout",
+		],
+		"body": [
+			"{% callout title=\"\" %}",
+			"text here",
+			"{% /callout %}",
+		],
+		"description": "Standard callout"
+	},
+	"Warning": {
+		"prefix": [
+			"warning",
+		],
+		"body": [
+			"{% callout type=\"warning\" title=\"\" %}",
+			"text here",
+			"{% /callout %}",
+		],
+		"description": "Standard callout"
+	},
+
+	"Table": {
+		"prefix": [
+			"table",
+		],
+		"body": [
+			"| text | text | text | text |",
+			"| ---- | ---- | ---- | ---- |",
+			"| text | text | text | text |",
+			"| text | text | text | text |",
+			"| text | text | text | text |",
+			"| text | text | text | text |",
+		],
+		"description": "Standard callout"
+	},
+	"Comment": {
+		"prefix": [
+			"comment",
+		],
+		"body": [
+			"[comment]: <> (comment)",
+		],
+		"description": "Internal Comment that will not show on the website"
+	},
+	"CTA": {
+		"prefix": [
+			"cta",
+		],
+		"body": [
+			"{% cta title=\"${1:}\" description=\"${2:}\" url=\"/docs/${3:}\" /%}"\" "
+		],
+		"description": "Call to action card that links to an internal page and provides a short description"	
+	},
+	"Category Title": {
+		"prefix": [
+			"category-title",
+		],
+		"body": [
+			"---",
+			"title:",
+			"description:",
+			"---",
+			"",
+			"{% .lead %}",
+		],
+		"description": "Call to action card that links to an internal page and provides a short description"
+	},
+	"Internal Link": {
+		"prefix": [
+			"lkn",
+		],
+		"body": [
+			"[${1:}](/docs/${2:})",
+		],
+		"description": "Internal Glide Link",
+	},
+},

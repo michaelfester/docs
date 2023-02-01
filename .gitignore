@@ -1,0 +1,10 @@
+node_modules/
+.DS_Store
+.next/
+.vercel
+yarn.lock
+.env
+
+.vscode/settings.jsonout
+glide-docs-hubspot-knowledge-base.csv
+.dev/navigation.json
