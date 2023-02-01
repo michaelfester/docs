@@ -14,7 +14,7 @@ The Switch and Checkbox components allow you to toggle boolean values in your d
 
 ## Data
 
-Select a column in your data source to write the value to. 
+Select a column in your data source to write the value to.
 
 ## Design
 

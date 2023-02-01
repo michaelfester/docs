@@ -33,4 +33,3 @@ To learn more about customizing the contents of a list screen, see [User Experie
 {% /callout %}
 
 {% figure src="/docs/reference/components/list-relation/filtering-grouping-and-sorting-list-relation.png" caption="" /%}
-

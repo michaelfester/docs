@@ -5,12 +5,12 @@ video:
 slug: show-detail-screen
 ---
 
-By default, list items link to their [Details Screen](/docs/details-screen). 'Show Detail Screen' is, therefore, an action that you will only find on [Lists](/docs/list-styles). 
+By default, list items link to their [Details Screen](/docs/details-screen). 'Show Detail Screen' is, therefore, an action that you will only find on [Lists](/docs/list-styles).
 
 {% figure src="/docs/reference/actions/show-detail-screen/configure-show-detail-screen.png" caption="Configure Show Detail Screen" /%}
 
 {% callout title="" %}
-You can change the default action on lists to a variety of other actions like copy to clipboard, add row or compose email. 
+You can change the default action on lists to a variety of other actions like copy to clipboard, add row or compose email.
 {% /callout %}
 
-With lists – the default behavior is that each details screen within that list shares the same set of components. However, you may not want this. If this is the case, you can enable an independent screen configuration for each item in a list. Read more [here](/docs/independent-screen-config) 👈 
+With lists – the default behavior is that each details screen within that list shares the same set of components. However, you may not want this. If this is the case, you can enable an independent screen configuration for each item in a list. Read more [here](/docs/independent-screen-config) 👈

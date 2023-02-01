@@ -35,4 +35,4 @@ Check out this sample configuration using the data found on this Google Sheet:
 
 And after all the columns are bound to the right properties in Glide, the email link that people would be visiting would be:
 
-**[mailto:hello%40company.com?subject=Hey%20there!&body=From%20a%20form%20submitted%20on%20www.website.com%3A&cc=enquiries%40company.com&bcc=secretemail%40company.com](mailto:hello%40company.com?subject=Hey%20there!&body=From%20a%20form%20submitted%20on%20**www.website.com**%3A&cc=enquiries%40company.com&bcc=secretemail%40company.com)**
+**[mailto:hello%40company.com?subject=Hey%20there!&body=From%20a%20form%20submitted%20on%20www.website.com%3A&cc=enquiries%40company.com&bcc=secretemail%40company.com](mailto:hello%40company.com?subject=Hey%20there!&body=From%20a%20form%20submitted%20on%20**www.website.com**%3A&cc=enquiries%40company.com&bcc=secretemail%40company.com)\*\*

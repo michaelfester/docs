@@ -5,7 +5,7 @@ video:
 slug: share-link
 ---
 
-The Share Link action triggers the device's share panel, enabling them to share your content via other apps. 
+The Share Link action triggers the device's share panel, enabling them to share your content via other apps.
 
 ![](/docs/reference/actions/share-link/Group%2062.png)
 

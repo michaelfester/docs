@@ -66,12 +66,12 @@ In **Apps**, you can select from the following **Style** options:
 
 In **Pages**, you can select from the following **Style** options:
 
-- Select **Square** to ****display your image in a specified **Aspect Ratio**, as outlined above.
+- Select **Square** to \***\*display your image in a specified **Aspect Ratio\*\*, as outlined above.
 - Select **Circle** to display your image as a circle that is auto-cropped.
 
 ### Size
 
-In Pages, you can select a size for your Image component. This is similar to the Style options mentioned above that are available in Apps. 
+In Pages, you can select a size for your Image component. This is similar to the Style options mentioned above that are available in Apps.
 
 - Select **Full** to allow the Image component to fill the container width.
 - Select **Small** to display the Image component in a minimized fashion.
@@ -81,6 +81,7 @@ In Pages, you can select a size for your Image component. This is similar to the
 {% callout title="" %}
 Overlay options are only available in Apps.
 {% /callout %}
+
 ### Button
 
 Select **Favorite** to include a heart button in the top right corner of your **Image** component.
@@ -133,4 +134,3 @@ Users can trigger an action when they tap on the **Image** component. You can 
 {% cta title="Actions" description="Lear more about actions" url="/docs/actions" /%}
 
 {% figure src="/docs/reference/components/image-component/image%20(23).png" caption="" /%}
-

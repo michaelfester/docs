@@ -13,7 +13,7 @@ The Rating Component lets users rate items in your apps. They can tap and drag t
 ## How to add a Rating component
 
 1. Make sure you are on a **Details** or **Custom** screen. Learn more about screens [here](/docs/screens)
-2. Click on the plus symbol in the **Screen** panel. 
+2. Click on the plus symbol in the **Screen** panel.
 3. Under **Insert Component**, select **Rating**.
 
 ## Data

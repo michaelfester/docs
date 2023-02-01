@@ -89,5 +89,3 @@ Adding a duration (number) to a date/time, or subtracting it from a date/time wi
 ![](/docs/reference/computed-columns/math-column/6fce87091126f132fef48791839cfe947581faef_1.png)
 
 {% cta title="Rollup Column" description="If you want to perform calculations on columns and relations, such as count, average, and sum, read this article about Rollup columns." url="/docs/rollup" /%}
- 
- 

@@ -5,8 +5,9 @@ slug: visibility-conditions
 
 video:
 ---
-{% callout type="warning" title="Appearance vs. security" %} 
-Visibility conditions, hidden tabs, and removed components are not security features—they are merely changes to the appearance of your app. Do not rely on changes to the appearance of your app for security. 
+
+{% callout type="warning" title="Appearance vs. security" %}
+Visibility conditions, hidden tabs, and removed components are not security features—they are merely changes to the appearance of your app. Do not rely on changes to the appearance of your app for security.
 {% /callout %}
 
 When you use **visibility conditions** or design a screen to show some data but not other data, your app still downloads whatever data it can for the corresponding sheet, even if it is not displayed in your app. It is relatively straightforward to inspect this data with common tools such as your browser's developer console, so you should not rely on hiding information to keep it secure.
@@ -25,7 +26,7 @@ In the app below we have 2x **Text** & **Image** components. Depending on the st
 
 ### Filters
 
-In an Employee Directory, there is a tab called 'Managers'. This tab uses a **filter** to show only employees where the `Is Manager Label` column is 'Manager'. 
+In an Employee Directory, there is a tab called 'Managers'. This tab uses a **filter** to show only employees where the `Is Manager Label` column is 'Manager'.
 
 In this case, it's ok to use the filter condition as we're already displaying the filtered out information (employees) elsewhere in our app.
 
@@ -35,9 +36,9 @@ In this case, it's ok to use the filter condition as we're already displaying th
 
 ### Component visibility
 
-In the app below we're showing a component with each employee's social security number on it. We're using conditional visibility to only show this component when the logged-in user is an admin. 
+In the app below we're showing a component with each employee's social security number on it. We're using conditional visibility to only show this component when the logged-in user is an admin.
 
-This is not a secure way of displaying data to Admins as the social security number will still be downloaded by the app, even when it's not visible. 
+This is not a secure way of displaying data to Admins as the social security number will still be downloaded by the app, even when it's not visible.
 
 ![](/docs/reference/security-and-user-data/visibility-conditions/insecure-visibility.png)
 
@@ -45,17 +46,17 @@ This is not a secure way of displaying data to Admins as the social security num
 
 In the app below we have a tab for Employee Feedback which contains private submissions from employees to management. You can see we've applied a Tab Visibility condition to only show this tab when the logged in user is a manager.
 
-This is not a secure way of displaying data to managers as the data in this tab will still be downloaded by the app – even if it's not visible to the user.  
+This is not a secure way of displaying data to managers as the data in this tab will still be downloaded by the app – even if it's not visible to the user.
 
 {% figure src="/docs/reference/security-and-user-data/visibility-conditions/tab-visibility.png" caption="Tab visibility" /%}
 
 ### Filters
 
-In the Employee Directory below we have a table with private information in it without Row Owners applied. 
+In the Employee Directory below we have a table with private information in it without Row Owners applied.
 
 ![](/docs/reference/security-and-user-data/visibility-conditions/employee-directory.png)
 
-We've then created a new tab with a **Details layout** and filtered that tab to only show items where the email column matches the signed-in user's email. This will show the user only their Row. 
+We've then created a new tab with a **Details layout** and filtered that tab to only show items where the email column matches the signed-in user's email. This will show the user only their Row.
 
 However, this is not a secure way of displaying a user their private profile information. Even though they can't see other user's profiles, the other user rows are still downloaded.
 

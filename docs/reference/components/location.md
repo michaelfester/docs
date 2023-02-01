@@ -12,7 +12,7 @@ The Location Component is only available in Glide [Apps](/docs/introduction-to-a
 
 ### Data
 
-Select which column in your project’s [Data Source](/docs/reference/data-sources) to store the user’s current coordinates. 
+Select which column in your project’s [Data Source](/docs/reference/data-sources) to store the user’s current coordinates.
 
 ### Options
 
@@ -25,5 +25,3 @@ The Location component is particularly useful in [Add](/docs/add-edit) or [Form]
 {% callout title="" %}
 The Location component logs a one-time location that does not update after it is enabled. For dynamic location detection, you may consider using a [Distance to Location](/docs/distance-column) Computed Column which updates as the user’s location changes.
 {% /callout %}
-
-

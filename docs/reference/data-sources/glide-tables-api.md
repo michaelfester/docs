@@ -5,7 +5,6 @@ slug: glide-tables-api
 ---
 
 {% cta title="Glide Tables API for beginners" description="Learn the basics of APIs" url="/docs/glide-tables-api-beginners" /%}
- 
 
 The Glide Tables API is available to anyone with the Pro, Business, or Enterprise plan. Connecting to your [Glide Tables](/docs/glide-tables) via the API allows you to automate your data management and integrate it with your own applications.
 
@@ -19,7 +18,7 @@ The API gives you the ability to:
 
 {% callout %}
 If you have the Business or Enterprise plan, you also have access to get all rows.
-{% /callout %} 
+{% /callout %}
 
 ## How to access Glide Tables API
 
@@ -43,7 +42,7 @@ If you’re already experienced with using APIs, explore the sections below for 
 
 ### Mutations
 
-The `mutateTables` call in each Glide curl statement adds one or more mutation operations for tables in an app in Glide’s queue. After they’re added to the queue, they can be processed anytime after the call returns the actions. 
+The `mutateTables` call in each Glide curl statement adds one or more mutation operations for tables in an app in Glide’s queue. After they’re added to the queue, they can be processed anytime after the call returns the actions.
 
 This call takes a JSON body of the following form:
 
@@ -102,7 +101,7 @@ The `set-columns-in-row` mutation sets one or more columns in an existing row in
 5         "COLUMN-NAME": "COLUMN-VALUE",
 6         ...
 7     },
-8 
+8
 9     ROW-ID-OR-INDEX
 10 }
 ```

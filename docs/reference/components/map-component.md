@@ -12,7 +12,7 @@ The Map Component is available in both [Apps](/docs/introduction-to-apps) and [P
 
 **Display an address on a map.**
 
-The Map component displays an address from our data source as a pin on a map. 
+The Map component displays an address from our data source as a pin on a map.
 
 {% figure src="/docs/reference/components/map-component/map-component-in-apps.png" caption="" /%}
 
@@ -107,4 +107,3 @@ The Item Click Action is triggered when a tooltip is clicked.
 Configuring the item click action
 
 {% cta title="Actions" description="For detailed information about all of the actions available in Glide, check out Actions" url="/docs/actions" /%}
-

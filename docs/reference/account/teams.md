@@ -1,6 +1,6 @@
 ---
 title: Teams
-description: Manage the different teams you belong to. 
+description: Manage the different teams you belong to.
 slug: teams
 ---
 

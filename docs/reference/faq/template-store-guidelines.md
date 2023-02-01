@@ -5,7 +5,7 @@ video:
 slug: template-guidelines
 ---
 
-If you've got a great app you'd like to submit to the template store, we would be happy to review it. Help us speed the process up by following these guidelines. 
+If you've got a great app you'd like to submit to the template store, we would be happy to review it. Help us speed the process up by following these guidelines.
 
 **Template Store apps should offer a clear value for customers, whether that's:**
 

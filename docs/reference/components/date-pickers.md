@@ -14,7 +14,7 @@ Date Pickers can be used in [Forms](/docs/forms) or [Details/Custom screens](/do
 
 ## Types of date pickers
 
-- The **Date** component allows users to add or edit dates in your project. ****
+- The **Date** component allows users to add or edit dates in your project. \*\*\*\*
 - The **Date Time** component allows users to add or edit dates and times in your project.
 
 {% callout title="" %}
@@ -39,11 +39,10 @@ In the **General** tab on the right side of the Layout Editor, locate the **Desi
 
 ### Options
 
-If you want to restrict users from being able to select past or future dates, you can choose a range. By default, the range is set to allow **All dates**, but you can also choose to only allow current and previous dates, or current and future dates. 
+If you want to restrict users from being able to select past or future dates, you can choose a range. By default, the range is set to allow **All dates**, but you can also choose to only allow current and previous dates, or current and future dates.
 
 {% figure src="/docs/reference/components/date-pickers/range.png" caption="" /%}
 
 {% callout title="" %}
 In **Forms** or **Add/Edit Screens**, you can make Date pickers required before the user can submit or save their changes.
 {% /callout %}
-

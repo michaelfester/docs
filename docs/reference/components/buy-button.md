@@ -26,9 +26,9 @@ If your project only uses [Glide Tables](/docs/glide-tables) as its data source 
 
 **Restricted Businesses**
 Stripe restricts certain categories of businesses from accepting payments, including:
+
 - Investment & credit services
-- Money and legal services 
-- Virtual currency or stored value 
+- Money and legal services
+- Virtual currency or stored value
 
 Be sure to review the list of [restricted business categories](https://stripe.com/en-pl/legal/restricted-businesses).
-

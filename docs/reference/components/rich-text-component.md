@@ -20,7 +20,7 @@ Do not use HTML tags or CSS code in the Rich Text component. Although some CSS c
 
 ### Data
 
-In the **General** tab on the right side of the Layout Editor, select the column you want to display or enter a [Custom Value](/docs/custom-values). 
+In the **General** tab on the right side of the Layout Editor, select the column you want to display or enter a [Custom Value](/docs/custom-values).
 
 {% figure src="/docs/reference/components/rich-text/rich-text-configuration.png" caption="" /%}
 

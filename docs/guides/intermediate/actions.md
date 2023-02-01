@@ -70,11 +70,11 @@ But you can change this to a number of other Actions. For example, you could hav
 
 In Apps, [Lists](/docs/screens###list-screens) have only a single Action, but in Pages, [Collections](/docs/collection-component) have many different Actions.
 
-This table is a good example. It shows a lot of information but is really compact. 
+This table is a good example. It shows a lot of information but is really compact.
 
-1. There’s search and filtering 
-2. At the top of the List, we have our main Actions and a dropdown menu for even more. 
-3. Each item has its own Buttons, to edit or contact the landlord 
+1. There’s search and filtering
+2. At the top of the List, we have our main Actions and a dropdown menu for even more.
+3. Each item has its own Buttons, to edit or contact the landlord
 4. Each item also has its own dropdown menu.
 
 {% figure src="/docs/guides/intermediate/actions/list-actions.png" caption="" /%}
@@ -94,27 +94,27 @@ Here is a basic list of the places you can add Actions. This is likely to change
 ## Apps
 
 - Components
-    - Title
-    - Buttons
-    - Image
-    - Action text
-    - Rich text
+  - Title
+  - Buttons
+  - Image
+  - Action text
+  - Rich text
 - On submit
 - Lists
 
 ## Pages
 
 - Collections
-    - Title bar
-    - Item click
-    - Collection item
+  - Title bar
+  - Item click
+  - Collection item
 - Components
-    - Title
-    - Button
-    - Image
-    - Action text
-    - Rich text
-    - Hint
+  - Title
+  - Button
+  - Image
+  - Action text
+  - Rich text
+  - Hint
 - On submit
 
 ## Single Actions
@@ -127,7 +127,7 @@ In the image below you can see an inline list with the default View Details acti
 
 {% figure src="/docs/guides/intermediate/actions/setting-up-open-link.png" caption="" /%}
 
-Simple Actions can be joined together into Custom Actions. 
+Simple Actions can be joined together into Custom Actions.
 
 ## Custom Actions
 
@@ -156,7 +156,7 @@ To re-order actions, click and drag the action.
 {% figure src="/docs/guides/intermediate/actions/re-order-actions.png" caption="" /%}
 
 To delete actions, open the action, and click the trash icon.
-   
+
 {% figure src="/docs/guides/intermediate/actions/delete-actiosn.png" caption="" /%}
 
 ### Conditions

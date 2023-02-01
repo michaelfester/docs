@@ -33,7 +33,7 @@ In Apps, you can select from the following styles:
 
 ### Contents
 
-Next, configure the **Label** and **Quantity** properties so the chart displays the data as intended. The **Label** determines how the data is grouped in the legend, and the **Quantity** is used to calculate the totals for each group. 
+Next, configure the **Label** and **Quantity** properties so the chart displays the data as intended. The **Label** determines how the data is grouped in the legend, and the **Quantity** is used to calculate the totals for each group.
 
 {% callout title="" %}
 Bar charts allow you to add multiple quantities so that you can provide more insight to your users.
@@ -41,7 +41,7 @@ Bar charts allow you to add multiple quantities so that you can provide more ins
 
 ### Design & Options
 
-Select a **Color Theme** for your chart to make trends stand out. You can also uncheck **Show legend by default** if you’d like the legend to only appear when the Info icon is tapped. Other design options include: 
+Select a **Color Theme** for your chart to make trends stand out. You can also uncheck **Show legend by default** if you’d like the legend to only appear when the Info icon is tapped. Other design options include:
 
 - **Show labels on bars**
 - **Show total in center**
@@ -52,13 +52,13 @@ For each chart style, you can check **Limit number of items** if you’re wantin
 
 ## In Pages
 
-In Pages, charts are larger and more powerful than in Apps. You can even present them side by side using a [Container](/docs/container-pages). 
+In Pages, charts are larger and more powerful than in Apps. You can even present them side by side using a [Container](/docs/container-pages).
 
 {% figure src="/docs/reference/components/charts/charts-in-a-container-side-by-side.png" caption="" /%}
 
 ### How to add a Chart component
 
-1. In the **Layout Editor**, select the page from the **Pages** panel you want to include a chart on. 
+1. In the **Layout Editor**, select the page from the **Pages** panel you want to include a chart on.
 2. Click on the plus symbol in the **Screen** panel.
 3. In the **Insert Component** panel, select the desired chart style (**Bar Chart**, **Line Chart**, or **Radial Chart)** from the **Content** section.
 
@@ -66,7 +66,7 @@ In Pages, charts are larger and more powerful than in Apps. You can even present
 
 ### Data
 
-Select a data source ****for your chart. This could be a table from your project’s data source ****or a **Multiple Relation**. You can also give your chart a **Title** to provide clarity for your users.
+Select a data source \***\*for your chart. This could be a table from your project’s data source \*\***or a **Multiple Relation**. You can also give your chart a **Title** to provide clarity for your users.
 
 {% figure src="/docs/reference/components/charts/charts-data-in-pages.png" caption="" /%}
 
@@ -92,7 +92,7 @@ For each chart style, you can also **Limit number of items** displayed or adjust
 
 ## Options
 
-You can customize the data displayed in your chart by using [Conditions](/docs/reference/conditions) and other options. 
+You can customize the data displayed in your chart by using [Conditions](/docs/reference/conditions) and other options.
 
 ### Visibility
 
@@ -126,14 +126,14 @@ In **Pages**, you can enable the **Show Search bar** option so users can search 
 
 Suppose you have a table which shows orders for a shop. You’ve added a Donut style chart and selected **Orders** as the **Label**. You’ve left the **Quantity** blank.
 
-| Customer | Orders | Count |
-| ---- | ---- | ---- |
-| Sam Smith | Apple Pie Muffin | 20 |
-| lana Del Ray | Bread Pudding | 1 |
-| Barry Manilow | Honey Chia | 8 |
-| freddy Mercury | Apple Pie Muffin | 3 |
+| Customer       | Orders           | Count |
+| -------------- | ---------------- | ----- |
+| Sam Smith      | Apple Pie Muffin | 20    |
+| lana Del Ray   | Bread Pudding    | 1     |
+| Barry Manilow  | Honey Chia       | 8     |
+| freddy Mercury | Apple Pie Muffin | 3     |
 
-If the **Label** property is the only option configured, the chart will display the *total number of orders*, grouped by the values in the **Orders** column. 
+If the **Label** property is the only option configured, the chart will display the _total number of orders_, grouped by the values in the **Orders** column.
 
 {% figure src="/docs/reference/components/charts/image%20(8).png" caption="" /%}
 

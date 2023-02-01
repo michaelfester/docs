@@ -8,7 +8,7 @@ slug: stopwatch
 The Stopwatch Component is only available in Glide [Apps](/docs/introduction-to-apps), not Glide [Pages](/docs/introduction-to-pages).
 {% /callout %}
 
-The Stopwatch component lets users track time. It has two properties that you need to configure; a Start Time and Duration. 
+The Stopwatch component lets users track time. It has two properties that you need to configure; a Start Time and Duration.
 
 ## Start time
 
@@ -18,7 +18,7 @@ The **Start time** is a Date/Time value, so you’ll want to connect it to a [Da
 
 ## Duration
 
-The Duration is a duration value, so you’ll want to connect it to a [Duration Column](/docs/basic-columns) in your data source. The stopwatch shows the duration to the user and when it’s paused, the duration will be written to your data source. Once stopped, the duration value is cleared so that a new duration can take its place the next time the stopwatch is used. 
+The Duration is a duration value, so you’ll want to connect it to a [Duration Column](/docs/basic-columns) in your data source. The stopwatch shows the duration to the user and when it’s paused, the duration will be written to your data source. Once stopped, the duration value is cleared so that a new duration can take its place the next time the stopwatch is used.
 
 {% figure src="/docs/reference/components/stopwatch/configuring-stop-watch's-duration.png" caption="" /%}
 

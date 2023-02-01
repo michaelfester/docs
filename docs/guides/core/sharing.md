@@ -1,15 +1,15 @@
 ---
 title: Publishing & Sharing
-description: Install your project and share it with the world. 
+description: Install your project and share it with the world.
 video:
 slug: share
 ---
 
-In our [Quick Start guide](/docs/quick-start), we went over the basics of creating, publishing, and sharing your first project. In this guide, we’ll go into more depth, covering all the things you need to know about getting your projects out into the world. 
+In our [Quick Start guide](/docs/quick-start), we went over the basics of creating, publishing, and sharing your first project. In this guide, we’ll go into more depth, covering all the things you need to know about getting your projects out into the world.
 
 ## Publishing
 
-By default, all new projects are in draft mode. To publish your project, click the Publish button in the top right of Glide. 
+By default, all new projects are in draft mode. To publish your project, click the Publish button in the top right of Glide.
 
 {% figure src="/docs/guides/core/sharing/publishing-an-app.png" caption="Publishing a project for the first time" /%}
 
@@ -43,32 +43,32 @@ Glide projects live on the web, so you can share them with just a link. This mak
 
 Whatever URL you have set up for your project, you can share that with anyone in the world, and they’ll be able to open it on any device.
 
-### Installing 
+### Installing
 
-**To install on your phone or tablet**, you need to add it to your home screen. Here’s a video showing you how. The video shows only apps, but adding to home screen works the same with Pages. 
+**To install on your phone or tablet**, you need to add it to your home screen. Here’s a video showing you how. The video shows only apps, but adding to home screen works the same with Pages.
 
 {% video src="https://www.youtube.com/embed/DRtdWrdFeok" /%}
 
-**To install on desktop,** you can install it as a Web App. Here’s a video showing you how. The video shows only apps, but installing to your computer works the same with Pages. 
+**To install on desktop,** you can install it as a Web App. Here’s a video showing you how. The video shows only apps, but installing to your computer works the same with Pages.
 
 {% video src="https://www.youtube.com/embed/9fQSH-a3Nus" /%}
 
 ## Inviting users
 
-You can invite people to your project by using the publish/share screen. Here, you can enter the emails of all the users you want in your project. 
+You can invite people to your project by using the publish/share screen. Here, you can enter the emails of all the users you want in your project.
 
 {% figure src="/docs/guides/core/sharing/inviting-users.png" caption="Inviting users" /%}
 
-They’ll get an email with a 'magic link' in it, allowing them to immediately log in automatically, regardless of the privacy and sign-in settings you have set up. 
+They’ll get an email with a 'magic link' in it, allowing them to immediately log in automatically, regardless of the privacy and sign-in settings you have set up.
 
 {% figure src="/docs/guides/core/sharing/magic-link.png" caption="Magic link" /%}
 
 ## Privacy Settings
 
-It’s important to choose the right privacy setting for your project. 
+It’s important to choose the right privacy setting for your project.
 
 {% cta title="Users" description="To learn more about managing users and sign-in settings, check out our guide on Users" url="/docs/users" /%}
 
-And if you want to make your project safe and secure, check out our security guide. 
+And if you want to make your project safe and secure, check out our security guide.
 
 {% cta title="Security Center" description="Learn how to make your projects safe and secure" url="/docs/security" /%}

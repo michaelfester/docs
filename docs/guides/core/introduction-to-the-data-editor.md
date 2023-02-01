@@ -118,6 +118,7 @@ You can reorder columns by dragging the column header toward the right or left s
 ## Find All Uses
 
 ---
+
 The Find All Uses function allows you to locate all the areas in your project where a specific column is in use. You can locate which **Computed Columns**, [Components](/docs/components), and [Screens](/docs/screens) contain your chosen column.
 
 Click on the "go/arrow" button to jump to that specific column, Component, or Screen.

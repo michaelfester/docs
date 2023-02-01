@@ -1,9 +1,10 @@
 ---
 title: Introduction to Data Sources
-description: Discover how to connect your data to your Glide project 
+description: Discover how to connect your data to your Glide project
 video: https://youtu.be/UYZ5S8RBEGM
 slug: intro-to-data-sources
 ---
+
 ​
 Every project you create in Glide is powered by data. Once you connect a data source to your project, it remains in two-way sync with your original data source. This means changes to one are reflected in the other.
 

@@ -1,6 +1,6 @@
 ---
 title: Scan Linear Barcode
-description: Scan a linear barcodes and log the value to your table. 
+description: Scan a linear barcodes and log the value to your table.
 video: https://www.youtube.com/watch?v=ZGZGWQ02OCE
 slug: scan-linear-barcode
 ---

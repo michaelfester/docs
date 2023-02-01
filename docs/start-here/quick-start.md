@@ -34,7 +34,7 @@ In the top right of Glide, you'll see a button where you can publish your projec
 
 You can scan the QR code above with your phone, text the link to yourself, or invite yourself to the app to receive a 'Magic Link.'
 
-If you visit that link on your phone, you'll view your app in your phone's browser. However – you may want to add it to your home screen, just like a regular app. Check out this quick video to learn how. 
+If you visit that link on your phone, you'll view your app in your phone's browser. However – you may want to add it to your home screen, just like a regular app. Check out this quick video to learn how.
 
 {% video src="https://www.youtube.com/embed/DRtdWrdFeok" /%}
 &nbsp;

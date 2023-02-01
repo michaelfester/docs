@@ -5,9 +5,9 @@ video:
 slug: user-profile-columns
 ---
 
-If you have enabled **User Profiles** in your app, you can submit User Profile *columns* in **Form** & **Add screens**. 
+If you have enabled **User Profiles** in your app, you can submit User Profile _columns_ in **Form** & **Add screens**.
 
-For example, in the app below, we're **Previewing As** a user called Marie. When we configure our Add Screen's components, we can also submit values from the current user's profile. For example – we could add the Name of the person that added this item, their title, and their photo. 
+For example, in the app below, we're **Previewing As** a user called Marie. When we configure our Add Screen's components, we can also submit values from the current user's profile. For example – we could add the Name of the person that added this item, their title, and their photo.
 
 ![](/docs/reference/values/user-profile-columns/Group%2022.png)
 
@@ -26,8 +26,8 @@ Submitting User Profile column values is particularly useful when it comes to **
 
 Confused? 😉
 
-Let's say that Marie has the role of 'Management'. When she submits a new row, we can make sure that her 'Management' Role value gets added to our **Row Owners** column in whatever table we're submitting to. We just need to add a User Profile column in our Add or Form screen. 
+Let's say that Marie has the role of 'Management'. When she submits a new row, we can make sure that her 'Management' Role value gets added to our **Row Owners** column in whatever table we're submitting to. We just need to add a User Profile column in our Add or Form screen.
 
-Now, automatically, the row she added will populate the Row Owner's column with 'Management'. This means that this row is now secure and only visible to those with the Role of 'Management'. 
+Now, automatically, the row she added will populate the Row Owner's column with 'Management'. This means that this row is now secure and only visible to those with the Role of 'Management'.
 
-You can of course use **Array Columns** if you want the row you're adding to be accessible to multiple roles. 
+You can of course use **Array Columns** if you want the row you're adding to be accessible to multiple roles.

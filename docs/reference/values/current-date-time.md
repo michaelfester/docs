@@ -11,7 +11,7 @@ The **Current Date/Time** is a **special value** that records the exact date and
 
 ## Configuration
 
-After adding the Current Date/Time special value, link it to the column where you want to record your data. 
+After adding the Current Date/Time special value, link it to the column where you want to record your data.
 
 ![](/docs/reference/values/current-date-time/Group%2024.png)
 
@@ -24,4 +24,3 @@ You can set up your target column as a Date/Time column in order to set your pre
 {% callout title="" %}
 To learn more about using special values, [read our guide here](/docs/introduction-to-values).
 {% /callout %}
-

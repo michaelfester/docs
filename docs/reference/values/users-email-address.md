@@ -5,11 +5,11 @@ video:
 slug: users-email-address
 ---
 
-The User's Email Address is a **Special Value**. You have access to this special value in a number of places including add, edit & form screens as well as conditions and custom actions. 
+The User's Email Address is a **Special Value**. You have access to this special value in a number of places including add, edit & form screens as well as conditions and custom actions.
 
 ![](/docs/reference/values/users-email-address/Users%20email%20address.gif)
 
-Like **Column Values**, Special Values are added via the Component menu. Once you add the special value, you can link it to the column where you want to store your email addresses. 
+Like **Column Values**, Special Values are added via the Component menu. Once you add the special value, you can link it to the column where you want to store your email addresses.
 
 ![](/docs/reference/values/users-email-address/Group%2026.png)
 

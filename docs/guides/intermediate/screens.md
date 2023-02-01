@@ -5,19 +5,19 @@ video:
 slug: screens
 ---
 
-In our core guide on [Data to Layout](/docs/data-to-layout) — we said that ‘Tables become Tabs’. This is, in fact, a bit of a simplification. 
+In our core guide on [Data to Layout](/docs/data-to-layout) — we said that ‘Tables become Tabs’. This is, in fact, a bit of a simplification.
 
-Every tab has a top-level screen — which is often a List Screen, but it can also be a [Details Screen](/docs/details-layout). It’s better to think of Tabs as windows through which you can visit many screens. 
+Every tab has a top-level screen — which is often a List Screen, but it can also be a [Details Screen](/docs/details-layout). It’s better to think of Tabs as windows through which you can visit many screens.
 
-For example, below, there is a team directory with only two tabs (Employees and Locations). It's possible to visit a location in the locations tab (right image), but we can also visit a location in the team members tab by navigating to a team member and then clicking their location (left image). 
+For example, below, there is a team directory with only two tabs (Employees and Locations). It's possible to visit a location in the locations tab (right image), but we can also visit a location in the team members tab by navigating to a team member and then clicking their location (left image).
 
-Notice on the left image, we’re still *inside* the Employees tab, but we’re on a different screen. 
+Notice on the left image, we’re still _inside_ the Employees tab, but we’re on a different screen.
 
 {% figure src="/docs/guides/intermediate/screen-types/same-tab-different-screens.png" caption="Navigating to different screens from tabs" /%}
 
 When you’re building simple Apps & Pages, you don’t need to think too much about what type of screen you’re on. Observing how the components panel changes when you move from screen to screen will help you orient yourself.
 
-But when you’re building more complex projects, it’s important to know all the different types of screens and how they relate to your data, particularly as Apps & Pages are slightly different. 
+But when you’re building more complex projects, it’s important to know all the different types of screens and how they relate to your data, particularly as Apps & Pages are slightly different.
 
 {% callout %}
 In the future, Apps & Pages will become more unified, but for now, it’s important to know the differences.
@@ -27,11 +27,11 @@ In the future, Apps & Pages will become more unified, but for now, it’s import
 
 ### List screens
 
-When you create a new tab in Apps and choose a table with multiple rows, Glide will choose a List Screen layout. A List Screen shows all the rows in your table in a configurable layout. 
+When you create a new tab in Apps and choose a table with multiple rows, Glide will choose a List Screen layout. A List Screen shows all the rows in your table in a configurable layout.
 
 {% figure src="/docs/guides/intermediate/screen-types/list-layouts.png" caption="List layouts in Glide" /%}
 
-On a List Screen, the components panel on the left shows the [Favorite Component](/docs/favorite-component), search bar, and a list. 
+On a List Screen, the components panel on the left shows the [Favorite Component](/docs/favorite-component), search bar, and a list.
 
 {% figure src="/docs/guides/intermediate/screen-types/list-screen-items.png" caption="List screen items" /%}
 
@@ -39,13 +39,13 @@ Beyond these three components, a List Screen is not editable in Apps. If you wan
 
 ### Details Screen
 
-When you click on a list item, you get taken to that item's Details Screen. A Details Screen represents an entire row, whereas a List Screen represents the entire table.  
+When you click on a list item, you get taken to that item's Details Screen. A Details Screen represents an entire row, whereas a List Screen represents the entire table.
 
 {% figure src="/docs/guides/intermediate/screen-types/list-and-details-layouts.png" caption="A List Screen showing data in a whole table (left) and a Detail Screen showing the data in a row from a table (right)" /%}
 
 But Details screens can also be the top-level layout for your tabs. You’ll see ‘Details Screen’ as a choice in the set of Layout Options.
 
-When you set this as your tab’s layout, the screen will only show the top row of data in your table. 
+When you set this as your tab’s layout, the screen will only show the top row of data in your table.
 
 {% figure src="/docs/guides/intermediate/screen-types/detail-screen-explained.png" caption="Data from a single row displayed in a Details screen" /%}
 
@@ -55,13 +55,13 @@ If you are on a Details Screen, the Data Panel appears. When you click on this, 
 
 ### Add Screen
 
-When you trigger an add screen, you’ll see the components panel change to show a new set of components. These are your add screen components. 
+When you trigger an add screen, you’ll see the components panel change to show a new set of components. These are your add screen components.
 
-Glide will create entry components for all the columns it finds in your table. For example, if you trigger the add screen on a table filled with employee data, you’ll see entry components for every column in that table. 
+Glide will create entry components for all the columns it finds in your table. For example, if you trigger the add screen on a table filled with employee data, you’ll see entry components for every column in that table.
 
 {% figure src="/docs/guides/intermediate/screen-types/add-item-explained.png" caption="Adding an item in your project will add a new row to your data source" /%}
 
-But you can configure this add screen however you like, meaning that you can allow people to add new rows to your table, but only add data in certain columns. 
+But you can configure this add screen however you like, meaning that you can allow people to add new rows to your table, but only add data in certain columns.
 
 {% figure src="/docs/guides/intermediate/screen-types/using-only-few-columns.png" caption="Add screen with specific columns provided" /%}
 
@@ -71,23 +71,23 @@ By default, all details screens have editing enabled. You can enable or disable 
 
 {% figure src="/docs/guides/intermediate/screen-types/editing-is-enabled-by-default.png" caption="Editing is enabled by default" /%}
 
-Just like adding, you can configure this screen however you like, meaning that you can allow people to edit only certain columns and leave others protected from editing. 
+Just like adding, you can configure this screen however you like, meaning that you can allow people to edit only certain columns and leave others protected from editing.
 
 {% cta title="Adding, Editing, & Forms" description="Learn more about adding, editing and deleting" url="/docs/add-edit" /%}
 
 ## Actions trigger screens
 
-It’s important to realize that, in Apps, most screens you navigate to are triggered by an action. 
+It’s important to realize that, in Apps, most screens you navigate to are triggered by an action.
 
-By default, the action for a list is to ‘Show Details Screen for Current Item’. 
+By default, the action for a list is to ‘Show Details Screen for Current Item’.
 
 {% figure src="/docs/guides/intermediate/screen-types/default-action-of-inline-list.png" caption="Default action for Inline Lists" /%}
 
-And when you add a Form Button, the default action is to ‘Show Form Screen’. 
+And when you add a Form Button, the default action is to ‘Show Form Screen’.
 
 {% figure src="/docs/guides/intermediate/screen-types/default-open-form-action-in-apps.png" caption="Default action for Form Buttons" /%}
 
-This is even more important to consider with Pages, where most screens are triggered by Actions.  
+This is even more important to consider with Pages, where most screens are triggered by Actions.
 
 ## Screens in Pages
 
@@ -97,11 +97,11 @@ Apps and Pages are very similar but have some differences in the way you work wi
 
 ### Collection Screen
 
-When you create a new tab in Pages and choose a table with multiple rows, Glide will choose a Collection Screen layout. A Collection Screen is a top-level screen that shows all the rows in your table, and you can choose between different list styles. 
+When you create a new tab in Pages and choose a table with multiple rows, Glide will choose a Collection Screen layout. A Collection Screen is a top-level screen that shows all the rows in your table, and you can choose between different list styles.
 
 {% figure src="/docs/guides/intermediate/screen-types/collection-screen.png" caption="Collection screen" /%}
 
-On a Collection Screen the components panel on the left shows a single Collection component. 
+On a Collection Screen the components panel on the left shows a single Collection component.
 
 ### Custom Screen
 
@@ -119,23 +119,23 @@ Similarly, if you add Components to a Collection Screen, the layout will change 
 
 When you click on a Collection Item, you get taken to that item's Details Screen. A Details Screen represents an entire row, whereas a Collection Screen represents the entire table.
 
-Details screens are like Custom Screens in that you can add multiple components to them, but they are sub-pages. They are not at the top level of your tab. You can see this reflected in the breadcrumb navigation in Glide and the Breadcrumb Component if you have it added on a Page. 
+Details screens are like Custom Screens in that you can add multiple components to them, but they are sub-pages. They are not at the top level of your tab. You can see this reflected in the breadcrumb navigation in Glide and the Breadcrumb Component if you have it added on a Page.
 
 {% figure src="/docs/guides/intermediate/screen-types/breadcrumbs.png" caption="Breadcrumb component" /%}
 
 ### New Screen Templates
 
-In Pages, the New Tab menu has pre-built Screens you can add to your project. 
+In Pages, the New Tab menu has pre-built Screens you can add to your project.
 
 {% figure src="/docs/guides/intermediate/screen-types/adding-a-new-tab.png" caption="Adding a new tab" /%}
 
-Most of these will create a Custom Screen that has pre-configured components and also add the necessary pre-built Glide Tables to the Data Editor. 
+Most of these will create a Custom Screen that has pre-configured components and also add the necessary pre-built Glide Tables to the Data Editor.
 
-This is a really easy way of creating forms and other screen types. However, you may also want to add a component that triggers a form screen with an action. 
+This is a really easy way of creating forms and other screen types. However, you may also want to add a component that triggers a form screen with an action.
 
 ### Form Screen Action
 
-For example, say you’re working on a Property Manager project and on the details screen of a property, you want a button called ‘Log Issue.’ This will trigger a new form screen that will submit a new issue to the `Issues` table. You can add a button to that screen and assign the Show Form screen action. 
+For example, say you’re working on a Property Manager project and on the details screen of a property, you want a button called ‘Log Issue.’ This will trigger a new form screen that will submit a new issue to the `Issues` table. You can add a button to that screen and assign the Show Form screen action.
 
 {% figure src="/docs/guides/intermediate/screen-types/form-screen.png" caption="Form screen adding a new row to the data source" /%}
 
@@ -147,11 +147,11 @@ When you open that form screen, you can add fields that map to the columns of th
 
 ### Edit Screen Action
 
-You can enable add and edit screens simply in Pages by toggling the switches in a collection. 
+You can enable add and edit screens simply in Pages by toggling the switches in a collection.
 
 {% figure src="/docs/guides/intermediate/screen-types/edit-scree-action.png" caption="Enabling actions in a Collection" /%}
 
-However, you can also configure other components with the Edit Screen action to trigger an edit screen.  
+However, you can also configure other components with the Edit Screen action to trigger an edit screen.
 
 {% figure src="/docs/guides/intermediate/screen-types/edit-screen-action.png" caption="Edit screen action" /%}
 

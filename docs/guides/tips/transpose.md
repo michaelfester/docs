@@ -6,6 +6,7 @@ slug: transpose
 ---
 
 ## Changing horizontal data to vertical
+
 Spreadsheets are incredibly flexible. Within this huge and expandable grid of cells, there are really no restrictions on how you structure your data.
 
 ![](/docs/guides/core/organizing-your-data/profit-and-loss.png)
@@ -39,6 +40,3 @@ Now we can select the range of data we want.
 Now our rows are columns and our columns are rows — and we can use this data in Glide.
 
 ![](/docs/guides/core/organizing-your-data/row-data.png)
-
- 
-

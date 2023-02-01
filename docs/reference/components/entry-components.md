@@ -4,7 +4,7 @@ description: Enter text, numbers, email addresses, or phone numbers
 slug: entry-components
 ---
 
-Entry components can be used in [Forms](/docs/forms) or [Details/Custom screens](/docs/screens) to allow users to add or edit data in your project. Depending on the type of entry component that you select, users will be limited to the type of data they are able to input. 
+Entry components can be used in [Forms](/docs/forms) or [Details/Custom screens](/docs/screens) to allow users to add or edit data in your project. Depending on the type of entry component that you select, users will be limited to the type of data they are able to input.
 
 ## Types of entry components
 
@@ -13,16 +13,16 @@ Entry components can be used in [Forms](/docs/forms) or [Details/Custom screens]
 - The **Phone Entry** component allows users to input a phone number in your project.
 - The **Email Entry** component allows users to enter email addresses in your project.
 - The **Notes** component (in [Apps](/docs/introduction-to-apps)) allows users to enter and update multiple lines of text in a full-screen editor.
-![Alt text](../../../)
-{% figure src="/docs/reference/components/entry-components/entry-components.png" caption="" /%}
+  ![Alt text](../../../)
+  {% figure src="/docs/reference/components/entry-components/entry-components.png" caption="" /%}
 
 {% cta title="Components" description="For information on other entry components, like Signature, Comments, and more, check out the Components section." url="/docs/Components" /%}
- 
+
 ## Configuring entry components
 
 ### Data
 
-In the **General** tab on the right side of the Layout Editor, locate the **Data** section. In the **Column** field, select the destination to store the inputted value. 
+In the **General** tab on the right side of the Layout Editor, locate the **Data** section. In the **Column** field, select the destination to store the inputted value.
 
 {% figure src="/docs/reference/components/entry-components/text-entry-configuration.png" caption="" /%}
 

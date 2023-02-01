@@ -34,11 +34,11 @@ Select a style to determine how your items are displayed. Each style can be usef
 
 ### Content
 
-Next, you can configure the content that is displayed to users. Depending on the list style that is selected, different fields are configurable. 
+Next, you can configure the content that is displayed to users. Depending on the list style that is selected, different fields are configurable.
 
 ### Other Options
 
-Each inline list style has additional options you can configure. Depending on your selected style, you can adjust **Design** and **Text Style** settings, such as text size, text wrapping, list orientation, etc. On most inline list styles, under **Options**, you can choose the number of items displayed and when the **See All** button appears. 
+Each inline list style has additional options you can configure. Depending on your selected style, you can adjust **Design** and **Text Style** settings, such as text size, text wrapping, list orientation, etc. On most inline list styles, under **Options**, you can choose the number of items displayed and when the **See All** button appears.
 
 {% figure src="/docs/reference/components/inline-list-component/inline-list-options.png" caption="" /%}
 

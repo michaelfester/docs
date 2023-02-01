@@ -50,7 +50,7 @@ This is the behavior that will be triggered when users tap on the Button compone
 
 ## In Pages
 
-The **Button** (or **Button Block**) component in Glide Pages allows you to add one or several buttons in a horizontal layout. Although it’s very similar to the [Button Bar](/docs/button-bar) component in an Apps, there are unique design options, including **Alignment** and **Size.** The **Label** of your buttons is also controlled within its Action settings**.** 
+The **Button** (or **Button Block**) component in Glide Pages allows you to add one or several buttons in a horizontal layout. Although it’s very similar to the [Button Bar](/docs/button-bar) component in an Apps, there are unique design options, including **Alignment** and **Size.** The **Label** of your buttons is also controlled within its Action settings**.**
 
 ### Options
 
@@ -63,6 +63,6 @@ In the **General** tab on the right side of the Layout Editor, locate the **Opti
 
 ### Actions
 
-Actions can be configured the same way as mentioned above for Apps. The difference with Pages though is that you can include multiple buttons by adding additional actions to the component. Inside each action, **Title** fields act as each button’s label. 
+Actions can be configured the same way as mentioned above for Apps. The difference with Pages though is that you can include multiple buttons by adding additional actions to the component. Inside each action, **Title** fields act as each button’s label.
 
 {% figure src="/docs/reference/components/button-component/button-component-actions-oages.png" caption="" /%}

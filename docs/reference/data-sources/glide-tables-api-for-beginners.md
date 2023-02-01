@@ -14,20 +14,20 @@ If you’re unfamiliar with APIs, read this article.
 
 For Pro, Business, and Enterprise plans, every Glide Table has its own API. With the API you can:
 
-- Add row to table 
-- Set columns in row 
+- Add row to table
+- Set columns in row
 - Delete row
 
 {% callout %}
 If you have the Business or Enterprise plan, you also have access to get all rows.
-{% /callout %} 
+{% /callout %}
 
 ## How do I access Glide API?
 
 To get started:
 
 1. Open the **Data editor**
-2. Go to the **Glide Table** > right-click on the table icon on the left > show **API usage** 
+2. Go to the **Glide Table** > right-click on the table icon on the left > show **API usage**
 3. This shows a window with the different text statements you can use.
 
 {% callout type="warning" title="" %}
@@ -51,7 +51,7 @@ Let’s say that we want to track the data of any active business leads created 
 
 1. New leads are **created**
 2. Leads are then marked **qualified**, or
-2. Leads are marked **disqualified**
+3. Leads are marked **disqualified**
 
 ![](/docs/reference/data-sources/glide-tables-api-for-beginners/ClickUp%20Leads.png)
 
@@ -76,6 +76,7 @@ We’re going to create three API calls inside Zapier to sync Clickup to our Gli
 3. **Delete** row when the lead is market disqualified
 
 ## Add Row
+
 In order to create a row via the API in the Glide Table, you need to do the following:
 
 1. Create Trigger (new object in Clickup)
@@ -91,19 +92,20 @@ In order to create a row via the API in the Glide Table, you need to do the foll
 7     }
 8 }
 ```
-![](/docs/reference/data-sources/glide-tables-api-for-beginners/Frame%2056%20(6).png)
+
+![](</docs/reference/data-sources/glide-tables-api-for-beginners/Frame%2056%20(6).png>)
 
 ## Configuring the Zap
 
 To configure the Zap, we set the following conditions:
 
-1. **Method**: `POST` (request type) 
-2. **Glide API URL**: [`insert URL from`] (destination) 
+1. **Method**: `POST` (request type)
+2. **Glide API URL**: [`insert URL from`] (destination)
 3. **Data**: [`insert JSON Object`, `from Add Row API Usage`] (data sent to destination)
 
 You can then choose to insert the appropriate data for each field within the JSON Object that you’d like to capture from Clickup, using Zapier’s Insert Data field. These data inserts will dynamically be sent to Glide through this API call.
 
-![](/docs/reference/data-sources/glide-tables-api-for-beginners/Frame%2032%20(5).png)
+![](</docs/reference/data-sources/glide-tables-api-for-beginners/Frame%2032%20(5).png>)
 
 {% callout title="" %}
 Not all columns have to be specified. Columns that are not specified will remain empty or unchanged.
@@ -115,13 +117,13 @@ The last thing we need to do is define the “headers”. The “headers” are 
 
 ### Header 1
 
-So the first is the content type. You can see that here, “content type” is set to  `application/json`. This tells the API what format the data that you're sending through is in. 
+So the first is the content type. You can see that here, “content type” is set to `application/json`. This tells the API what format the data that you're sending through is in.
 
 > JSON refers to what is called JSON format or JavaScript Object Notation.
 
 **Content Type**: `application/json`
 
-![](/docs/reference/data-sources/glide-tables-api-for-beginners/Frame%2032%20(4).png)
+![](</docs/reference/data-sources/glide-tables-api-for-beginners/Frame%2032%20(4).png>)
 
 ### Header 2
 
@@ -138,7 +140,7 @@ You should treat this as a password–it's a secret that you should not share.
 
 Depending on the platform that you’re using, you may need to create a workaround to store the RowID that Glide produces each time a new row is added within the table.
 
-![](/docs/reference/data-sources/glide-tables-api-for-beginners/Frame%2056%20(15).png)
+![](</docs/reference/data-sources/glide-tables-api-for-beginners/Frame%2056%20(15).png>)
 
 In this scenario, we need to store the RowID that gets returned whenever a row is created and map it to the ID of the lead inside ClickUp.
 
@@ -148,7 +150,7 @@ Some platforms do not have an action where you can update a custom field inside 
 
 Here, we’ve created a third step in our Zap to create a new row in a Google sheet to store the Row ID that was added in the Glide Table. In this example, we’re mapping this Row ID to the ID of the object inside ClickUp. This helps us to map each lead in ClickUp to a specific row inside of Glide. We’ll be needing this when updating or deleting the rows shown below.
 
-![](/docs/reference/data-sources/glide-tables-api-for-beginners/Frame%2056%20(20).png)
+![](</docs/reference/data-sources/glide-tables-api-for-beginners/Frame%2056%20(20).png>)
 
 **Turn the Zap on**. Now, when you add a new lead inside ClickUp, you’ll see it adds a new row to the Glide Table
 
@@ -161,7 +163,7 @@ Just like when adding a row, most details will remain the same. The only thing t
 - The action is now **set-columns** instead of **add row**
 - We also need to define the Row ID (we have to define the row ID so that Glide knows which row we want to update)
 
-![](/docs/reference/data-sources/glide-tables-api-for-beginners/Frame%2056%20(18).png)
+![](</docs/reference/data-sources/glide-tables-api-for-beginners/Frame%2056%20(18).png>)
 
 ## Inside our Zap
 
@@ -177,7 +179,7 @@ Just like when adding a row, most details will remain the same. The only thing t
 5         "COLUMN-NAME": "COLUMN-VALUE",
 6         ...
 7     },
-8 
+8
 9     ROW-ID-OR-INDEX
 10 }
 ```
@@ -187,7 +189,7 @@ Just like when adding a row, most details will remain the same. The only thing t
 - any columns we wish to update. (In this instance, we are setting our Glide Table Boolean column to true)
 - And we update the RowID value to the value produced by the lookup action that looks up in our Google sheet the Row ID based on the ClickUp ID for that lead.
 
-![](/docs/reference/data-sources/glide-tables-api-for-beginners/Frame%2032%20(6).png)
+![](</docs/reference/data-sources/glide-tables-api-for-beginners/Frame%2032%20(6).png>)
 
 {% callout title="" %}
 You may see the ROW-ID-OR-INDEX displayed as ROW-ID or rowIndex: ROW-INDEX. ROW-INDEX should only be used for Google Sheet tables. It must be a zero-based number as the first row in the sheet has an index of 0.
@@ -202,12 +204,12 @@ Just like when updating a row, the Zap configuration will mostly remain the same
 - The action is now **delete-row**
 - We only need to define the Row ID (we have to define the row ID so that Glide knows which row we want to delete)
 
-![](/docs/reference/data-sources/glide-tables-api-for-beginners/Frame%2058%20(1).png)
+![](</docs/reference/data-sources/glide-tables-api-for-beginners/Frame%2058%20(1).png>)
 
 ## Inside Our Zap
 
-1. our trigger is whenever a lead in ClickUp is changed to a disqualified status, 
-2. we have an action to Lookup the RowID based on the ClickUp ID for that lead, and 
+1. our trigger is whenever a lead in ClickUp is changed to a disqualified status,
+2. we have an action to Lookup the RowID based on the ClickUp ID for that lead, and
 3. then we send another custom request (or custom API call):
 
 ```js

@@ -1,9 +1,10 @@
 ---
 title: Airtable
-description: Integrate Airtable databases with your project 
+description: Integrate Airtable databases with your project
 video: https://youtu.be/StRizGWBqtA
 slug: airtable
 ---
+
 ​
 Airtable is a spreadsheet-database hybrid with the features of a database but applied to a spreadsheet. Your projects can be integrated with Airtable bases, offering you a more robust approach to data management that you may not find in simple spreadsheets.
 
@@ -12,7 +13,9 @@ If you’re new to Airtable or need a refresher, check out the resources in [Lea
 {% /callout %}
 
 ## How to use Airtable with Glide
+
 ### Find your Airtable API key
+
 Your Airtable API key is required to connect your account to Glide.
 
 1. Go to your [Account > Overview](https://airtable.com/account) in Airtable.
@@ -24,17 +27,18 @@ Your Airtable API key is required to connect your account to Glide.
 Once you have this key, you can return to Glide to begin building projects from your Airtable bases!
 
 ### Connect to Airtable
+
 1. To create a new project, click on **New project** in your dashboard.
 2. Give it a name and choose the type - App or Page.
 3. Continue to select your data source.
 4. Click on **Airtable** and **Continue**.
 5. Enter your Airtable account API key and click **Connect**.
 
-    {% figure src="/docs/reference/data-sources/airtable/connect-to-airtable.png" caption="Entering your API key in Glide" /%}
+   {% figure src="/docs/reference/data-sources/airtable/connect-to-airtable.png" caption="Entering your API key in Glide" /%}
 
 6. Select the Airtable base you want to use.
 
-    {% figure src="/docs/reference/data-sources/airtable/choosing-an-airtable.png" caption="Choosing an Airtable base for your data source" /%}
+   {% figure src="/docs/reference/data-sources/airtable/choosing-an-airtable.png" caption="Choosing an Airtable base for your data source" /%}
 
 7. Click **Create App** to create your new project!
 
@@ -80,7 +84,7 @@ It’s recommended to add new basic columns directly to Airtable rather than Gli
 
 ### Links vs. Relations
 
-In Glide, data is connected using **Relation** columns. In Airtable, these same connections are called **Links**. When you create a link in your Airtable base, it will show up in Glide as a **Relation** column. 
+In Glide, data is connected using **Relation** columns. In Airtable, these same connections are called **Links**. When you create a link in your Airtable base, it will show up in Glide as a **Relation** column.
 
 You can use that data just like you would a normal relation. However, you will not be able to configure it in Glide since the configuration for the link/relation is set in Airtable.
 
@@ -97,6 +101,7 @@ Exceeding your file storage quota can result in your Glide projects becoming ina
 On your team’s dashboard, you can navigate to the **Usage** page to check how much file storage your team is currently using.
 
 ## Learn Airtable
+
 If you’re new to Airtable, check out the resources below to get you started.
 
 - Article: [Airtable vs Traditional Spreadsheets](https://zapier.com/blog/what-is-airtable/)

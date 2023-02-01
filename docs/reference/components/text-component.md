@@ -35,5 +35,5 @@ In Glide [Pages](/docs/introduction-to-pages), the **Headline** component is pre
 {% figure src="/docs/reference/components/text-component/image%20(3).png" caption="Truncating text lines" /%}
 
 {% callout type="warning" title="" %}
-Some design settings differ between [Apps](/docs/introduction-to-apps) and Pages. 
+Some design settings differ between [Apps](/docs/introduction-to-apps) and Pages.
 {% /callout %}

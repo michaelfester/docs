@@ -1,6 +1,6 @@
 ---
 title: Go Back
-description: Move the user back to whatever screen they were on before. 
+description: Move the user back to whatever screen they were on before.
 video:
 slug: go-back
 ---

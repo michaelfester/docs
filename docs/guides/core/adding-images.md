@@ -25,7 +25,7 @@ You’ll notice in the image above that you can also add addresses. If it’s a 
 
 ### Upload from the Layout Editor
 
-**You can upload an image from the Layout Editor** without having to go back to the Data Editor. Choose Upload image, browse your images and click Upload. 
+**You can upload an image from the Layout Editor** without having to go back to the Data Editor. Choose Upload image, browse your images and click Upload.
 
 {% figure src="/docs/guides/core/adding-images/upload-images.png" caption="Uploading an image in the Layout Editor" /%}
 
@@ -89,12 +89,12 @@ To do this, name all of your **Image Column**s the same but with a number after 
 For example;
 
 | Title | Description | Image 1 | Image 2 | Image 3 | Image 4 |
-| ----  | ----        | ----   | ----   | ------- | ----|
+| ----- | ----------- | ------- | ------- | ------- | ------- |
 
 or
 
 | Title | Description | Employee 1 | Employee 2 | Employee 3 | Employee 4 |
-| ----  | ----        | ----   | ----   | ------- | ---- |
+| ----- | ----------- | ---------- | ---------- | ---------- | ---------- |
 
 It doesn’t matter what you call each column, so long as each column has the same name and the next number. Glide will recognize all of the numbered columns and allow you to choose a single column with just that name (e.g. '`Image`') which will incorporate all the columns and trigger the carousel.
 
@@ -105,4 +105,3 @@ It doesn’t matter what you call each column, so long as each column has the sa
 Glide recognizes JPGs, PNGs, GIFs, and SVGs.
 
 For your app’s icon, it’s best to use a simple SVG. The project icon will appear in many places and many sizes so it’s best to use an SVG icon that will scale and look good at any size.
-

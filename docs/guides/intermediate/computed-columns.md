@@ -4,7 +4,7 @@ description: Transform basic data in powerful new ways.
 slug: computed-columns
 ---
 
-The [Data Editor](/docs/data-editor) is where you edit the data in your [Glide Table](/docs/glide-tables) or external [Data Source](https://www.glideapps.com/docs/reference/data-sources). It’s also a place where you can add powerful Computed Columns that enhance your project’s data. 
+The [Data Editor](/docs/data-editor) is where you edit the data in your [Glide Table](/docs/glide-tables) or external [Data Source](https://www.glideapps.com/docs/reference/data-sources). It’s also a place where you can add powerful Computed Columns that enhance your project’s data.
 
 In this guide, we’ll give you an overview of the six most commonly used types and point you to more in-depth documentation on each of them.
 
@@ -51,7 +51,7 @@ The Lookup Column uses a Relation to look through and bring back the values from
 
 {% figure src="/docs/guides/intermediate/computed-columns/template-column.png" caption="Configuring the Template column in the Data Editor" /%}
 
-The Template Column enables you to display dynamic text from data found in other columns. For example, you could write ‘`Welcome NAME, today is DAY`’ and replace `NAME` with the User’s name and `DAY` with the current day. 
+The Template Column enables you to display dynamic text from data found in other columns. For example, you could write ‘`Welcome NAME, today is DAY`’ and replace `NAME` with the User’s name and `DAY` with the current day.
 
 {% cta title="Template Column" description="Learn more about the Template Columns" url="/docs/template-column" /%}
 

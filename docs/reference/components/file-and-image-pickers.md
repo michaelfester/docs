@@ -8,7 +8,7 @@ slug: file-and-image-pickers
 The File Picker Component is available in both [Apps](/docs/introduction-to-apps) and [Pages](/docs/introduction-to-pages), but configuration options may differ slightly.
 {% /callout %}
 
-The **File Picker** and **Image Picker** components allow users to upload files and images to your projects. Once you upload a file or an image, Glide converts these files to links that can be displayed in your projects, or downloaded by users. 
+The **File Picker** and **Image Picker** components allow users to upload files and images to your projects. Once you upload a file or an image, Glide converts these files to links that can be displayed in your projects, or downloaded by users.
 
 ## Configuration
 
@@ -25,4 +25,3 @@ If a user exits the app or the screen while the file is uploading, the file may 
 Files and images are uploaded to Glide’s server and there is a storage limit based on your team’s current plan. Check out Glide’s [pricing guide](https://www.glideapps.com/pricing) to learn more about the different plans that are available.
 
 {% cta title="Files" description="To learn more about what happens to your files and images after they are uploaded, check out Files in Security and User Data." url="/docs/files" /%}
- 

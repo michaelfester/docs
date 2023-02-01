@@ -40,4 +40,3 @@ In Glide Pages, this is the behavior that will be triggered when users click on 
 {% figure src="/docs/reference/components/hint-component/adding-action-to-hint-component.png" caption="Adding an action to Hint Component" /%}
 
 {% cta title="Actions" description="For detailed information about all of the actions available in Glide, check out Actions." url="/docs/actions" /%}
- 

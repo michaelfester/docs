@@ -26,11 +26,11 @@ Most collections like **Card**, **List**, **Grid**, and **Table** are roughly th
 
 ### Items Data
 
-For most styles, you have the option to show a **Title**, **Subtitle**, **Emphasis**, **Meta**, and **Image**. 
+For most styles, you have the option to show a **Title**, **Subtitle**, **Emphasis**, **Meta**, and **Image**.
 
 ### Design
 
-Depending on the style you’ve chosen, your design options may vary. Typically, you’ll have options to select the **Style**, **Size**, and **Alignment**. Configure any additional design options to further customize how your Collection component is displayed. 
+Depending on the style you’ve chosen, your design options may vary. Typically, you’ll have options to select the **Style**, **Size**, and **Alignment**. Configure any additional design options to further customize how your Collection component is displayed.
 
 ### Options
 
@@ -42,7 +42,7 @@ You can choose how many items appear on a 'Page' - which will affect the overall
 
 ## Enable Options settings
 
-You can customize the data displayed in your Collection by using **Conditions** and other options. 
+You can customize the data displayed in your Collection by using **Conditions** and other options.
 
 ### **Visibility**
 
@@ -61,13 +61,13 @@ You can limit the items displayed in your Collection based on their properties. 
 By default, Collection items appear in the same order as they are in the data source. However, you can customize the Collection’s sort in many ways. In the **Sort** section, click on the **Sort by Sheet order** field to expand the options and configure it.
 
 {% cta title="Sort" description="For more information, see the Sort documentation." url="/docs/sort" /%}
- 
+
 ### **Group data**
 
 You can group the data in your Collection based on a specific column in your source. In the **Group** section, click on the **Group by** dropdown to choose the column to group your items by. You can select the long dash option from the dropdown if you don’t want to group your Collection items.
 
 {% cta title="Group" description="For more information, see Group." url="/docs/group" /%}
- 
+
 For more information, see **Group**.
 
 ### **Search**
@@ -87,5 +87,3 @@ If you choose to enable advanced actions, you can
 - Add **Collection Item Actions**, which creates buttons within each collection item.
 
 {% cta title="Actions" description="For more information on configuring actions, see Actions." url="/docs/actions" /%}
- 
-

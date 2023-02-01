@@ -52,4 +52,3 @@ This is the behavior that will be triggered when users tap on the text. You can 
 4. If prompted, apply any additional settings in **Configure Action**.
 
 {% figure src="/docs/reference/components/action-text/image%20(6).png" caption="Configuring Show Detail Screen action" /%}
-

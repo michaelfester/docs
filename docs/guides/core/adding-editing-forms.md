@@ -1,6 +1,6 @@
 ---
 title: Adding, Editing, and Forms
-description: Let users add and edit your data in different ways. 
+description: Let users add and edit your data in different ways.
 video:
 slug: add-edit
 ---
@@ -75,19 +75,19 @@ The Form Action can be added to [Buttons](https://www.glideapps.com/docs/button
 
 ### Easy Configuration Settings
 
-When you create a new tab from Data in a Glide Page — you’ll get a screen with a Collection component on it that looks like this. 
+When you create a new tab from Data in a Glide Page — you’ll get a screen with a Collection component on it that looks like this.
 
 {% figure src="/docs/guides/core/adding-editing-forms/feature-and-components-when-first-creating-a-tab-in-glide-pahes.png" caption="Features and components when first creating a tab in Glide Pages" /%}
 
-On the right hand side, you’ll see the configuration for your collection. On the bottom right, you’ll see options to enable add, edit, and delete. Add and edit are enabled by default. 
+On the right hand side, you’ll see the configuration for your collection. On the bottom right, you’ll see options to enable add, edit, and delete. Add and edit are enabled by default.
 
 {% figure src="/docs/guides/core/adding-editing-forms/collections-configurations-panel.png" caption="Collections configurtion panel" /%}
 
-These are just high-level, easy controls for the collection on this screen. Toggling these actually changes the action settings within the Collection component on that page. 
+These are just high-level, easy controls for the collection on this screen. Toggling these actually changes the action settings within the Collection component on that page.
 
 {% figure src="/docs/guides/core/adding-editing-forms/easy-controls-for-collections.png" caption="Easy controls in Collections" /%}
 
-Mostly, you don’t need to think about these but if you change your Tab’s style to ‘Custom’ or add new components — you will have to edit these settings from within the Collection Component. 
+Mostly, you don’t need to think about these but if you change your Tab’s style to ‘Custom’ or add new components — you will have to edit these settings from within the Collection Component.
 
 {% figure src="/docs/guides/core/adding-editing-forms/collections-inside-custom-styles-needs-to-beconfigured-seperately.png" caption="Collections inside custom styles needs to be configured seperately" /%}
 
@@ -99,29 +99,27 @@ You can configure and edit the default add/edit/delete actions that Glide sets f
 
 {% figure src="/docs/guides/core/adding-editing-forms/editing-the-default-actions.png" caption="Configuring and editing the default add/edit/delete actions" /%}
 
-This will show the Action configuration for your collection. If you want to switch back to the default actions, you can reset your collection to the default actions. 
+This will show the Action configuration for your collection. If you want to switch back to the default actions, you can reset your collection to the default actions.
 
 {% figure src="/docs/guides/core/adding-editing-forms/switch-back-to-default-actions.png" caption="Switching back to default actions" /%}
 
 #### Create new actions
 
-The default buttons for adding, editing and deleting are good for most projects, but you may wish to customize this further by adding actions to add, edit, or delete in other locations. 
+The default buttons for adding, editing and deleting are good for most projects, but you may wish to customize this further by adding actions to add, edit, or delete in other locations.
 
-To do this, you’ll want to add a component that supports actions and then add one of the following actions to it. 
+To do this, you’ll want to add a component that supports actions and then add one of the following actions to it.
 
 - Show Form Screen — to add new rows to your table
-- Show Edit Screen  — to edit existing rows in your table
+- Show Edit Screen — to edit existing rows in your table
 - Delete Row — to delete rows from your table
 
 For example, here is a details screen that has a button on it with the [Show Edit Screen](https://www.glideapps.com/docs/show-edit-screen) action.
 
 {% figure src="/docs/guides/core/adding-editing-forms/adding-show-edit-screen-action-to-a-list-component.png" caption="The Title Component (at the top) has a button it with the Show Edit Screen action on it" /%}
 
-
-And here is a Details screen with a button configured with the Delete Row action. 
+And here is a Details screen with a button configured with the Delete Row action.
 
 {% figure src="/docs/guides/core/adding-editing-forms/adding-delete-this-row-action-to-a-title-component.png" caption="The Title Component (at the top) has a button it with the Delete Row action on it" /%}
-
 
 ## Additional Values
 

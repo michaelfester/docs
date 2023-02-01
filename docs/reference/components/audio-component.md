@@ -27,4 +27,3 @@ Whether it’s meeting notes, podcast episodes, or music — the audio component
 {% callout type="warning" title="" %}
 The audio file’s URL must be formatted with an audio file extension, such as .wav, .mp3, or.m4a, and be publicly accessible.
 {% /callout %}
-

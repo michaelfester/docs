@@ -16,7 +16,6 @@ You can also add your tax details - Tax Type and Tax ID number.
 Each [team](/docs/teams) has its separate billing profile. You will need to setup a billing profile for each to be able to upgrade your projects.
 {% /callout %}
 
-
 ## Payment method
 
 You can setup your payment method in the Billing Section of your Team.

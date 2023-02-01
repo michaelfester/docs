@@ -74,25 +74,25 @@ If you're keen on a deeper understanding between Pages & Apps, check out our gui
 
 ## Adding & Editing
 
-In Glide Apps, you can simply enable **Adding or Editing**, and this will appear as an option in the top right of the app. 
+In Glide Apps, you can simply enable **Adding or Editing**, and this will appear as an option in the top right of the app.
 
 ![](/docs/guides/products/introduction-to-pages/22.png)
 
-However, in Glide Pages, you have to use **Actions**. This introduces a few extra steps but creates more room for customizability and power. 
+However, in Glide Pages, you have to use **Actions**. This introduces a few extra steps but creates more room for customizability and power.
 
-The two actions you'll need are **Show Edit Screen** and **Show Form Screen**. 
+The two actions you'll need are **Show Edit Screen** and **Show Form Screen**.
 
 ## Show Form Screen
 
 Show Form Screen can be used to send data to any table in your project (for example, a **'Contact Us'** form). You can therefore use it to allow users to add items within **Collections**.
 
-![](/docs/guides/products/introduction-to-pages/22%20(1).png)
+![](</docs/guides/products/introduction-to-pages/22%20(1).png>)
 
-For example, in the image above 👆 we've added Show Form Screen action to our collection, and changed the title of the button to say 'Add Contact'. 
+For example, in the image above 👆 we've added Show Form Screen action to our collection, and changed the title of the button to say 'Add Contact'.
 
-Once we trigger that action in Glide, we can then configure that Form Screen and make sure that its destination is the same source as the contents of the Collection. This will create the functionality of an 'Add to Item' button on our collection. 
+Once we trigger that action in Glide, we can then configure that Form Screen and make sure that its destination is the same source as the contents of the Collection. This will create the functionality of an 'Add to Item' button on our collection.
 
-![](/docs/guides/products/introduction-to-pages/22%20(2).png)
+![](</docs/guides/products/introduction-to-pages/22%20(2).png>)
 
 ## Show Edit Screen
 
@@ -102,49 +102,50 @@ The Show Edit Screen action can be added to lots of different components. In the
 
 ## Form Style
 
-Under the **configure action**, and under **Target**, we can choose one of four options which will affect the way the form is displayed. Here are the four options we can choose from: 
+Under the **configure action**, and under **Target**, we can choose one of four options which will affect the way the form is displayed. Here are the four options we can choose from:
 
-![](/docs/guides/products/introduction-to-pages/23%20(1).png)
+![](</docs/guides/products/introduction-to-pages/23%20(1).png>)
 
 - **Small overlay** and **Large overlay** is pretty clear. It will open the screen as a small or large overlay.
-- **Main** replaces the main screen. So if you already have an overlay screen open and open a screen with Main, the overlay will close, and the **Main** screen will be the new screen.  
+- **Main** replaces the main screen. So if you already have an overlay screen open and open a screen with Main, the overlay will close, and the **Main** screen will be the new screen.
 - **Current** means open it as whatever the current screen is. So if you’re on the main screen, it will replace the main screen, but if you’re in an overlay, it will replace the overlay.
 
 ## Navigation Model
 
-**Glide Apps** and **Glide Pages** have different navigation models. In other words, the way screens relate to each other is slightly different. 
+**Glide Apps** and **Glide Pages** have different navigation models. In other words, the way screens relate to each other is slightly different.
 
-Understanding the different navigation models is not needed for you to build with either of them, but it's helpful if you want to understand their deeper structure. 
+Understanding the different navigation models is not needed for you to build with either of them, but it's helpful if you want to understand their deeper structure.
 
 ### Apps
-In Apps, the navigation model is based on screens on top of screens. 
+
+In Apps, the navigation model is based on screens on top of screens.
 For example, we can see three different screens in the image below. When we navigate through these screens (**Home → Profile → Talks**) in our app, it looks and feels like we are moving from one screen to another, which – visually speaking – we are.
 
-![](/docs/guides/products/introduction-to-pages/Frame%20(2).png)
+![](</docs/guides/products/introduction-to-pages/Frame%20(2).png>)
 
-But in terms of the way the app works – we are actually 'pushing' screens on top of the initial tab's screen. In other words – they stack on top of each other, so the first screen is always the primary context – no matter how many screens deep we go. 
+But in terms of the way the app works – we are actually 'pushing' screens on top of the initial tab's screen. In other words – they stack on top of each other, so the first screen is always the primary context – no matter how many screens deep we go.
 
-You can see that all of the screens are 'on top' of the Home tab in the last image below. This is a much more accurate way to think about how screens work in Apps.  
+You can see that all of the screens are 'on top' of the Home tab in the last image below. This is a much more accurate way to think about how screens work in Apps.
 
-![](/docs/guides/products/introduction-to-pages/Frame%20(3).png)
+![](</docs/guides/products/introduction-to-pages/Frame%20(3).png>)
 
 This is a lot more obvious with modals in tablet view 👇
 
-![](/docs/guides/products/introduction-to-pages/Frame-2%20(1).png)
+![](</docs/guides/products/introduction-to-pages/Frame-2%20(1).png>)
 
-On the surface, this distinction doesn't matter too much. When you use Glide Apps in browsers, the URL for a Glide App remains the same – regardless of which screen you are on (unless you're working with Deep Links). 
+On the surface, this distinction doesn't matter too much. When you use Glide Apps in browsers, the URL for a Glide App remains the same – regardless of which screen you are on (unless you're working with Deep Links).
 
 This means that the browser forward & back buttons do not work as you would expect, there is no 'History' of screens that you've seen in your browsing history, and you cannot simply copy the URL and link to a particular page (again, unless you're working with Deep Links)
 
 ### Pages
 
-With Pages, however, there is only ever one screen. You don't have screens on top of screens. 
+With Pages, however, there is only ever one screen. You don't have screens on top of screens.
 
 Each screen also has its own URL. This means that you can use your browser's forward & back buttons to move forward or back to the previous screen – even if that screen was a modal.
 
 ![](/docs/guides/products/introduction-to-pages/Frame-3.png)
 
-This is incredibly useful if you want to link to a particular state or screen – you can just save the URL and give it to someone, and they will open the app exactly where you were when you copied the link. 
+This is incredibly useful if you want to link to a particular state or screen – you can just save the URL and give it to someone, and they will open the app exactly where you were when you copied the link.
 
 {% callout type="warning" title="" %}
 There are some instances where the URL can become very long. For example, if you have many links to screen actions in your app and you've navigated through many of them, the URL will build up, remembering all the different steps. This is unusual and not a massive problem if it does happen.

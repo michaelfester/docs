@@ -9,4 +9,4 @@ The Generate Image column automatically generates beautiful abstract images for 
 
 ![](/docs/reference/computed-columns/generate-image/Screen%20Shot%202020-09-15%20at%2011.00%201.png)
 
-You can choose to generate different styles of image generation and also a column to generate an image from. If your table uses [Row IDs](/docs/row-id) then pick this column, however, if not – pick another column with unique values. 
+You can choose to generate different styles of image generation and also a column to generate an image from. If your table uses [Row IDs](/docs/row-id) then pick this column, however, if not – pick another column with unique values.

@@ -38,7 +38,6 @@ Users can then clear the event from the picker using the cross.
 
 The Event Picker is particularly useful in Edit, Add or Form screens. Instead of using two separate fields for Start and End time, you can use a single Event Picker.
 
-
 ## Using in forms
 
 Using the Event Picker in forms is slightly more complex if you want to display existing events in the picker. For example, in this Room Booking project, there is a form button on each Room item that lets users book that room. That form will send info to a separate sheet called 'Bookings'.
@@ -50,4 +49,3 @@ The problem, however, comes when you want to show the existing bookings for that
 You’d want users to only see events for the room they are currently booking. To do this, you need to create a **Relation** between Rooms and Bookings, and then choose that relation as the source in the Event Picker's configuration.
 
 {% figure src="/docs/reference/components/event-picker/bookings-relations.png" caption="" /%}
-

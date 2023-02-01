@@ -9,12 +9,12 @@ The View Address on Map action allows users to tap a component like [Action Text
 
 {% figure src="/docs/reference/actions/view-address-on-map/Group%2061.png" caption="View Address on Map" /%}
 
-To set this up, configure the action setting of your component and set it to View Address on Map. 
+To set this up, configure the action setting of your component and set it to View Address on Map.
 
 {% figure src="/docs/reference/actions/view-address-on-map/Screenshot%202021-04-24%20at%2016.36%201.png" caption="View Address on Map Configuration" /%}
 
-Make sure the component is bound to the column where your addresses are listed. 
+Make sure the component is bound to the column where your addresses are listed.
 
-Tapping on your component will open your device's default map to search for that address. 
+Tapping on your component will open your device's default map to search for that address.
 
 {% figure src="/docs/reference/actions/view-address-on-map/View%20Address%20on%20Map.gif" caption="Congfiguring the ViewAddress on Map action" /%}

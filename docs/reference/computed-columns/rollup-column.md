@@ -13,7 +13,7 @@ For example, in the image below we create a rollup column that counts the number
 
 ## Column or relation source
 
-For example, in the app below we have a list of people who all have tasks. The `Tasks` column is a relation that pulls in every task assigned to each individual person. We can then create a rollup column that counts the total number of tasks for each person. 
+For example, in the app below we have a list of people who all have tasks. The `Tasks` column is a relation that pulls in every task assigned to each individual person. We can then create a rollup column that counts the total number of tasks for each person.
 
 ![](/docs/reference/computed-columns/rollup-column/2020-03-17%2005.43.51.gif)
 
@@ -44,5 +44,3 @@ The Rollup Column can calculate the Count, Count Unique, Count True, Count False
 The Rollup Column can calculate Count or Count Unique.
 
 ![](/docs/reference/computed-columns/rollup-column/Rollup%20simple.gif)
-
-

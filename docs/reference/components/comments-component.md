@@ -8,7 +8,7 @@ slug: comments-component
 The Comments Component is only available in Glide [Apps](/docs/introduction-to-apps), not Glide [Pages](/docs/introduction-to-pages).
 {% /callout %}
 
-The Comments component creates a section in your project where users can interact with each other by adding comments on specific topics.  
+The Comments component creates a section in your project where users can interact with each other by adding comments on specific topics.
 
 {% figure src="/docs/reference/components/comments-component/use-case-of-a-comment-component.png" caption="Example for a use case of the Comment Component" /%}
 
@@ -34,12 +34,12 @@ If your project only uses [Glide Tables](/docs/glide-tables) as its data source 
 
 To delete a comment, follow these steps:
 
-1. Open your project from your **Dashboard** 
+1. Open your project from your **Dashboard**
 2. Navigate to the screen containing the comment you want to delete.
 3. Right-click it, and select **Delete comment**.
 
 {% callout title="" %}
-Deleting rows from the Glide: Comments tab in your data source will not remove the comment from your project. It must be deleted from the Layout Editor. 
+Deleting rows from the Glide: Comments tab in your data source will not remove the comment from your project. It must be deleted from the Layout Editor.
 {% /callout %}
 
 {% figure src="/docs/reference/components/comments-component/deleting-a-comment.png" caption="Deleting a comment" /%}

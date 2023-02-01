@@ -15,7 +15,7 @@ Choosing Fixed updates is a good choice if you want a predictable monthly bill. 
 
 ## Pay-as-you-go updates
 
-When you select Pay-as-you-go updates, the projects in your team will be able to use more updates than what is included in your team’s plan. 
+When you select Pay-as-you-go updates, the projects in your team will be able to use more updates than what is included in your team’s plan.
 
 {% callout %}
 Only teams with paid team plans can enbale Pay-as-you-go updates.

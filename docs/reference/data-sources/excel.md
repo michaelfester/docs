@@ -26,21 +26,21 @@ It is recommended to create a copy of your file if you want to maintain its orig
 3. Continue to select your data source.
 4. Click on **Excel** and **Continue.**
 
-    {% figure src="/docs/reference/data-sources/excel/choosing-excel-for-your-project.png" caption="Choosing Excel as your data source" /%}
+   {% figure src="/docs/reference/data-sources/excel/choosing-excel-for-your-project.png" caption="Choosing Excel as your data source" /%}
 
-    {% callout %}
-    If this is your first time using an Excel data source, click on the **Connect** button under **Excel** to add your account. Microsoft OneDrive will open in a new tab. You’ll be prompted to log in and give Glide access to your files. For more information about permissions, see [Data security for Microsoft OneDrive](#data-security-for-microsoft-onedrive).
-    {% /callout %}
+   {% callout %}
+   If this is your first time using an Excel data source, click on the **Connect** button under **Excel** to add your account. Microsoft OneDrive will open in a new tab. You’ll be prompted to log in and give Glide access to your files. For more information about permissions, see [Data security for Microsoft OneDrive](#data-security-for-microsoft-onedrive).
+   {% /callout %}
 
-5. Click on your drive folder and then **Choose Library**. 
+5. Click on your drive folder and then **Choose Library**.
 
-    {% figure src="/docs/reference/data-sources/excel/linking-microsoft-account.png" caption="Connecting to your Microsoft Online account" /%}
+   {% figure src="/docs/reference/data-sources/excel/linking-microsoft-account.png" caption="Connecting to your Microsoft Online account" /%}
 
-    {% callout %}
-    If your files are in SharePoint instead of OneDrive, click on the **Authorize SharePoint Access** button and grant Glide extra permissions to connect to it. 
-    {% /callout %}
+   {% callout %}
+   If your files are in SharePoint instead of OneDrive, click on the **Authorize SharePoint Access** button and grant Glide extra permissions to connect to it.
+   {% /callout %}
 
-6. Find and select the Excel file you want to use and then click on **Create App**. 
+6. Find and select the Excel file you want to use and then click on **Create App**.
 7. Click **Continue** to create your new project!
 
 When the project is created, a new **Row ID** column is added to each sheet in the file at this time. The sheets in your Excel Workbook are added as individual **Tabs** to the **Layout Editor** and individual **Tables** in the **Data Editor**.
@@ -57,12 +57,11 @@ When the project is created, a new **Row ID** column is added to each sheet in t
 
 {% figure src="/docs/reference/data-sources/excel/drag-and-drop-an-excel-file.png" caption="Drag and dropping Excel file to upload" /%}
 
-The sheets in your Excel Workbook are added as individual **Tabs** to the **Layout Editor** and individual **Tables** in the **Data Editor**. 
+The sheets in your Excel Workbook are added as individual **Tabs** to the **Layout Editor** and individual **Tables** in the **Data Editor**.
 
 {% callout %}
 Unlike when connecting to OneDrive or SharePoint, Glide does not create a new **Row ID** column when uploading an Excel file.
 {% /callout %}
-
 
 ## How to connect to multiple data sources
 

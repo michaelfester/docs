@@ -11,7 +11,7 @@ When you log into[Glide](https://go.glideapps.com/) you'll arrive at your Dash
 
 {% figure src="/docs/guides/core/glide-ui/glide-dashboard.png" caption="The Glide dashboard" /%}
 
-On the left-hand side, you’ll see projects you’re working on, as well as where you can create templates, review your usage data, and manage your billing and teams. You will also see any teams you belong to, and have the ability to create new teams if needed. 
+On the left-hand side, you’ll see projects you’re working on, as well as where you can create templates, review your usage data, and manage your billing and teams. You will also see any teams you belong to, and have the ability to create new teams if needed.
 
 Click on an app to start editing it.
 
@@ -34,9 +34,9 @@ You can navigate to these different sections using the top navigation bar, which
 The Data Editor has four distinct areas.
 
 1. The tables area on the left shows each of your individual tables. If you’ve synced data from Google, Airtable, Excel, or a file, you’ll see all of your imported data here. You can add more tables directly in the data editor, or hit the + symbol to sync more data from another source.
-2. The sources area on the bottom left is where you see your [Data Sources](/docs/intro-to-data-sources). You can click here to sync or visit your data source. 
+2. The sources area on the bottom left is where you see your [Data Sources](/docs/intro-to-data-sources). You can click here to sync or visit your data source.
 3. The main area is the actual data grid itself. Here you can scroll, interact, and edit the data you see.
-4. The Data Editor has its own top bar – which shows the [Preview As dropdown](/docs/users#preview-as), the name of the current table, the Find Column search box, and the Add Column button. 
+4. The Data Editor has its own top bar – which shows the [Preview As dropdown](/docs/users#preview-as), the name of the current table, the Find Column search box, and the Add Column button.
 
 {% cta title="Data Editor" description="Learn more about the Data Editor" url="/docs/data-editor" /%}
 
@@ -44,7 +44,7 @@ The Data Editor has four distinct areas.
 
 {% figure src="/docs/guides/core/glide-ui/the-layout-editor.png" caption="Different areas of the Layout Editor" /%}
 
-The Layout area of Glide can be broken into 5 core areas and is where you do the bulk of your design work. 
+The Layout area of Glide can be broken into 5 core areas and is where you do the bulk of your design work.
 
 1. Tabs
 2. Screen
@@ -110,7 +110,3 @@ Knowing what context you are in is important. To help you understand this, there
 Within the configuration panel, many different things will appear, depending on your context. You will usually see 2 or 3 different tabs within the panel. These typically follow the pattern of General, Options, and Form.
 
 {% figure src="/docs/guides/core/glide-ui/configuration-areas.png" caption="Different settings in the configuration panel" /%}
-
-
-
-

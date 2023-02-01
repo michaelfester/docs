@@ -8,7 +8,7 @@ slug: container-component
 The Container Component is only available in Glide [Pages](/docs/introduction-to-pages), not Glide [Apps](/docs/introduction-to-apps).
 {% /callout %}
 
-The **Container** component acts as a parent, into which you can add child Components. This allows you to style, arrange, and add conditions to groups of [Components](/docs/reference/components). 
+The **Container** component acts as a parent, into which you can add child Components. This allows you to style, arrange, and add conditions to groups of [Components](/docs/reference/components).
 
 {% figure src="/docs/reference/components/container/adding-components-in-to-container.png" caption="" /%}
 
@@ -16,11 +16,11 @@ The **Container** component acts as a parent, into which you can add child Com
 
 ### Layout
 
-In the **General** tab on the right side of the **Layout Editor**, locate the **Layout** section. The Container component allows you to create column layouts and arrange components side-by-side. For example, the project below shows a side-by-side layout using two columns. 
+In the **General** tab on the right side of the **Layout Editor**, locate the **Layout** section. The Container component allows you to create column layouts and arrange components side-by-side. For example, the project below shows a side-by-side layout using two columns.
 
 {% figure src="/docs/reference/components/container/layout-styles-of-container.png" caption="" /%}
 
-When you choose a layout that is more than one column you’ll see sections underneath the Container with dividers. This shows you the different sections for your container which will change depending on the number of columns you have. 
+When you choose a layout that is more than one column you’ll see sections underneath the Container with dividers. This shows you the different sections for your container which will change depending on the number of columns you have.
 
 {% figure src="/docs/reference/components/container/showing-the-number-of-columns.png" caption="" /%}
 

@@ -1,6 +1,6 @@
 ---
 title: Array Columns
-description: Combine multiple values into a single value.  
+description: Combine multiple values into a single value.
 video: https://www.youtube.com/watch?v=x_vKwWrK9wE
 slug: array-columns
 ---
