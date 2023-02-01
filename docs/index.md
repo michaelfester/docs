@@ -18,8 +18,8 @@ If you can't find what you need here, visit our **[friendly and creative commun
 - Short on time? Check out the [Quick Start Guide →](/docs/quick-start)
 - Have 20 min? Watch our [Introductory Course →](https://www.youtube.com/playlist?list=PL9fJR6JJ89mUyHHweZnW4yY1aA2QmDd8k)
 - Want to really dive in? Choose your own adventure:
-  - **To play around and build simple projects** — read the first 6 [Core Concepts](/docs/guides/core).
-  - **To build a secure project for real users** — read all 10 [Core Concepts](/docs/guides/core).
-  - **To build a powerful project** — read everything in [Core](/docs/guides/core) & [Intermediate Concepts](/docs/guides/intermediate).
+  - **To play around and build simple projects** — read the first 6 [Core Concepts](/docs/guides/core).
+  - **To build a secure project for real users** — read all 10 [Core Concepts](/docs/guides/core).
+  - **To build a powerful project** — read everything in [Core](/docs/guides/core) & [Intermediate Concepts](/docs/guides/intermediate).
 
-We can’t wait to see what you build! 🚀
+We can't wait to see what you build! 🚀
