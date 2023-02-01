@@ -7,5 +7,6 @@
     "**/*.png": true,
     "**/*.svg": true,
     "**/*.woff*": true
-  }
+  },
+  "editor.wordWrap": "on"
 }
