@@ -7,7 +7,7 @@
     "build:search-index": "tsx scripts/build-search-index.ts",
     "merge": "tsx scripts/merge-content-into-dev.ts",
     "watch": "watch 'npm run build:prepare' ../docs",
-    "start": "npm run build:prepare && concurrently npm:watch 'vercel dev'"
+    "start": "npm run build:prepare && concurrently npm:watch 'next dev'"
   },
   "dependencies": {
     "@docsearch/react": "^3.2.1",
