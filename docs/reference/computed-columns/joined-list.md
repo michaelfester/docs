@@ -5,7 +5,7 @@ video:
 slug: joined-list
 ---
 
-The Joined List column lets you join values from a column or multi-relation into a single cell.
+The Joined List computed column joins or concatenates many values into a single text value. For example, it could join a list of names into text like "Alice, Bob, Susan" using the separator `", "`.
 
 ![](/docs/reference/computed-columns/joined-list/Joined%20List.gif)
 
