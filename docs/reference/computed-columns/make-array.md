@@ -29,18 +29,18 @@ Array columns combine the data from multiple columns into a single column in the
 
 ## How to create Make Array columns
 
-1. In the Data Editor open the table you want to edit.
-2. Add a new column by clicking the plus symbol to the right of the table.
+- In the Data Editor open the table you want to edit.
+- Add a new column by clicking the plus symbol to the right of the table.
 
 {% callout %}The plus symbol will append the column to the end of the table. To place the new column in a specific order, click on the dropdown button in the column header next to where you want to place it, and then click **Add column right.**{% /callout %}
 
-3. Give the new column a name.
-4. In the Type dropdown, choose Other from the list of computed columns, then select Make Array.
+- Give the new column a name.
+- In the Type dropdown, choose Other from the list of computed columns, then select Make Array.
 
 {% figure src="/docs/reference/computed-columns/make-array/creating-an-aray-column.png" caption="Adding a Make Array column" /%}
 
-5. Under Items, enter a [custom value](/docs/custom-values), or select a column from your data source to use as the first item of your array.
-6. Continue to add items to build out your array as needed. You can select columns of different types for your array. Once you’ve entered all the items, click Done.
+- Under Items, enter a [custom value](/docs/custom-values), or select a column from your data source to use as the first item of your array.
+- Continue to add items to build out your array as needed. You can select columns of different types for your array. Once you’ve entered all the items, click Done.
 
 {% figure src="/docs/reference/computed-columns/make-array/selecting-columns-of-different-types-for-your-array.png" caption="Selecting columns of different types for your array" /%}
 
