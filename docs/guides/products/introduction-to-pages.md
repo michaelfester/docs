@@ -151,3 +151,9 @@ This is incredibly useful if you want to link to a particular state or screen â€
 There are some instances where the URL can become very long. For example, if you have many links to screen actions in your app and you've navigated through many of them, the URL will build up, remembering all the different steps. This is unusual and not a massive problem if it does happen.
 However, if you switch to a different tab, the URL will reset to the new root screen.
 {% /callout %}
+
+## FAQ
+
+### Can I turn a Glide App I've already built into a Glide Page?
+
+Yes. On your dashboard, click the three-dot menu on your Glide App and choose 'New Page from data' from the menu. This will create a new Glide Page project, with the same tables as your app. You'll still need to design your screens, but your tables will carry over. We plan to improve this conversion feature in the future to carry over your screens as well.
