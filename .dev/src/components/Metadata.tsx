@@ -97,7 +97,7 @@ export default function Metadata(props: MetadataProperties) {
       </Head>
 
       <script
-        src="https://glide-help-button.vercel.app/plugin.js"
+        src="https://marketing-site-git-help-button-glideapps.vercel.app/glide-button-plugin.js?source=docs"
         defer
       ></script>
 
