@@ -96,10 +96,13 @@ export default function Metadata(props: MetadataProperties) {
         {video && <meta property="og:video" content={video} />}
       </Head>
 
-      <script
-        src="https://marketing-site-git-help-button-glideapps.vercel.app/glide-button-plugin.js?source=docs"
-        defer
-      ></script>
+      <Script
+        src="https://marketing-site-git-help-button-glideapps.vercel.app/glide-button-plugin.js"
+        onReady={() => {
+          const { glideHelpButton } = window as any;
+          glideHelpButton?.init({ source: "docs" });
+        }}
+      />
 
       {/* Google Tag Manager */}
       <Script
