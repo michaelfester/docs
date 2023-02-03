@@ -152,11 +152,21 @@ Each query looks like this:
 
 ```js
 1. {
-2.     "tableName": "TABLE-NAME"
+2.     "tableName": "TABLE-NAME",
+3.     "startAt": `CONTINUATION`
 5. }
 ```
+`StartAt` is optional, and needs only be sent when continuing a previous query that did not return all rows. For example:
 
-The call returns an array with one element for each query. Each element has all the rows for the table queried.
+The call returns an array with one element for each query, each of which looks like this:
+
+```js
+1. {
+2.         "rows": [ROW, ...],
+3.         "next": CONTINUATION
+5. }
+```
+Each `row` is a row object, with one property per column. The `next` field will only be sent when there are more rows in the table than Glide sent in the response. To get more rows, make another call and send the `CONTINUATION` in `startAt`.
 
 ## Learn Glide Tables API
 
