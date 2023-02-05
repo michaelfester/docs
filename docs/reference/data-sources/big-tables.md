@@ -18,8 +18,8 @@ You can also use an API to add rows, set columns, or delete rows from a big tabl
 You can create a new Big Table in just a few steps:
 
 - From an already existing project, select the plus in the tables menu and choose “big empty table.” 
-    
-{% figure src="/big-tables/adding-a-big-table-to-a-project.png" caption="Adding a Big Table to a project" /%}
+  
+{% figure src="/docs/reference/data-sources/big-tables/adding-a-big-table-to-a-project.png" caption="Adding a Big Table to a project" /%}
 
 Either way you choose, the data editor will create an empty table with a single cell. From here, you can add more rows and columns and configure them as you need for your project. 
 
@@ -35,7 +35,7 @@ To import data into a new Big Table:
     
 - Choose which file to upload for import. 
 
-{% figure src="/big-tables/importing-data-to-big-table.png" caption="Importing data to Big Tables" /%}
+{% figure src="/docs/reference/data-sources/big-tables/importing-data-to-big-table.png" caption="Importing data to Big Tables" /%}
 
 {% callout title="" %}
 Glide data imports support .xlsx, .csv, or .ods files.
@@ -63,11 +63,11 @@ To export data out of a Big Table:
 
 - select “export”
 
-{% figure src="/big-tables/exporting-data-from-big-table.png" caption="Exporting data from big table" /%}
+{% figure src="/docs/reference/data-sources/big-tables/exporting-data-from-big-table.png" caption="Exporting data from big table" /%}
 
 - Choose which columns to export, or export all.
 
-{% figure src="/big-tables/choosing-the-date-needs-to-be-exorted.png" caption="Choosing the data to be exported" /%}
+{% figure src="/docs/reference/data-sources/big-tables/choosing-the-date-needs-to-be-exorted.png" caption="Choosing the data to be exported" /%}
 
 - You will receive an email with your Big Table export as a csv. 
     
@@ -80,11 +80,11 @@ To use an API to add rows, set columns, or delete rows from a big table:
     
 - Select “Show API.”
 
-{% figure src="/big-tables/using-API-with-big-tables.png" caption="Choosing the Big Table for API configuration" /%}
+{% figure src="/docs/reference/data-sources/big-tables/using-API-with-big-tables.png" caption="Choosing the Big Table for API configuration" /%}
     
 - Select the copy icon to copy the API instructions.
 
-{% figure src="/big-tables/copying-the-api-instructions.png" caption="Copying the API instructions" /%}
+{% figure src="/docs/reference/data-sources/big-tables/copying-the-api-instructions.png" caption="Copying the API instructions" /%}
 
 ## Limitations of Big Tables
 
