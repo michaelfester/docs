@@ -80,7 +80,7 @@ To use an API to add rows, set columns, or delete rows from a big table:
     
 - Select “Show API.”
 
-{% figure src="/docs/reference/data-sources/big-tables/using-API-with-big-tables.png" caption="Choosing the Big Table for API configuration" /%}
+{% figure src="/docs/reference/data-sources/big-tables/using-api-with-big-tables.png" caption="Choosing the Big Table for API configuration" /%}
     
 - Select the copy icon to copy the API instructions.
 
