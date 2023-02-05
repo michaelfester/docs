@@ -37,5 +37,6 @@ If you change the cookies setting to **Ask user consent for authentication cooki
 
 {% figure src="/docs/reference/security-and-user-data/cookies-in-glide/providing'the-option-for-users-to-allow-authentication-cookies.png" caption="Providing the option for users to allow authentication cookies" /%}
 
-{% cta title="Security Center" description="To learn more about Glide’s security and privacy settings, check out the Security Center" url="(https://www.glideapps.com/security-center)" /%}
+{% cta title="Security Center" description="To learn more about Glide’s security and privacy settings, check out the Security Center" url="https://www.glideapps.com/security-center" /%}
+ 
  
