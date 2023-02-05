@@ -19,7 +19,7 @@ If you'd prefer to turn this feature off, you can disable cookies by going to yo
 
 {% figure src="/docs/reference/security-and-user-data/cookies-in-glide/opt-out-of-cookies-and-tracking-in-glide.png" caption="Opting out of cookies and tracking" /%}
 
-# Cookies Settings in your Projects
+## Cookies Settings in your Projects
 
 Cookies are also helpful in improving the user experience of those who access your projects. When cookies are automatically set, your users can stay signed in to your projects even after a project is closed. 
 
@@ -28,7 +28,7 @@ Cookies are also helpful in improving the user experience of those who access yo
 2. Under **Users & Authentication**, locate the **Cookies** section. 
 
 3. The default option is to **Always set user authentication cookie**. With this setting, users will stay signed in to your project until they sign out or until they clear their web browser’s cookies. 
-![Alt text]()
+
 {% figure src="/docs/reference/security-and-user-data/cookies-in-glide/configuring-the-cookies-settings-in-your-projects.png" caption="Configuring the cookies setting in projects" /%}
 
 {% callout title="" %}
