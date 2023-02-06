@@ -21,7 +21,7 @@ You can create a new Big Table in just a few steps:
   
 {% figure src="/docs/reference/data-sources/big-tables/adding-a-big-table-to-a-project.png" caption="Adding a Big Table to a project" /%}
 
-Either way you choose, the data editor will create an empty table with a single cell. From here, you can add more rows and columns and configure them as you need for your project. 
+The data editor will create an empty table with a single cell. From here, you can add more rows and columns and configure them as you need for your project. 
 
 ## Import/Export Big Table data
 
