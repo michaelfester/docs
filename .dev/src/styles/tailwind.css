@@ -24,11 +24,14 @@ body {
     sans-serif;
 }
 
-article code {
-  @apply rounded bg-gray-100 px-1.5 py-1 text-sm dark:bg-gray-700 !important;
+article p code,
+article li code {
+  @apply rounded bg-gray-200/50 px-1.5 py-1 text-sm dark:bg-gray-500/50 !important;
 }
 
-article code::before,
-article code::after {
+article p code::before,
+article p code::after,
+article li code::before,
+article li code::after {
   content: "" !important;
 }
