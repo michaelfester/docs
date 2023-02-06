@@ -15,9 +15,7 @@ You can also use an API to add rows, set columns, or delete rows from a big tabl
 
 ## Creating a Big Table
 
-You can create a new Big Table in just a few steps:
-
-- From an already existing project, select the plus in the tables menu and choose “big empty table.” 
+From an already existing project, select the plus in the tables menu and choose “big empty table.” 
   
 {% figure src="/docs/reference/data-sources/big-tables/adding-a-big-table-to-a-project.png" caption="Adding a Big Table to a project" /%}
 
