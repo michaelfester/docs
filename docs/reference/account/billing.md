@@ -38,7 +38,7 @@ To access your billing history, head on to the Summary section of your Billing d
 
 This billing history section displays your current or active plans and a list of all your transactions with Glide. You can also view your active payment method here and you can add a new one if necessary.
 
-{% figure src="docs/reference/account/billing/billing-history-sample.png" caption="Billing history sample" /%}
+{% figure src="/docs/reference/account/billing/billing-history-sample.png" caption="Billing history sample" /%}
 
 ### Invoices and receipts
 
@@ -54,7 +54,7 @@ This will redirect you to the invoice page for that transaction where you can do
 
 Want to downgrade your app from Pro to Free and or change your app subscription? You can do this in your app's billing settings. Just click "Cancel plan."
 
-{% figure src="docs/reference/account/billing/billing-settings.png" caption="Billing settings" /%}
+{% figure src="/docs/reference/account/billing/billing-settings.png" caption="Billing settings" /%}
 
 You will then see a modal explaining the changes to your app's plan & features.
 

@@ -122,6 +122,7 @@ reference/computed-columns/single-value-column.md
 reference/computed-columns/split-text-column.md
 reference/computed-columns/template-column.md
 reference/data-sources/airtable.md
+reference/data-sources/big-tables.md
 reference/data-sources/bigquery.md
 reference/data-sources/excel.md
 reference/data-sources/glide-tables-api-for-beginners.md
@@ -149,8 +150,8 @@ reference/integrations/custom-domains.md
 reference/integrations/google-analytics.md
 reference/integrations/index.md
 reference/integrations/make.md
-reference/integrations/tiller-money.md
 reference/integrations/zapier.md
+reference/security-and-user-data/cookies-in-glide.md
 reference/security-and-user-data/delete-user-data.md
 reference/security-and-user-data/email-anonymization.md
 reference/security-and-user-data/files.md

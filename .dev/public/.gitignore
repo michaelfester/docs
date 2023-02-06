@@ -772,6 +772,12 @@ reference/data-sources/airtable/Frame 1425.png
 reference/data-sources/airtable/Frame 1426.png
 reference/data-sources/airtable/new-basic-columns-you-create-in-glide-will-become-user-specific-columns.png
 reference/data-sources/airtable/relations-columns-created-in-airtable-can't-be-edited-in-glide.png
+reference/data-sources/big-tables/adding-a-big-table-to-a-project.png
+reference/data-sources/big-tables/choosing-the-date-needs-to-be-exorted.png
+reference/data-sources/big-tables/copying-the-api-instructions.png
+reference/data-sources/big-tables/exporting-data-from-big-table.png
+reference/data-sources/big-tables/importing-data-to-big-table.png
+reference/data-sources/big-tables/using-api-with-big-tables.png
 reference/data-sources/excel/adding-different-data-sources.png
 reference/data-sources/excel/choosing-excel-for-your-project.png
 reference/data-sources/excel/drag-and-drop-an-excel-file.png
@@ -896,6 +902,9 @@ reference/pages-components/placeholder-folder/placeholder-image.png
 reference/pages-components/title-component-pages/2021-09-30 12.01.36.gif
 reference/pages-components/title-component-pages/Frame 15 (1).png
 reference/pages-components/title-component-pages/Frame 15.png
+reference/security-and-user-data/cookies-in-glide/configuring-the-cookies-settings-in-your-projects.png
+reference/security-and-user-data/cookies-in-glide/opt-out-of-cookies-and-tracking-in-glide.png
+reference/security-and-user-data/cookies-in-glide/providing'the-option-for-users-to-allow-authentication-cookies.png
 reference/security-and-user-data/delete-user-data/deleting-a-user.png
 reference/security-and-user-data/email-anonymization/anon-email.png
 reference/security-and-user-data/email-anonymization/hide-user-emails.png

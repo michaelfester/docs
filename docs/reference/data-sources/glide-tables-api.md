@@ -28,11 +28,11 @@ After connecting to your data source, you can take the following steps to show t
 2. Find the table you want to manage using the API.
 3. Right-click on the table and select **Show API**.
 
-{% figure src="docs/reference/data-sources/glide-table-api/how-to-get-the-api-in-glide-tables.png" caption="Opening the API instructions for your table" /%}
+{% figure src="/docs/reference/data-sources/glide-table-api/how-to-get-the-api-in-glide-tables.png" caption="Opening the API instructions for your table" /%}
 
 The **API Instructions** screen displays the calls to use to take the available actions.
 
-{% figure src="docs/reference/data-sources/glide-table-api/api-menu.png" caption="Available API calls for tables" /%}
+{% figure src="/docs/reference/data-sources/glide-table-api/api-menu.png" caption="Available API calls for tables" /%}
 
 ## How to use the API calls
 
@@ -156,6 +156,7 @@ Each query looks like this:
 3.     "startAt": `CONTINUATION`
 5. }
 ```
+
 `StartAt` is optional, and needs only be sent when continuing a previous query that did not return all rows. For example:
 
 The call returns an array with one element for each query, each of which looks like this:
@@ -166,6 +167,7 @@ The call returns an array with one element for each query, each of which looks l
 3.         "next": CONTINUATION
 5. }
 ```
+
 Each `row` is a row object, with one property per column. The `next` field will only be sent when there are more rows in the table than Glide sent in the response. To get more rows, make another call and send the `CONTINUATION` in `startAt`.
 
 ## Learn Glide Tables API
