@@ -23,3 +23,12 @@ body {
     avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial,
     sans-serif;
 }
+
+article code {
+  @apply rounded bg-gray-100 px-1.5 py-1 text-sm dark:bg-gray-700 !important;
+}
+
+article code::before,
+article code::after {
+  content: "" !important;
+}
