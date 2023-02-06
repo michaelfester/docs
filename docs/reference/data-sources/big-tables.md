@@ -74,7 +74,7 @@ To export data out of a Big Table:
 
 ## Big Tables API
 
-To use an API to add rows, set columns, or delete rows from a big table:
+To use an API to add rows, set columns, get all rows, or delete rows from a big table:
 
 - Right click on the Big Table you want to connect with.
     
