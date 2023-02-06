@@ -70,3 +70,20 @@ The following components will load at most 5000 rows:
 - Choice
 - Kanban
 - Calendar
+
+## BigQuery FAQ
+
+- I don’t see the option to add BigQuery in tables.
+You might need a business plan! [You can read more about our plans and pricing here.](https://www.glideapps.com/pricing) 
+    
+- I don’t see BigQuery on the “select a source” page for my new project.
+To sync your BigQuery data for a project, first create an empty project with Glide tables. Then, you can sync the data source using the steps above.
+    
+- My sign in screen for BigQuery won’t load.
+Please make sure you have cookies turned on in your Glide settings, and that you aren’t using a web browser or tool that blocks third party cookies. 
+    
+- I’m getting a “There was an issue running your query” error.
+Your table will need to have a first column with a unique stream or column number labeled “id.” 
+    
+- I need help learning BigQuery.
+BigQuery has an extensive [documentation library](https://cloud.google.com/bigquery/docs) that can help.
