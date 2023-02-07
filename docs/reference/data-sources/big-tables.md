@@ -99,13 +99,10 @@ There are some features in Glide that aren’t compatible with a big table. We�
 ## Big Table FAQ
 
 ### Can I use Big Tables in my existing projects?
-
 Yes!
     
 ### I don’t have the option to start with or add a Big Table.
-
 Big Tables are currently in early access. Want access? [Sign up here!](https://www.glideapps.com/p/early-access-glide-big-tables)
     
 ### Where is my data export?
-
 When you export data, it will be emailed to the email address associated with your Glide account. 
