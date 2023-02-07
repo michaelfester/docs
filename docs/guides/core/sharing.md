@@ -19,7 +19,7 @@ You'll then see a screen like this, where you can change your app's URL, control
 
 ## Project URL
 
-Your project gets an auto-generated unique URL. In the image above, you can see it's `interesting-orange-1390.glideapp.io`. You can change this to any domain that is available OR configure your own custom domain — app.mywebsite.com or myapp.com.
+Your project gets an auto-generated unique URL by default. In the image above, you can see it's `interesting-orange-1390.glideapp.io`. You can change this to any domain or configure a custom domain like app.mycompany.com. You can also change your project's URL or name at any time, although you will have to send users the new link if you want them to continue to have access.
 
 {% cta title="Custom Domains" description="Learn more about configuring a custom domain" url="/docs/custom-domains" /%}
 
