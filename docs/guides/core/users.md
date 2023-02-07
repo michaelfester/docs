@@ -121,3 +121,9 @@ This allows you to, for example, give many people the role of 'Admin' and then m
 {% cta title="Roles" description="Learn more about Roles" url="/docs/roles" /%}
 
 {% cta title="Inviting Users" description="To learn about how to invite people to your app, check out our Publishing & sharing guide here" url="/docs/sharing" /%}
+
+## FAQs
+
+### Does Glide support single sign-on (SSO)?
+
+No, Glide does not yet offer any single sign-on providers.
