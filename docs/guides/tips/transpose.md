@@ -11,11 +11,11 @@ Spreadsheets are incredibly flexible. Within this huge and expandable grid of ce
 
 ![](/docs/guides/core/organizing-your-data/profit-and-loss.png)
 
-Glide, however, likes data when it’s more like a database, with the data organized in rows and columns.
+Glide, however, likes data when it's more like a database, with the data organized in rows and columns.
 
 ![](/docs/guides/core/organizing-your-data/database.png)
 
-Sometimes, the way data is structured in your spreadsheet will not match this pattern. But that’s not a problem.
+Sometimes, the way data is structured in your spreadsheet will not match this pattern. But that's not a problem.
 
 If the data needs to stay in that format for other people to use, you can transpose or copy it into a new table and use it as the basis for your Glide Project.
 
@@ -29,7 +29,7 @@ Below, we have a set of **reports**. We want our Glide project to treat each mon
 
 ![](/docs/guides/core/organizing-your-data/reports.png)
 
-We can use `=TRANSPOSE` to fix this. We’ll create a new table, and type =TRANSPOSE in the top-left cell.
+We can use `=TRANSPOSE` to fix this. We'll create a new table, and type =TRANSPOSE in the top-left cell.
 
 ![](/docs/guides/core/organizing-your-data/transpose.png)
 

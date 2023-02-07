@@ -7,7 +7,7 @@ slug: glide-tables-api-for-beginners
 {% cta title="Introduction To APIs: How APIs Work (With Examples)" description="Learn the fundamentals of APIs" url="https://www.glideapps.com/blog/introduction-to-apis" /%}
 
 {% callout title="" %}
-If you’re unfamiliar with APIs, read this article.
+If you're unfamiliar with APIs, read this article.
 {% /callout %}
 
 ## Who has access to Glide API?
@@ -38,16 +38,16 @@ You should treat this as a password–it's a secret that you should not share.
 ![](/docs/reference/data-sources/glide-tables-api-for-beginners/Glide%20APIs.png)
 
 {% callout title="" %}
-If you’re already experienced with APIs, you can view the reference doc here. If you’re new to working with APIs or just need a step by step guide, read on.
+If you're already experienced with APIs, you can view the reference doc here. If you're new to working with APIs or just need a step by step guide, read on.
 {% /callout %}
 
 {% video src="https://www.loom.com/share/5f777012334f4b2d94fee882be021546" /%}
 
 ## How to use the Glide Tables API
 
-For this guide, we’re going to use a tool called Clickup. ClickUp is used to manage projects and tasks and we want to sync some data between ClickUp, and our Glide Table.
+For this guide, we're going to use a tool called Clickup. ClickUp is used to manage projects and tasks and we want to sync some data between ClickUp, and our Glide Table.
 
-Let’s say that we want to track the data of any active business leads created inside ClickUp. Each lead goes through different stages:
+Let's say that we want to track the data of any active business leads created inside ClickUp. Each lead goes through different stages:
 
 1. New leads are **created**
 2. Leads are then marked **qualified**, or
@@ -63,13 +63,13 @@ We want our Glide table to reflect the above data to show:
 
 ## Zapier to Trigger API calls
 
-To help us achieve this, we’re going to be using Zapier to trigger the API calls whenever things happen inside ClickUp.
+To help us achieve this, we're going to be using Zapier to trigger the API calls whenever things happen inside ClickUp.
 
 {% callout title="" %}
 There are alternative platforms that you can use, such as **Integromat** and **Apps Script**. You can also use platforms such as **Postman**, **Rest test test** to test the API, ensuring that you have the parameters configured correctly.
 {% /callout %}
 
-We’re going to create three API calls inside Zapier to sync Clickup to our Glide Table:
+We're going to create three API calls inside Zapier to sync Clickup to our Glide Table:
 
 1. **Add row when** new lead is added
 2. **Set columns** in a row when the lead is marked qualified
@@ -103,7 +103,7 @@ To configure the Zap, we set the following conditions:
 2. **Glide API URL**: [`insert URL from`] (destination)
 3. **Data**: [`insert JSON Object`, `from Add Row API Usage`] (data sent to destination)
 
-You can then choose to insert the appropriate data for each field within the JSON Object that you’d like to capture from Clickup, using Zapier’s Insert Data field. These data inserts will dynamically be sent to Glide through this API call.
+You can then choose to insert the appropriate data for each field within the JSON Object that you'd like to capture from Clickup, using Zapier's Insert Data field. These data inserts will dynamically be sent to Glide through this API call.
 
 ![](</docs/reference/data-sources/glide-tables-api-for-beginners/Frame%2032%20(5).png>)
 
@@ -113,7 +113,7 @@ Not all columns have to be specified. Columns that are not specified will remain
 
 ## Adding Headers to the Zap
 
-The last thing we need to do is define the “headers”. The “headers” are found within the Add Row API Usage. Within Glide’s curl statement, you’ll see we have two headers that need to be passed along.
+The last thing we need to do is define the “headers”. The “headers” are found within the Add Row API Usage. Within Glide's curl statement, you'll see we have two headers that need to be passed along.
 
 ### Header 1
 
@@ -138,7 +138,7 @@ You should treat this as a password–it's a secret that you should not share.
 
 ## ROW IDs
 
-Depending on the platform that you’re using, you may need to create a workaround to store the RowID that Glide produces each time a new row is added within the table.
+Depending on the platform that you're using, you may need to create a workaround to store the RowID that Glide produces each time a new row is added within the table.
 
 ![](</docs/reference/data-sources/glide-tables-api-for-beginners/Frame%2056%20(15).png>)
 
@@ -148,11 +148,11 @@ In this scenario, we need to store the RowID that gets returned whenever a row i
 Some platforms do not have an action where you can update a custom field inside of a task.
 {% /callout %}
 
-Here, we’ve created a third step in our Zap to create a new row in a Google sheet to store the Row ID that was added in the Glide Table. In this example, we’re mapping this Row ID to the ID of the object inside ClickUp. This helps us to map each lead in ClickUp to a specific row inside of Glide. We’ll be needing this when updating or deleting the rows shown below.
+Here, we've created a third step in our Zap to create a new row in a Google sheet to store the Row ID that was added in the Glide Table. In this example, we're mapping this Row ID to the ID of the object inside ClickUp. This helps us to map each lead in ClickUp to a specific row inside of Glide. We'll be needing this when updating or deleting the rows shown below.
 
 ![](</docs/reference/data-sources/glide-tables-api-for-beginners/Frame%2056%20(20).png>)
 
-**Turn the Zap on**. Now, when you add a new lead inside ClickUp, you’ll see it adds a new row to the Glide Table
+**Turn the Zap on**. Now, when you add a new lead inside ClickUp, you'll see it adds a new row to the Glide Table
 
 ## Update Row (Set Columns)
 
@@ -195,7 +195,7 @@ Just like when adding a row, most details will remain the same. The only thing t
 You may see the ROW-ID-OR-INDEX displayed as ROW-ID or rowIndex: ROW-INDEX. ROW-INDEX should only be used for Google Sheet tables. It must be a zero-based number as the first row in the sheet has an index of 0.
 {% /callout %}
 
-Now, when you move a lead into “qualified”, you’ll see the row gets updated with the values you’ve configured.
+Now, when you move a lead into “qualified”, you'll see the row gets updated with the values you've configured.
 
 ## Delete Row
 
@@ -224,7 +224,7 @@ We just need to pass through the RowID of the row that we wish to delete.
 
 ![](/docs/reference/data-sources/glide-tables-api-for-beginners/Frame%2059.png)
 
-Now, when you move a lead into “disqualified”, you’ll see the row gets deleted from the Glide Table
+Now, when you move a lead into “disqualified”, you'll see the row gets deleted from the Glide Table
 
 {% callout title="Need help?" %}
 Schedule a call with API and Glide Expert, Darren Alderman. [**Book here**](https://calendly.com/darrenalderman/coaching?utm_source=glide&utm_medium=referral&utm_campaign=dwy-coaching&utm_term=expert&utm_content=api&month=2022-07).

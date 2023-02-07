@@ -8,7 +8,7 @@ slug: audio-component
 The Audio Component is only available in Glide [Apps](/docs/introduction-to-apps), not Glide [Pages](/docs/introduction-to-pages).
 {% /callout %}
 
-Whether it’s meeting notes, podcast episodes, or music — the audio component is a simple way of triggering and playing audio files in your App.
+Whether it's meeting notes, podcast episodes, or music — the audio component is a simple way of triggering and playing audio files in your App.
 
 {% figure src="/docs/reference/components/audio-component/image%20(2).png" caption="Use case of the Audio Component in a podcast app" /%}
 
@@ -25,5 +25,5 @@ Whether it’s meeting notes, podcast episodes, or music — the audio component
 {% figure src="/docs/reference/components/audio-component/image%20(4).png" caption="Choosing the values for the Audio Component" /%}
 
 {% callout type="warning" title="" %}
-The audio file’s URL must be formatted with an audio file extension, such as .wav, .mp3, or.m4a, and be publicly accessible.
+The audio file's URL must be formatted with an audio file extension, such as .wav, .mp3, or.m4a, and be publicly accessible.
 {% /callout %}

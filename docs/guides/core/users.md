@@ -4,9 +4,9 @@ description: Learn how to create user-specific experiences.
 slug: users
 ---
 
-When you log into your music app or social media account, your user experience is totally defined by your data. Your music app has your playlists and favorites, and your social media account is tied to your friends & likes. If you were to log into someone else’s account, the app would look very different.
+When you log into your music app or social media account, your user experience is totally defined by your data. Your music app has your playlists and favorites, and your social media account is tied to your friends & likes. If you were to log into someone else's account, the app would look very different.
 
-With Glide, you can make projects that are public and don’t have any focus on [User-specific Data](/docs/user-specific-data). Often, you’ll want to create a user-specific experience in a variety of different ways. For example:
+With Glide, you can make projects that are public and don't have any focus on [User-specific Data](/docs/user-specific-data). Often, you'll want to create a user-specific experience in a variety of different ways. For example:
 
 - Allow users to save favorites
 - Show different tabs to different users
@@ -19,7 +19,7 @@ This guide will explain all the essential features you need to start building us
 
 ## Access & privacy
 
-In your project’s privacy settings, you’ll be able to choose whether your app is private or public. Depending on which one you pick, you’ll see controls for which users can sign in.
+In your project's privacy settings, you'll be able to choose whether your app is private or public. Depending on which one you pick, you'll see controls for which users can sign in.
 
 {% figure src="/docs/guides/users/privacy-settings.png" caption="The project privacy settings" /%}
 
@@ -62,7 +62,7 @@ At the very least, the users table needs a column for `Name`, `Email`, and `Phot
 - Create a list of all the users that signed up more than 5 months ago
 - Give editing rights only to `Admins`
 - Create teams that people belong to
-- Show and hide items depending on users’ interests
+- Show and hide items depending on users' interests
 
 {% callout title="User privacy" %}
 User data in a User Table is often private and needs to be kept secure. You should therefore add Row Owners to your User Profile's table. [Learn about Row Owners](/docs/row-owners).
@@ -84,7 +84,7 @@ When a user clicks on their profile image in the menu bar, they will be taken to
 
 ## Preview-as
 
-The Preview-as menu in Glide shows you all the users that are in your Users Table. Depending on your settings, it defaults to either viewing as Anyone or as the first user in the table. If you visit the User Profile Screen and switch users, you’ll see the screen change. Or, if you’re in the `Users` Table in the [Data Editor](/docs/data-editor), you’ll see the data change.
+The Preview-as menu in Glide shows you all the users that are in your Users Table. Depending on your settings, it defaults to either viewing as Anyone or as the first user in the table. If you visit the User Profile Screen and switch users, you'll see the screen change. Or, if you're in the `Users` Table in the [Data Editor](/docs/data-editor), you'll see the data change.
 
 This is an incredibly useful tool if you are building a project with lots of different user data and need to see the experience that different users will have.
 
@@ -112,7 +112,7 @@ Now, when users make notes in this section, those notes will be specific to them
 
 ## Roles
 
-For greater control of your project’s data, you can assign **Roles** to the users in your user profiles table. You can then use these Roles with **Row Owner** columns to make certain records only accessible to certain users.
+For greater control of your project's data, you can assign **Roles** to the users in your user profiles table. You can then use these Roles with **Row Owner** columns to make certain records only accessible to certain users.
 
 {% figure src="/docs/guides/users/assigning-roles-to-users.png" caption="Setting the Role column in the User Profile screen" /%}
 

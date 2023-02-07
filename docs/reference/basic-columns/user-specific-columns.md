@@ -8,12 +8,12 @@ video: https://www.youtube.com/embed/PK5eovZGne0
 User-specific columns allow cells to hold unique data for each user. This means each user can experience their own data for a particular part of your project.
 
 {% callout %}
-💡 These columns live in the **Data Editor** only. They aren’t synced between Glide and your original data source.
+💡 These columns live in the **Data Editor** only. They aren't synced between Glide and your original data source.
 {% /callout %}
 
 ## How to use user-specific columns
 
-User-specific columns can be used anytime you want to collect data that’s unique to a user.
+User-specific columns can be used anytime you want to collect data that's unique to a user.
 
 For example, adding a column named `User Notes` allows users to write their own notes and feedback on each item in the app. In order to collect this data, the column is configured as user-specific and tied to the [Notes Component](/docs/notes-component).
 
@@ -46,7 +46,7 @@ User-specific columns are created from basic columns.
 
 ## Preview data
 
-Since user-specific data is unique to each user, the only way to access another user’s data is by previewing the data as the other user. You can preview it by changing the **Viewing as** setting in your project.
+Since user-specific data is unique to each user, the only way to access another user's data is by previewing the data as the other user. You can preview it by changing the **Viewing as** setting in your project.
 
 1.  In the **Data Editor** or **Layout Editor**, click on the name next to **Viewing as**.
 2.  Choose the user whose data you want to preview.

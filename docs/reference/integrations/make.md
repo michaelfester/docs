@@ -9,7 +9,7 @@ slug: make
 
 **Make** is a visual platform that lets you design, build, and automate anything - from simple tasks to complex workflows - in minutes. With Make, you can send information between Glide and thousands of apps to enjoy enhanced team productivity and customer satisfaction.
 
-It’s fast and easy to use, visually intuitive and requires **zero coding expertise**.
+It's fast and easy to use, visually intuitive and requires **zero coding expertise**.
 
 {% figure src="/docs/reference/integrations/make/diagram-showing-example of-make.png" caption="A diagram showing an example of what Make can do" /%}
 

@@ -28,13 +28,13 @@ The easiest way to think about how the column works is that it;
 
 ## Hosting your code
 
-When we add the Experimental Code Column, we see only one field, which is the URL for our code. Hosting code is a whole other topic which we can’t go into depth with here. Suffice it to say – your code needs to be publically accessible on the web so the Experimental Code column can reference it. You can host your code in many different ways, but we would suggest using [Replit](https://replit.com/) or [GitHub Pages](https://pages.github.com/).
+When we add the Experimental Code Column, we see only one field, which is the URL for our code. Hosting code is a whole other topic which we can't go into depth with here. Suffice it to say – your code needs to be publically accessible on the web so the Experimental Code column can reference it. You can host your code in many different ways, but we would suggest using [Replit](https://replit.com/) or [GitHub Pages](https://pages.github.com/).
 
-Replit lets you write, publish & host code easily. To help you out, [**we’ve created a starter project for you**](https://replit.com/@MarkProbst/glide-experimental-code-substring#README.md). After you’ve signed up for an account, copy [**this Repl**](https://replit.com/@MarkProbst/glide-experimental-code-substring#README.md) by ‘forking’ it.
+Replit lets you write, publish & host code easily. To help you out, [**we've created a starter project for you**](https://replit.com/@MarkProbst/glide-experimental-code-substring#README.md). After you've signed up for an account, copy [**this Repl**](https://replit.com/@MarkProbst/glide-experimental-code-substring#README.md) by ‘forking' it.
 
 ![](</docs/reference/computed-columns/experimental-code-column/Group%201%20(1)%20(1).png>)
 
-Your code needs a number of files for it to work properly. In the project you just copied, you’ll see the following:
+Your code needs a number of files for it to work properly. In the project you just copied, you'll see the following:
 
 - The **index.html** file loads all the other files
 - The **driver.js** file is the interface between the code you write in **function.js** and Glide
@@ -49,7 +49,7 @@ The only two you need to worry about are the **glide.json** and **function.js** 
 The **glide.json** file contains high-level information about your code. In other words, this is where you define;
 
 1. The name and description of your column (as well as any other metadata you want)
-2. The names and types that you’ll be passing from Glide to your code (otherwise known as parameters)
+2. The names and types that you'll be passing from Glide to your code (otherwise known as parameters)
 3. The type of value you want your code to return to Glide (string, number, boolean, array, etc)
 
 The glide.json file is written in JSON. You can learn more about JSON [**here**](https://www.w3schools.com/whatis/whatis_json.asp).
@@ -66,7 +66,7 @@ When we add the public URL of our code to the column, the JSON objects we define
 
 ![](/docs/reference/computed-columns/experimental-code-column/Group%202.png)
 
-The final part of the glide.json file is the return type. This is the type of data that your code returns. In our example, we’ll be returning a string, so we will write:
+The final part of the glide.json file is the return type. This is the type of data that your code returns. In our example, we'll be returning a string, so we will write:
 
 ```js
 1 "result": {
@@ -121,7 +121,7 @@ Whenever a Glide app starts up, it loads the code for the Experimental Code colu
 
 `string`, `number`, and `boolean` are the basic primitive types. If you declare a parameter of this type, Glide will convert whichever values are passed into that declared JavaScript type. In other words – if you declare a parameter as `number`, then you can be sure that the value is a JavaScript number (or `undefined`, which can happen for any parameter).
 
-`primitive` is special in that it doesn’t convert the values, as far as that is possible. For example, if you have a boolean column with a string value of `"True"`, if you declare a parameter as `boolean`, Glide will pass it as the boolean true, but if you declare it as `primitive`, Glide will pass the string `"True"`.
+`primitive` is special in that it doesn't convert the values, as far as that is possible. For example, if you have a boolean column with a string value of `"True"`, if you declare a parameter as `boolean`, Glide will pass it as the boolean true, but if you declare it as `primitive`, Glide will pass the string `"True"`.
 
 `uri`, `image-uri`, `audio-uri`, `date-time`, `markdown`, `phone-number`, `email-address`, and `emoji` are string types, i.e. Glide will pass them as strings to your code, and you have to return them as strings, but Glide treats them specially. For example, if your computed column declares that it returns `date-time`, then you can use all the date/time comparison operators on the result.
 
@@ -151,7 +151,7 @@ Similarly, if you share your code with others – make sure you are clear on th
 
 ### It's Experimental 😉
 
-We built this feature to learn which computed columns we should add to Glide. The Experimental Code column could change drastically, or we could even remove it. We encourage you to play with it but we don’t recommend building mission-critical functionality with it just yet.
+We built this feature to learn which computed columns we should add to Glide. The Experimental Code column could change drastically, or we could even remove it. We encourage you to play with it but we don't recommend building mission-critical functionality with it just yet.
 
 ### Support
 

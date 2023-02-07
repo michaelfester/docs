@@ -7,7 +7,7 @@ slug: sheets-faq
 
 ## Can I use frozen rows in my sheet?
 
-Glide supports **frozen rows**. If you have less than 20 frozen rows, Glide will take those frozen rows for the column names. When there’s more than one cell in the frozen rows for a column, the lowest one will be the column name.
+Glide supports **frozen rows**. If you have less than 20 frozen rows, Glide will take those frozen rows for the column names. When there's more than one cell in the frozen rows for a column, the lowest one will be the column name.
 
 ## Can I have more than one spreadsheet as a source?
 

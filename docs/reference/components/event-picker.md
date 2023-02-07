@@ -46,6 +46,6 @@ Using the Event Picker in forms is slightly more complex if you want to display 
 
 The problem, however, comes when you want to show the existing bookings for that room. In the current configuration above 👆🏼, the **`Events`** area is simply reading from the Bookings sheet. This means that users will see all events for all rooms in every Event Picker.
 
-You’d want users to only see events for the room they are currently booking. To do this, you need to create a **Relation** between Rooms and Bookings, and then choose that relation as the source in the Event Picker's configuration.
+You'd want users to only see events for the room they are currently booking. To do this, you need to create a **Relation** between Rooms and Bookings, and then choose that relation as the source in the Event Picker's configuration.
 
 {% figure src="/docs/reference/components/event-picker/bookings-relations.png" caption="" /%}

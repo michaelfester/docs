@@ -26,7 +26,7 @@ Even if you can't add/remove Components on a screen, you can always edit them. T
 {% figure src="/docs/guides/core/components/component-configuration%20(1).png" caption="Clicking on a component in the **Screen Panel** will open its configuration settings on the right" /%}
 
 {% callout %}
-**Apps** and **Pages** share many Components, but sometimes you will find one that isn’t available in the other. For example, the [Kanban Layout](/docs/kanban-board-pages) is only available in Pages, and **Floating Button** is only available in Apps.
+**Apps** and **Pages** share many Components, but sometimes you will find one that isn't available in the other. For example, the [Kanban Layout](/docs/kanban-board-pages) is only available in Pages, and **Floating Button** is only available in Apps.
 {% /callout %}
 
 ## Configuring Components
@@ -54,13 +54,13 @@ Design lets you tweak a Component to style it how you like. With Lists and Colle
 
 Many Components have the option to add [Actions](/docs/actions). Sometimes you can add only a single action (like the [Button Component](/docs/button-component) in **Apps**), and sometimes you can add many (like the [Title Component](/docs/title-component-pages) in **Pages**).
 
-{% figure src="/docs/guides/core/components/actions-in-components.png" caption="The Action settings in the Button Component’s configuration panel" /%}
+{% figure src="/docs/guides/core/components/actions-in-components.png" caption="The Action settings in the Button Component's configuration panel" /%}
 
 ### Options
 
 Most Components have only two sections. The General tab and the Options tab. Most Components have only Visibility settings here, but **Lists** & **Collections** have many other options.
 
-{% figure src="/docs/guides/core/components/component-settings.png" caption="The Options tab within a component’s configuration" /%}
+{% figure src="/docs/guides/core/components/component-settings.png" caption="The Options tab within a component's configuration" /%}
 
 ## Editing Components
 

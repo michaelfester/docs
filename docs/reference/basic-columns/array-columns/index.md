@@ -5,7 +5,7 @@ video: https://www.youtube.com/watch?v=x_vKwWrK9wE
 slug: array-columns
 ---
 
-Array columns combine the data from multiple columns together into a single column in the [Data Editor](/docs/data-editor). To make an Array Column, we create columns with the same name and then number each one sequentially. It’s important that each column has the same exact text and then the next number in each column. For example:
+Array columns combine the data from multiple columns together into a single column in the [Data Editor](/docs/data-editor). To make an Array Column, we create columns with the same name and then number each one sequentially. It's important that each column has the same exact text and then the next number in each column. For example:
 
 ![](/docs/reference/basic-columns/array-columns/array-columns-1.png)
 

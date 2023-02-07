@@ -79,7 +79,7 @@ You can make certain fields required and force users to add information in them 
 
 ![](/docs/guides/other/forms/Screenshot%202019-07-11%20at%2011.25.42.png)
 
-Some components are editable by default. In other words, anyone who can access your app can edit them, even if you haven’t enabled editing. For example, components like; `Choice`, `Image Picker`, `Notes`, `Number Field` and `Phone Field` are all editable components.
+Some components are editable by default. In other words, anyone who can access your app can edit them, even if you haven't enabled editing. For example, components like; `Choice`, `Image Picker`, `Notes`, `Number Field` and `Phone Field` are all editable components.
 
 If you want to allow your users to edit _entire_ list items, then you can enable `Allow editing`. To do this, navigate to the details screen of a list item and click `Allow editing`. Now you can allow your users to edit all or some of the data which appears in your app.
 
@@ -124,7 +124,7 @@ When you enable `Add item`, users can add data to your sheet. Like `Allow editin
 
 Adding an item brings up the same editable component list that we had on the edit item page. What you change in this component list will be reflected in the edit item list as well. For example, if you delete the `Text Field` which is bound to the `Title` column, this will also be reflected in your edit item screen.
 
-Similarly to editing, you give users access to only certain columns when they add items. For example, if you want to allow users to add places to visit in a city guide app, but don’t want them to be able to choose a category for their submissions, you can make sure the `Category` column is not bound to an edit screen component.
+Similarly to editing, you give users access to only certain columns when they add items. For example, if you want to allow users to add places to visit in a city guide app, but don't want them to be able to choose a category for their submissions, you can make sure the `Category` column is not bound to an edit screen component.
 
 If you don't see newly added items in your sheet, scroll all the way to the bottom to check if they are being added after empty rows. By default, new Google Sheets contain 1,000 empty rows, but for a variety of reasons, these rows can appear non-empty to Glide.
 

@@ -18,7 +18,7 @@ Date Pickers can be used in [Forms](/docs/forms) or [Details/Custom screens](/do
 - The **Date Time** component allows users to add or edit dates and times in your project.
 
 {% callout title="" %}
-The Date component will automatically append 12:00 AM as the time for inputted dates, though this is not visible to users unless you choose a Date & Time format for your column. If you’d like to capture a different time for inputted dates, use the Date Time component.
+The Date component will automatically append 12:00 AM as the time for inputted dates, though this is not visible to users unless you choose a Date & Time format for your column. If you'd like to capture a different time for inputted dates, use the Date Time component.
 {% /callout %}
 
 ## Configuring date pickers

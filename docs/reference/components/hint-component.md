@@ -20,7 +20,7 @@ Use the menus in **Title** and **Text** to select the values from your data 
 
 ### Design
 
-- Select the **Mood** to change the color of your hint. By default, your hint will match your project’s accent color.
+- Select the **Mood** to change the color of your hint. By default, your hint will match your project's accent color.
 
 {% figure src="/docs/reference/components/hint-component/image%20(3).png" caption="" /%}
 

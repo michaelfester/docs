@@ -18,7 +18,7 @@ The Rating Component lets users rate items in your apps. They can tap and drag t
 
 ## Data
 
-Select which column to store the users’ ratings. The Rating component will write a simple number value to your data source. If you want ratings to be specific for each user then you can use [User-specific Columns](/docs/user-specific-columns).
+Select which column to store the users' ratings. The Rating component will write a simple number value to your data source. If you want ratings to be specific for each user then you can use [User-specific Columns](/docs/user-specific-columns).
 
 {% figure src="/docs/reference/components/rating-component/image%20(4).png" caption="" /%}
 
@@ -35,5 +35,5 @@ Determine the **Max Rating** to accept. This ranges from 3 to 5.
 Add a title to your component by typing directly into the **Label** box or selecting a column from your data source as the title.
 
 {% callout title="" %}
-The Rating component is especially useful in [Forms](/docs/forms). You can collect the users’ individual ratings for an item. Learn more about [Rollup Columns](/docs/rollup) to then determine average ratings.
+The Rating component is especially useful in [Forms](/docs/forms). You can collect the users' individual ratings for an item. Learn more about [Rollup Columns](/docs/rollup) to then determine average ratings.
 {% /callout %}

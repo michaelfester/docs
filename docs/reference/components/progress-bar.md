@@ -26,4 +26,4 @@ For example, the user can set their own 'Start' (minimum) and 'Finish' (maximum)
 
 ### Design
 
-Lastly, give your progress bar a **Title** and **Caption**. If you select a circular style, you can also check **Show total in center** to reveal a percentage for the users’ progress.
+Lastly, give your progress bar a **Title** and **Caption**. If you select a circular style, you can also check **Show total in center** to reveal a percentage for the users' progress.

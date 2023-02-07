@@ -8,13 +8,13 @@ slug: signature-component
 The Signature Component is only available in Glide [Apps](/docs/introduction-to-apps), not Glide [Pages](/docs/introduction-to-pages).
 {% /callout %}
 
-With the Signature component, you can let users sign for things in your project. When someone adds their signature, the Signature component generates an image and writes the link to that image to your project’s [Data Source](/docs/reference/data-sources/). It will then display their signature in the component.
+With the Signature component, you can let users sign for things in your project. When someone adds their signature, the Signature component generates an image and writes the link to that image to your project's [Data Source](/docs/reference/data-sources/). It will then display their signature in the component.
 
 {% figure src="/docs/reference/components/signature-component/an-use-case-of-a-signature-component.png" caption="An use case of the Signature Component" /%}
 
 ## Data
 
-After adding a Signature component, you’ll need to select which **Column** to write the user’s signature to.
+After adding a Signature component, you'll need to select which **Column** to write the user's signature to.
 
 {% figure src="/docs/reference/components/signature-component/choosing-the-right-column-for-signature-component.png" caption="Selecting the column to write the signature to" /%}
 

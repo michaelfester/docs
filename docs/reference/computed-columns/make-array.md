@@ -8,18 +8,18 @@ slug: make-array
 The Make Array column allows you to join multiple values from various columns into an array, regardless of their column names.
 
 {% callout title="" %}
-The Make Array column cannot be assigned as a Row Owner in your project. If you’d like to assign an array as a Row Owner, the array must be created in a Google Sheet data source.
+The Make Array column cannot be assigned as a Row Owner in your project. If you'd like to assign an array as a Row Owner, the array must be created in a Google Sheet data source.
 {% /callout %}
 
 {% cta title="Row Owners" description=" Learn more about Row Owners." url="/docs/row-owners" /%}
 
 ## About array columns
 
-If you’re familiar with arrays in Glide, you’ll know that Glide will automatically create an array if the columns in your Google Sheet are named sequentially. This is useful for columns with similar data, like creating an image carousel out of an array of images.
+If you're familiar with arrays in Glide, you'll know that Glide will automatically create an array if the columns in your Google Sheet are named sequentially. This is useful for columns with similar data, like creating an image carousel out of an array of images.
 
 {% figure src="/docs/reference/computed-columns/make-array/image-array.png" caption="Array of images" /%}
 
-There may be times when you need to create an array that is based on columns that contain different information or when column names aren’t identical. This is where the capabilities of the Make Array column can provide greater functionality in your project.
+There may be times when you need to create an array that is based on columns that contain different information or when column names aren't identical. This is where the capabilities of the Make Array column can provide greater functionality in your project.
 
 {% callout %}
 Array columns combine the data from multiple columns into a single column in the Data Editor.
@@ -40,7 +40,7 @@ Array columns combine the data from multiple columns into a single column in the
 {% figure src="/docs/reference/computed-columns/make-array/creating-an-aray-column.png" caption="Adding a Make Array column" /%}
 
 - Under Items, enter a [custom value](/docs/custom-values), or select a column from your data source to use as the first item of your array.
-- Continue to add items to build out your array as needed. You can select columns of different types for your array. Once you’ve entered all the items, click Done.
+- Continue to add items to build out your array as needed. You can select columns of different types for your array. Once you've entered all the items, click Done.
 
 {% figure src="/docs/reference/computed-columns/make-array/selecting-columns-of-different-types-for-your-array.png" caption="Selecting columns of different types for your array" /%}
 
@@ -50,7 +50,7 @@ Array columns combine the data from multiple columns into a single column in the
 
 ### Combine images from different columns to create an image carousel
 
-If your data source has multiple image columns, you can use the Make Array column to combine them into a single array column that can be used to display an image carousel in your app. This is especially useful if you’re using a data source other than Google Sheets or if your image columns are not named similarly and sequentially.
+If your data source has multiple image columns, you can use the Make Array column to combine them into a single array column that can be used to display an image carousel in your app. This is especially useful if you're using a data source other than Google Sheets or if your image columns are not named similarly and sequentially.
 
 {% figure src="/docs/reference/computed-columns/make-array/image-carousel-using-an-array-clumn.png" caption="Image carousel using an array column" /%}
 
@@ -77,7 +77,7 @@ You can also combine columns of data using a Template column. However, the Templ
 To set up a comma-separated list:
 
 1. Add a Make Array column.
-2. Select the columns from your data source that you’d like to include in the array.
+2. Select the columns from your data source that you'd like to include in the array.
 3. Add a [Joined List](/docs/joined-list) column and select your Make Array column as the source.
 
 {% figure src="/docs/reference/computed-columns/make-array/joined-list.png" caption="Adding a Joined List column to create a comma-separated list" /%}

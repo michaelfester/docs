@@ -36,13 +36,13 @@ The **API Instructions** screen displays the calls to use to take the available 
 
 ## How to use the API calls
 
-If you’re already experienced with using APIs, explore the sections below for specific details about each call.
+If you're already experienced with using APIs, explore the sections below for specific details about each call.
 
 {% cta title="Glide Tables API for Beginners" description="New to APIs? If you want a step-by-step guide for setting up an API automation tool and using each call, checkout this article" url="/docs/glide-tables-api-for-beginners" /%}
 
 ### Mutations
 
-The `mutateTables` call in each Glide curl statement adds one or more mutation operations for tables in an app in Glide’s queue. After they’re added to the queue, they can be processed anytime after the call returns the actions.
+The `mutateTables` call in each Glide curl statement adds one or more mutation operations for tables in an app in Glide's queue. After they're added to the queue, they can be processed anytime after the call returns the actions.
 
 This call takes a JSON body of the following form:
 
@@ -57,7 +57,7 @@ This call takes a JSON body of the following form:
 At least one mutation must be given. Although there is no definite or enforced upper bound on the number of mutations, it is recommended to keep them below 100.
 {% /callout %}
 
-The call will succeed if all mutations succeed. It will fail if even one mutation fails. It will return a JSON response that’s an array of results - one for each mutation. If a mutation fails, then its result has a property error which is an `error` message.
+The call will succeed if all mutations succeed. It will fail if even one mutation fails. It will return a JSON response that's an array of results - one for each mutation. If a mutation fails, then its result has a property error which is an `error` message.
 
 Keep in mind…
 
@@ -112,7 +112,7 @@ The `ROW-ID-OR-INDEX` is one of the following:
 - `"rowIndex": ROW-INDEX"`
 
 {% callout %}
-`ROW-INDEX` should only be used for Google Sheet tables. It must be a number, and it’s zero-based, i.e. the first row in the sheet has index `0`.
+`ROW-INDEX` should only be used for Google Sheet tables. It must be a number, and it's zero-based, i.e. the first row in the sheet has index `0`.
 {% /callout %}
 
 ### Delete rows

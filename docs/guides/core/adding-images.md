@@ -20,7 +20,7 @@ You can also add direct URLs to the Image Component without having to upload an
 {% figure src="/docs/guides/core/adding-images/adding-images-from-url-or-address.png" caption="Adding a custom URL in the Layout Editor" /%}
 
 {% callout %}
-You’ll notice in the image above that you can also add addresses. If it’s a known address, Glide will show a map of that location!
+You'll notice in the image above that you can also add addresses. If it's a known address, Glide will show a map of that location!
 {% /callout %}
 
 ### Upload from the Layout Editor
@@ -96,7 +96,7 @@ or
 | Title | Description | Employee 1 | Employee 2 | Employee 3 | Employee 4 |
 | ----- | ----------- | ---------- | ---------- | ---------- | ---------- |
 
-It doesn’t matter what you call each column, so long as each column has the same name and the next number. Glide will recognize all of the numbered columns and allow you to choose a single column with just that name (e.g. '`Image`') which will incorporate all the columns and trigger the carousel.
+It doesn't matter what you call each column, so long as each column has the same name and the next number. Glide will recognize all of the numbered columns and allow you to choose a single column with just that name (e.g. '`Image`') which will incorporate all the columns and trigger the carousel.
 
 {% figure src="/docs/guides/core/adding-images/image-carousel-column.png" caption="Picking an Array Column with images in the Data Editor" /%}
 
@@ -104,4 +104,4 @@ It doesn’t matter what you call each column, so long as each column has the sa
 
 Glide recognizes JPGs, PNGs, GIFs, and SVGs.
 
-For your app’s icon, it’s best to use a simple SVG. The project icon will appear in many places and many sizes so it’s best to use an SVG icon that will scale and look good at any size.
+For your app's icon, it's best to use a simple SVG. The project icon will appear in many places and many sizes so it's best to use an SVG icon that will scale and look good at any size.

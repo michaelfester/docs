@@ -4,7 +4,7 @@ description: Connect your project to Excel Workbooks
 slug: excel
 ---
 
-Microsoft Excel is one of the most widely used spreadsheet applications in the world. Your projects can be integrated with your Excel Workbooks, allowing you to build Apps and Pages with a data source you’re familiar with.
+Microsoft Excel is one of the most widely used spreadsheet applications in the world. Your projects can be integrated with your Excel Workbooks, allowing you to build Apps and Pages with a data source you're familiar with.
 
 ## How to use Excel Workbooks with Glide
 
@@ -29,7 +29,7 @@ It is recommended to create a copy of your file if you want to maintain its orig
    {% figure src="/docs/reference/data-sources/excel/choosing-excel-for-your-project.png" caption="Choosing Excel as your data source" /%}
 
    {% callout %}
-   If this is your first time using an Excel data source, click on the **Connect** button under **Excel** to add your account. Microsoft OneDrive will open in a new tab. You’ll be prompted to log in and give Glide access to your files. For more information about permissions, see [Data security for Microsoft OneDrive](#data-security-for-microsoft-onedrive).
+   If this is your first time using an Excel data source, click on the **Connect** button under **Excel** to add your account. Microsoft OneDrive will open in a new tab. You'll be prompted to log in and give Glide access to your files. For more information about permissions, see [Data security for Microsoft OneDrive](#data-security-for-microsoft-onedrive).
    {% /callout %}
 
 5. Click on your drive folder and then **Choose Library**.

@@ -105,7 +105,7 @@ It's not clear what the cause of this issue is. If it persists, please get in to
 
 ## Oh Sheet! Your app is too large to publish
 
-Sometimes Glide can fail to publish your app if it has too many screens or columns. If you get the “Your app is too large to publish,” try these steps to lower your app’s size:
+Sometimes Glide can fail to publish your app if it has too many screens or columns. If you get the “Your app is too large to publish,” try these steps to lower your app's size:
 
 1. Check if your app has any long custom value entries not coming from your database. Big data URLs can considerably affect the size of your app.
 2. Check for HTML code in custom rich text components that embeds images, i.e. if you have any HTML like this (data:image/png;base64,iVBORw0KGgoAAAANSgAAAAQAAAA...etc..), or CSS code in rich text components.

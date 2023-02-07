@@ -5,7 +5,7 @@ video: https://www.youtube.com/watch?v=TcgoaoD86FU
 slug: details-layout
 ---
 
-When we click on a list item, we get taken to that item’s details screen where we can customize it using components.
+When we click on a list item, we get taken to that item's details screen where we can customize it using components.
 
 {% figure src="/docs/reference/ux/details-layout/details-screen.gif" caption="Details screen" /%}
 

@@ -9,7 +9,7 @@ slug: airtable
 Airtable is a spreadsheet-database hybrid with the features of a database but applied to a spreadsheet. Your projects can be integrated with Airtable bases, offering you a more robust approach to data management that you may not find in simple spreadsheets.
 
 {% callout %}
-If you’re new to Airtable or need a refresher, check out the resources in [Learn Airtable](#learn-airtable).
+If you're new to Airtable or need a refresher, check out the resources in [Learn Airtable](#learn-airtable).
 {% /callout %}
 
 ## How to use Airtable with Glide
@@ -61,7 +61,7 @@ When connecting your bases to Glide, keep in mind that any filters applied to a 
 {% figure src="/docs/reference/data-sources/airtable/empty-rows-in-the-airtable-will-still-be-shown-in-your-project.png" caption="Empty rows in Glide caused by Airtable data filters" /%}
 
 {% callout %}
-It’s best practice to keep at least one view in your Airtable base that has no filters or customizations. This way, you can see all the records in that base and know what will be brought into Glide.
+It's best practice to keep at least one view in your Airtable base that has no filters or customizations. This way, you can see all the records in that base and know what will be brought into Glide.
 {% /callout %}
 
 ### Columns vs. fields
@@ -79,7 +79,7 @@ The Airtable API does not allow Glide to add new fields to your Airtable base. B
 {% figure src="/docs/reference/data-sources/airtable/new-basic-columns-you-create-in-glide-will-become-user-specific-columns.png" caption="Adding new columns in Glide" /%}
 
 {% callout %}
-It’s recommended to add new basic columns directly to Airtable rather than Glide if you want to keep both data sources in sync. Once you add a new column to the Airtable base and save, you will be automatically prompted to refresh your project’s data to update it.
+It's recommended to add new basic columns directly to Airtable rather than Glide if you want to keep both data sources in sync. Once you add a new column to the Airtable base and save, you will be automatically prompted to refresh your project's data to update it.
 {% /callout %}
 
 ### Links vs. Relations
@@ -92,17 +92,17 @@ You can use that data just like you would a normal relation. However, you will n
 
 ### Attachments
 
-Starting November 8th, 2022, Airtable will introduce expiring links for all attachments stored in Airtable. This means that URLs for attachments stored in Airtable will expire every few hours. You can read Airtable’s full announcement [here](https://support.airtable.com/docs/changes-to-airtable-attachments).
+Starting November 8th, 2022, Airtable will introduce expiring links for all attachments stored in Airtable. This means that URLs for attachments stored in Airtable will expire every few hours. You can read Airtable's full announcement [here](https://support.airtable.com/docs/changes-to-airtable-attachments).
 
-As a result of this change, attachments stored in Airtable bases connected to Glide will be automatically stored in Glide, so that these attachments remain accessible to users of Glide projects. **These attachments count toward your Glide team’s file storage quota.**
+As a result of this change, attachments stored in Airtable bases connected to Glide will be automatically stored in Glide, so that these attachments remain accessible to users of Glide projects. **These attachments count toward your Glide team's file storage quota.**
 
 Exceeding your file storage quota can result in your Glide projects becoming inaccessible to users until you upgrade to a higher plan. Removing an Airtable base from your Glide team (e.g. by deleting projects that use it) will free up storage space within minutes, and unused attachments are removed from Glide within 72 hours.
 
-On your team’s dashboard, you can navigate to the **Usage** page to check how much file storage your team is currently using.
+On your team's dashboard, you can navigate to the **Usage** page to check how much file storage your team is currently using.
 
 ## Learn Airtable
 
-If you’re new to Airtable, check out the resources below to get you started.
+If you're new to Airtable, check out the resources below to get you started.
 
 - Article: [Airtable vs Traditional Spreadsheets](https://zapier.com/blog/what-is-airtable/)
 - Video: [Meet Airtable](https://www.youtube.com/watch?v=POgkE-YjAJo&ab_channel=Airtable)

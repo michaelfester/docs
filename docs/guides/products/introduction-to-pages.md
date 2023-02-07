@@ -34,7 +34,7 @@ Under each Page's settings, there are two new settings that we can adjust.
 
 ### Page slug
 
-The Slug is our Page URL. A Slug is the part of a URL that identifies a particular page on a website in an easy-to-read form. In other words, it’s the part of the URL that explains the page’s content. Bear in mind if you change this, any previous links you have shared to a nested Page in your Pages Project will break.
+The Slug is our Page URL. A Slug is the part of a URL that identifies a particular page on a website in an easy-to-read form. In other words, it's the part of the URL that explains the page's content. Bear in mind if you change this, any previous links you have shared to a nested Page in your Pages Project will break.
 
 ### Show in menu
 
@@ -108,7 +108,7 @@ Under the **configure action**, and under **Target**, we can choose one of four 
 
 - **Small overlay** and **Large overlay** is pretty clear. It will open the screen as a small or large overlay.
 - **Main** replaces the main screen. So if you already have an overlay screen open and open a screen with Main, the overlay will close, and the **Main** screen will be the new screen.
-- **Current** means open it as whatever the current screen is. So if you’re on the main screen, it will replace the main screen, but if you’re in an overlay, it will replace the overlay.
+- **Current** means open it as whatever the current screen is. So if you're on the main screen, it will replace the main screen, but if you're in an overlay, it will replace the overlay.
 
 ## Navigation Model
 

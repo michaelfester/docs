@@ -14,7 +14,7 @@ slug: support
 
 1. Be polite and kind to other members.
 2. Use the search bar to see if your topic has been discussed before.
-3. Check out the community’s different **[categories](https://community.glideapps.com/categories)**.
+3. Check out the community's different **[categories](https://community.glideapps.com/categories)**.
 4. When posting questions, try to be clear and concise and write descriptive titles. If you need help with many different things, try posting them as separate topics or connect with a **[Glide Expert](https://glideapps.com/experts)**.
 5. Where possible, provide links (e.g. to your app), screenshots or even **[videos](https://www.loom.com/)** that help explain the point you are trying to make.
 6. Please be aware that everything you post in the forums is public.
@@ -31,7 +31,7 @@ If you can't find what you're looking for, you can open a new request or submit 
 
 You can provide **Glide Support** with a special support link to help you with your project safely and securely.
 
-With this link, support can look at the app and the data in the Data Editor. They can change the app and data locally (on their end) to troubleshoot, but these changes won’t be saved or won't affect your actual app.
+With this link, support can look at the app and the data in the Data Editor. They can change the app and data locally (on their end) to troubleshoot, but these changes won't be saved or won't affect your actual app.
 
 {% figure src="/docs/reference/account/support/support-link-sample.png" caption="Support link sample" /%}
 

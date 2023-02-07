@@ -20,7 +20,7 @@ In the **General** tab on the right side of the **Layout Editor**, locate the **
 
 {% figure src="/docs/reference/components/container/layout-styles-of-container.png" caption="" /%}
 
-When you choose a layout that is more than one column you’ll see sections underneath the Container with dividers. This shows you the different sections for your container which will change depending on the number of columns you have.
+When you choose a layout that is more than one column you'll see sections underneath the Container with dividers. This shows you the different sections for your container which will change depending on the number of columns you have.
 
 {% figure src="/docs/reference/components/container/showing-the-number-of-columns.png" caption="" /%}
 

@@ -16,7 +16,7 @@ The **Big Numbers** component displays a single number value in a large font and
 
 ### Options
 
-In the **General** tab on the right side of the **Layout Editor**, locate the **Options** section. Use the menu in the **Value** field to select the value from your data to display, or select **Custom** to enter a [Custom Value](/docs/custom-values) for this field. This is the ‘big number’. The value can be any column from your table; a basic number column, rollup, lookup, math column or anything else.
+In the **General** tab on the right side of the **Layout Editor**, locate the **Options** section. Use the menu in the **Value** field to select the value from your data to display, or select **Custom** to enter a [Custom Value](/docs/custom-values) for this field. This is the ‘big number'. The value can be any column from your table; a basic number column, rollup, lookup, math column or anything else.
 
 {% figure src="/docs/reference/components/big-numbers/configuration.png" caption="" /%}
 

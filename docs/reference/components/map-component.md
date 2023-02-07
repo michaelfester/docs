@@ -18,7 +18,7 @@ The Map component displays an address from our data source as a pin on a map.
 
 ### Data
 
-Select the column from your data source that you’d like to use as the address.
+Select the column from your data source that you'd like to use as the address.
 
 ### Design
 
@@ -89,7 +89,7 @@ You can trigger actions in two areas of the map component - the **Title Bar** 
 3. Use the menu in the **Title** field to select the value from your data to display. You can also type directly into this field to enter a custom value.
 4. Select and configure the desired action.
 
-You can add as many actions as you’d like. Additional actions will be displayed as a secondary button or in the dropdown section of the title bar.
+You can add as many actions as you'd like. Additional actions will be displayed as a secondary button or in the dropdown section of the title bar.
 
 {% figure src="/docs/reference/components/map-component/image%20(15).png" caption="Configuring the Title Bar action" /%}
 

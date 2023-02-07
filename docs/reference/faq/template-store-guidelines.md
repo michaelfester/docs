@@ -17,7 +17,7 @@ If you've got a great app you'd like to submit to the template store, we would b
 **Templates should:**
 
 - Be self-sufficient, stand-alone apps
-- Use super clean Google Sheets (i.e. clear formatting, functions/formulas computed in Glide’s data editor as opposed to the Google Sheet)
+- Use super clean Google Sheets (i.e. clear formatting, functions/formulas computed in Glide's data editor as opposed to the Google Sheet)
 - Avoid private or personally identifiable data/photos (use fake names, Unsplash images, etc)
 - Be really good at one thing, rather than a giant “does everything” app
 - Clearly communicate the value to a new developer

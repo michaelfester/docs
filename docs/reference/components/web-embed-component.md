@@ -29,6 +29,6 @@ Unfortunately, many websites prevent themselves from being embedded elsewhere so
 In the **General** tab on the right side of the Layout Editor, locate the **Options** section.
 
 - Select a **Size** for the Web Embed window.
-- Select **Allow scrolling** if you’d like users to be able to scroll the page like a traditional website.
+- Select **Allow scrolling** if you'd like users to be able to scroll the page like a traditional website.
 
 {% figure src="/docs/reference/components/web-embed-component/web-embed-options.png" caption="" /%}

@@ -9,7 +9,7 @@ Projects in Glide can have multiple Data Sources. This means you can have data f
 
 When you first create a project or add a new tab to an existing project, Glide will build a basic layout based on the data that it finds.
 
-In this guide, you’ll learn how to structure your data simply and understand the fundamentals of how your data appears in Glide.
+In this guide, you'll learn how to structure your data simply and understand the fundamentals of how your data appears in Glide.
 
 {% cta title="Data Sources" description="Learn more about the different data sources you can integrate with Glide" url="/docs/intro-to-data-sources" /%}
 
@@ -19,7 +19,7 @@ Spreadsheets are incredibly flexible and allow you to organize your cells howeve
 
 {% figure src="/docs/guides/core/data-to-layout/rows-and-columns-in-google-sheets.png" caption="Rows and columns in Google Sheets" /%}
 
-Within each table, every column should have a name. These column names describe the properties or attributes of your items. Some Data Sources like Airtable automatically have column names, but in spreadsheets, you’ll need to make sure the first row is reserved for this.
+Within each table, every column should have a name. These column names describe the properties or attributes of your items. Some Data Sources like Airtable automatically have column names, but in spreadsheets, you'll need to make sure the first row is reserved for this.
 
 For example, if we were making a Team Directory, we might have two tables; one for Staff and another for Locations. In the Staff table, we would have columns for `Name`, `Email`, `Photo`, `Phone Number`, `Role`, `Manager`, and `Location`. In the `Location` table, we would have columns for `Name`, `Address`, and `Image`.
 
@@ -31,9 +31,9 @@ If your data is not in the right format for Glide but needs to stay in that form
 
 ## Understanding how Glide displays your data
 
-When you first import your Data Source, Glide will create a basic app as a starting point. If you’ve structured your data correctly, you’ll see some tabs with lists of items. If you click on one of these items, you’ll see more data about that item.
+When you first import your Data Source, Glide will create a basic app as a starting point. If you've structured your data correctly, you'll see some tabs with lists of items. If you click on one of these items, you'll see more data about that item.
 
-At first, it might be a little confusing to understand how your data and the UI relates. So let’s break it down.
+At first, it might be a little confusing to understand how your data and the UI relates. So let's break it down.
 
 - Tables become tabs
 - Rows become List Items
@@ -49,9 +49,9 @@ You can create new tabs whenever you like, but they have to have a table as a so
 
 ### Rows → List Items
 
-If your Data Source has multiple rows, you’ll see those items in a List or [Collection](/docs/collection-component).
+If your Data Source has multiple rows, you'll see those items in a List or [Collection](/docs/collection-component).
 
-When you click on the List or Collection in the Components panel, you’ll be able to configure its settings on the right and show different columns from that table. Modifying your List Layouts is one of the first ways you start designing your project in Glide.
+When you click on the List or Collection in the Components panel, you'll be able to configure its settings on the right and show different columns from that table. Modifying your List Layouts is one of the first ways you start designing your project in Glide.
 
 {% figure src="/docs/guides/core/data-to-layout/configuration-panel-of-a-list-layout.png" caption="A List shows a few columns for every item" /%}
 
@@ -61,7 +61,7 @@ When you click on one of the items in a List, you get taken to a Details Screen.
 
 {% figure src="/docs/guides/core/data-to-layout/details-screen.png" caption="The components panel on a Details Screen" /%}
 
-But you don’t have to show every single column in a Component. You can display what you want and leave some columns hidden.
+But you don't have to show every single column in a Component. You can display what you want and leave some columns hidden.
 
 {% figure src="/docs/guides/core/data-to-layout/showing-few-column-values-using-components.png" caption="Showing few column values only using the Title component and the Button Bar component" /%}
 
@@ -70,7 +70,7 @@ Most of the time, your table will have multiple rows of data — and therefore, 
 {% figure src="/docs/guides/core/data-to-layout/data-sheet-with-a-one-row-becomes-a-details-layout.png" caption="Creating a tab based on a table with a single row creates a Details Screen" /%}
 
 You can also turn a Tab that has a list layout into a details screen. When you do this, the context for the details screen will be the top row of your table.
-In other words, the data that ‘feeds’ that screen is the top row of your table.
+In other words, the data that ‘feeds' that screen is the top row of your table.
 
 {% callout %}
 Leaving components out of your screens is not a security feature as the data is still accessible. Learn more in our [Security Guide.](/docs/security)

@@ -1,6 +1,6 @@
 ---
 title: Compose Text Message
-description: Trigger a text message on the user’s device.
+description: Trigger a text message on the user's device.
 video:
 slug: compose-text-message
 ---

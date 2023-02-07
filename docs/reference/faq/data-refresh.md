@@ -14,7 +14,7 @@ Changes to data made in an **App**, **Page**, or in Glide should show up in othe
 
 Changes to data made in an app, page, or in Glide might take a while to show up in the external data source (in most cases, it will update there within seconds, too).
 
-In other words, if someone is using your app and makes a change to your data — all other apps will see that data within 5-10 seconds. If you’re using an external data source, it might take a little longer.
+In other words, if someone is using your app and makes a change to your data — all other apps will see that data within 5-10 seconds. If you're using an external data source, it might take a little longer.
 
 ## Data Sources → Projects
 
@@ -33,11 +33,11 @@ By default, we sync data from your data source when:
 
 ### 1. Your Project is active.
 
-‘Active’ means that someone currently has the app or page open on their device (or you are working on it in Glide). If your app is not active i.e. it is not open anywhere, we generally don’t sync, no matter what.
+‘Active' means that someone currently has the app or page open on their device (or you are working on it in Glide). If your app is not active i.e. it is not open anywhere, we generally don't sync, no matter what.
 
 ### 2. Your data source notifies us of a change
 
-When **Google Drive** or **MS OneDrive** tells us that your Google Sheet/Excel Workbook has changed, we sync your data. From the moment that we get that notification, it shouldn’t take long for the data to reach your project. The larger your data set — the longer this might take.
+When **Google Drive** or **MS OneDrive** tells us that your Google Sheet/Excel Workbook has changed, we sync your data. From the moment that we get that notification, it shouldn't take long for the data to reach your project. The larger your data set — the longer this might take.
 
 **Airtable** currently does not have the ability to send notifications when there are changes to the base. So, Glide checks every three minutes to check.
 
@@ -65,8 +65,8 @@ When your project is set to Extra mode, your project will use Syncs (a type of U
 
 #### Spreadsheet functions
 
-There are some spreadsheet functions that periodically update your data. However, we don’t always get notified of these changes by the source. So if you have your App open and you know that the data has changed in your spreadsheet and you are not seeing it in your App — this is why.
+There are some spreadsheet functions that periodically update your data. However, we don't always get notified of these changes by the source. So if you have your App open and you know that the data has changed in your spreadsheet and you are not seeing it in your App — this is why.
 
 If you use functions like these and need Glide to check your data source periodically, this would be a reason to use Extra mode.
 
-However, if you don’t use these functions — there is no need as Glide will automatically sync your data anytime it notices a change.
+However, if you don't use these functions — there is no need as Glide will automatically sync your data anytime it notices a change.

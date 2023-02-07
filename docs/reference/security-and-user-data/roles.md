@@ -51,7 +51,7 @@ You can **read more about Array Columns here**, but below is the way this looks 
 
 ![](/docs/reference/security-and-user-data/roles/sheet-view-array-columns.png)
 
-{% callout type="warning" title="Changing Roles" %} At the moment, you cannot change somebody’s role via the app. A role can only be changed via the sheet or Data Editor. If you show the Roles column in the app somewhere, users will be able to change the value - but this will not affect the backend and you will see the value change back. {% /callout %}
+{% callout type="warning" title="Changing Roles" %} At the moment, you cannot change somebody's role via the app. A role can only be changed via the sheet or Data Editor. If you show the Roles column in the app somewhere, users will be able to change the value - but this will not affect the backend and you will see the value change back. {% /callout %}
 
 ## Securing new items
 

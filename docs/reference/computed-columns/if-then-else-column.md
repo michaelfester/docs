@@ -28,5 +28,5 @@ While setting the conditions or criteria, you can use any of the column values a
 {% /callout %}
 
 {% callout %}
-It’s also possible to add more than one case in the event that you have multiple criteria to fulfill.
+It's also possible to add more than one case in the event that you have multiple criteria to fulfill.
 {% /callout %}

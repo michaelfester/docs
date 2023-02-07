@@ -7,11 +7,11 @@ slug: heirarchies
 
 When we link items together with relations, we are in a sense _categorizing_ those items. If we relate all employees to locations, then we could say that our employees belong in different categories of locations.
 
-But what happens when we want to have subcategories? Well we don’t need to do anything different in the data editor, we just need to think clearly about hierarchy and more specifically, 'parents' & 'children'.
+But what happens when we want to have subcategories? Well we don't need to do anything different in the data editor, we just need to think clearly about hierarchy and more specifically, 'parents' & 'children'.
 
 ## Parents & children
 
-When working with multiple categories, it’s important to realize that each level of category will have a parent or child, or both. In the example below, we have a list of food types. A parent is the item 1-level-above in the hierarchy and a ‘child’ is an item 1-level-below in the hierarchy.
+When working with multiple categories, it's important to realize that each level of category will have a parent or child, or both. In the example below, we have a list of food types. A parent is the item 1-level-above in the hierarchy and a ‘child' is an item 1-level-below in the hierarchy.
 
 ![](</docs/guides/tips/subcategories-hierarchies/Group%209%20(1).png>)
 
@@ -22,7 +22,7 @@ When working with multiple categories, it’s important to realize that each lev
 - Level 1 doesn't have a parent and level 6 items don't have children
   {% /callout %}
 
-In a spreadsheet we don’t visually nest items like we do in documents with bulleted lists (above). Instead, we have a column where we indicate the item’s parent.
+In a spreadsheet we don't visually nest items like we do in documents with bulleted lists (above). Instead, we have a column where we indicate the item's parent.
 
 ![](/docs/guides/tips/subcategories-hierarchies/Screenshot%202019-12-03%20at%2014.45%201.png)
 
@@ -31,10 +31,10 @@ In a spreadsheet we don’t visually nest items like we do in documents with bul
 {% /callout %}
 
 {% callout title="" %}
-Note that the title of the ‘parent’ column doesn’t need to be “parent” - we just named it that for demonstration purposes. The name of this column can be whatever you want. [**Copy the sample sheet here**](https://docs.google.com/spreadsheets/d/10TsTGUfOMnelMQuu2bpmroqVhE_V1SSsbGv-Rs43bs0/copy).
+Note that the title of the ‘parent' column doesn't need to be “parent” - we just named it that for demonstration purposes. The name of this column can be whatever you want. [**Copy the sample sheet here**](https://docs.google.com/spreadsheets/d/10TsTGUfOMnelMQuu2bpmroqVhE_V1SSsbGv-Rs43bs0/copy).
 {% /callout %}
 
-If we were to look at ‘Red Cardinal’ (row 25) - the parent of this item would be ‘Smooth Leafed’. The parent of ‘Smoothed Leafed’ would be ‘Spinach’ etc… if we follow the hierarchy all the way up we get to ‘Food Types’. The full path to 'Red Cardinal' would therefore be:
+If we were to look at ‘Red Cardinal' (row 25) - the parent of this item would be ‘Smooth Leafed'. The parent of ‘Smoothed Leafed' would be ‘Spinach' etc… if we follow the hierarchy all the way up we get to ‘Food Types'. The full path to 'Red Cardinal' would therefore be:
 
 - Food types
 - Vegetable
@@ -43,7 +43,7 @@ If we were to look at ‘Red Cardinal’ (row 25) - the parent of this item woul
 - Smooth leafed
 - Red cardinal
 
-When we create a **relation column** using our **Parent** column (in other words a relation that relates items to their parents) and we have a number of ‘levels’ then the result will be that we can tap through deeper and deeper into the hierarchy and give the user a clear experience of this nesting of categories.
+When we create a **relation column** using our **Parent** column (in other words a relation that relates items to their parents) and we have a number of ‘levels' then the result will be that we can tap through deeper and deeper into the hierarchy and give the user a clear experience of this nesting of categories.
 
 ![](/docs/guides/tips/subcategories-hierarchies/2021-09-20%2015.16.14.gif)
 

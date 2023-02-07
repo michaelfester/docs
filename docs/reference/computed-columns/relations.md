@@ -72,8 +72,8 @@ In this example, a relation can be created for an employee directory that has a 
 By connecting this information, you can integrate it into components or even link to their location in their profile.
 {% /callout %}
 
-1. In the `Staff` table, make sure there’s a column for the name of the employee’s `Location`.
-2. In the `Locations` table, make sure there’s a column for the name of the location that can be tied to the `Staff` table.
+1. In the `Staff` table, make sure there's a column for the name of the employee's `Location`.
+2. In the `Locations` table, make sure there's a column for the name of the location that can be tied to the `Staff` table.
 
 {% figure src="/docs/reference/computed-columns/relations/checking-for-matching-values.png" caption="" /%}
 

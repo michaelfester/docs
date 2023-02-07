@@ -18,7 +18,7 @@ When you add a **Chart** component in Apps, you can select between several style
 
 ### Data
 
-Select a source for your chart’s data. This could be a table in your [Data Source](/docs/reference/data-sources) or a [Multiple Relation](/docs/reference/computed-columns/relations/multiple-relations). You can also give the chart a **Title** and **Caption** to provide more clarity. As soon as you choose the source, the chart will automatically present your data, but further customization is almost always needed.
+Select a source for your chart's data. This could be a table in your [Data Source](/docs/reference/data-sources) or a [Multiple Relation](/docs/reference/computed-columns/relations/multiple-relations). You can also give the chart a **Title** and **Caption** to provide more clarity. As soon as you choose the source, the chart will automatically present your data, but further customization is almost always needed.
 
 ### Style
 
@@ -41,14 +41,14 @@ Bar charts allow you to add multiple quantities so that you can provide more ins
 
 ### Design & Options
 
-Select a **Color Theme** for your chart to make trends stand out. You can also uncheck **Show legend by default** if you’d like the legend to only appear when the Info icon is tapped. Other design options include:
+Select a **Color Theme** for your chart to make trends stand out. You can also uncheck **Show legend by default** if you'd like the legend to only appear when the Info icon is tapped. Other design options include:
 
 - **Show labels on bars**
 - **Show total in center**
 
-If consistent branding is ideal for your project, consider using the **Turrell** color theme. It automatically matches the Color you’ve selected in your project’s Appearance settings.
+If consistent branding is ideal for your project, consider using the **Turrell** color theme. It automatically matches the Color you've selected in your project's Appearance settings.
 
-For each chart style, you can check **Limit number of items** if you’re wanting to show top trends or need to save screen space.
+For each chart style, you can check **Limit number of items** if you're wanting to show top trends or need to save screen space.
 
 ## In Pages
 
@@ -66,12 +66,12 @@ In Pages, charts are larger and more powerful than in Apps. You can even present
 
 ### Data
 
-Select a data source \***\*for your chart. This could be a table from your project’s data source \*\***or a **Multiple Relation**. You can also give your chart a **Title** to provide clarity for your users.
+Select a data source \***\*for your chart. This could be a table from your project's data source \*\***or a **Multiple Relation**. You can also give your chart a **Title** to provide clarity for your users.
 
 {% figure src="/docs/reference/components/charts/charts-data-in-pages.png" caption="" /%}
 
 {% callout title="" %}
-If you’ve selected a **Bar** or **Line** chart, you’ll see a **Style** section that allows you to change the chart type.
+If you've selected a **Bar** or **Line** chart, you'll see a **Style** section that allows you to change the chart type.
 {% /callout %}
 
 ### Content
@@ -80,13 +80,13 @@ Select a column to use as the **Label** or **X-Axis.** This determines what data
 
 Select a column to use as the **Value**. This determines the bar height or line direction (similar to the **Quantity** property for charts in Apps).
 
-Click the **+ Add item** button to display additional values from the chart’s data source next to or stacked with the first Item (or value).
+Click the **+ Add item** button to display additional values from the chart's data source next to or stacked with the first Item (or value).
 
 {% figure src="/docs/reference/components/charts/chart-content-in-pages.png" caption="" /%}
 
 ### Design
 
-Depending on the style you’ve chosen, you can customize what is displayed on the chart (i.e. **Show x labels**, **Show y labels**, **Show grid lines**, **Graph Style**, **Line Weight**, etc.).
+Depending on the style you've chosen, you can customize what is displayed on the chart (i.e. **Show x labels**, **Show y labels**, **Show grid lines**, **Graph Style**, **Line Weight**, etc.).
 
 For each chart style, you can also **Limit number of items** displayed or adjust the **Page size**.
 
@@ -112,7 +112,7 @@ For more information, see the [Filter](/docs/filter) documentation.
 
 ### **Sort data**
 
-By default, chart data will appear in the same order as they appear in its data source. However, if you are using a **Bar** chart, you can customize the legend’s sort. In the **Sort** section, click on the **Sort by Sheet order** field to expand the options and configure it.
+By default, chart data will appear in the same order as they appear in its data source. However, if you are using a **Bar** chart, you can customize the legend's sort. In the **Sort** section, click on the **Sort by Sheet order** field to expand the options and configure it.
 
 {% callout title="" %}
 For more information, see the [Sort](/docs/sort) documentation.
@@ -124,7 +124,7 @@ In **Pages**, you can enable the **Show Search bar** option so users can search 
 
 ## Walkthrough
 
-Suppose you have a table which shows orders for a shop. You’ve added a Donut style chart and selected **Orders** as the **Label**. You’ve left the **Quantity** blank.
+Suppose you have a table which shows orders for a shop. You've added a Donut style chart and selected **Orders** as the **Label**. You've left the **Quantity** blank.
 
 | Customer       | Orders           | Count |
 | -------------- | ---------------- | ----- |

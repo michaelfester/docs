@@ -44,5 +44,5 @@ This is the behavior that will be triggered when users tap on the Rich Text comp
 ## Learn more about Markdown
 
 - For an in-depth explanation of what Markdown is and how to use it, check out the [Markdown Guide](https://www.markdownguide.org/getting-started).
-- To learn the specifics about Markdown’s syntax, see John Gruber’s [Syntax](https://daringfireball.net/projects/markdown/syntax) page on Daringfireball.net.
-- If you’d like to try a browser-based Markdown text editor, try [StackEdit](https://stackedit.io/).
+- To learn the specifics about Markdown's syntax, see John Gruber's [Syntax](https://daringfireball.net/projects/markdown/syntax) page on Daringfireball.net.
+- If you'd like to try a browser-based Markdown text editor, try [StackEdit](https://stackedit.io/).

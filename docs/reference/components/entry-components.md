@@ -41,7 +41,7 @@ In the **General** tab on the right side of the Layout Editor, locate the **Desi
 {% figure src="/docs/reference/components/entry-components/designing-the-text-component.png" caption="" /%}
 
 {% callout title="" %}
-For the Text Entry component, you can also configure the size of the entry field, making it larger for times you’d like to capture multiple lines of text from users.
+For the Text Entry component, you can also configure the size of the entry field, making it larger for times you'd like to capture multiple lines of text from users.
 {% /callout %}
 
 ### **Options**

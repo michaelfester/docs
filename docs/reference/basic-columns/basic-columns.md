@@ -28,7 +28,7 @@ The types of basic columns in Glide include:
 
 ## Add basic columns
 
-In addition to adding new columns in your original data source, you can add basic columns directly to your table in Glide. This allows you to stay in the [Data Editor](/docs/data-editor) and is also beneficial if you want Glide to recognize a column type when that column doesn’t have data.
+In addition to adding new columns in your original data source, you can add basic columns directly to your table in Glide. This allows you to stay in the [Data Editor](/docs/data-editor) and is also beneficial if you want Glide to recognize a column type when that column doesn't have data.
 
 1. In the **Data Editor,** open the table you want to edit.
 2. Add a new column by clicking on the plus symbol to the right of the table.
@@ -43,14 +43,14 @@ In addition to adding new columns in your original data source, you can add basi
    {% figure src="/docs/reference/basic-columns/introduction-to-basic-columns/adding-a-basic-column.png" caption="Adding a basic Number column" /%}
 
    {% callout %}
-   The most commonly used types will appear first in the dropdown. If you don’t see the type you want, hover over the **Other** folder for more basic column options.
+   The most commonly used types will appear first in the dropdown. If you don't see the type you want, hover over the **Other** folder for more basic column options.
    {% /callout %}
 
 5. Once finished, click **Done** to add the column to the table.
 
 ## Change column type
 
-If you’ve already created a column in your table, you can change its type by editing it.
+If you've already created a column in your table, you can change its type by editing it.
 
 1. In the **Data Editor,** open the table you want to edit.
 2. Click on the dropdown button in the column header and then **Edit**.
@@ -59,7 +59,7 @@ If you’ve already created a column in your table, you can change its type by e
    {% figure src="/docs/reference/basic-columns/introduction-to-basic-columns/editing-a-basic-column.png" caption="Editing an existing basic column" /%}
 
    {% callout %}
-   The values in the column will automatically adjust based on the type you select. This is just a preview and won’t be saved until you click **Done**.
+   The values in the column will automatically adjust based on the type you select. This is just a preview and won't be saved until you click **Done**.
    {% /callout %}
 
 4. Once finished, click **Done** to update the type.
@@ -80,7 +80,7 @@ When adding **Date & Time** columns, you have the option to configure how this i
 {% figure src="/docs/reference/basic-columns/introduction-to-basic-columns/date-and-time-column.png" caption="Adding a Date & Time column" /%}
 
 {% callout %}
-If you’re using Google Sheets, the original data source will automatically recognize when you enter a date, time, or date and time and apply the correct format to that cell. Glide’s **Data Editor** will then recognize this format and automatically assign a **Date & Time** column type. For other data sources, you may need to manually define this column type.
+If you're using Google Sheets, the original data source will automatically recognize when you enter a date, time, or date and time and apply the correct format to that cell. Glide's **Data Editor** will then recognize this format and automatically assign a **Date & Time** column type. For other data sources, you may need to manually define this column type.
 {% /callout %}
 
 ### Convert basic columns to user-specific columns

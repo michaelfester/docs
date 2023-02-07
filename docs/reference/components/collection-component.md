@@ -30,7 +30,7 @@ For most styles, you have the option to show a **Title**, **Subtitle**, **Emphas
 
 ### Design
 
-Depending on the style you’ve chosen, your design options may vary. Typically, you’ll have options to select the **Style**, **Size**, and **Alignment**. Configure any additional design options to further customize how your Collection component is displayed.
+Depending on the style you've chosen, your design options may vary. Typically, you'll have options to select the **Style**, **Size**, and **Alignment**. Configure any additional design options to further customize how your Collection component is displayed.
 
 ### Options
 
@@ -58,13 +58,13 @@ You can limit the items displayed in your Collection based on their properties. 
 
 ### **Sort data**
 
-By default, Collection items appear in the same order as they are in the data source. However, you can customize the Collection’s sort in many ways. In the **Sort** section, click on the **Sort by Sheet order** field to expand the options and configure it.
+By default, Collection items appear in the same order as they are in the data source. However, you can customize the Collection's sort in many ways. In the **Sort** section, click on the **Sort by Sheet order** field to expand the options and configure it.
 
 {% cta title="Sort" description="For more information, see the Sort documentation." url="/docs/sort" /%}
 
 ### **Group data**
 
-You can group the data in your Collection based on a specific column in your source. In the **Group** section, click on the **Group by** dropdown to choose the column to group your items by. You can select the long dash option from the dropdown if you don’t want to group your Collection items.
+You can group the data in your Collection based on a specific column in your source. In the **Group** section, click on the **Group by** dropdown to choose the column to group your items by. You can select the long dash option from the dropdown if you don't want to group your Collection items.
 
 {% cta title="Group" description="For more information, see Group." url="/docs/group" /%}
 

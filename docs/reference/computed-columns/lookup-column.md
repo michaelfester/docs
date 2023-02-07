@@ -5,16 +5,16 @@ video: https://www.youtube.com/watch?v=_y_db4dg8Iw
 slug: lookup-column
 ---
 
-Lookup Columns give you the ability to pull data from other sheets based on a relation column that you’ve created.
+Lookup Columns give you the ability to pull data from other sheets based on a relation column that you've created.
 
 With a lookup column, you can retrieve information from any specified column as long as a relation column exists for that sheet.
 
-To create a lookup column, head to the [Data Editor](/docs/data-editor) and add a new column. Choose “Lookup” from the column types and choose the relation column that best fits your query. Once you’ve chosen a relation column, choose which column you want to pull data from.
+To create a lookup column, head to the [Data Editor](/docs/data-editor) and add a new column. Choose “Lookup” from the column types and choose the relation column that best fits your query. Once you've chosen a relation column, choose which column you want to pull data from.
 
 ​![](/docs/reference/computed-columns/lookup-column/Lookup%20Column%20GIF%201.gif)
 ​
 {% callout %}
-Note that if you’re using a multiple relation column, your Lookup Column will also retrieve multiple data.
+Note that if you're using a multiple relation column, your Lookup Column will also retrieve multiple data.
 {% /callout %}
 ​​
 ![](/docs/reference/computed-columns/lookup-column/Lookup%20Column%20GIF%202.gif)

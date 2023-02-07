@@ -16,4 +16,4 @@ In the [Interviews template](https://go.glideapps.com/app/sample-interviews), e
 
 To add a Relation component, you need to create a [Single Relation](/docs/relations).
 
-A Relation component can only be used when a one-to-one relationship exists between two tables. This is accomplished by creating a single Relation column. If you’ve checked the Match Multiple box when creating your Relation column, you’ll need to use an [Inline List](/docs/inline-list) to display the multiple results.
+A Relation component can only be used when a one-to-one relationship exists between two tables. This is accomplished by creating a single Relation column. If you've checked the Match Multiple box when creating your Relation column, you'll need to use an [Inline List](/docs/inline-list) to display the multiple results.

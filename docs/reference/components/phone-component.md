@@ -14,7 +14,7 @@ The Phone component creates a clickable link that allows users to trigger a text
 
 ## Configuration
 
-Once you’ve added the Phone component, you have to make sure to link that to the column that contains the target phone number. You can also use a [Custom Value](/docs/custom-values) for the phone number.
+Once you've added the Phone component, you have to make sure to link that to the column that contains the target phone number. You can also use a [Custom Value](/docs/custom-values) for the phone number.
 
 The component allows both a Message and a Call function. You can optionally pre-populate the message body. This can either be custom text or a column value.
 

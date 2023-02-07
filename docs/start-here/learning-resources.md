@@ -10,11 +10,11 @@ slug: how-to-learn
 
 Whether you read the docs, watch [one of our courses](https://www.youtube.com/c/glideapps/playlists), or just jump right in, there are two things we recommend you do to increase your chance of success.
 
-### 1. Have a problem you’re trying to solve
+### 1. Have a problem you're trying to solve
 
 Glide can be used for almost anything. A goal keeps you focussed and motivated.
 
-If you have a clear, real-world problem you’re trying to solve, you’ll be excited to release the app to the people whose lives it will improve, even if that’s just you!
+If you have a clear, real-world problem you're trying to solve, you'll be excited to release the app to the people whose lives it will improve, even if that's just you!
 
 ### 2. Enjoy playing, and don't worry about breaking things
 
@@ -34,7 +34,7 @@ If you make a mistake, you can undo, delete or start a new project. There is no 
 
 There are three ways to use this documentation library:
 
-**Search:** You can search the whole library by typing in the search bar or hitting ⌘K (mac) or ^K (Windows). This is often useful if you’re not sure what you’re looking for and want different suggestions.
+**Search:** You can search the whole library by typing in the search bar or hitting ⌘K (mac) or ^K (Windows). This is often useful if you're not sure what you're looking for and want different suggestions.
 
 **Reference:** The Reference section contains all the different features of Glide. If you want to know what a particular component or computed column does and how to use it — go here.
 

@@ -20,11 +20,11 @@ The breadcrumb menu is a very common navigation tool in websites, especially com
 
 ## Configuration
 
-Ideally the Breadcrumb component will be in the same location on every screen in your project — that way it will act as a consistent navigation item that users can rely on — just like the navigation menu. However, it’s fine to not to have it on the top level of your tabs.
+Ideally the Breadcrumb component will be in the same location on every screen in your project — that way it will act as a consistent navigation item that users can rely on — just like the navigation menu. However, it's fine to not to have it on the top level of your tabs.
 
-This means that you will need to add it on every screen manually, so it’s important to know how to configure it.
+This means that you will need to add it on every screen manually, so it's important to know how to configure it.
 
-The Breadcrumb component itself does not have any configuration. It just shows the screen titles as a path. For example, below, the user is on the **Things** tab. Because the title of that tab is called Things it shows one value - Things. If you changed the title of that tab to ‘Elephants’ or ‘Cars’ - the Breadcrumb component would update.
+The Breadcrumb component itself does not have any configuration. It just shows the screen titles as a path. For example, below, the user is on the **Things** tab. Because the title of that tab is called Things it shows one value - Things. If you changed the title of that tab to ‘Elephants' or ‘Cars' - the Breadcrumb component would update.
 
 {% figure src="/docs/reference/components/breadcrumbs/configuration.png" caption="" /%}
 

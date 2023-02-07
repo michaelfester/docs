@@ -57,11 +57,11 @@ There are various places where you can add Actions.
 
 {% figure src="/docs/guides/intermediate/actions/Components_actions.png" caption="" /%}
 
-Some [Components](/docs/components) have Actions, and some do not. If a Component has the option for an Action, you’ll see it in the component’s configuration.
+Some [Components](/docs/components) have Actions, and some do not. If a Component has the option for an Action, you'll see it in the component's configuration.
 
 ## List actions
 
-The default Action for clicking on a list item is to view that item’s [Details Screen](/docs/screens#details-screen). This is such a normal behavior, you might not have thought of it as an Action before.
+The default Action for clicking on a list item is to view that item's [Details Screen](/docs/screens#details-screen). This is such a normal behavior, you might not have thought of it as an Action before.
 
 But you can change this to a number of other Actions. For example, you could have;
 
@@ -72,7 +72,7 @@ In Apps, [Lists](/docs/screens###list-screens) have only a single Action, but in
 
 This table is a good example. It shows a lot of information but is really compact.
 
-1. There’s search and filtering
+1. There's search and filtering
 2. At the top of the List, we have our main Actions and a dropdown menu for even more.
 3. Each item has its own Buttons, to edit or contact the landlord
 4. Each item also has its own dropdown menu.

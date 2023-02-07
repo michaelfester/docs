@@ -17,7 +17,7 @@ Conditions appear in many places in Glide and are used in different ways. You ca
 - Hide a component if the user is not an admin
 - Show a tab only if the user has submitted this form
 - Show the add button only if a user has writing priveledges
-- Let users edit their own profiles, but not other users’ profiles
+- Let users edit their own profiles, but not other users' profiles
 
 ### A quick example of creating a condition
 
@@ -25,17 +25,17 @@ Below is a condition on the Edit Screen in Apps that prevents anyone who is not 
 
 {% figure src="/docs/reference/conditions/conditions-filtering-and-visibility/adding-edit-screen-condition.png" caption="Configuring the Edit Screen" /%}
 
-Let’s take a look at how to create this step by step.
+Let's take a look at how to create this step by step.
 
 ### **Step 1:**
 
-Select a column value from your data as the thing that will be tested against the condition. In this example, we’ve selected the User Profile `Role` column.
+Select a column value from your data as the thing that will be tested against the condition. In this example, we've selected the User Profile `Role` column.
 
 {% figure src="/docs/reference/conditions/conditions-filtering-and-visibility/choosing-a-column-value.png" caption="" /%}
 
 ### **Step 2:**
 
-Choose the condition type or ‘operator’. In this example, we have chosen `Is`.
+Choose the condition type or ‘operator'. In this example, we have chosen `Is`.
 
 {% figure src="/docs/reference/conditions/conditions-filtering-and-visibility/choosing-the-operator.png" caption="" /%}
 
@@ -51,13 +51,13 @@ This example uses a **Custom Value** that we add manually in Glide. If you click
 
 ### Current Row
 
-Depending on the screen you’re currently viewing, you’ll have access to the data for the current row.
+Depending on the screen you're currently viewing, you'll have access to the data for the current row.
 
 {% figure src="/docs/reference/conditions/conditions-filtering-and-visibility/current-row-view.png" caption="" /%}
 
 ### User Profile
 
-If you’ve configured a User Profile table for your project, the data related to the currently logged in user is available to use for conditions. For example, you can filter a list so that it only displays information that is relevant to the logged in user based on a column in their user profile.
+If you've configured a User Profile table for your project, the data related to the currently logged in user is available to use for conditions. For example, you can filter a list so that it only displays information that is relevant to the logged in user based on a column in their user profile.
 
 {% figure src="/docs/reference/conditions/conditions-filtering-and-visibility/using-user-profile-values-for-conditions.png" caption="" /%}
 
@@ -73,7 +73,7 @@ This lets you choose values from the current screen – enabling you to do thing
 - Show items where Price is equal to Price (to show a list of items which have the same price as the current item)
 
 {% callout title="" %}
-We’ll show some more examples of this in the Advanced Conditions section below.
+We'll show some more examples of this in the Advanced Conditions section below.
 {% /callout %}
 
 ## Filtering
@@ -82,7 +82,7 @@ By default, lists & collections show all the rows coming from your data source. 
 
 ### Filtering a list or collection
 
-To filter items out of a list or collection, visit the component’s options panel.
+To filter items out of a list or collection, visit the component's options panel.
 
 {% figure src="/docs/reference/conditions/conditions-filtering-and-visibility/filtering-items-of-a-list.png" caption="" /%}
 
@@ -152,7 +152,7 @@ In Pages, you can use Containers to control the visibility of multiple component
 
 ## **Conditional add, edit & delete**
 
-Allowing users to add, edit & delete records can be very powerful, but you’ll almost certainly want to restrict this to only certain items or to certain users.
+Allowing users to add, edit & delete records can be very powerful, but you'll almost certainly want to restrict this to only certain items or to certain users.
 
 {% callout title="" %}
 In Pages, this is a lot more complex, but we will be making it a lot easier in the future. For now, check out our guide on Filtering & Visibility conditions to learn more.

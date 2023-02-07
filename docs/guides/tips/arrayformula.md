@@ -5,7 +5,7 @@ video:
 slug: arrayformula
 ---
 
-You’ve probably written a formula in the first row of your sheet and then copied it all the way down the column. However, this can cause issues:
+You've probably written a formula in the first row of your sheet and then copied it all the way down the column. However, this can cause issues:
 
 1. When new rows get added – the formula doesn't get copied down.
 2. Glide can see this formula and can count it as an existing – even if you don't see data in your sheet. This results in new records that are added in your Glide app appearing at the bottom of your sheet
@@ -27,7 +27,7 @@ Instead of using `=A2` in column 4 and then copying the formula down, we have wr
 
 You can also use the ARRAYFORMULA to concatenate (join) text into greater structures.
 
-For example, here is a sheet with friends’ birthdays. We want to create a `Message` column that uses the `Next Age` and `Days Away` columns to compose a message about their upcoming birthday. We're using the formula `="Turns " & D2 & " in " & E2 & " days”` to calculate the message to display in cell `F2`
+For example, here is a sheet with friends' birthdays. We want to create a `Message` column that uses the `Next Age` and `Days Away` columns to compose a message about their upcoming birthday. We're using the formula `="Turns " & D2 & " in " & E2 & " days”` to calculate the message to display in cell `F2`
 
 ![](</docs/guides/tips/arrayformula/image%20(1).png>)
 
@@ -45,7 +45,7 @@ You can see that the formula is applied for every row, so now we have a message 
 
 ![](</docs/guides/tips/arrayformula/image%20(3).png>)
 
-We can avoid generating messages for empty rows with an `IF` formula that checks whether our input columns have data. Specifically, we’ll require `Next Age` (column `D`) to be non-empty to calculate a message.
+We can avoid generating messages for empty rows with an `IF` formula that checks whether our input columns have data. Specifically, we'll require `Next Age` (column `D`) to be non-empty to calculate a message.
 
 `=ARRAYFORMULA("Turns " & D2:D & " in " & E2:E & " days”)`
 

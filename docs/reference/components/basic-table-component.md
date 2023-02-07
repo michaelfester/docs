@@ -22,7 +22,7 @@ You can select a column to display as the title or give it a [Custom Value](/doc
 
 ### Data
 
-In the **General** tab on the right side of the Layout Editor, locate the **Data** section. For each row, you can display two columns in the Basic Table component. You can use custom text or display columns in your project’s [Data Source](/docs/reference/data-sources/). You can add another row to display additional columns or custom text.
+In the **General** tab on the right side of the Layout Editor, locate the **Data** section. For each row, you can display two columns in the Basic Table component. You can use custom text or display columns in your project's [Data Source](/docs/reference/data-sources/). You can add another row to display additional columns or custom text.
 
 {% figure src="/docs/reference/components/basic-table-component/configuring-the-basic-table.png" caption="" /%}
 

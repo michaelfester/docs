@@ -1,6 +1,6 @@
 ---
 title: Glide Tables
-description: Use Glide’s built-in spreadsheet for optimal integration
+description: Use Glide's built-in spreadsheet for optimal integration
 video:
 slug: glide-tables
 ---
@@ -49,7 +49,7 @@ If you would like an empty database where you can input new data, you can add a 
 
 {% figure src="/docs/reference/data-sources/glide-tables/adding-a-new-table.png" caption="Add a new table" /%}
 
-Glide creates the new table for you with an auto-generated name. To change the table’s default name, click on the name and edit.
+Glide creates the new table for you with an auto-generated name. To change the table's default name, click on the name and edit.
 
 ## Create a new Glide Table from existing data
 
@@ -67,7 +67,7 @@ Glide converts your data file into a Glide Table and adds it to the list of tabl
 
 ## Link an existing Glide Table to your project
 
-To share information across projects, you can use Glide’s **Link Table** feature. When you link a table from one project to another, any changes made to that table’s data will also be reflected in your other projects that use the same table.
+To share information across projects, you can use Glide's **Link Table** feature. When you link a table from one project to another, any changes made to that table's data will also be reflected in your other projects that use the same table.
 
 {% callout %}
 To reuse information contained in a Glide Table without syncing updates across each project, see [Duplicate a Glide Table](/docs/reference/data-sources/glide-tables#duplicate-a-glide-table) below.
@@ -85,7 +85,7 @@ To link a Glide Table to your project:
 Your linked Glide Table will now appear in the **Tables** panel of the Data Editor.
 
 {% callout type="warning" %}
-Only the data in a table’s Basic Columns can be shared and updated interactively across projects. Computed Columns are not affected. When you link an existing Glide Table to a project, Computed Columns will not appear in the Data Editor of your project. For more information, see [Computed Columns](/docs/reference/computed-columns).
+Only the data in a table's Basic Columns can be shared and updated interactively across projects. Computed Columns are not affected. When you link an existing Glide Table to a project, Computed Columns will not appear in the Data Editor of your project. For more information, see [Computed Columns](/docs/reference/computed-columns).
 {% /callout %}
 
 ### How to unlink a Glide Table from your project
@@ -98,7 +98,7 @@ Only the data in a table’s Basic Columns can be shared and updated interactive
 
 ## Duplicate a Glide Table
 
-If you want to reuse the data from an existing Glide Table but don’t want the data to be synced across projects, use Duplicate.
+If you want to reuse the data from an existing Glide Table but don't want the data to be synced across projects, use Duplicate.
 
 1. In the Glide Layout Editor, select the **Data Editor** icon.
 2. On the left side of the Data Editor, under **Tables**, right click on the name of the table.
