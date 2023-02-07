@@ -33,3 +33,7 @@ Yes, our Business plan allows iframe embedding. Please upgrade to Business and s
 ## What are boosts?
 
 Boosts were paid addons to increase the capacity of your apps. They are no longer available for purhase.
+
+## Can I make a dating app with Glide?
+
+Glide is intended for creating custom business apps, mostly for internal use. It is not designed for large-scale public apps, like social media or dating. We strongly encourage you to try other platforms for large-scale public apps.
