@@ -37,3 +37,7 @@ Boosts were paid addons to increase the capacity of your apps. They are no longe
 ## Can I make a dating app with Glide?
 
 Glide is intended for creating custom business apps, mostly for internal use. It is not designed for large-scale public apps, like social media or dating. We strongly encourage you to try other platforms for large-scale public apps.
+
+## Can I make money with Glide?
+
+Yes. The easiest way to make money with Glide is to become a [Glide Expert](https://www.glideapps.com/experts) and charge businesses to help them create apps. You can earn a full-time living as a Glide Expert.
