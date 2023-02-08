@@ -41,3 +41,11 @@ Glide is intended for creating custom business apps, mostly for internal use. It
 ## Can I make money with Glide?
 
 Yes. The easiest way to make money with Glide is to become a [Glide Expert](https://www.glideapps.com/experts) and charge businesses to help them create apps. You can earn a full-time living as a Glide Expert.
+
+## Is Glide GDPR compliant?
+
+Yes. You can learn more [here](https://www.glideapps.com/legal/privacy).
+
+## Where are Glide's servers located?
+
+Our servers are located in the United States. We use Google Cloud Platform as our main cloud.

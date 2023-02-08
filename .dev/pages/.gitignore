@@ -131,11 +131,10 @@ reference/data-sources/glide-tables.md
 reference/data-sources/google-sheets.md
 reference/data-sources/index.md
 reference/data-sources/introduction.md
-reference/faq/big-query-faq.md
 reference/faq/data-refresh.md
 reference/faq/feature-requests.md
 reference/faq/fixed-updates-vs-pay-as-you-go-updates.md
-reference/faq/general-faqs.md
+reference/faq/general.md
 reference/faq/index.md
 reference/faq/localization.md
 reference/faq/notifications.md
