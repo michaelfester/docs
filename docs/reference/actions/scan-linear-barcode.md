@@ -54,9 +54,9 @@ If the bar goes orange, the barcode reader has recognized that there is a barcod
 
 ## Troubleshooting
 
-As we mentioned above, only certain barcodes are currently supported. Please let us know if you require support for a different type of barcode.
+As we mentioned above, only certain barcodes are currently supported. Please contact us at hello@glideapps.com if you require support for a different type of barcode.
 
-Higher resolution cameras are obviously better. Any modern smartphone should perform fine, but cameras that are 720p resolution or below may experience issues. We're working on improving this.
+Higher resolution cameras are best. Any modern smartphone should perform fine, but cameras that are 720p resolution or below may experience issues. We're working on improving this.
 
 You can make your own barcodes with many different services online. Here are just a few:
 
