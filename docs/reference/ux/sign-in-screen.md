@@ -5,10 +5,6 @@ video:
 slug: sign-in-screen
 ---
 
-{% callout type="warning" %}
-Sign-in screen customization is currently only availing in Glide Apps, and is still in development for Glide Pages.
-{% /callout %}
-
 If your app uses any kind of sign-in method then you can customize the way your sign-in screen looks by uploading your own background, logo, greeting & description.
 
 ![](/docs/reference/ux/sign-in-screen/welcome-sign-ins.png)
