@@ -5,17 +5,17 @@ video: https://youtu.be/rmBFgHE2M1Q
 slug: big-tables
 ---
 
-Built for the most demanding workflows, **Big Tables** is an enterprise-grade database hosted directly in Glide. While a normal [Glide Table](https://www.glideapps.com/docs/reference/data-sources/glide-tables) has a limit of 25,000 rows, Big Tables can support up to 10 million rows. With Big tables, your app can scale as your data grows.
+Built for the most demanding workflows, **Big Tables** is an enterprise-grade database hosted directly in Glide. While a normal [Glide Table](https://www.glideapps.com/docs/reference/data-sources/glide-tables) has a limit of 25,000 rows, Big Tables can support up to 10 million rows. With Big Tables, your app can scale as your data grows.
 
 {% callout title="" %}
 Big Tables are only available on Business and Enterprise plans. Need to upgrade? [Read more about our plans and pricing here](https://www.glideapps.com/pricing).
 {% /callout %}
 
-You can also use an API to add rows, set columns, or delete rows from a big table.
+You can also use an API to add rows, set columns, or delete rows from a Big Table.
 
 ## Creating a Big Table
 
-From an already existing project, select the plus in the tables menu and choose “big empty table.”
+From an already existing project, select the plus in the tables menu and choose “Big Empty Table.”
 
 {% figure src="/docs/reference/data-sources/big-tables/adding-a-big-table-to-a-project.png" caption="Adding a Big Table to a project" /%}
 
@@ -69,7 +69,7 @@ To export data out of a Big Table:
 
 ## Big Tables API
 
-To use an API to add rows, set columns, get all rows, or delete rows from a big table:
+To use an API to add rows, set columns, get all rows, or delete rows from a Big Table:
 
 - Right click on the Big Table you want to connect with.
 - Select “Show API.”
@@ -82,7 +82,7 @@ To use an API to add rows, set columns, get all rows, or delete rows from a big 
 
 ## Limitations of Big Tables
 
-There are some features in Glide that aren't compatible with a big table. We're working to reduce these limitations! For now, those unavailable features are:
+There are some features in Glide that aren't compatible with a Big Table. We're working to reduce these limitations! For now, those unavailable features are:
 
 - Rollups and lookups into relations
 - Row owners
