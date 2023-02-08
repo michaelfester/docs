@@ -5,7 +5,7 @@ video: https://youtu.be/rmBFgHE2M1Q
 slug: big-tables
 ---
 
-Built for the most demanding workflows, **Big Tables** is an enterprise-grade database hosted directly in Glide. While a normal glide table has a limit of 25,000 rows, Big Tables can support up to 10 million rows. With Big tables, your app can scale as your data grows.
+Built for the most demanding workflows, **Big Tables** is an enterprise-grade database hosted directly in Glide. While a normal [Glide Table](https://www.glideapps.com/docs/reference/data-sources/glide-tables) has a limit of 25,000 rows, Big Tables can support up to 10 million rows. With Big tables, your app can scale as your data grows.
 
 {% callout title="" %}
 Big Tables are only available on Business and Enterprise plans. Need to upgrade? [Read more about our plans and pricing here](https://www.glideapps.com/pricing).
