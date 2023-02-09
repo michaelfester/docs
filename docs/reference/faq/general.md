@@ -39,3 +39,11 @@ Yes. You can learn more [here](https://www.glideapps.com/legal/privacy).
 ## Where are Glide's servers located?
 
 Our servers are located in the United States. We use Google Cloud Platform as our main cloud.
+
+## Can I make a custom collection?
+
+Yes, as long as you are using Glide Pages, you can use the Custom Collection component. This is not yet available in Glide Apps.
+
+Here's an example of a custom collection:
+
+![](/docs/reference/computed-columns/joined-list/Joined%20List.gif)
