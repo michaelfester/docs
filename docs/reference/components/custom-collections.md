@@ -40,7 +40,7 @@ To add an action to your Custom Collection:
 5. If you'd like to add a third, dropdown action, select "add dropdown action."
 
 {% callout title="Need to review how to add and customize Actions?" %}
-[Check out our complete documentation on every action here.](https://www.glideapps.com/docs/reference/actions)
+Check out our complete documentation on [every action here.](https://www.glideapps.com/docs/reference/actions)
 {% /callout %}
 
 ## FAQ
