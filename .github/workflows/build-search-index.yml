@@ -26,5 +26,4 @@ jobs:
         run: |
           echo sleeping a bit to wait for index...
           sleep 5
-          curl https://semantic-search-gpt.up.railway.app/index \
-            -H "Authorization: Bearer $TOKEN"
+          curl https://ai.glide.party/api/chat-index
