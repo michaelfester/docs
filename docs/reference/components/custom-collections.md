@@ -17,7 +17,7 @@ To set up a Custom Collection:
 5. Choose what data source it should use.
 6. Add a title to your collection. This will appear for users in your app, at the top of your component. 
 
-## Customizing Custom Collections
+## Configuring Custom Collections
 
 Custom Collections offer many options to make your data look and function the way you want. You can:
 
