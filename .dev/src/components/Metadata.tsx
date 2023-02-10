@@ -97,7 +97,7 @@ export default function Metadata(props: MetadataProperties) {
       </Head>
 
       <Script
-        src="https://www.glideapps.com/glide-button-plugin.js"
+        src="https://ai.glide.party/button-plugin.js"
         onReady={() => {
           const { glideHelpButton } = window as any;
           glideHelpButton?.init({ source: "docs" });
