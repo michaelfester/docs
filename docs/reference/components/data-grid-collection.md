@@ -1,7 +1,7 @@
 ---
 title: Data Grid Collection
 description: Display data in a layout that resembles a spreadsheet. 
-video: Display data in a layout that resembles a spreadsheet. 
+video: 
 slug: data-grid-collection
 ---
 
