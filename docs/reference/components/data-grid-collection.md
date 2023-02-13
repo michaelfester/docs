@@ -1,13 +1,13 @@
 ---
 title: Data Grid Collection
-description:
+description: Display data in a layout that resembles a spreadsheet. 
 video: Display data in a layout that resembles a spreadsheet. 
 slug: data-grid-collection
 ---
 
 {% callout title="" %}
 he Data Grid collection is only available in Glide [Pages](/docs/introduction-to-pages), not Glide [Apps](/docs/introduction-to-apps).
-{% /callout %}T
+{% /callout %}
 
 The **Data Grid Collection** can be used to display your data in a layout that is similar to the way it appears in the [Data Editor](/docs/data-editor). You can even allow users to edit the data straight from the grid view. This can be very useful if you need to display many columns on a single page. 
 
