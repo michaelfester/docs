@@ -31,7 +31,7 @@ Row** will display the link in a full-width row along with an optional **Caption
 
 - If using the **Row** style, use the menu in **Caption** to select the value from your data to display or select **Custom** to enter a custom value for this field.
 
-{% figure src="/docs/reference/components/link-component/link-component-configuration.png" caption="Configuring the Link Component on pages" /%}
+{% figure src="/docs/reference/components/link-component/link-component-configuration.png" caption="Configuring the Link Component in pages" /%}
 
 ## In Apps
 
@@ -53,4 +53,4 @@ If **Caption as title** is selected, the label is hidden, and the **Title** 
 
 - Use the menu in **Title** to select the value from your data to display, or select **Custom** to enter a Custom Value for this field. The Title can also be left blank if you only want to display the Label.
 
-{% figure src="/docs/reference/components/link-component/image(14).png.png" caption="Configuring the Link Component on apps" /%}
+{% figure src="/docs/reference/components/link-component/configuring-link-component.png" caption="Configuring the Link Component in apps" /%}
