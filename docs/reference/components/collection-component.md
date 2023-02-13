@@ -22,7 +22,7 @@ Choose a **Table** or **Relation** for your Collection's [Data Source](/docs/ref
 
 ### Style
 
-Most collections like **Card**, **List**, **Grid**, and **Table** are roughly the same in the way that you configure them. Some collections have very different configurations, so please reference their specific documentation (Kanban Board, Calendar, and Data Grid).
+Most collections like **Card**, **List**, [Grid](/docs/data-grid-collection), and **Table** are roughly the same in the way that you configure them. Some collections have very different configurations, so please reference their specific documentation (Kanban Board, Calendar, and Data Grid).
 
 ### Items Data
 
