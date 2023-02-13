@@ -4,10 +4,6 @@ description: Display a clickable link to a website.
 slug: link-component
 ---
 
-{% callout title="" %}
-The Link Component is only available in Glide [Apps](/docs/introduction-to-apps), not Glide [Pages](/docs/introduction-to-pages).
-{% /callout %}
-
 ## Configure a Link component
 
 ### Data
