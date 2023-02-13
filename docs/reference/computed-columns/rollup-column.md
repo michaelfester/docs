@@ -17,6 +17,29 @@ For example, in the app below we have a list of people who all have tasks. The `
 
 ![](/docs/reference/computed-columns/rollup-column/2020-03-17%2005.43.51.gif)
 
+To create a rollup column:
+
+- Open the data editor and add a new column. 
+- Label your column and select “rollup” as the column type.
+
+{% figure src="/docs/reference/computed-columns/rollup-column/adding-a-new-column.png" caption="Creating a new Rollup Column" /%}
+    
+- Choose with existing column or relation you want to perform your calculation on.
+
+{% figure src="/docs/reference/computed-columns/rollup-column/choosing-the-values.png" caption="Choosing the values" /%}
+    
+- Choose which calculation you want to perform.
+
+{% figure src="/docs/reference/computed-columns/rollup-column/choosing-which-calculation-to-perform.png" caption="Choosing the valuesChoosing which calculation to perform" /%}
+    
+- Specify the precision in decimal points for your calculation, as well as if you want to use a group separator or add units to the calculation. 
+   
+{% figure src="/docs/reference/computed-columns/rollup-column/configuring-the-display-section.png" caption="Configuring the Display section" /%}
+    
+- Select Done, and you will immediately see your calculations fill the column. 
+   
+{% figure src="/docs/reference/computed-columns/rollup-column/example-for-a-rollup-column.png" caption="Example for a Rollup Column" /%}
+
 ## Calculations
 
 The Rollup Column can perform different calculations based on the data it finds in the column or relation you select.
