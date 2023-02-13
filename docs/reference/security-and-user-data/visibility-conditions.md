@@ -1,8 +1,7 @@
 ---
 title: Visibility Conditions
-description: Visibility Conditions, Hidden Tabs, and Removed Components
+description: Control who can view different elements of your app.
 slug: visibility-conditions
-
 video:
 ---
 
