@@ -53,4 +53,4 @@ If **Caption as title** is selected, the label is hidden, and the **Title** 
 
 - Use the menu in **Title** to select the value from your data to display, or select **Custom** to enter a Custom Value for this field. The Title can also be left blank if you only want to display the Label.
 
-{% figure src="/docs/reference/components/link-component/image%20(14).png.png" caption="Configuring the Link Component on apps" /%}
+{% figure src="/docs/reference/components/link-component/image(14).png.png" caption="Configuring the Link Component on apps" /%}
