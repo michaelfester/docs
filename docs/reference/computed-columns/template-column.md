@@ -11,7 +11,7 @@ For instance, you can use template columns to create messages where you need to 
 
 **“Welcome, NAME!”** is the message and **NAME** is a user-specific information extracted from a column source.
 
-# Creating a Template Column
+## Creating a Template Column
 
 To create a template column:
 
