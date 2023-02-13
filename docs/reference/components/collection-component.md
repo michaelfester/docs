@@ -8,9 +8,9 @@ slug: collection-component
 The Collection Component is only available in Glide [Pages](/docs/introduction-to-pages), not Glide [Apps](/docs/introduction-to-apps).
 {% /callout %}
 
-Glide Pages don't have [List Screen Layouts](/docs/list-layout) like Glide Apps – everything is a [Details Screen](/docs/details-layout) onto which you can add components.
+Glide Pages don't have List Screen Layouts like Glide Apps – everything is a Details Screen onto which you can add components.
 
-Therefore, when we want to have lists, we need to add a **Collection Component**. This acts much like the [Inline List](/docs/inline-list) in Apps but has more power & versatility.
+Therefore, when we want to have lists, we need to add a **Collection Component**. This acts much like the Inline List in Apps but has more power & versatility.
 
 {% figure src="/docs/reference/components/collection-component/collection-component.png" caption="" /%}
 
@@ -22,7 +22,7 @@ Choose a **Table** or **Relation** for your Collection's [Data Source](/docs/ref
 
 ### Style
 
-Most collections like **Card**, **List**, **Grid**, and **Table** are roughly the same in the way that you configure them. Some collections have very different configurations, so please reference their specific documentation ([Kanban Board](/docs/kanban-board-pages), [Calendar](/docs/calendar-layout), and Data Grid).
+Most collections like **Card**, **List**, **Grid**, and **Table** are roughly the same in the way that you configure them. Some collections have very different configurations, so please reference their specific documentation (Kanban Board, Calendar, and Data Grid).
 
 ### Items Data
 
