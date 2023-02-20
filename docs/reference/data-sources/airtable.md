@@ -5,7 +5,6 @@ video: https://youtu.be/StRizGWBqtA
 slug: airtable
 ---
 
-​
 Airtable is a spreadsheet-database hybrid with the features of a database but applied to a spreadsheet. Your projects can be integrated with Airtable bases, offering you a more robust approach to data management that you may not find in simple spreadsheets.
 
 {% callout %}
@@ -34,17 +33,35 @@ Once you have this key, you can return to Glide to begin building projects from 
 4. Click on **Airtable** and **Continue**.
 5. Enter your Airtable account API key and click **Connect**.
 
-   {% figure src="/docs/reference/data-sources/airtable/connect-to-airtable.png" caption="Entering your API key in Glide" /%}
+{% figure src="/docs/reference/data-sources/airtable/connect-to-airtable.png" caption="Entering your API key in Glide" /%}
 
 6. Select the Airtable base you want to use.
 
-   {% figure src="/docs/reference/data-sources/airtable/choosing-an-airtable.png" caption="Choosing an Airtable base for your data source" /%}
+{% figure src="/docs/reference/data-sources/airtable/choosing-an-airtable.png" caption="Choosing an Airtable base for your data source" /%}
 
 7. Click **Create App** to create your new project!
 
 The sheets or tables in your base are added as individual **Tabs** to the **Layout Editor** and individual **Tables** in the **Data Editor**.
 
 {% figure src="/docs/reference/data-sources/airtable/different-view-of-data.png" caption="Viewing your data in Glide and Airtable" /%}
+
+## Changing the Airtable API Key
+
+To change the Airtable API key and connect to a different table, first make sure the new table is owned by the same email address you use with your Glide account. Then:
+
+1. Open the settings of your app. Then open the **Integrations** menu and select **Airtable.**
+ 
+{% figure src="/docs/reference/data-sources/airtable/choosing-the-airtable-under-intergrations.png" caption="Choosing the Airtable to edit the API key" /%}
+    
+2. Select **edit** next to the API key and paste in your new key. 
+   
+{% figure src="/docs/reference/data-sources/airtable/editing-the-api-key.png" caption="Editing the API key" /%}
+    
+3. Select **save**.  
+
+{% callout type="warning" title="" %}
+Changing with Airtable account is integrated will change the data in your data editor and could change the behavior of your app.
+{% /callout %}
 
 ## Sync data between Airtable and Glide
 
