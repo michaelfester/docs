@@ -82,7 +82,7 @@ The Enterprise plan starts at $799 per month. [Contact our sales team to get sta
 
 To upgrade your plan, log in to your Glide account, go to the **Settings** tab, and select the **Billing** section. From there, you can select the plan you want to upgrade to and provide the necessary billing information.
 
-{% figure src="/docs/reference/account/plans-and-pricing/upgrading-the-app.png" caption="Configuring the Billing" /%}
+{% figure src="/docs/reference/account/plans-and-pricing/upgrading-the-app.png" caption="Billing Configuration" /%}
 
 ## FAQ Section
 
