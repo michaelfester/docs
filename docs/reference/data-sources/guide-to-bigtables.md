@@ -19,15 +19,15 @@ With **Big Tables**, you can easily create a repository of an entire inventory o
 
 If you’d like to move items from your primary data source to a Big Table, you have a few options:
 
-- Export your data from the primary data source to a CSV file, then import the data into a Big Table. Check out the Introduction to Data Sources for more information. 
+- Export your data from the primary [Data Source](/docs/intro-to-data-sources) to a CSV file, then import the data into a Big Table.
 
 {% figure src="/docs/reference/data-sources/guide-to-bigtables/importing-an-existing-data-and-uploding-to-bigtable.png" caption="Importing exisiting data and exporting to Bigtables" /%}
 
-- Use the Glide API to add rows to your Big Table. Learn more about the Glide API here. 
+- Use the [Glide API](/docs/glide-tables-api) to add rows to your Big Table.
 
 {% figure src="/docs/reference/data-sources/guide-to-bigtables/getting-the-glide-api-key.png" caption="Getting the API key for Add Row" /%}
 
-- Create an action to add a row to your Big Table based on a user interaction. This action could also remove the row from the primary data source, if desired. 
+- Create an [Action](/docs/actions) to add a row to your Big Table based on a user interaction. This action could also remove the row from the primary data source, if desired. 
 
 {% figure src="/docs/reference/data-sources/guide-to-bigtables/creating-an-action-to-add-row-to-bigtable.png" caption="Configuring an Add Row Action to deposit values in Bigtables" /%}
 
