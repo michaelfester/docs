@@ -45,7 +45,7 @@ If you have an existing action in your project, you can update it to include an 
 
 ### Historical Archive
 
-Sometimes your project can start small, but over time its data set may grow and approach the 25,000-row limit of regular data sources. If you’d like to preserve all your data without impacting your project’s ability to capture new data, you can move its older data to a Big Table. This can be done by exporting the data from your primary data source and importing it into a Big Table or by using actions ****to add rows to a Big Table and deleting them from the original table. 
+Sometimes your project can start small, but over time its data set may grow and approach the 25,000-row limit of regular data sources. If you’d like to preserve all your data without impacting your project’s ability to capture new data, you can move its older data to a Big Table. This can be done by exporting the data from your primary data source and importing it into a Big Table or by using actions to add rows to a Big Table and deleting them from the original table. 
 
 **Configure a Big Table as a Historical Archive**
 
@@ -56,5 +56,5 @@ This can be done by adding an **AFTER SUBMISSION ACTION** to your forms. You can
 {% figure src="/docs/reference/data-sources/guide-to-bigtables/adding-an-on-submission-action.png" caption="Configure a Big Table as a Historical Archive" /%}
 
 {% callout title="" %}
-**Forms** will automatically add the submitted data to a new row in the selected data source. Forms ****don’t require an Add Row action on submission unless you need to capture an additional row of data in one of your tables.
+**Forms** will automatically add the submitted data to a new row in the selected data source. Forms don’t require an Add Row action on submission unless you need to capture an additional row of data in one of your tables.
 {% /callout %}
