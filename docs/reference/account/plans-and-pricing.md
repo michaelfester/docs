@@ -57,7 +57,7 @@ The Business plan is for businesses or organizations that require advanced featu
 
 - Unlimited public and private apps
 - 25 editors
-- Up to 250,000 rows of data
+- Up to 25,000 rows of data
 - 25,000 updates
 - 1 TB file storage
 - [APIs](/docs/glide-tables-api), [CSS](/docs/css-for-pages), iFrame embedding, and [offline row adding](/docs/offline-mode)
