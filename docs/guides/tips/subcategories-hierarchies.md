@@ -16,11 +16,10 @@ When working with multiple categories, it's important to realize that each level
 ![](</docs/guides/tips/subcategories-hierarchies/Group%209%20(1).png>)
 
 {% callout title="" %}
-
 - Level 1 has a child of level 2, level 2 has a child of level 3 etc
 - Level 6 has a parent of level 5, level 5 has a parent of level 4 etc
 - Level 1 doesn't have a parent and level 6 items don't have children
-  {% /callout %}
+{% /callout %}
 
 In a spreadsheet we don't visually nest items like we do in documents with bulleted lists (above). Instead, we have a column where we indicate the item's parent.
 
