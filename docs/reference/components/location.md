@@ -4,10 +4,6 @@ description: Log the device's current location
 slug: location
 ---
 
-{% callout title="" %}
-The Location Component is only available in Glide [Apps](/docs/introduction-to-apps), not Glide [Pages](/docs/introduction-to-pages).
-{% /callout %}
-
 ## Configure the Location component
 
 ### Data
