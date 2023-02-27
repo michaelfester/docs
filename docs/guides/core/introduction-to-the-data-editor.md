@@ -89,7 +89,7 @@ For example, the [Distance Column](/docs/distance-column) calculates the distanc
 
 ![](/docs/guides/core/introduction-to-the-data-editor/intro-to-data-editor-11.png)
 
-{% cta title="Computer Columns" description="Read more about the types of **Computed Columns**" url="/docs/computed-columns" /%}
+{% cta title="Computed Columns" description="Read more about the types of Computed Columns" url="/docs/computed-columns" /%}
 
 ## Adding and Deleting Columns
 
