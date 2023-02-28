@@ -1,6 +1,7 @@
 import { Banner } from "@/components/Banner";
 import { Callout } from "@/components/Callout";
 import CTA from "@/components/CTA";
+import FAQ from "@/components/FAQ";
 import { LinkGrid } from "@/components/LinkGrid";
 import { Video } from "@/components/Video";
 import Image from "next/image";
@@ -35,6 +36,14 @@ const tags = {
       url: { type: String },
     },
     render: CTA,
+  },
+  faq: {
+    selfClosing: true,
+    attributes: {
+      question: { type: String },
+      answer: { type: String },
+    },
+    render: FAQ,
   },
   figure: {
     selfClosing: true,

@@ -1,3 +1,5 @@
+.DS_Store
+guides/.DS_Store
 guides/core/actions/2020-05-14 12.45.26.gif
 guides/core/actions/2020-11-16 12.30.48.gif
 guides/core/actions/2020-11-16 12.40.34.gif
@@ -204,6 +206,7 @@ guides/other/join-the-community/glide-community-making-your-first-post.png
 guides/other/join-the-community/glide-community-other-areas.png
 guides/other/join-the-community/sign-up-glide-community.png
 guides/other/join-the-community/signing-up-to-glide-community.png
+guides/products/.DS_Store
 guides/products/introduction-to-apps/placeholder-image.png
 guides/products/introduction-to-pages/22 (1).png
 guides/products/introduction-to-pages/22 (2).png
@@ -257,6 +260,7 @@ guides/users/viewing-as-feature.png
 illustrations/how-to-learn.svg
 illustrations/quickstart.svg
 illustrations/welcome.svg
+products/data-editor/introduction/.DS_Store
 reference/account/billing/add-payment-method.png
 reference/account/billing/billing-dashboard.png
 reference/account/billing/billing-history-sample.png
@@ -280,6 +284,7 @@ reference/account/glide-ui/the-screen-area-of-glide.png
 reference/account/glide-ui/the-tabs-area-of-glide.png
 reference/account/glide-ui/the-top-bar-of-glide.png
 reference/account/glide-ui/using-the-data-tab-to-edit-data-model.gif
+reference/account/plans-and-pricing/upgrading-the-app.png
 reference/account/projects/adding-an-app.gif
 reference/account/projects/deleting-an-app.gif
 reference/account/projects/DNS-records-for-configuring-your-custom-domain.png
@@ -310,6 +315,7 @@ reference/actions/copy-to-clipboard/copy-to-clipboard-custom.png
 reference/actions/copy-to-clipboard/copy-to-clipboard.png
 reference/actions/dial-a-phone-number/2020-07-19 21.33.28.gif
 reference/actions/go-back/configure-go-back-action.gif
+reference/actions/go-back/configuring-go-back-action.png
 reference/actions/go-to-tab/this-action-takes-users-straight-to-the-me-tab.gif
 reference/actions/increment-value/custom-increments-using-columns.png
 reference/actions/increment-value/Incrementing-a-number-by-1.png
@@ -582,6 +588,12 @@ reference/components/container/container-conditions.png
 reference/components/container/designing-container.png
 reference/components/container/layout-styles-of-container.png
 reference/components/container/showing-the-number-of-columns.png
+reference/components/data-grid-collection/adding-items-to-data-grid-view.png
+reference/components/data-grid-collection/allowing-the-users-to-add-items.png
+reference/components/data-grid-collection/allowing-the-users-to-delete-items.png
+reference/components/data-grid-collection/enabling-advanced-actions.png
+reference/components/data-grid-collection/Frame.png
+reference/components/data-grid-collection/usecase-of-the-data-grid-layout.png
 reference/components/date-pickers/date-picker-configuration.png
 reference/components/date-pickers/designing-date-picker.png
 reference/components/date-pickers/range.png
@@ -618,6 +630,7 @@ reference/components/inline-list-component/inline-list-options-configuration.png
 reference/components/inline-list-component/inline-list-options.png
 reference/components/inline-list-component/selecting-an-inline-list-style.png
 reference/components/link-component/configuring-link-component.png
+reference/components/link-component/link-component-configuration.png
 reference/components/list-relation/configuring-list-relation.png
 reference/components/list-relation/filtering-grouping-and-sorting-list-relation.png
 reference/components/list-relation/use-case-of-list-relation.png
@@ -670,6 +683,12 @@ reference/computed-columns/experimental-code-column/Group 1 (1) (1).png
 reference/computed-columns/experimental-code-column/Group 2.png
 reference/computed-columns/experimental-code-column/Group 3.png
 reference/computed-columns/experimental-code-column/Screenshot 2021-07-27 at 21.18 1.png
+reference/computed-columns/format-duration/adding-a-custom-value-to-format.png
+reference/computed-columns/format-duration/adding-a-custom-value-to-seconds.png
+reference/computed-columns/format-duration/adding-a-new-column.png
+reference/computed-columns/format-duration/choosing-the-data-table-to-edit.png
+reference/computed-columns/format-duration/choosing-the-format-duration-column.png
+reference/computed-columns/format-duration/naming-the-column.png
 reference/computed-columns/generate-image/Screen Shot 2020-09-15 at 11.00 1.png
 reference/computed-columns/if-the-else-column/If Then Else GIF 1.gif
 reference/computed-columns/if-the-else-column/If Then Else GIF 2.gif
@@ -685,14 +704,20 @@ reference/computed-columns/make-array/joined-list.png
 reference/computed-columns/make-array/linking-mulitiple-array-columns-together.png
 reference/computed-columns/make-array/selecting-columns-of-different-types-for-your-array.png
 reference/computed-columns/make-array/using-an-array-column-in-a-math-function.png
-reference/computed-columns/math-column/6fce87091126f132fef48791839cfe947581faef_1.png
-reference/computed-columns/math-column/CleanShot 2022-04-23 at 16.58 1.png
-reference/computed-columns/math-column/CleanShot 2022-04-23 at 17.32 1.png
-reference/computed-columns/math-column/Group 10 (1).png
-reference/computed-columns/math-column/Math Column 2-R.gif
-reference/computed-columns/math-column/Math Column 3.gif
-reference/computed-columns/math-column/Math Column Sample.gif
-reference/computed-columns/math-column/Screenshot 2019-11-15 at 09.56.27.png
+reference/computed-columns/math-column/adding-the-math-column-to-calculate-the-percentage.png
+reference/computed-columns/math-column/changing-the-precision-to-1-and-add-the-percentage-sign.png
+reference/computed-columns/math-column/configuring-the date-time-math-column.png
+reference/computed-columns/math-column/configuring-the-duration-in-days-math-column.png
+reference/computed-columns/math-column/configuring-the-duration-in-hours-math-column.png
+reference/computed-columns/math-column/configuring-the-math-column.png
+reference/computed-columns/math-column/creating-a-rollup-that-counts-all-the-tasks-with-the-values-of-true.png
+reference/computed-columns/math-column/creating-another-rollup-counting-all-the-unique-tasks.png
+reference/computed-columns/math-column/editing-the-math-column.png
+reference/computed-columns/math-column/formating-a-date-time-math-column.png
+reference/computed-columns/math-column/getting-the-year-using-YEAR(DATE).png
+reference/computed-columns/math-column/showcasing-the-computed-column-using-the-table-component.png
+reference/computed-columns/math-column/use-case-of-a-math-column.png
+reference/computed-columns/math-column/use-floor()-to-reduce-the-number-of-days.png
 reference/computed-columns/pugins/CleanShot 2021-12-14 at 13.57.40@2x.png
 reference/computed-columns/relations/check-for-matching-values.png
 reference/computed-columns/relations/checking-for-matching-values.png
@@ -702,6 +727,11 @@ reference/computed-columns/rollup-column/2020-03-17 05.43.51.gif
 reference/computed-columns/rollup-column/2020-03-17 06.07.12.gif
 reference/computed-columns/rollup-column/2020-03-17 06.07.49.gif
 reference/computed-columns/rollup-column/2020-03-17 06.13.06 (1).gif
+reference/computed-columns/rollup-column/adding-a-new-column.png
+reference/computed-columns/rollup-column/choosing-the-values.png
+reference/computed-columns/rollup-column/choosing-which-calculation-to-perform.png
+reference/computed-columns/rollup-column/configuring-the-display-section.png
+reference/computed-columns/rollup-column/example-for-a-rollup-column.png
 reference/computed-columns/rollup-column/Rollup simple.gif
 reference/computed-columns/row-id-column/adding-a-row-id-column.png
 reference/computed-columns/row-id-column/lock-in-row-column.png
@@ -715,6 +745,10 @@ reference/computed-columns/split-text-column/go.glideapps.com_app_6L1m67xelmQ0op
 reference/computed-columns/split-text-column/Screen Shot 2020-09-18 at 8.27.59 AM.png
 reference/computed-columns/split-text-column/Screen Shot 2020-09-18 at 8.28.59 AM.png
 reference/computed-columns/split-text-column/Untitled.gif
+reference/computed-columns/templare-column/adding-a-new-column.png
+reference/computed-columns/templare-column/an-example-for-a-template-column.png
+reference/computed-columns/templare-column/configuring-the-template-column.png
+reference/computed-columns/templare-column/naming-the-column-and-choosing-the-template-column.png
 reference/computed-columns/templare-column/Screenshot 2021-04-24 at 16.40 1.png
 reference/computed-columns/templare-column/Template Column 1.gif
 reference/computed-columns/templare-column/Template Column 2.gif
@@ -763,9 +797,11 @@ reference/data-sources/airtable/4.png
 reference/data-sources/airtable/5 (5).png
 reference/data-sources/airtable/asdf.gif
 reference/data-sources/airtable/choosing-an-airtable.png
+reference/data-sources/airtable/choosing-the-airtable-under-intergrations.png
 reference/data-sources/airtable/connect-to-airtable.png
 reference/data-sources/airtable/different-view-of-airtable.png
 reference/data-sources/airtable/different-view-of-data.png
+reference/data-sources/airtable/editing-the-api-key.png
 reference/data-sources/airtable/empty-rows-in-the-airtable-will-still-be-shown-in-your-project.png
 reference/data-sources/airtable/finding-the-airtable-api-key.png
 reference/data-sources/airtable/finding-theairtable-api-key.png
@@ -824,10 +860,14 @@ reference/data-sources/glide-tables/Screen Shot 2021-03-23 at 1.43.04 PM.png
 reference/data-sources/glide-tables/unlinking-a-table.png
 reference/data-sources/glide-tables/unlinktable.png
 reference/data-sources/google-sheets/choosing-google-sheets-for-your-project.png
+reference/data-sources/guide-to-bigtables/adding-an-on-submission-action.png
+reference/data-sources/guide-to-bigtables/configuring-bigtable-as-an-audit-log.png
+reference/data-sources/guide-to-bigtables/creating-an-action-to-add-row-to-bigtable.png
+reference/data-sources/guide-to-bigtables/getting-the-glide-api-key.png
+reference/data-sources/guide-to-bigtables/importing-an-existing-data-and-uploding-to-bigtable.png
 reference/data-sources/introduction-to-data-sources/adding-a-new-data-source (1).png
 reference/data-sources/introduction-to-data-sources/Updating Data.gif
 reference/data-sources/placeholder-folder/placeholder-image.png
-reference/faq/feature-requests/feature-requests.png
 reference/faq/general-faqs/placeholder-image.png
 reference/faq/localization/content-of-screen-translated.png
 reference/faq/localization/search-bar-text-is-translated.png
