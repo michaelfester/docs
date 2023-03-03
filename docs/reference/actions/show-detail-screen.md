@@ -5,7 +5,9 @@ video:
 slug: show-detail-screen
 ---
 
-By default, list items link to their [Details Screen](/docs/details-screen). 'Show Detail Screen' is, therefore, an action that you will only find on [Lists](/docs/list-styles).
+By default, list items link to their Details Screen. 'Show Detail Screen' is, therefore, an action that you will only find on Lists.
+
+{% cta title="Screen Types" description="Learn more about screen types here" url="/docs/screens" /%}
 
 {% figure src="/docs/reference/actions/show-detail-screen/configure-show-detail-screen.png" caption="Configure Show Detail Screen" /%}
 
