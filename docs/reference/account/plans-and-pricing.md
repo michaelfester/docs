@@ -23,7 +23,7 @@ The free plan is for individuals creating apps for personal use. Here are some o
 
 ### Starter Plan
 
-The Starter plan is idea for individuals building a few small apps. Here are some of the features you can expect from the Starter plan:
+The Starter plan is ideal for individuals building a few small apps. Here are some of the features you can expect from the Starter plan:
 
 - 5 apps
 - 5 editors
@@ -38,7 +38,7 @@ The Starter plan is priced at $25 per month.
 
 ### Pro Plan
 
-The Pro plan is perfect for small to medium-sized businesses that require additional features. Here are some of the features you can expect from the Business plan:
+The Pro plan is perfect for small to medium-sized businesses that require additional features. Here are some of the features you can expect from the Pro plan:
 
 - Unlimited public and private apps
 - 10 editors
@@ -53,7 +53,7 @@ The Pro plan is priced at $99 per month.
 
 ### Business Plan
 
-The Business plan is for businesses or organizations that require advanced features and support. Here are some of the features you can expect from the Pro plan:
+The Business plan is for businesses or organizations that require advanced features and support. Here are some of the features you can expect from the Business plan:
 
 - Unlimited public and private apps
 - 25 editors
