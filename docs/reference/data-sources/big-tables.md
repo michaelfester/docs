@@ -85,7 +85,6 @@ To use an API to add rows, set columns, get all rows, or delete rows from a Big 
 There are some features in Glide that aren't compatible with a Big Table. We're working to reduce these limitations! For now, those unavailable features are:
 
 - Rollups and lookups into relations
-- User-specific columns
 - Filtering, sorted, and search in computed columns
 - Grouping in components
 - Big Tables do not update in real time. A refresh is necessary to update.
