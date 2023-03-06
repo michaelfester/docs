@@ -12,7 +12,7 @@ To create a new app, click on the "New Project" button to get started.
 
 When you click on the "New Project" button, you will need to enter your project's name and choose which type of project — [Apps](/docs/apps) or [Pages](/docs/pages).
 
-{% figure src="/docs/reference********/account/projects/adding-an-app.gif" caption="Adding an app" /%}
+{% figure src="/docs/reference/account/projects/adding-an-app.gif" caption="Adding an app" /%}
 
 ### Data source
 
