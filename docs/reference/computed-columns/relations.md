@@ -4,6 +4,9 @@ description: Create relationships and link rows together.
 video: https://youtu.be/PN1xxatjmF0
 slug: relations
 ---
+{% callout title="" %}
+To create a relationship between two tables, you must have a column with identical values in both tables.
+{% /callout %}
 
 Relations can be used in Glide to create relationships between rows, linking together their data across tables.
 
