@@ -17,7 +17,7 @@ export function Navigation({ navigation, className }: Props) {
       <ul className="space-y-10">
         {navigation.map(section => (
           <li key={section.title}>
-            <header className="ml-2 text-lg font-bold leading-6 dark:text-white">
+            <header className="ml-2 text-md font-semibold leading-6 dark:text-white">
               {section.title}
             </header>
 
@@ -32,17 +32,18 @@ export function Navigation({ navigation, className }: Props) {
                     <Link href={link.href}>
                       <a
                         className={clsx("block w-full rounded-lg p-2 text-md", {
-                          "font-medium text-neutrals-light-15 dark:text-white":
+                          "text-neutrals-light-15 dark:text-white":
                             router.pathname === link.href,
                           "text-neutrals-light-10 hover:bg-aqua-light dark:text-neutrals-light-4 dark:hover:bg-transparent":
                             router.pathname !== link.href,
+                          "text-teal-9": linkActive,
                         })}
                       >
                         {link.title}
                       </a>
                     </Link>
                     {linkActive && link.links && link.links.length > 0 && (
-                      <ul className="my-4 ml-[1.875rem]">
+                      <ul className="my-4 border-l-2 pl-4">
                         {Object.entries(groupBy(link.links, "section")).map(
                           ([subSection, subLinks]) => (
                             <div key={subSection}>
@@ -56,15 +57,28 @@ export function Navigation({ navigation, className }: Props) {
                                 const sublinkActive =
                                   router.pathname === sublink.href;
                                 return (
-                                  <li className="relative" key={sublink.href}>
+                                  <li
+                                    className="group relative"
+                                    key={sublink.href}
+                                  >
+                                    <span
+                                      className={classNames(
+                                        "absolute -ml-4 h-full w-0.5 -translate-x-0.5 transition",
+                                        { "bg-teal-9": sublinkActive },
+                                        {
+                                          "group-hover:bg-teal-9":
+                                            !sublinkActive,
+                                        }
+                                      )}
+                                    />
                                     <Link href={sublink.href}>
                                       <a
                                         className={classNames(
                                           "block w-full rounded-lg p-2 text-md text-neutrals-light-10 dark:text-neutrals-light-4 dark:hover:text-white",
                                           {
-                                            "bg-aqua-light font-medium dark:bg-transparent":
+                                            "text-teal-9 dark:text-teal-9":
                                               sublinkActive,
-                                            "hover:bg-[#F8F8F8] dark:hover:bg-transparent":
+                                            "hover:text-teal-9 dark:hover:text-teal-9":
                                               !sublinkActive,
                                           }
                                         )}

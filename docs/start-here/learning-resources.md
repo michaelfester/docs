@@ -4,7 +4,7 @@ description: The most essential things to know and how to learn them.
 slug: how-to-learn
 ---
 
-{% banner text="Learning Resources" accentColor="#0FD452" backgroundColor="#EEFBEB" illustration="/docs/illustrations/how-to-learn.svg" /%}
+{% banner text="Learning Resources" /%}
 
 - Watch courses & videos on **[YouTube](https://www.youtube.com/c/glideapps/videos)** **→**
 - Read **[this documentation library →](/docs/guides/core/)**

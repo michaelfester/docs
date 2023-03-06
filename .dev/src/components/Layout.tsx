@@ -28,6 +28,7 @@ import { track } from "@/analytics";
 import { LinkIcon } from "@heroicons/react/24/outline";
 import useIFrameChecker from "@/utils/useIFrameChecker";
 import { timeAgo } from "@/timeAgo";
+import Icon from "@/lib/icons/stroke";
 
 const OpenGlideButton = () => (
   <GlideButton
@@ -36,25 +37,10 @@ const OpenGlideButton = () => (
     as="a"
     onClick={() => track("navigation", "open glide")}
     href="https://go.glideapps.com"
+    className="flex items-center"
   >
-    <svg
-      className="mr-2"
-      width="16"
-      height="16"
-      viewBox="0 0 16 16"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M0 8.8L8.8 0V4.32C8.8 6.79424 6.79424 8.8 4.32 8.8H0Z"
-        fill="white"
-      />
-      <path
-        d="M7.2 11.68C7.2 9.20576 9.20576 7.2 11.68 7.2H16L7.2 16V11.68Z"
-        fill="white"
-      />
-    </svg>
-    Open Glide
+    <Icon name="st-star-4" />
+    <span className="ml-2">Open Glide</span>
   </GlideButton>
 );
 
@@ -76,7 +62,7 @@ function Header({ navigation }: HeaderProps) {
   return (
     <div
       className={clsx(
-        "sticky top-0 z-50 h-[84px]  border-b border-neutrals-light-4 bg-white px-4 py-5 transition duration-500 sm:px-6 lg:px-8",
+        "sticky top-0 z-50 h-[72px]  border-b border-neutrals-light-4 bg-white px-4 py-3.5 transition duration-500 sm:px-6 lg:px-8",
         {
           "bg-opacity-75 backdrop-blur dark:bg-neutrals-light-15/95 dark:[@supports(backdrop-filter:blur(0))]:bg-neutrals-light-15/75":
             isScrolled,
@@ -84,16 +70,16 @@ function Header({ navigation }: HeaderProps) {
         }
       )}
     >
-      <header className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto sm:px-7">
+      <header className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between px-4 sm:px-7">
         <button
           type="button"
           onClick={() => setIsOpen(true)}
-          className="relative hidden mr-6 md:block lg:hidden"
+          className="relative mr-6 hidden md:block lg:hidden"
         >
           <span className="sr-only">Open navigation</span>
           <svg
             aria-hidden="true"
-            className="w-6 h-6 stroke-slate-500"
+            className="h-6 w-6 stroke-slate-500"
             fill="none"
             strokeWidth="2"
             strokeLinecap="round"
@@ -101,7 +87,7 @@ function Header({ navigation }: HeaderProps) {
             <path d="M4 7h16M4 12h16M4 17h16" />
           </svg>
         </button>
-        <div className="relative flex items-center flex-grow basis-0">
+        <div className="relative flex flex-grow basis-0 items-center">
           <Link href="/">
             <a className="block w-auto">
               <span className="sr-only">Home page</span>
@@ -110,7 +96,7 @@ function Header({ navigation }: HeaderProps) {
           </Link>
         </div>
 
-        <div className="mr-6 lg:hidden">
+        <div className="mr-6 flex items-center lg:hidden">
           <MobileNavigation
             navigation={navigation}
             {...{ isOpen, setIsOpen }}
@@ -123,7 +109,7 @@ function Header({ navigation }: HeaderProps) {
             <span className="sr-only">Open navigation</span>
             <svg
               aria-hidden="true"
-              className="w-6 h-6 stroke-slate-500"
+              className="h-6 w-6 stroke-slate-500"
               fill="none"
               strokeWidth="2"
               strokeLinecap="round"
@@ -134,11 +120,17 @@ function Header({ navigation }: HeaderProps) {
         </div>
 
         {/* TODO: add search icon on mobile and include search experience */}
-        <div className="hidden mr-6 -my-5 sm:mr-8 md:mr-0 md:block">
+        <div className="-my-5 mr-6 hidden sm:mr-8 md:mr-0 md:block">
           <Search />
         </div>
 
-        <div className="relative justify-end hidden space-x-6 basis-0 sm:space-x-8 md:flex md:flex-grow">
+        <div className="relative hidden basis-0 items-center justify-end space-x-2 md:flex md:flex-grow">
+          <a
+            href="https://glideapps.com"
+            className="hidden px-2 py-3 text-sm font-semibold dark:text-white lg:inline"
+          >
+            Glide Home
+          </a>
           <OpenGlideButton />
         </div>
       </header>
@@ -230,10 +222,10 @@ function Layout({ children, navigation, tableOfContents }: Props) {
           }
         )}
       >
-        <div className="hidden -ml-1 lg:relative lg:block lg:flex-none">
+        <div className="-ml-1 hidden lg:relative lg:block lg:flex-none">
           <div className="sticky top-[4.5rem] -ml-0.5 h-[calc(100vh-4.5rem)] overflow-y-auto py-10 pl-0.5">
-            <div className="absolute bottom-0 right-0 hidden w-px h-12 top-16 bg-gradient-to-t from-slate-800 dark:block" />
-            <div className="absolute bottom-0 right-0 hidden w-px top-28 bg-slate-800 dark:block" />
+            <div className="absolute bottom-0 right-0 top-16 hidden h-12 w-px bg-gradient-to-t from-slate-800 dark:block" />
+            <div className="absolute bottom-0 right-0 top-28 hidden w-px bg-slate-800 dark:block" />
             <Navigation
               navigation={navigation}
               className="w-64 pr-8 xl:w-72 xl:pr-16"
@@ -243,7 +235,7 @@ function Layout({ children, navigation, tableOfContents }: Props) {
 
         <div
           className={classNames(
-            "min-w-0 flex-auto px-4 py-10 lg:max-w-none lg:pr-0 lg:pl-8 xl:px-16",
+            "min-w-0 flex-auto px-4 py-10 lg:max-w-none lg:pr-0 lg:pl-8",
             {
               "max-w-2xl": !isInIFrame,
             }
@@ -262,7 +254,7 @@ function Layout({ children, navigation, tableOfContents }: Props) {
               >
                 {section && (
                   <div className="flex items-center">
-                    <p className="text-base font-medium font-display text-sky-500">
+                    <p className="font-display text-base font-medium text-sky-500">
                       {section.title}
                       {mainSectionLink && <> / {mainSectionLink.title}</>}
                     </p>
@@ -270,12 +262,12 @@ function Layout({ children, navigation, tableOfContents }: Props) {
                       className="p-2 focus-visible:outline-none"
                       onClick={copyPermalink}
                     >
-                      <LinkIcon className="w-4 h-4 dark:text-white" />
+                      <LinkIcon className="h-4 w-4 dark:text-white" />
                     </button>
                   </div>
                 )}
                 {title && (
-                  <h1 className="text-4xl tracking-tight font-display text-slate-900 dark:text-white">
+                  <h1 className="font-display text-4xl tracking-tight text-slate-900 dark:text-white">
                     {title}
                   </h1>
                 )}
@@ -317,10 +309,10 @@ function Layout({ children, navigation, tableOfContents }: Props) {
               </div>
             )}
           </article>
-          <dl className="flex pt-6 mt-12 border-t border-slate-200 dark:border-slate-800">
+          <dl className="mt-12 flex border-t border-slate-200 pt-6 dark:border-slate-800">
             {previousPage && (
               <div>
-                <dt className="text-sm font-medium font-display text-slate-900 dark:text-white">
+                <dt className="font-display text-sm font-medium text-slate-900 dark:text-white">
                   Previous
                 </dt>
                 <dd className="mt-1">
@@ -334,7 +326,7 @@ function Layout({ children, navigation, tableOfContents }: Props) {
             )}
             {nextPage && (
               <div className="ml-auto text-right">
-                <dt className="text-sm font-medium font-display text-slate-900 dark:text-white">
+                <dt className="font-display text-sm font-medium text-slate-900 dark:text-white">
                   Next
                 </dt>
                 <dd className="mt-1">
@@ -351,7 +343,7 @@ function Layout({ children, navigation, tableOfContents }: Props) {
             <FeedbackForm pageTitle={title} pageSlug={link.href} />
           </div>
         </div>
-        <div className="hidden xl:sticky xl:top-[4.5rem] xl:-mr-6 xl:block xl:h-[calc(100vh-4.5rem)] xl:flex-none xl:overflow-y-auto xl:py-16 xl:pr-6">
+        {/* <div className="hidden xl:sticky xl:top-[4.5rem] xl:-mr-6 xl:block xl:h-[calc(100vh-4.5rem)] xl:flex-none xl:overflow-y-auto xl:py-16 xl:pr-6">
           <nav aria-labelledby="on-this-page-title" className="w-56">
             {tableOfContents.length > 0 && (
               <>
@@ -402,7 +394,7 @@ function Layout({ children, navigation, tableOfContents }: Props) {
               </>
             )}
           </nav>
-        </div>
+        </div> */}
       </div>
 
       <FullScreenImages />

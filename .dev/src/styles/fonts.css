@@ -1,55 +1,3 @@
-@font-face {
-  font-family: "Matter";
-  src: url("/docs/fonts/Matter-SemiBold.woff2") format("woff2"),
-    url("/docs/fonts/Matter-SemiBold.woff") format("woff");
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: "Matter";
-  src: url("/docs/fonts/Matter-Medium.woff2") format("woff2"),
-    url("/docs/fonts/Matter-Medium.woff") format("woff");
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: "Matter";
-  src: url("/docs/fonts/Matter-Regular.woff2") format("woff2"),
-    url("/docs/fonts/Matter-Regular.woff") format("woff");
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "Matter";
-  src: url("/docs/fonts/Matter-Light.woff2") format("woff2"),
-    url("/docs/fonts/Matter-Light.woff") format("woff");
-  font-weight: 300;
-}
-
-.font-heading,
-.font-matter {
-  font-family: "Matter", "Inter", "Arial", "Helvetica", sans-serif;
-}
-
-@font-face {
-  font-family: "Maxeville Mono";
-  src: url("/docs/fonts/MaxevilleMono-Bold.woff2") format("woff2"),
-    url("/docs/fonts/MaxevilleMono-Bold.woff") format("woff");
-  font-weight: 800;
-}
-
-.font-monospace {
-  font-family: "Maxeville Mono", ui-monospace, Menlo, Monaco, "Segoe UI Mono",
-    "Roboto Mono", "Oxygen Mono", "Courier New", monospace;
-}
-
-@font-face {
-  font-family: "ES Build";
-  src: url("/docs/fonts/ES-Build-SemiBold.woff2") format("woff2"),
-    url("/docs/fonts/ES-Build-SemiBold.woff") format("woff");
-  font-weight: 700;
-}
-
 h1,
 h2,
 h3,
@@ -58,7 +6,59 @@ h5,
 h6,
 .font-brand,
 .font-brand > * {
-  font-family: "ES Build", "Matter", Inter, -apple-system, BlinkMacSystemFont,
+  font-family: "Chromatic Grotesque", Inter, -apple-system, BlinkMacSystemFont,
     avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto,
     noto, arial, sans-serif;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, avenir next, avenir,
+    segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+}
+
+@font-face {
+  font-family: "Chromatic Compact";
+  src: url("/fonts/chromatic-compact-bold-pro.woff2") format("woff2");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Chromatic Condensed";
+  src: url("/fonts/chromatic-condensed-bold-pro.woff2") format("woff2");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Chromatic Grotesque";
+  src: url("/fonts/chromatic-grotesque-regular-pro.woff2") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Chromatic Grotesque";
+  src: url("/fonts/chromatic-grotesque-medium-pro.woff2") format("woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Chromatic Geometric";
+  src: url("/fonts/chromatic-geometric-regular-pro.woff2") format("woff2");
+  font-weight: 400;
+}
+
+.font-chromatic-compact {
+  font-family: "Chromatic Compact";
+}
+
+.font-chromatic-condensed {
+  font-family: "Chromatic Condensed";
+}
+
+.font-chromatic-grotesque {
+  font-family: "Chromatic Grotesque";
+}
+
+.font-chromatic-geometric {
+  font-family: "Chromatic Geometric";
 }

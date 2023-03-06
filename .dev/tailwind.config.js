@@ -3,6 +3,7 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}", "./markdoc/*.tsx"],
+  presets: [require("glideapps-marketing-module/twTheme")],
   darkMode: "class",
   theme: {
     extend: {
@@ -41,8 +42,8 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: ["Matter", ...defaultTheme.fontFamily.sans],
-        display: ["ES Build", ...defaultTheme.fontFamily.sans],
+        sans: ["Inter", ...defaultTheme.fontFamily.sans],
+        display: ["Chromatic Grotesque", ...defaultTheme.fontFamily.sans],
       },
       fontSize: {
         xsm: ["0.688rem", "1.27"],

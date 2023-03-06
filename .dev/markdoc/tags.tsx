@@ -1,6 +1,7 @@
 import { Banner } from "@/components/Banner";
 import { Callout } from "@/components/Callout";
 import CTA from "@/components/CTA";
+import HomeScreen from "@/components/HomeScreen";
 import FAQ from "@/components/FAQ";
 import { LinkGrid } from "@/components/LinkGrid";
 import { Video } from "@/components/Video";
@@ -16,6 +17,10 @@ const tags = {
       illustration: { type: String },
     },
     render: Banner,
+  },
+  homescreen: {
+    selfClosing: true,
+    render: HomeScreen,
   },
   callout: {
     attributes: {

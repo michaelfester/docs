@@ -26,6 +26,7 @@
     "date-fns": "^2.29.2",
     "export-to-csv": "^0.2.1",
     "focus-visible": "^5.2.0",
+    "glideapps-marketing-module": "^0.2.4",
     "glob": "^8.1.0",
     "html-to-text": "^8.2.0",
     "javascript-time-ago": "^2.5.9",

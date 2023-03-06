@@ -4,7 +4,7 @@ description: Publish your first app in under 5 minutes
 slug: quick-start
 ---
 
-{% banner text="Quick Start" accentColor="#FF6C44" backgroundColor="#FFF0EC" illustration="/docs/illustrations/quickstart.svg" /%}
+{% banner text="Quick Start" /%}
 
 Getting a custom app or web page that you've made onto your phone or computer or into the hands of your team is an exhilarating feeling. With Glide, you can build and share in two simple steps in under five minutes. Here's how: 👇
 

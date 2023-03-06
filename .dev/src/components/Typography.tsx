@@ -3,7 +3,7 @@ import { HTMLAttributes, ReactNode } from "react";
 
 type HeaderType = "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
 
-type VariantType = "2xl" | "xl" | "lg" | "md" | "sm" | "xs";
+type VariantType = "3xl" | "2xl" | "xl" | "lg" | "md" | "sm" | "xs";
 interface IHeaderProps {
   /* variant controls the size of the header */
   variant: VariantType;
@@ -17,21 +17,33 @@ type Variant = {
 };
 
 const variants: Record<VariantType, Variant> = {
+  "3xl": {
+    renderAs: "h1",
+    className:
+      "font-chromatic-grotesque text-5xl sm:text-6xl lg:text-7xl xl:text-[100px]",
+  },
   "2xl": {
     renderAs: "h1",
-    className: "font-brand text-4xl sm:text-5xl lg:text-6xl xl:text-7xl",
+    className:
+      "font-chromatic-grotesque text-4xl sm:text-5xl lg:text-6xl xl:text-7xl",
   },
   xl: {
     renderAs: "h2",
-    className: "font-brand text-4xl sm:text-5xl lg:text-6xl",
+    className: "font-chromatic-grotesque text-4xl sm:text-5xl lg:text-6xl",
   },
   lg: {
     renderAs: "h3",
-    className: "font-brand text-3xl md:text-4xl lg:text-5xl",
+    className: "font-chromatic-grotesque text-3xl md:text-4xl lg:text-5xl",
   },
-  md: { renderAs: "h4", className: "font-brand text-3xl lg:text-4xl" },
-  sm: { renderAs: "h5", className: "font-brand text-2xl lg:text-3xl" },
-  xs: { renderAs: "h6", className: "font-brand text-2xl" },
+  md: {
+    renderAs: "h4",
+    className: "font-chromatic-grotesque text-3xl lg:text-4xl",
+  },
+  sm: {
+    renderAs: "h5",
+    className: "font-chromatic-grotesque text-2xl lg:text-3xl",
+  },
+  xs: { renderAs: "h6", className: "font-chromatic-grotesque text-2xl" },
 };
 
 /**
@@ -58,7 +70,7 @@ export function Header(
   const classes = classNames(
     className as string,
     variants[variant].className,
-    "font-bold"
+    variant === "3xl" ? "font-normal" : "font-medium"
   );
 
   return (
