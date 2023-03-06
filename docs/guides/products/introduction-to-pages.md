@@ -62,7 +62,7 @@ For example, in the Title Component's configuration, you can add many different 
 
 There are also some small variations with the individual actions.
 
-For example, the default for list items is to Show Detail Screen. In Pages, we can choose how to display the information by changing our target. We'll find four options to choose from, Current, Main, Small Modal, or Large Modal. The same will apply when we select Show Edit Screen, Show Form Screen, Show New Screen or Show User Profile Screen.
+For example, the default for list items is to Show Detail Screen. In Pages, we can choose how to display the information by changing our target. We'll find four options to choose from, Current, Main, Overlay, or Slide In. The same will apply when we select Show Edit Screen, Show Form Screen, Show New Screen or Show User Profile Screen.
 
 {% callout %}
 There are likely to be many other little differences that develop over time as Pages and Apps become more distinct from each other.
