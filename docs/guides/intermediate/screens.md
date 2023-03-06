@@ -161,7 +161,7 @@ Often, a new screen will pop out and display over the main content you're workin
 
 {% figure src="/docs/guides/intermediate/screen-types/layout-view.png" caption="Overlay in Glide Pages" /%}
 
-By default, Details Screens, Add Screens, Edit Screens, and Form Screens open in overlays in Pages. But you can change this behavior.
+By default, Details Screens, and Edit Screens open in overlays in Pages. But you can change this behavior.
 
 Whether your action is Show Details, Show Form Screen, or Show Edit Screen – in the action configuration, you'll see four options for the ‘Target': Current, Main, Small overlay, and Large overlay.
 
