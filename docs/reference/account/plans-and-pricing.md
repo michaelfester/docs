@@ -46,7 +46,7 @@ The Pro plan is perfect for small to medium-sized businesses that require additi
 - 10,000 updates
 - 50 GB file storage
 - Whitelabeling for 3 projects
-- [Protected columns](/docs/protecdet-columns), [barcode scanning](/docs/scan-linear-barcode), and
+- [Protected columns](/docs/protecdet-columns), [barcode scanning](/docs/scan-linear-barcode), and [Signature pad](/docs/signature-component)
 - Email support
 
 The Pro plan is priced at $99 per month.
