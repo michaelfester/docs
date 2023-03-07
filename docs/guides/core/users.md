@@ -35,7 +35,7 @@ Private projects are not viewable publicly. Only the people you allow to sign-in
 
 If your app contains any sensitive, private, or personal information, then you should use a private sign-in setting.
 
-{% cta title="Security Guide" description="Learn more about the Security" url="/docs/security" /%}
+{% cta title="Security Guide" description="Learn more about Security" url="/docs/security" /%}
 
 ## Public projects
 
