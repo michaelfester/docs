@@ -77,7 +77,7 @@ You can create new **Basic Columns** at any time with the new column **(+)** but
 
 ![](/docs/guides/core/introduction-to-the-data-editor/intro-to-data-editor-10.png)
 
-{% cta title="Computed Columns" description="Read more about **Basic Columns**" url="/docs/basic-columns" /%}
+{% cta title="Computed Columns" description="Read more about Computed Columns" url="/docs/basic-columns" /%}
 
 ## Computed Columns
 
