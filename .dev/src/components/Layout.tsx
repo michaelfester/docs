@@ -142,7 +142,7 @@ interface Props {
   children: any;
   navigation: EnhancedNavigation;
   link: EnhancedNavigationNode;
-  tableOfContents: any;
+  tableOfContents: any[];
 }
 
 function Layout({ children, navigation, tableOfContents }: Props) {
@@ -198,6 +198,8 @@ function Layout({ children, navigation, tableOfContents }: Props) {
 
   let currentTOCSection = useTableOfContents(tableOfContents);
 
+  const hideTOC = router.pathname === "/" || tableOfContents.length === 0;
+
   function isActive(section) {
     if (section.id === currentTOCSection) {
       return true;
@@ -235,9 +237,10 @@ function Layout({ children, navigation, tableOfContents }: Props) {
 
         <div
           className={classNames(
-            "min-w-0 flex-auto px-4 py-10 lg:max-w-none lg:pr-0 lg:pl-8",
+            "min-w-0 flex-auto px-4 py-10 lg:max-w-none lg:px-8",
             {
               "max-w-2xl": !isInIFrame,
+              "lg:pr-0": hideTOC,
             }
           )}
         >
@@ -343,58 +346,60 @@ function Layout({ children, navigation, tableOfContents }: Props) {
             <FeedbackForm pageTitle={title} pageSlug={link.href} />
           </div>
         </div>
-        {/* <div className="hidden xl:sticky xl:top-[4.5rem] xl:-mr-6 xl:block xl:h-[calc(100vh-4.5rem)] xl:flex-none xl:overflow-y-auto xl:py-16 xl:pr-6">
-          <nav aria-labelledby="on-this-page-title" className="w-56">
-            {tableOfContents.length > 0 && (
-              <>
-                <h2
-                  id="on-this-page-title"
-                  className="text-sm font-medium font-display text-slate-900 dark:text-white"
-                >
-                  On this page
-                </h2>
-                <ul className="mt-4 space-y-3 text-sm">
-                  {tableOfContents.map(section => (
-                    <li key={section.id}>
-                      <h3>
-                        <Link href={`#${section.id}`}>
-                          <a
-                            className={clsx(
-                              isActive(section)
-                                ? "text-aqua"
-                                : "text-neutrals-light-10 transition hover:text-neutrals-light-15"
-                            )}
-                          >
-                            {section.title}
-                          </a>
-                        </Link>
-                      </h3>
-                      {section.children.length > 0 && (
-                        <ul className="pl-5 mt-2 space-y-1 text-slate-500 dark:text-slate-400">
-                          {section.children.map(subSection => (
-                            <li
-                              key={subSection.id}
-                              className={classNames(
-                                "rounded-lg px-2.5 py-2",
-                                isActive(subSection)
+        {hideTOC ? null : (
+          <div className="hidden xl:sticky xl:top-[4.5rem] xl:-mr-6 xl:block xl:h-[calc(100vh-4.5rem)] xl:flex-none xl:overflow-y-auto xl:py-16 xl:pl-12">
+            <nav aria-labelledby="on-this-page-title" className="w-56">
+              {tableOfContents.length > 0 && (
+                <>
+                  <h2
+                    id="on-this-page-title"
+                    className="font-display text-sm font-medium text-slate-900 dark:text-white"
+                  >
+                    On this page
+                  </h2>
+                  <ul className="mt-4 space-y-3 text-sm">
+                    {tableOfContents.map(section => (
+                      <li key={section.id}>
+                        <h3>
+                          <Link href={`#${section.id}`}>
+                            <a
+                              className={clsx(
+                                isActive(section)
                                   ? "text-aqua"
-                                  : "text-neutrals-light-10 transition hover:bg-[#F8F8F8]"
+                                  : "text-neutrals-light-10 transition hover:text-neutrals-light-15"
                               )}
                             >
-                              <Link href={`#${subSection.id}`}>
-                                <a className="block">{subSection.title}</a>
-                              </Link>
-                            </li>
-                          ))}
-                        </ul>
-                      )}
-                    </li>
-                  ))}
-                </ul>
-              </>
-            )}
-          </nav>
-        </div> */}
+                              {section.title}
+                            </a>
+                          </Link>
+                        </h3>
+                        {section.children.length > 0 && (
+                          <ul className="mt-2 space-y-1 pl-5 text-slate-500 dark:text-slate-400">
+                            {section.children.map(subSection => (
+                              <li
+                                key={subSection.id}
+                                className={classNames(
+                                  "rounded-lg px-2.5 py-2",
+                                  isActive(subSection)
+                                    ? "text-aqua"
+                                    : "text-neutrals-light-10 transition hover:bg-[#F8F8F8]"
+                                )}
+                              >
+                                <Link href={`#${subSection.id}`}>
+                                  <a className="block">{subSection.title}</a>
+                                </Link>
+                              </li>
+                            ))}
+                          </ul>
+                        )}
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              )}
+            </nav>
+          </div>
+        )}
       </div>
 
       <FullScreenImages />

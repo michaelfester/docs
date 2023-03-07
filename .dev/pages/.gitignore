@@ -49,6 +49,7 @@ reference/actions/index.md
 reference/actions/open-link.md
 reference/actions/reshuffle.md
 reference/actions/scan-linear-barcode.md
+reference/actions/send-email.md
 reference/actions/set-column-values.md
 reference/actions/share-link.md
 reference/actions/show-detail-screen.md

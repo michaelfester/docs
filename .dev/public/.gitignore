@@ -327,6 +327,9 @@ reference/actions/play-sound/configure-play-sound-action.png
 reference/actions/reshuffle/re-shuffle-configuration.png
 reference/actions/scan-linear-barcode/an-example-of-a-linear-barcode.png
 reference/actions/scan-linear-barcode/scan-barcode-configuration.png
+reference/actions/send-email/creating-a-dynamic-email-using-the-template-column.png
+reference/actions/send-email/custom-action-using-send-email.png
+reference/actions/send-email/send-email-configuration.png
 reference/actions/set-column-values/set-column-values.png
 reference/actions/share-link/Duplicate tab.png
 reference/actions/share-link/Group 62.png
