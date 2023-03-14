@@ -39,7 +39,7 @@ const OpenGlideButton = () => (
     href="https://go.glideapps.com"
     className="flex items-center"
   >
-    <Icon name="st-star-4" />
+    <Icon name="st-glide-symbol" />
     <span className="ml-2">Open Glide</span>
   </GlideButton>
 );
