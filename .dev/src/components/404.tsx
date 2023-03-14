@@ -4,9 +4,12 @@ import { Header } from "./Typography";
 export default function NotFound() {
   return (
     <>
-      <div className="my-1 rounded-3xl bg-neutrals-light-2 pt-4 pb-4 md:pb-5 lg:pb-4">
+      <div className="my-1 rounded-3xl bg-neutrals-light-2 pt-4 pb-4 dark:bg-transparent md:pb-5 lg:pb-4">
         <div className="grid justify-items-center px-4 py-8 text-center">
-          <Header variant="xl" className="my-0 text-neutrals-light-15">
+          <Header
+            variant="xl"
+            className="my-0 text-neutrals-light-15 dark:text-white"
+          >
             Page Not Found
           </Header>
           <p className="mt-8 text-xlg">
