@@ -9,9 +9,9 @@ import { MarkdocNextJsPageProps } from "@markdoc/next.js";
 
 import { findLinkForRoute } from "@/enhancement";
 
+import NotFound from "@/components/404";
 import { EnhancedNavigation } from "@/types";
 import { useRouter } from "next/router";
-import Script from "next/script";
 
 const navigation: EnhancedNavigation = require("../navigation.json");
 
@@ -66,11 +66,6 @@ export default function App(props: AppProps) {
     return <Component />;
   }
 
-  if (pageProps?.markdoc === undefined) {
-    // Horrible hack to work around weird loading bug we have with site clusters
-    return <Script id="reload">{`window.location.reload();`}</Script>;
-  }
-
   const { markdoc } = pageProps;
 
   let link = findLinkForRoute(navigation, router.pathname);
@@ -85,6 +80,19 @@ export default function App(props: AppProps) {
   }
 
   const tableOfContents = markdoc ? collectHeadings(markdoc.content) : [];
+
+  if (pageProps?.markdoc === undefined) {
+    // Horrible hack to work around weird loading bug we have with site clusters
+    return (
+      <Layout
+        navigation={navigation}
+        link={link}
+        tableOfContents={tableOfContents}
+      >
+        <NotFound />
+      </Layout>
+    );
+  }
 
   return (
     <>
