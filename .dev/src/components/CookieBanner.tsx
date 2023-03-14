@@ -36,13 +36,18 @@ const CookieBanner = () => {
       )}
     >
       <div className="flex justify-center">
-        <div className="flex flex-col items-center w-full p-4 space-y-2 bg-cool-gray-700 bg-neutrals-light-13 shadow-strong md:inline-flex md:w-auto md:flex-row md:space-y-0 md:space-x-4 md:rounded-2xl md:p-2">
-          <p className="flex-1 text-cool-gray-200 md:ml-2">
+        <div className="bg-cool-gray-700 flex w-full flex-col items-center space-y-2 bg-neutrals-light-13 p-4 shadow-strong md:inline-flex md:w-auto md:flex-row md:space-y-0 md:space-x-4 md:rounded-2xl md:p-2">
+          <p className="text-cool-gray-200 flex-1 md:ml-2">
             <span className="text-neutrals-light-4">
               We use cookies to improve our service.{" "}
-              <Link href="/legal/privacy">
-                <a className="underline">Learn more.</a>
-              </Link>
+              <a
+                className="underline"
+                href="https://www.glideapps.com/legal/privacy"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Learn more.
+              </a>
             </span>
           </p>
 
