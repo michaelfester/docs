@@ -15,7 +15,7 @@ export default function FAQ(props: Props) {
       {({ open }) => (
         <>
           <dt>
-            <Disclosure.Button className="flex w-full items-center justify-between text-left text-gray-900">
+            <Disclosure.Button className="flex w-full items-center justify-between text-left text-gray-900 dark:text-white">
               <span className="text-base font-semibold leading-7">
                 {question}
               </span>
@@ -29,7 +29,7 @@ export default function FAQ(props: Props) {
             </Disclosure.Button>
           </dt>
           <Disclosure.Panel as="dd" className="mt-2 pr-12">
-            <Markdown className="text-base leading-7 text-gray-600">
+            <Markdown className="text-base leading-7 text-gray-600 dark:text-gray-300">
               {answer}
             </Markdown>
           </Disclosure.Panel>
