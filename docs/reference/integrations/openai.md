@@ -170,7 +170,7 @@ If repeated, you might get a slightly different output even if your prompt input
 - Step 2: Create a new computed column and select the Complete a Prompt column, which you will find in the Integrations group or by using the Search function.
 - Step 3: Set the Prompt to point to the basic text column whose Prompt will be completed. Further set the model, temperature, maximum length and frequency penalty.
 
-## 4. Correct Grammar
+## Correct Grammar
 
 The Correct Grammar function corrects the grammar of a block of text.
 
@@ -185,7 +185,7 @@ The Correct Grammar function corrects the grammar of a block of text.
 - Step 2: Create a new computed column and select the Correct Grammar column, which you will find in the Integrations group or by using the Search function.
 - Step 3: Set the Phrase to point to the basic text column housing the text whose grammar is to be completed.
 
-## 5. Extract Keywords
+## Extract Keywords
 
 The Extract Keywords functions allows you to extract keywords from a block of text such a sentence, paragraph or series of paragraphs. The most used and most important words and expressions from the text help summarize the content and identify the main topics.
 
@@ -200,7 +200,7 @@ The Extract Keywords functions allows you to extract keywords from a block of te
 - Step 2: Create a new computed column and select the Extract Keywords column, which you will find in the Integrations group or by using the Search function.
 - Step 3: Set the Prompt to point to the basic text column whose keywords will be extracted.
 
-## 6. Generate Image
+## Generate Image
 
 The Generate Image features allow you to create images from scratch based on a text prompt.
 
@@ -220,7 +220,7 @@ Step 3: Step 3: Add an action, select OpenAI’s Generate Image action. Configur
 
 The action flow, when run, will now generate an image from the Description or custom text.
 
-## 8. Suggest a Color
+## Suggest a Color
 
 Turn a text description into a color.
 
@@ -235,7 +235,7 @@ Turn a text description into a color.
 - Step 2: Create a new computed column and select the Suggest a Color column, which you will find in the Integrations group or by using the Search function.
 - Step 3: Set the Prompt to point to the basic text column from which a color will be suggested.
 
-## 9. Suggest an Emoji
+## Suggest an Emoji
 
 Turn a text description into an emoji.
 
@@ -250,7 +250,7 @@ Turn a text description into an emoji.
 - Step 2: Create a new computed column and select the Suggest Emoji column, which you will find in the Integrations group or by using the Search function.
 - Step 3: Set the Prompt to point to the basic text column from which an emoji will be suggested.
 
-## 10. Summarize Text
+## Summarize Text
 
 The Summarize Text function allows you translate a difficult text into simpler concepts or to turn meeting notes into a summary.
 
@@ -265,7 +265,7 @@ The Summarize Text function allows you translate a difficult text into simpler c
 - Step 2: Create a new computed column and select the Summarize Text column, which you will find in the Integrations group or by using the Search function.
 - Step 3: Set the Prompt to point to the basic text column whose text is to be summarized or simplified.
 
-## 11. Table Question
+## Table Question
 
 The Table Question function allows you to ask a question and additionally include a table of data to add context to the question. 
 
@@ -291,11 +291,10 @@ The Table Question feature is experimental and maybe provide approximate or erro
 - Step 4: Indicate which table is to be searched to help provide an Answer to the Question.
 - Step 5: Test run the action in the Actions Editor or use the action on a component in the Layout Editor.
 
-# Section 4 – FAQ
+## FAQ
 
-- What types of AI tasks can I accomplish with Open AI and Glide?
-    
-    The OpenAI integration comes with the following functions:
+
+{% faq question="What types of AI tasks can I accomplish with Open AI and Glide?" answer="The OpenAI integration comes with the following functions:
     
     - Analyze sentiment
     - Answer a question
@@ -305,16 +304,10 @@ The Table Question feature is experimental and maybe provide approximate or erro
     - Send a message to a bot
     - Suggest a color
     - Suggest an emoji
-    - Summarize text
+    - Summarize text " /%}
+
+{% faq question="Is there a cost associated with using the OpenAI integration with Glide?" answer="Refer to [Glide’s pricing](https://www.glideapps.com/pricing) to confirm your plan gives you access to the OpenAI integration. Refer to [OpenAI’s pricing](https://openai.com/pricing) for the cost associated with using your OpenAI API key " /%}
+
+{% faq question="What are OpenAI’s API data usage policies? These might include how API data is used by OpenAI, where API data is stored, if data is encrypted, if data is stored in the EU." answer="Data in your Glide project is processed by OpenAI’s API and returned to your project for further use. Refer to [OpenAI’s API data usage policies](https://openai.com/policies/api-data-usage-policies). " /%}    
     
-    These tasks output text. “Suggest a Color” and “Suggest an Emoji” output a color in HEX format and an emoji (which are also forms of text).
-    
-- Is there a cost associated with using the OpenAI integration with Glide?
-    
-    Refer to [Glide’s pricing](https://www.glideapps.com/pricing) to confirm your plan gives you access to the OpenAI integration. Refer to [OpenAI’s pricing](https://openai.com/pricing) for the cost associated with using your OpenAI API key.
-    
-- What are OpenAI’s API data usage policies? These might include how API data is used by OpenAI, where API data is stored, if data is encrypted, if data is stored in the EU.
-    
-    Data in your Glide project is processed by OpenAI’s API and returned to your project for further use. Refer to [OpenAI’s API data usage policies](https://openai.com/policies/api-data-usage-policies).
-    
-- What AI models does Glide support with OpenAI?
+{% faq question="What AI models does Glide support with OpenAI?" answer="Data in your Glide project is processed by OpenAI’s API and returned to your project for further use. Refer to [OpenAI’s API data usage policies](https://openai.com/policies/api-data-usage-policies). " /%} 
