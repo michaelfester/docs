@@ -1,6 +1,6 @@
 ---
 title: Introduction to Integrations
-description: 
+description: Maximize the functionality of your Glide app with integrations.
 video:
 slug: introduction-to-integrations
 ---
