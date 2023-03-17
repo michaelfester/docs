@@ -15,10 +15,10 @@ export default function FAQ(props: Props) {
       {({ open }) => (
         <>
           <dt>
-            <Disclosure.Button className="flex w-full items-center justify-between text-left text-gray-900 dark:text-white">
-              <span className="text-base font-semibold leading-7">
+            <Disclosure.Button className="flex w-full items-start justify-between text-left text-gray-900 dark:text-white">
+              <Markdown className="my-[-1.33em] text-base font-semibold leading-7">
                 {question}
-              </span>
+              </Markdown>
               <span className="ml-6 flex h-7 items-center">
                 {open ? (
                   <MinusSmallIcon className="h-6 w-6" aria-hidden="true" />
