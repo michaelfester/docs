@@ -63,24 +63,6 @@ The OpenAI integration comes with the following features:
 Ask yourself if the interaction with OpenAI should happen on a punctual basis such as on the click of a button: in this case, set up your feature in the Actions Editor. Or, should OpenAI process data as soon as the data arrives in a table regardless of user interaction? In this case, set up your feature in the Data Editor.
 {% /callout %}
 
-| Feature (click to see setup & examples) | Use case description | Input (required): basic text column | Input (optional): basic number columns | Output: basic text or image columns | Data Editor computed column (whole table) | Actions Editor action (single row) |
-| --- | --- | --- | --- | --- | --- | --- |
-| https://www.notion.so/New-Doc-OpenAI-Integration-44d31024bd4a4b0b8e60f53461ee0139 | Identify whether a piece of text is positive, negative or neutral | Text such as a word, sentence or paragraph | - | The terms “positive”, “neutral” or “negative” | ✅ | ✅ |
-| https://www.notion.so/New-Doc-OpenAI-Integration-44d31024bd4a4b0b8e60f53461ee0139 | Create a question-and-answer or chatbot feature. | A question | - | An answer to the question | ✅ | ✅ |
-| https://www.notion.so/New-Doc-OpenAI-Integration-44d31024bd4a4b0b8e60f53461ee0139 | Generating new ideas or versions of an input: story and recipe ideas, business plans, character descriptions, marketing slogans, etc. | • Prompt: word, sentence or paragraph
-• https://platform.openai.com/docs/models/overview | • Temperature
-[0.0 .. 2.0]
-• Max. length (< 2048)
-• Frequency penalty [-2.0 .. 2.0] | A text that tries to replicate the context or pattern that was initially given | ✅ | ✅ |
-| https://www.notion.so/New-Doc-OpenAI-Integration-44d31024bd4a4b0b8e60f53461ee0139 | Correct the grammar of a block of text. | A block of text (phrase, paragraphs) | - | The same block of text with correct grammar | ✅ | ✅ |
-| https://www.notion.so/New-Doc-OpenAI-Integration-44d31024bd4a4b0b8e60f53461ee0139 | Extract keywords from text to help summarize the content and identify the main topics. | A block of text (phrase, paragraphs) | - | The most used and most important words and expressions from the text. | ✅ | ✅ |
-| https://www.notion.so/New-Doc-OpenAI-Integration-44d31024bd4a4b0b8e60f53461ee0139 | Create images from scratch based on a text prompt. | A description of the image to be generated | - | An image | ❌ | ✅ |
-| https://www.notion.so/New-Doc-OpenAI-Integration-44d31024bd4a4b0b8e60f53461ee0139 | Create an interactive chat bot. |  |  |  | ✅ | ✅ |
-| https://www.notion.so/New-Doc-OpenAI-Integration-44d31024bd4a4b0b8e60f53461ee0139 | Turn a text description into a color. | Text such as a word, sentence or paragraph | - | One single color in HEX color code format | ✅ | ✅ |
-| https://www.notion.so/New-Doc-OpenAI-Integration-44d31024bd4a4b0b8e60f53461ee0139 | Turn a text description into an emoji. | Text such as a word, sentence or paragraph | - | One single emoji | ✅ | ✅ |
-| https://www.notion.so/New-Doc-OpenAI-Integration-44d31024bd4a4b0b8e60f53461ee0139 | Translate a difficult text into simpler concepts or to turn meeting notes into a summary. | A block of text, notes, or bullet points | - | An summarized or simplified version of the text | ✅ | ✅ |
-| https://www.notion.so/New-Doc-OpenAI-Integration-44d31024bd4a4b0b8e60f53461ee0139 | The Table Question function allows you to ask a question and additionally include a table of data to add context to the question. | A question or query in text format | - Prompt - A table of data - Temperature[0.0 .. 2.0] - Max. length (< 2048) - Frequency penalty[-2.0 .. 2.0] | An answer | ❌ | ✅ |
-
 ## Analyze Sentiment
 
 The **Analyze sentiment** feature can be used as an action or as a computed column.
