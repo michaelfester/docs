@@ -7,7 +7,7 @@ slug: slack
 
 [Slack](https://slack.com/) is an instant messaging platform for business collaboration. With the Slack integration, you can send messages to channels in your workspace from a Glide app.  
 
-{% figure src="/docs/reference/new-integrations/slack/use-case-of-a-slack-intergration.png" caption="" /%}
+{% figure src="/docs/reference/integrations/slack/use-case-of-a-slack-intergration.png" caption="" /%}
 
 ## Adding and Configuring the Integration
 
@@ -17,23 +17,23 @@ To start using the Slack integration, you first need to add it to your project.
 - Find the **Integrations** section and then select **Slack.**
 - Click the **Add to app** button.
 
-{% figure src="/docs/reference/new-integrations/slack/adding-the-slack-intergration.png" caption="" /%}
+{% figure src="/docs/reference/integrations/slack/adding-the-slack-intergration.png" caption="" /%}
 
 - Sign into your Slack workspace and select **Allow** to approve the integration. Make sure that you are connecting the correct Slack workspace by checking the name of the workspace in the upper-right corner.
 
-{% figure src="/docs/reference/new-integrations/slack/allowing-the-access-on-slack.png" caption="" /%}
+{% figure src="/docs/reference/integrations/slack/allowing-the-access-on-slack.png" caption="" /%}
 
 - Confirm that **Glide** is listed under **Apps** in your Slack workspace. 
 
-{% figure src="/docs/reference/new-integrations/slack/confirming-glide-is-listed-under-apps-section.png" caption="" /%}
+{% figure src="/docs/reference/integrations/slack/confirming-glide-is-listed-under-apps-section.png" caption="" /%}
 
 - To send messages to a Slack channel, you need to first add the Glide integration. Click **View all members** at the top right and then select **Integrations**.
 
-{% figure src="/docs/reference/new-integrations/slack/adding-the-glide-into-slack-channel.png" caption="" /%}
+{% figure src="/docs/reference/integrations/slack/adding-the-glide-into-slack-channel.png" caption="" /%}
 
 - Click **Add an app**, and choose Glide.
 
-{% figure src="/docs/reference/new-integrations/slack/choosing-the-glide-inside-slack.png" caption="" /%}
+{% figure src="/docs/reference/integrations/slack/choosing-the-glide-inside-slack.png" caption="" /%}
 
 Next, we need to customize the Slack bot’s name and avatar to personalize the integration.
 
@@ -48,7 +48,7 @@ Next, we need to customize the Slack bot’s name and avatar to personalize the 
 | Bot name | The display name of your Slack bot | ❌ | New Customer Orders app |If not set, the Slack bot’s name will default to your app’s name |
 | Bot avatar | You can use a URL of a publicly accessible image or an emoji supported by Slack | ❌ | Using :rocket: will show the 🚀 emoji as the bot’s avatar | If not set, the Slack bot’s avatar will default to your app’s logo |
 
-{% figure src="/docs/reference/new-integrations/slack/adding-a-bot-name-and-an-avatar.png" caption="" /%}
+{% figure src="/docs/reference/integrations/slack/adding-a-bot-name-and-an-avatar.png" caption="" /%}
 
 ## Features
 
@@ -61,7 +61,7 @@ The **Send Slack Message** action is used to post a message in a channel in your
 | Channel | The Slack channel where the message should be sent | ✅ | `#general` or `general` |If not set, the Slack bot’s name will default to your app’s name |
 | Message | The message that will be sent to the Slack channel | ✅ |  | You can create a dynamic message by first creating a [Template Column](/docs/template-column) in the [Data Editor](/docs/data-editor) and then setting that column as your Message. |
 
-{% figure src="/docs/reference/new-integrations/slack/configuring-the-slack-action.png" caption="" /%}
+{% figure src="/docs/reference/integrations/slack/configuring-the-slack-action.png" caption="" /%}
 
 The action can be added to a component that supports actions (e.g., a button), added to an action sequence in the Action Editor, or after a form is submitted.
 

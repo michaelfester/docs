@@ -31,7 +31,7 @@ Setting up the Zendesk integration in Glide takes just a few steps:
 
 When you add Zendesk to a Glide app, the Zendesk Chat widget will automatically appear in your app for users to interact with. To preview the Zendesk Chat widget, you will need to publish your app.
 
-{% figure src="/docs/reference/new-integration/zendesk/usecase-for-zendesk-integration.png" caption="Usecase for a Zendesk integration" /%}
+{% figure src="/docs/reference/integration/zendesk/usecase-for-zendesk-integration.png" caption="Usecase for a Zendesk integration" /%}
 
 To learn more generally about Integrations in Glide, including how they affect your app’s usage, check out our Introduction to Integrations. 
 

@@ -7,7 +7,7 @@ slug: gmail
 
 [Gmail](https://workspace.google.com/products/gmail/) is an email platform for workplace communication. When emails are a critical part of your workflow, it can be helpful to configure Glide to send emails from your Gmail account.
 
-{% figure src="/docs/reference/new-integrations/gmail/usecase-for-a-gmail-integration.png" caption="Usecase for a Gmail Integration" /%} 
+{% figure src="/docs/reference/integrations/gmail/usecase-for-a-gmail-integration.png" caption="Usecase for a Gmail Integration" /%} 
 
 ## Adding and Configuring the Integration
 
@@ -17,12 +17,12 @@ To start using the Gmail integration, you first need to add it to your project.
 - Click the **Integrations** tab and then select **Gmail**.
 - Select **Add to app.**
 
-{% figure src="/docs/reference/new-integrations/gmail/adding-gmail-integration.png" caption="Adding the Gmail Integration" /%}
+{% figure src="/docs/reference/integrations/gmail/adding-gmail-integration.png" caption="Adding the Gmail Integration" /%}
 
 - Sign into your Google Workspace account and select **Allow** to approve the integration.
 - Once Glide has access to your Gmail account, you will be able to send emails from your Glide app.
 
-{% figure src="/docs/reference/new-integrations/gmail/configuring-the-send-email-with-gmail-action.png" caption="Configuring the Gmail Integration" /%} 
+{% figure src="/docs/reference/integrations/gmail/configuring-the-send-email-with-gmail-action.png" caption="Configuring the Gmail Integration" /%} 
 
 ## Features
 
@@ -53,7 +53,7 @@ To learn more about integrations in Glide, check out our Introduction to Integra
 {% faq question="Can I use the Gmail integration to import emails?" answer="No, the Gmail integration in Glide currently only allows apps to send emails. " /%}
     
 {% faq question="I already connected one Gmail account. How can I add a different account?" answer="You can connect a different Gmail account by first selecting **Remove from app** in the Gmail integration settings. Then, click **Add to app** to connect to a different Gmail account. You can also manage Glide’s access in your [Google Workspace permissions](https://myaccount.google.com/permissions). 
-![Removing access from Google account](/docs/reference/new-integrations/gmail/removing-access-from-google-account.png) " /%}  
+![Removing access from Google account](/docs/reference/integrations/gmail/removing-access-from-google-account.png) " /%}  
 
 
     

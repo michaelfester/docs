@@ -7,7 +7,7 @@ slug: twilio
 
 [Twilio](https://www.twilio.com/) is a communications platform that enables businesses to send messages to their customers across multiple channels. With the Twilio integration, you can easily send SMS (text) messages from your app to keep your users engaged and informed.  
 
-{% figure src="/docs/reference/new-integrations/twilio/use-case-of-twilio.png" caption="Use case for a Twilio" /%}
+{% figure src="/docs/reference/integrations/twilio/use-case-of-twilio.png" caption="Use case for a Twilio" /%}
 
 ## Adding and Configuring the Integration
 
@@ -15,11 +15,11 @@ slug: twilio
 
 - In the **Integrations** menu, choose **Twilio** and select **Add to app**. Next, you will to set your Twillio **Account SID, Auth token**, and **From number**.
   
-{% figure src="/docs/reference/new-integrations/twilio/adding-twilio-intergration.png" caption="Adding the Twilio integration" /%}
+{% figure src="/docs/reference/integrations/twilio/adding-twilio-intergration.png" caption="Adding the Twilio integration" /%}
     
 - To find this information, open your Twilio dashboard.
   
-{% figure src="/docs/reference/new-integrations/twilio/account-info-in-twilio.png" caption="Account info in Twilio" /%}
+{% figure src="/docs/reference/integrations/twilio/account-info-in-twilio.png" caption="Account info in Twilio" /%}
     
 - Input the information into your Glide integration. You are now ready to start using Twilio with Glide. 
     

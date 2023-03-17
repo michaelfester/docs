@@ -7,13 +7,13 @@ slug: google-calendar
 
 [Google Calendar](https://workspace.google.com/products/calendar/) is a calendar service part of Google’s Workspace platform. When your team shares one calendar, it can be useful to configure Glide to add events to your team calendar.
 
-{% figure src="/docs/reference/new-integrations/google-calendar/use-case-of-google-calendar.png" caption="Use case for a Google calendar Integration" /%}
+{% figure src="/docs/reference/integrations/google-calendar/use-case-of-google-calendar.png" caption="Use case for a Google calendar Integration" /%}
 
 The Google Calendar integration allows your app to send new events directly to your team's calendar and invite other attendees.
 
 ## Adding and Configuring the Integration
 
-{% figure src="/docs/reference/new-integrations/google-calendar/adding-the-google-calendar-intergration.png" caption="Adding the Google Calendar Integration" /%}
+{% figure src="/docs/reference/integrations/google-calendar/adding-the-google-calendar-intergration.png" caption="Adding the Google Calendar Integration" /%}
 
 To start using the Google Calendar integration, you first need to add it to your project.
 
@@ -25,7 +25,7 @@ To start using the Google Calendar integration, you first need to add it to your
 
 ## Features
 
-{% figure src="/docs/reference/new-integrations/google-calendar/google-calendar-configuration.png" caption="Google Calendar configuration" /%}
+{% figure src="/docs/reference/integrations/google-calendar/google-calendar-configuration.png" caption="Google Calendar configuration" /%}
 
 ### Add Event to Google Calendar
 

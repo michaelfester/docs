@@ -7,11 +7,11 @@ slug: microsoft-outlook
 
 [Outlook](https://outlook.live.com/owa/) is an email client and calendar tool that is part of the Microsoft Office and Microsoft 365 product suites. If Microsoft Outlook is a critical part of your workflow, it can be helpful to configure Glide to send emails from your Outlook account or add events to your Outlook calendar.
 
-{% figure src="/docs/reference/new-integrations/microsoft-outlook/usecase-for-a-outtlook-integration%20(1).png" caption="Usecase for a Microsoft Outlook integration" /%}
+{% figure src="/docs/reference/integrations/microsoft-outlook/usecase-for-a-outtlook-integration%20(1).png" caption="Usecase for a Microsoft Outlook integration" /%}
 
 ## Adding and Configuring the Integration
 
-{% figure src="/docs/reference/new-integrations/microsoft-outlook/adding-microsoft-outlook-integration%20(1).png" caption="Adding Microsoft Outlook integration" /%}
+{% figure src="/docs/reference/integrations/microsoft-outlook/adding-microsoft-outlook-integration%20(1).png" caption="Adding Microsoft Outlook integration" /%}
 
 To start using the Outlook integration, you first need to add it to your project.
 
@@ -35,7 +35,7 @@ The **Send Email with Outlook** action allows you to send an email from your own
 | Subject | The subject line of the email | ✅ |  |  |
 | Body | The content of the email | ✅ |  | The body can be formatted with HTML. |
 
-{% figure src="/docs/reference/new-integrations/microsoft-outlook/configuring-microsoft-outlook%20(1).png" caption="Configurin Send Email with Outlook action" /%}
+{% figure src="/docs/reference/integrations/microsoft-outlook/configuring-microsoft-outlook%20(1).png" caption="Configurin Send Email with Outlook action" /%}
 
 ### Add Event to Outlook calendar
 
@@ -51,7 +51,7 @@ The **Add Event to Outlook calendar** action allows you to add an event to your 
 | Attendees | Separate multiple emails with commas | ❌ | hugo@example.com | You can use comma-separated values to send to multiple recipients. |
 | Calendar ID | Choose the calendar you would like to add the event to. If not set, the action will default to your primary calendar | ❌ | Team calendar | Your Calendar ID is the name of your calendar |
 
-{% figure src="/docs/reference/new-integrations/microsoft-outlook/configuring-microsoft-outlook%20(1).png" caption="Configurin Add Event to Outlook calendar action" /%}
+{% figure src="/docs/reference/integrations/microsoft-outlook/configuring-microsoft-outlook%20(1).png" caption="Configurin Add Event to Outlook calendar action" /%}
 
 ## Notes
 

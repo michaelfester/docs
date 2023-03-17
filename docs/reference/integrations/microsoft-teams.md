@@ -7,11 +7,11 @@ slug: microsoft-teams
 
 Microsoft Teams is a business communications platform. With the Microsoft Teams integration, you can send messages to channels within your Microsoft Team  from a Glide app. 
 
-{% figure src="/docs/reference/new-integrations/microsoft-teams/usecase-for-a-microsoft-teams-integration.png" caption="Usecase for a Microsoft Teams Integration" /%} 
+{% figure src="/docs/reference/integrations/microsoft-teams/usecase-for-a-microsoft-teams-integration.png" caption="Usecase for a Microsoft Teams Integration" /%} 
 
 ## Adding and Configuring the Integration
 
-{% figure src="/docs/reference/new-integrations/microsoft-teams/adding-the-microsoft-teams-integration.png" caption="Adding the Microsoft Teams Integration" /%} 
+{% figure src="/docs/reference/integrations/microsoft-teams/adding-the-microsoft-teams-integration.png" caption="Adding the Microsoft Teams Integration" /%} 
 
 To start using the Microsoft Teams integration, you first need to add it to your project.
 
@@ -38,7 +38,7 @@ The **Send message to Teams channel** action is used to post a message in a chan
 | Channel | The Teams channel where the message should be sent | ✅ | General | This field is case-sensitive |
 | Message | The message that will be sent | ✅ |  | You can create a dynamic message by first creating a Template column in the Data Editor and then setting that column as your Message. |
 
-{% figure src="/docs/reference/new-integrations/microsoft-teams/configuring-the-send-message-to-teams-actions.png" caption="Configuring the Microsoft teams Integrations" /%} 
+{% figure src="/docs/reference/integrations/microsoft-teams/configuring-the-send-message-to-teams-actions.png" caption="Configuring the Microsoft teams Integrations" /%} 
 
 The action can be added to a component that supports actions (e.g., a button), added to an action sequence in the Action Editor, or after a form is submitted.
 
