@@ -6,7 +6,7 @@ slug: meet-the-new-glide-apps
 
 {% figure src="/docs/guides/products/meet-the-new-glide-apps/products-transition.png" caption="" /%}
 
-As of March 2023, existing users will notice an important change in Glide. Our recommended product, previously referred to as Glide Pages, is now called **Apps,** becoming our officially supported and recommended product:
+As of March 2023, existing users will notice an important change in Glide. Our flagship product, previously referred to as Glide Pages, is now called **Apps,** becoming our officially supported and recommended product:
 
 - *Existing Apps* will be known as *Classic Apps*
 - **Pages** will be known as **Apps**
