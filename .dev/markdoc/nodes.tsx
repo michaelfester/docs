@@ -12,7 +12,14 @@ const nodes = {
         default: "col",
       },
     },
-    render: props => <th {...props} />,
+    render: props => <th {...props} className="whitespace-nowrap" />,
+  },
+  table: {
+    render: props => (
+      <div className="overflow-x-scroll">
+        <table {...props} />
+      </div>
+    ),
   },
   fence: {
     render: Fence,
