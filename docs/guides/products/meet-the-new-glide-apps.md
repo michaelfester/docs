@@ -4,6 +4,8 @@ description: Glide Pages is now Glide Apps
 slug: meet-the-new-glide-apps
 ---
 
+{% figure src="//docs/guides/products/meet-the-new-glide-apps/products-transition.png" caption="" /%}
+
 As of March 2023, existing users will notice an important change in Glide. Our recommended product, previously referred to as Glide Pages, is now called **Apps,** becoming our officially supported and recommended product:
 
 - *Existing Apps* will be known as *Classic Apps*
@@ -46,35 +48,24 @@ If you have a suggestion for future features for **Apps**, please let us know [o
 
 ## FAQs
 
-### What is going to happen with my *Classic Apps*?
-We will keep supporting *Classic Apps* for the foreseeable future. Until then, we are working on facilitating the migration from *Classic Apps* to the latest **Apps** to help you get the most out of Glide's new features. *Classic Apps* will not have access to Glide’s upcoming features.
+{% faq question="What is going to happen with my *Classic Apps*?" answer="We will keep supporting *Classic Apps* for the foreseeable future. Until then, we are working on facilitating the migration from *Classic Apps* to the latest **Apps** to help you get the most out of Glide's new features. *Classic Apps* will not have access to Glide’s upcoming features. " /%} 
 
-### Why are you doing this?
-The future of custom software creation lies in Adaptive Apps that work seamlessly on any screen size. This new focus will make it simpler for new and existing users to build projects and increase the velocity of improvements–maintaining two products built for distinct form factors makes it harder for users to get started. 
+{% faq question="Why are you doing this?" answer="The future of custom software creation lies in Adaptive Apps that work seamlessly on any screen size. This new focus will make it simpler for new and existing users to build projects and increase the velocity of improvements–maintaining two products built for distinct form factors makes it harder for users to get started.  " /%}
 
-### When will *Classic Apps* stop working?
-*Classic Apps* will not stop working. We will keep you informed as our plan to migrate *Classic Apps* develops.
+{% faq question="When will *Classic Apps* stop working?" answer="*Classic Apps* will not stop working. We will keep you informed as our plan to migrate *Classic Apps* develops. " /%}
 
-### Can I still use my *Classic App*?
-Yes, you can still use your *Classic Apps*.
+{% faq question="Can I still use my *Classic App*?" answer="Yes, you can still use your *Classic Apps*. " /%}
 
-### Will using Apps cost more?
-No, but published *Classic Apps* will keep counting on your active project limit.
+{% faq question="Will using Apps cost more?" answer="No, but published *Classic Apps* will keep counting on your active project limit. " /%}
 
-### How do I convert my existing Apps into Pages?
-We will release a conversion feature in the coming weeks. 
+{% faq question="How do I convert my existing Apps into Pages?" answer="We will release a conversion feature in the coming weeks. " /%} 
 
-### Do I need to notify my clients?
-This change will not affect the functionality of your existing client apps. However, this is an excellent opportunity to tell your clients about the added power they would gain by transitioning their projects to **Apps.**
+{% faq question="Do I need to notify my clients?" answer="This change will not affect the functionality of your existing client apps. However, this is an excellent opportunity to tell your clients about the added power they would gain by transitioning their projects to **Apps.** " /%} 
 
-### What happens to the data in my *Classic Apps*?
-Your data will not be affected by this transition.
+{% faq question="What happens to the data in my *Classic Apps*?" answer="Your data will not be affected by this transition. " /%} 
 
-### Are all components going to be available in the new Apps?
-Yes. Most are now available; the remaining ones will become available in the coming weeks with the exception of payment buttons, the stopwatch, and link relations which won’t be migrated to **Apps**.
+{% faq question="Are all components going to be available in the new Apps?" answer="Yes. Most are now available; the remaining ones will become available in the coming weeks with the exception of payment buttons, the stopwatch, and link relations which won’t be migrated to **Apps**. " /%} 
 
-### Any changes to privacy or security?
-There are no changes to privacy or security.
+{% faq question="Any changes to privacy or security?" answer="There are no changes to privacy or security. " /%} 
 
-### Why do I see the option to create a *Classic App*?
-*Classic Apps* are only available to users who signed up before late March 2023.
+{% faq question="Why do I see the option to create a *Classic App*?" answer="*Classic Apps* are only available to users who signed up before late March 2023. " /%} 
