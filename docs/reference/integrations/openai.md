@@ -36,17 +36,15 @@ Copy and paste the secret API key and click away, there is no need to hit the en
 
 The OpenAI integration comes with the following features:
 
-- [Analyze Sentiment](https://www.notion.so/New-Doc-OpenAI-Integration-44d31024bd4a4b0b8e60f53461ee0139)
-- [Answer a Question](https://www.notion.so/New-Doc-OpenAI-Integration-44d31024bd4a4b0b8e60f53461ee0139)
-- [Complete a Prompt](https://www.notion.so/New-Doc-OpenAI-Integration-44d31024bd4a4b0b8e60f53461ee0139)
-- [Correct Grammar](https://www.notion.so/New-Doc-OpenAI-Integration-44d31024bd4a4b0b8e60f53461ee0139)
-- [Extract Keywords](https://www.notion.so/New-Doc-OpenAI-Integration-44d31024bd4a4b0b8e60f53461ee0139)
-- [Generate Image](https://www.notion.so/New-Doc-OpenAI-Integration-44d31024bd4a4b0b8e60f53461ee0139)
-- [Send a Message to a Bot](https://www.notion.so/New-Doc-OpenAI-Integration-44d31024bd4a4b0b8e60f53461ee0139)
-- [Suggest a Color](https://www.notion.so/New-Doc-OpenAI-Integration-44d31024bd4a4b0b8e60f53461ee0139)
-- [Suggest an Emoji](https://www.notion.so/New-Doc-OpenAI-Integration-44d31024bd4a4b0b8e60f53461ee0139)
-- [Summarize Text](https://www.notion.so/New-Doc-OpenAI-Integration-44d31024bd4a4b0b8e60f53461ee0139)
-- [Table Question](https://www.notion.so/New-Doc-OpenAI-Integration-44d31024bd4a4b0b8e60f53461ee0139)
+- Analyze Sentiment
+- Answer a Question
+- Extract Keywords
+- Generate Image
+- Send a Message to a Bot
+- Suggest a Color
+- Suggest an Emoji
+- Summarize Text
+- Table Question
 
 {% callout title="" %}
 **Features in the Data Editor and in the Actions Editor**
