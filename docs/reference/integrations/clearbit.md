@@ -1,6 +1,6 @@
 ---
 title: Clearbit
-description: Track user behavior with Mixpanel.
+description: Enrich your contacts with data from Clearbit.
 video:
 slug: clearbit
 ---
