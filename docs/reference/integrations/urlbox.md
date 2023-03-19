@@ -37,5 +37,5 @@ The **Generate PDF file from HTML** action allows you to create a PDF file from 
 
 The action can be added to a component that supports actions (e.g., a button), added to an action sequence in the Action Editor, or after a form is submitted.
 
-To learn more about integrations in Glide, check out our [Introduction to Integrations](https://docs.glideapps.com/all/reference/integrations).
+{% cta title="Introduction to Integrations" description="To learn more about Integrations, check out our Introduction to Integrations article. " url="/docs/introduction-to-integrations" /%}
 

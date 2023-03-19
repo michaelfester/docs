@@ -53,7 +53,7 @@ The **Send Discord Message** action can send a message to your Discord server.
 
 The action can be added to a component that supports actions (e.g., a button), added to an action sequence in the Action Editor, or after a form is submitted.
 
-To learn more about Integrations in Glide, check out our Introduction to Integrations.
+{% cta title="Introduction to Integrations" description="To learn more about Integrations, check out our Introduction to Integrations article. " url="/docs/introduction-to-integrations" /%}
 
 ## FAQ Section
  

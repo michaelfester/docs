@@ -67,7 +67,7 @@ The action can be added to a component that supports actions (e.g., a button), a
 
 To learn more generally about Integrations in Glide, including how they affect your app’s usage, check out our Introduction to Integrations.
 
-To learn more generally about Integrations in Glide, including how they affect your app’s usage, check out our Introduction to Integrations. 
+{% cta title="Introduction to Integrations" description="To learn more about Integrations, check out our Introduction to Integrations article. " url="/docs/introduction-to-integrations" /%}
 
 ## FAQ
 

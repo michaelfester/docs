@@ -267,6 +267,8 @@ The Table Question feature is experimental and maybe provide approximate or erro
 - Step 4: Indicate which table is to be searched to help provide an Answer to the Question.
 - Step 5: Test run the action in the Actions Editor or use the action on a component in the Layout Editor.
 
+{% cta title="Introduction to Integrations" description="To learn more about Integrations, check out our Introduction to Integrations article. " url="/docs/introduction-to-integrations" /%}
+
 ## FAQ
 
 

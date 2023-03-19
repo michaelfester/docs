@@ -14,14 +14,21 @@ To start using the Clearbit integration, you first need to add it to your projec
 - In **Glide**, click the **Settings** menu. 
 - Find the **Integrations** section and then select **Clearbit.**
 - Click the **Add to app** button.
+
+{% figure src="/docs/reference/integrations/clearbit/adding-the-clearbit-integration.png" caption="Ading Clearbit Integration" /%}
+
 - You will need your **Clearbit API key** to finish configuring the integration.
 - You can find your Clearbit API key in your [Clearbit dashboard](https://dashboard.clearbit.com/api).
+
+{% figure src="/docs/reference/integrations/clearbit/getting-the-clearbit-api-key.png" caption="Getting the Clearbit API key" /%}
 
 ## Integration Settings
 
 | Integration setting | Description | Required field? | Example | Notes |
 | --- | --- | --- | --- | --- |
-| API key | You can find your API key in your https://dashboard.clearbit.com/api | ✅ |  | Your API key is usually a 35-character string of letters and numbers starting with sk_ |
+| API key | You can find your API key in your https://dashboard.clearbit.com/api | ✅ |  | Your API key is usually a 35-character string of letters and numbers starting with `sk_` |
+
+{% figure src="/docs/reference/integrations/clearbit/clearbit-integration-settings.png" caption="Clearbit Integration settings" /%}
 
 ## Features
 
@@ -38,6 +45,8 @@ The **Enrich contact** feature can be used as an action or as a computed column 
 
 The action can be added to a component that supports actions (e.g., a button), added to an action sequence in the Action Editor, or after a form is submitted.
 
+{% figure src="/docs/reference/integrations/clearbit/configuring-the-enrich-contact-action.png" caption="Configuring Enrich Contact action" /%}
+
 **Computed Column Configuration**
 
 | Field | Description | Required field? | Example | Notes |
@@ -47,9 +56,9 @@ The action can be added to a component that supports actions (e.g., a button), a
 
 You can edit the column’s configuration to save a different result from Clearbit.
 
-To learn more about Integrations in Glide, check out our Introduction to Integrations. 
-
-# FAQ
+{% cta title="Introduction to Integrations" description="To learn more about Integrations, check out our Introduction to Integrations article. " url="/docs/introduction-to-integrations" /%}
+ 
+## FAQ
 
 {% faq question="Why cannot I see the Intercom Messenger in my published app?" answer="When the Clearbit integration is used as a computed column, your team uses updates for each contact that returns data successfully from Clearbit. " /%}
 

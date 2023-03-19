@@ -42,7 +42,7 @@ The action can be added to a component that supports actions (e.g., a button), a
 
 You can create a dynamic email by first creating a **Template** column in the **Data Editor** and then setting that column as your **To**, **Cc**, **Bcc**, **Subject**, or **Body** field. 
 
-To learn more about integrations in Glide, check out our Introduction to Integrations.
+{% cta title="Introduction to Integrations" description="To learn more about Integrations, check out our Introduction to Integrations article. " url="/docs/introduction-to-integrations" /%}
 
 ## FAQ Section
 
