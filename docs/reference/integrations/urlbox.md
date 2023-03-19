@@ -28,12 +28,12 @@ slug: urlbox
 
 The **Generate PDF file from HTML** action allows you to create a PDF file from HTML.
 
-| Field | Description | Required field? | Example | Notes |
-| --- | --- | --- | --- | --- |
-| HTML | This is the HTML that will be used to make your PDF file | ✅ |  |  |
-| CSS | This is the CSS that will be used to style your HTML | ✅ |  |  |
-| Filename | The name you want to give to the file. The extension (.pdf) will automatically be appended. | ✅ |  |  |
-| File output | The column where you want the URL to your PDF file to be saved | ✅ |  |  |
+| Field | Description | Required field? |
+| --- | --- | --- |
+| HTML | This is the HTML that will be used to make your PDF file | ✅ |
+| CSS | This is the CSS that will be used to style your HTML | ✅ |
+| Filename | The name you want to give to the file. The extension (.pdf) will automatically be appended. | ✅ |
+| File output | The column where you want the URL to your PDF file to be saved | ✅ |
 
 The action can be added to a component that supports actions (e.g., a button), added to an action sequence in the Action Editor, or after a form is submitted.
 

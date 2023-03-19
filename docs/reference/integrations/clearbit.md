@@ -24,9 +24,9 @@ To start using the Clearbit integration, you first need to add it to your projec
 
 ## Integration Settings
 
-| Integration setting | Description | Required field? | Example | Notes |
-| --- | --- | --- | --- | --- |
-| API key | You can find your API key in your https://dashboard.clearbit.com/api | ✅ |  | Your API key is usually a 35-character string of letters and numbers starting with `sk_` |
+| Integration setting | Description | Required field? | Notes |
+| --- | --- | --- | --- |
+| API key | You can find your API key in your https://dashboard.clearbit.com/api | ✅ | Your API key is usually a 35-character string of letters and numbers starting with `sk_` |
 
 {% figure src="/docs/reference/integrations/clearbit/clearbit-integration-settings.png" caption="Clearbit Integration settings" /%}
 

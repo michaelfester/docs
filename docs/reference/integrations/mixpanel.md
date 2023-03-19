@@ -19,9 +19,9 @@ To start using the Mixpanel integration, you first need to add it to your projec
 
 ## Integration Settings
 
-| Integration setting | Description | Required field? | Example | Notes |
-| --- | --- | --- | --- | --- |
-| Project token | Your project token be found in your project settings | ✅ |  | This should be a 19-character string of numbers |
+| Integration setting | Description | Required field? | Notes |
+| --- | --- | --- | --- |
+| Project token | Your project token be found in your project settings | ✅ | This should be a 19-character string of numbers |
 
 ## Features
 

@@ -27,13 +27,13 @@ To start using the Outlook integration, you first need to add it to your project
 
 The **Send Email with Outlook** action allows you to send an email from your own Outlook account.
 
-| Field | Description | Required field? | Example | Notes |
-| --- | --- | --- | --- | --- |
-| To | The recipient of the email | ✅ |  | The integr |
-| Cc | You can CC a recipient with this field | ❌ |  |  |
-| Bcc | You can BCC a recipient with this field | ❌ |  |  |
-| Subject | The subject line of the email | ✅ |  |  |
-| Body | The content of the email | ✅ |  | The body can be formatted with HTML. |
+| Field | Description | Required field? | Notes |
+| --- | --- | --- | --- |
+| To | The recipient of the email | ✅ | The integration currently only supports one recipient |
+| Cc | You can CC a recipient with this field | ❌ | The integration currently only supports one recipient to CC |
+| Bcc | You can BCC a recipient with this field | ❌ | The integration currently only supports one recipient to BCC |
+| Subject | The subject line of the email | ✅ | |
+| Body | The content of the email | ✅ | The body can be formatted with HTML. |
 
 {% figure src="/docs/reference/integrations/microsoft-outlook/configuring-microsoft-outlook%20(1).png" caption="Configurin Send Email with Outlook action" /%}
 

@@ -30,13 +30,13 @@ To start using the Gmail integration, you first need to add it to your project.
 
 The **Send Email with Gmail** action allows you to send an email from your own Gmail account.
 
-| Field | Description | Required field? | Example | Notes |
-| --- | --- | --- | --- | --- |
-| To | The recipient of the email | ✅ |  | You can use comma-separated values to send to multiple recipients. |
-| Cc | You can CC a recipient with this field | ❌ |  | You can use comma-separated values to send to multiple recipients. |
-| Bcc | You can BCC a recipient with this field | ❌ |  | You can use comma-separated values to send to multiple recipients. |
-| Subject | The subject line of the email | ✅ |  |  |
-| Body | The content of the email | ✅ |  | The body can be formatted with HTML. |
+| Field | Description | Required field? | Notes |
+| --- | --- | --- | --- |
+| To | The recipient of the email | ✅ | You can use comma-separated values to send to multiple recipients. |
+| Cc | You can CC a recipient with this field | ❌ | You can use comma-separated values to send to multiple recipients. |
+| Bcc | You can BCC a recipient with this field | ❌ | You can use comma-separated values to send to multiple recipients. |
+| Subject | The subject line of the email | ✅ | |
+| Body | The content of the email | ✅ | The body can be formatted with HTML. |
 
 The action can be added to a component that supports actions (e.g., a button), added to an action sequence in the Action Editor, or after a form is submitted.
 
