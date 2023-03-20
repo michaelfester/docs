@@ -4,6 +4,7 @@ description: Write and upload signatures to your data source.
 slug: signature-component
 ---
 
+
 {% callout title="Meet the new Glide Apps" %}
 Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
 {% /callout %}
@@ -11,6 +12,7 @@ Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [t
 {% callout title="" %}
 The Signature Component is only available in Glide [Apps](/docs/introduction-to-apps), not Glide [Pages](/docs/introduction-to-pages).
 {% /callout %}
+
 
 With the Signature component, you can let users sign for things in your project. When someone adds their signature, the Signature component generates an image and writes the link to that image to your project's [Data Source](/docs/reference/data-sources/). It will then display their signature in the component.
 

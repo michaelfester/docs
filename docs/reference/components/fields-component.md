@@ -4,10 +4,6 @@ description: Show multiple values side-by-side.
 slug: fields-component
 ---
 
-{% callout title="" %}
-The Fields Component Component is only available in Glide [Pages](/docs/introduction-to-pages), not Glide [Apps](/docs/introduction-to-apps).
-{% /callout %}
-
 The **Fields** component is somewhat similar to the [Basic Table](/docs/basic-table) component in [Apps](/docs/introduction-to-apps). This component allows you to place data in a table format.
 
 ## Configure a Fields component

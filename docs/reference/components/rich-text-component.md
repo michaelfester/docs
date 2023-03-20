@@ -4,16 +4,12 @@ description: Display data as styled content
 slug: rich-text-component
 ---
 
-{% callout title="" %}
-The Rich Text Component is available in both [Apps](/docs/introduction-to-apps) and [Pages](/docs/introduction-to-pages), but configuration options may differ slightly.
-{% /callout %}
-
 With the Rich Text component, you can apply italic text, bold text, different text sizes, inline images, links, and more using Markdown syntax.
 
 {% figure src="/docs/reference/components/rich-text/rich-text-use-case.png" caption="" /%}
 
 {% callout type="warning" title="" %}
-Do not use HTML tags or CSS code in the Rich Text component. Although some CSS code and HTML tags such as `<iframe>` may function, they are unsupported in Glide and could break at any time. For more information about using CSS in Glide, check out **Custom CSS in Glide Pages.**
+Do not use HTML tags or CSS code in the Rich Text component. Although some CSS code and HTML tags such as `<iframe>` may function, they are unsupported in Glide and could break at any time. For more information about using CSS in Glide, check out [Custom CSS in Glide](/docs/css-for-pages)
 {% /callout %}
 
 ## Configure a Rich Text component

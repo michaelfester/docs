@@ -4,10 +4,6 @@ description: Embed web pages directly into your projects
 slug: web-embed-component
 ---
 
-{% callout title="" %}
-The Web Embed Component is only available in Glide [Pages](/docs/introduction-to-pages), not Glide [Apps](/docs/introduction-to-apps).
-{% /callout %}
-
 The Web Embed component allows you to embed web pages directly in your project.
 
 {% figure src="/docs/reference/components/web-embed-component/web-embed-component.png" caption="Web Embed component in a custom page" /%}

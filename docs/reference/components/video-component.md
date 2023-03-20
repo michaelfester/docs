@@ -4,10 +4,6 @@ description: Display videos from YouTube, Vimeo, Twitch, and more
 slug: video-component
 ---
 
-{% callout title="" %}
-The Video Component is available in both Glide [Apps](/docs/introduction-to-apps) and Glide [Pages](/docs/introduction-to-pages), but options may differ slightly.
-{% /callout %}
-
 The Video component displays videos in your project from platforms like YouTube, Twitch, Vimeo, and more. To display a video in your project, you just need a video's URL.
 
 {% figure src="/docs/reference/components/video-component/video-com%5Bonent-use-case.png" caption="" /%}
@@ -24,6 +20,6 @@ Hosting videos for the Video Component in Glide Tables or on Google Drive is not
 
 ### Options
 
-In Glide Pages, you can customize the **Aspect Ratio** of your video by selecting this option in **General > Options**.
+You can customize the **Aspect Ratio** of your video by selecting this option in **General > Options**.
 
 {% figure src="/docs/reference/components/video-component/video-component-options.png" caption="" /%}

@@ -4,53 +4,15 @@ description: Display multiple properties in different styles
 slug: title-component
 ---
 
-{% callout title="" %}
-The Title Component is available in both [Apps](/docs/introduction-to-apps) and [Pages](/docs/introduction-to-pages), but configuration options may differ slightly.
-{% /callout %}
+The Title component in Glide provides extra functionalities that make it even more powerful.
 
-## In Apps
-
-The Title component has three different properties:
-
-1. **Title**
-2. **Details**
-3. **Image**
-
-You can choose to display all or only one of these.
-
-{% figure src="/docs/reference/components/title-component/title-component-in-apps.png" caption="" /%}
-
-### Image
-
-You can configure the image property to display either an image from a URL or an address on a map.
-
-### Appearance
-
-The title can be displayed in three different ways - **Full**, **Card** or **Profile**. We can also select a Size and we have three options to choose from:
-
-- **Fixed Height**
-- **3:2**
-- **3:1**
-
-{% figure src="/docs/reference/components/title-component/designini-title-component-in-pages.png" caption="" /%}
-
-### Actions
-
-We can also add an **Action** to our Title Component, so when a user clicks on it, an Action is triggered. Under the General settings of the component, we can select a default action from the dropdown or create a Custom action.
-
-{% cta title="Actions" description="Learn more about Actions" url="/docs/actions" /%}
-
-## In Pages
-
-The Title component in Glide Pages provides extra functionalities that make it even more powerful.
-
-### Data
+## Data
 
 When displaying data, you can choose from a **Title**, **Subtitle**, **Image**, and **Emphasis**. You can write [Custom Values](/docs/custom-values) or select columns from your [Data Source](/docs/reference/data-sources).
 
 {% figure src="/docs/reference/components/title-component/data-section-of-title-component-in-pages.png" caption="" /%}
 
-### Design
+## Design
 
 We can apply settings to the **Size**, **Image Style**, or **Background**. These three options will have an effect on the text Size, the image we select, or the background of the component.
 
@@ -64,7 +26,7 @@ If we select **Image** we have three other extra settings:
 
 **Background Image**: Here's where we select our background image, we can either select an image from our Database or insert a custom value. **Background Effect:** We have three choices, **Darken, Lighten**, or **None** **With Blur**: If we set the checkbox to true, a blur will be added to our image
 
-### Actions
+## Actions
 
 We can add as many **Actions** as we want, the first two actions will be displayed in a [Button Bar](/docs/button-bar), and the following will be displayed under a drop-down menu as displayed in the following image.
 

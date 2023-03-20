@@ -1,7 +1,7 @@
 ---
-title: Basic Table component
+title: Fields component
 description: Display multiple values in a compact table.
-slug: basic-table-component
+slug: fields-component
 ---
 
 {% callout title="" %}

@@ -4,10 +4,6 @@ description: Group components together
 slug: container-component
 ---
 
-{% callout title="" %}
-The Container Component is only available in Glide [Pages](/docs/introduction-to-pages), not Glide [Apps](/docs/introduction-to-apps).
-{% /callout %}
-
 The **Container** component acts as a parent, into which you can add child Components. This allows you to style, arrange, and add conditions to groups of [Components](/docs/reference/components).
 
 {% figure src="/docs/reference/components/container/adding-components-in-to-container.png" caption="" /%}

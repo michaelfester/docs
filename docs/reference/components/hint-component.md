@@ -4,10 +4,6 @@ description: Get attention to important text
 slug: hint-component
 ---
 
-{% callout title="" %}
-The Hint Component is available in both [Apps](/docs/introduction-to-apps) and [Pages](/docs/introduction-to-pages), but configuration options may differ slightly.
-{% /callout %}
-
 The Hint component highlights important text on the screen and brings it to the attention of a user.
 
 ## Configure a Hint component
@@ -30,7 +26,7 @@ Use the menus in **Title** and **Text** to select the values from your data 
 
 ## Actions
 
-In Glide Pages, this is the behavior that will be triggered when users click on the button inside the Hint component. You can choose from any of the actions available in Glide, or you can **create a new action**.
+In Glide, this is the behavior that will be triggered when users click on the button inside the Hint component. You can choose from any of the actions available in Glide, or you can **create a new action**.
 
 1. In **General > Action**, select the menu arrows.
 2. In **Configure Action**, select the dropdown menu to view action options.

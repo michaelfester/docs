@@ -4,10 +4,6 @@ description: Use text to trigger actions in your app
 slug: action-text
 ---
 
-{% callout title="" %}
-The Action Text Component is only available in Glide [Apps](/docs/introduction-to-apps), not Glide [Pages](/docs/introduction-to-pages).
-{% /callout %}
-
 ## Data
 
 On the right side of the Layout Editor in **General > Data > Text**, use the menu to select the value that will be displayed for the user. This can be custom text or the data from a selected column.
@@ -15,7 +11,7 @@ On the right side of the Layout Editor in **General > Data > Text**, use the me
 {% figure src="/docs/reference/components/action-text/image%20(2).png" caption="Selecting a value that will be displayed for the user" /%}
 
 {% callout title="" %}
-Glide presents different configuration options tailored to each action. For detailed information about all of the actions available in Glide, check out Actions.
+Glide presents different configuration options tailored to each action. For detailed information about all of the actions available in Glide, check out [Actions](/docs/actions).
 {% /callout %}
 
 ## Design
@@ -52,3 +48,5 @@ This is the behavior that will be triggered when users tap on the text. You can 
 4. If prompted, apply any additional settings in **Configure Action**.
 
 {% figure src="/docs/reference/components/action-text/image%20(6).png" caption="Configuring Show Detail Screen action" /%}
+
+

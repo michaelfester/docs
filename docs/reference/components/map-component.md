@@ -1,48 +1,16 @@
 ---
 title: Map Component
-description: The Map component in Glide Pages displays multiple addresses as an interactive map on your page. In Glide Apps, the Map component displays an address in your data source as a map.
+description: The Map component displays multiple addresses as an interactive map.
 slug: map-component
 ---
 
-{% callout title="" %}
-The Map Component is available in both [Apps](/docs/introduction-to-apps) and [Pages](/docs/introduction-to-pages), but configuration options may differ slightly.
-{% /callout %}
+The **Map component** displays address data as an interactive map on your app.
 
-## In Apps
-
-**Display an address on a map.**
-
-The Map component displays an address from our data source as a pin on a map.
-
-{% figure src="/docs/reference/components/map-component/map-component-in-apps.png" caption="" /%}
-
-### Data
-
-Select the column from your data source that you'd like to use as the address.
-
-### Design
-
-We can change between three zoom settings for your map's display:
-
-1. **Near**
-2. **Medium**
-3. **Far**
-
-{% figure src="/docs/reference/components/map-component/designing-map-component-in-apps.png" caption="" /%}
-
-### Action
-
-By default, when the Map component is tapped, it will open the device's default map to search for that address. You can click the default Action and select the dropdown menu (**Configure Action**) to view other action options or create your own [Custom Action](/docs/actions).
-
-## In Pages
-
-The **Map component** in **Glide Pages** displays address data as an interactive map on your page.
-
-### General settings
+## General settings
 
 You can customize your map using the settings available in the **General**, **Options**, and **Actions** tabs that appear when you select the map from the **Screens** panel in the **Layout Editor**.
 
-### Items data
+## Items data
 
 1. In the **General** tab, locate the **Items Data** section.
 2. Use the menu in the **Title**, **Description**, **Address**, and **Image** fields to select the value from your data to display. You can also type directly into these fields to enter a [Custom Value](/docs/custom-values).
@@ -57,10 +25,10 @@ A pin is placed on the map at the address specified. The **Title**, **Descript
 
 Tooltip showing fields when a pin is clicked
 
-### Design
+## Design
 
 1. In the **General** tab, locate **Design**.
-2. Choose the **Aspect Ratio -** Square, 4:3, or 16:9 - to resize the map on the page.
+2. Choose the **Aspect Ratio -** Square, 4:3, or 16:9 - to resize the map.
 3. Choose the **Style** - Minimal, Standard, or Satellite - to change the appearance of the map.
 4. Choose the **Tooltip** - Bottom or Floating - to show the details of each location when a pin is clicked.
 5. Select **Show Navigation Controls** to display buttons that allow users to change the zoom level of the map.
@@ -70,7 +38,7 @@ Tooltip showing fields when a pin is clicked
 
 Design settings for the Map component
 
-### Limiting the number of pins on a map
+## Limiting the number of pins on a map
 
 If you only want to show a certain number of pins on your map, you can select the option to limit the number of items. Once this is set, the map will only display the number of pins you enter here, starting at the first available row in your data source.
 
@@ -82,7 +50,7 @@ Limiting the number of pins on a map
 
 You can trigger actions in two areas of the map component - the **Title Bar** action and the **Item Click** action.
 
-### Title bar action
+## Title bar action
 
 1. In the **Actions** tab, locate the **Title Bar Action** section.
 2. Click the **Add primary action** button.
@@ -95,7 +63,7 @@ You can add as many actions as you'd like. Additional actions will be displayed 
 
 Configuring the title bar action
 
-### Item click action
+## Item click action
 
 1. In the **Actions** tab, locate the **Item Click Action** section.
 2. The **Show Detail Screen** action is added by default, but you can change this to any other action you choose.

@@ -4,10 +4,6 @@ description: A pre-configured contact form for your page
 slug: contact-form
 ---
 
-{% callout title="" %}
-The Contact Form Component is only available in Glide [Pages](/docs/introduction-to-pages), not Glide [Apps](/docs/introduction-to-apps).
-{% /callout %}
-
 **Contact Form** is a quick way to add a simple ‘Contact Us' form to your page.
 
 {% figure src="/docs/reference/components/contact-form/contact-form.png" caption="" /%}

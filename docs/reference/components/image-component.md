@@ -4,6 +4,7 @@ description: Display images
 slug: image-component
 ---
 
+
 {% callout title="Meet the new Glide Apps" %}
 Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
 {% /callout %}
@@ -11,6 +12,7 @@ Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [t
 {% callout title="" %}
 The Image Component is available in both Glide [Apps](/docs/introduction-to-apps) and Glide [Pages](/docs/introduction-to-pages), but configuration options may differ slightly.
 {% /callout %}
+
 
 There are many ways to include images in your Glide project, but the Image Component is highly customizable and gives you flexibility for showcasing your images.
 
@@ -55,10 +57,6 @@ In Apps, **Fill** refers to the proportion of the image within the dimensions o
 {% figure src="/docs/reference/components/image-component/image%20(16).png" caption="" /%}
 
 ### Style
-
-{% callout title="" %}
-Style options may differ in Apps and Pages.
-{% /callout %}
 
 In **Apps**, you can select from the following **Style** options:
 

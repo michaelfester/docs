@@ -4,11 +4,7 @@ description: Change true-false values.
 slug: checkbox-and-switch-components
 ---
 
-{% callout title="" %}
-The Checkbox Component is only available in [Apps](/docs/introduction-to-apps). The Switch Component is available in both [Apps](/docs/introduction-to-apps) and [Pages](/docs/introduction-to-pages). Configuration may differ slightly.
-{% /callout %}
-
-The Switch and Checkbox components allow you to toggle boolean values in your data source. These components are great for creating checklists in Apps or for marking items with yes/no values in Pages.
+The Switch and Checkbox components allow you to toggle boolean values in your data source.
 
 {% figure src="/docs/reference/components/checkbox-and-switch-components/use-case-of-a-switch-component-in-pages.png" caption="" /%}
 

@@ -4,10 +4,6 @@ description: Let users upload files and images to your projects
 slug: file-and-image-pickers
 ---
 
-{% callout title="" %}
-The File Picker Component is available in both [Apps](/docs/introduction-to-apps) and [Pages](/docs/introduction-to-pages), but configuration options may differ slightly.
-{% /callout %}
-
 The **File Picker** and **Image Picker** components allow users to upload files and images to your projects. Once you upload a file or an image, Glide converts these files to links that can be displayed in your projects, or downloaded by users.
 
 ## Configuration

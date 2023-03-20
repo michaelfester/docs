@@ -4,10 +4,6 @@ description: Pick options from a list
 slug: choice-component
 ---
 
-{% callout title="" %}
-The Choice Component is available in both Glide [Apps](/docs/introduction-to-apps) and Glide [Pages](/docs/introduction-to-pages), but options may differ slightly.
-{% /callout %}
-
 The Choice component allows users to select an option from a predefined list.
 
 {% figure src="/docs/reference/components/choice-component/choice-component-in-pages.png" caption="" /%}

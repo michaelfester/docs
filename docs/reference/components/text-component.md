@@ -4,10 +4,6 @@ description: Add style to your text
 slug: text-component
 ---
 
-{% callout title="" %}
-The Text component is available in both [Apps](/docs/introduction-to-apps) and [Pages](/docs/introduction-to-pages), but configuration options may differ slightly.
-{% /callout %}
-
 ## Configure a Text component
 
 ### Data
@@ -25,7 +21,7 @@ In the **General** tab on the right side of the Layout Editor, locate **Desig
 Select a text style
 
 {% callout title="" %}
-In Glide [Pages](/docs/introduction-to-pages), the **Headline** component is preconfigured to use a **Headline** style, otherwise, it is identical to the Text component.
+The **Headline** component is pre-configured to use a **Headline** style, otherwise, it is identical to the Text component.
 {% /callout %}
 
 - Use **Align** to select the desired text alignment.
@@ -34,6 +30,3 @@ In Glide [Pages](/docs/introduction-to-pages), the **Headline** component is pre
 
 {% figure src="/docs/reference/components/text-component/image%20(3).png" caption="Truncating text lines" /%}
 
-{% callout type="warning" title="" %}
-Some design settings differ between [Apps](/docs/introduction-to-apps) and Pages.
-{% /callout %}
