@@ -6,7 +6,7 @@ slug: share
 ---
 
 {% callout title="Meet the new Glide Apps" %}
-Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+Glide Pages are now Glide Apps. Please refer to [this article](/docs/meet-the-new-glide-apps) for up-to-date information, as some of this documentation is outdated.
 {% /callout %}
 
 In our [Quick Start guide](/docs/quick-start), we went over the basics of creating, publishing, and sharing your first project. In this guide, we'll go into more depth, covering all the things you need to know about getting your projects out into the world.

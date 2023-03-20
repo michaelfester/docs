@@ -6,7 +6,7 @@ slug: show-sign-in
 ---
 
 {% callout title="Meet the new Glide Apps" %}
-Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+Glide Pages are now Glide Apps. Please refer to [this article](/docs/meet-the-new-glide-apps) for up-to-date information, as some of this documentation is outdated.
 {% /callout %}
 
 If your app uses Public with Email, Allowed Email List or Password for its sign-in settings then your users will need to sign in _before_ they see anything in the app.

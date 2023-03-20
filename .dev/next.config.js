@@ -67,6 +67,30 @@ module.exports = withMarkdoc(
               destination: "/docs",
               permanent: false,
             },
+            {
+              basePath: false,
+              source: "/docs/introduction-to-apps",
+              destination: "/docs/classic-apps",
+              permanent: false,
+            },
+            {
+              basePath: false,
+              source: "/docs/guides/products/introduction-to-apps",
+              destination: "/docs/guides/products/classic-apps",
+              permanent: false,
+            },
+            {
+              basePath: false,
+              source: "/docs/introduction-to-pages",
+              destination: "/docs/apps",
+              permanent: false,
+            },
+            {
+              basePath: false,
+              source: "/docs/guides/products/introduction-to-pages",
+              destination: "/docs/guides/products/apps",
+              permanent: false,
+            },
           ]
         : [];
 

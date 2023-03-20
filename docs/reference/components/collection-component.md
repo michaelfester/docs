@@ -5,7 +5,7 @@ slug: collection-component
 ---
 
 {% callout title="Meet the new Glide Apps" %}
-Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+Glide Pages are now Glide Apps. Please refer to [this article](/docs/meet-the-new-glide-apps) for up-to-date information, as some of this documentation is outdated.
 {% /callout %}
 
 {% callout title="" %}
@@ -17,7 +17,6 @@ Glide Pages don't have List Screen Layouts like Glide Apps – everything is a
 Therefore, when we want to have lists, we need to add a **Collection Component**. This acts much like the Inline List in Apps but has more power & versatility.
 
 {% figure src="/docs/reference/components/collection-component/collection-component.png" caption="" /%}
-
 
 ## General
 

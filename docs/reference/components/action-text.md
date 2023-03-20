@@ -5,7 +5,7 @@ slug: action-text
 ---
 
 {% callout title="Meet the new Glide Apps" %}
-Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+Glide Pages are now Glide Apps. Please refer to [this article](/docs/meet-the-new-glide-apps) for up-to-date information, as some of this documentation is outdated.
 {% /callout %}
 
 ## Data
@@ -52,5 +52,3 @@ This is the behavior that will be triggered when users tap on the text. You can 
 4. If prompted, apply any additional settings in **Configure Action**.
 
 {% figure src="/docs/reference/components/action-text/image%20(6).png" caption="Configuring Show Detail Screen action" /%}
-
-

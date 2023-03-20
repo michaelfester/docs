@@ -6,7 +6,7 @@ slug: sort
 ---
 
 {% callout title="Meet the new Glide Apps" %}
-Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+Glide Pages are now Glide Apps. Please refer to [this article](/docs/meet-the-new-glide-apps) for up-to-date information, as some of this documentation is outdated.
 {% /callout %}
 
 By default, our list items show in the same order as the rows in our sheet. However, we can use **sort** to change this order. We can also enable **in-app sort** so that users can change the sorting themselves.

@@ -6,7 +6,7 @@ slug: reshuffle
 ---
 
 {% callout title="Meet the new Glide Apps" %}
-Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+Glide Pages are now Glide Apps. Please refer to [this article](/docs/meet-the-new-glide-apps) for up-to-date information, as some of this documentation is outdated.
 {% /callout %}
 
 If your [Inline List](/docs/inline-list) is randomly ordered, you can add an [Action](/docs/actions) to a [Button](/docs/button-component) or [Image](/docs/image-component) to re-shuffle those lists. This will reshuffle all randomly sorted lists on that screen.

@@ -6,7 +6,7 @@ slug: airtable
 ---
 
 {% callout title="Meet the new Glide Apps" %}
-Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+Glide Pages are now Glide Apps. Please refer to [this article](/docs/meet-the-new-glide-apps) for up-to-date information, as some of this documentation is outdated.
 {% /callout %}
 
 Airtable is a spreadsheet-database hybrid with the features of a database but applied to a spreadsheet. Your projects can be integrated with Airtable bases, offering you a more robust approach to data management that you may not find in simple spreadsheets.
@@ -54,14 +54,14 @@ The sheets or tables in your base are added as individual **Tabs** to the **Layo
 To change the Airtable API key and connect to a different table, first make sure the new table is owned by the same email address you use with your Glide account. Then:
 
 1. Open the settings of your app. Then open the **Integrations** menu and select **Airtable.**
- 
+
 {% figure src="/docs/reference/data-sources/airtable/choosing-the-airtable-under-intergrations.png" caption="Choosing the Airtable to edit the API key" /%}
-    
-2. Select **edit** next to the API key and paste in your new key. 
-   
+
+2. Select **edit** next to the API key and paste in your new key.
+
 {% figure src="/docs/reference/data-sources/airtable/editing-the-api-key.png" caption="Editing the API key" /%}
-    
-3. Select **save**.  
+
+3. Select **save**.
 
 {% callout type="warning" title="" %}
 Changing with Airtable account is integrated will change the data in your data editor and could change the behavior of your app.

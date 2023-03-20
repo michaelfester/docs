@@ -5,7 +5,7 @@ slug: text-component
 ---
 
 {% callout title="Meet the new Glide Apps" %}
-Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+Glide Pages are now Glide Apps. Please refer to [this article](/docs/meet-the-new-glide-apps) for up-to-date information, as some of this documentation is outdated.
 {% /callout %}
 
 ## Configure a Text component
@@ -33,4 +33,3 @@ The **Headline** component is pre-configured to use a **Headline** style, otherw
 - For data columns containing large amounts of text, you can select **Truncate text lines** to limit the number of lines displayed. Users can view all of the text when they tap **More**.
 
 {% figure src="/docs/reference/components/text-component/image%20(3).png" caption="Truncating text lines" /%}
-

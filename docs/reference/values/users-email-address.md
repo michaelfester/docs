@@ -6,7 +6,7 @@ slug: users-email-address
 ---
 
 {% callout title="Meet the new Glide Apps" %}
-Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+Glide Pages are now Glide Apps. Please refer to [this article](/docs/meet-the-new-glide-apps) for up-to-date information, as some of this documentation is outdated.
 {% /callout %}
 
 The User's Email Address is a **Special Value**. You have access to this special value in a number of places including add, edit & form screens as well as conditions and custom actions.

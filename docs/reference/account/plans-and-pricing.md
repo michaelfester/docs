@@ -6,7 +6,7 @@ slug: plans-and-pricing
 ---
 
 {% callout title="Meet the new Glide Apps" %}
-Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+Glide Pages are now Glide Apps. Please refer to [this article](/docs/meet-the-new-glide-apps) for up-to-date information, as some of this documentation is outdated.
 {% /callout %}
 
 ## Plans and Features
@@ -80,7 +80,7 @@ The Enterprise plan is perfect for large organizations that require advanced fea
 - Priority support
 - Advanced security features
 
-The Enterprise plan starts at $799 per month. [Contact our sales team to get started](https://www.glideapps.com/enterprise). 
+The Enterprise plan starts at $799 per month. [Contact our sales team to get started](https://www.glideapps.com/enterprise).
 
 ## How to Upgrade Your Plan
 
@@ -90,20 +90,20 @@ To upgrade your plan, log in to your Glide account, go to the **Settings** tab, 
 
 ## FAQ Section
 
-Try to anticipate a few common questions or issues users might have when interacting with this feature. If you need help tag Cait! 
+Try to anticipate a few common questions or issues users might have when interacting with this feature. If you need help tag Cait!
 
 ### Can I pay for more updates?
-    
+
 Yes, if you have a pro or business plan, you can choose to have either fixed updates or pay-as-you-go updates. [Read more here](https://www.glideapps.com/docs/reference/faq/fixed-updates-vs-pay-as-you-go-updates).
-    
+
 ### Do you offer special pricing for non-profits and schools?
-    
+
 Yes, you can [apply here](https://glide.typeform.com/to/PFmvEk0w) for a discounted plan. This plan is only available to accredited non-profits and educational institutions; it is not available for purchase by individuals or students.
-    
+
 ### I would like to cancel my Glide subscription.
-    
-You can read more about how to cancel or change your subscription [here](https://www.glideapps.com/docs/reference/account/billing). 
-    
+
+You can read more about how to cancel or change your subscription [here](https://www.glideapps.com/docs/reference/account/billing).
+
 ### What are boosts?
 
 Boosts were paid addons to increase the capacity of your apps. They are no longer available for purchase.

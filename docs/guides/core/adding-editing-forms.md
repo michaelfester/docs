@@ -6,7 +6,7 @@ slug: add-edit
 ---
 
 {% callout title="Meet the new Glide Apps" %}
-Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+Glide Pages are now Glide Apps. Please refer to [this article](/docs/meet-the-new-glide-apps) for up-to-date information, as some of this documentation is outdated.
 {% /callout %}
 
 With Glide, you can display your data in beautiful ways. But you can also give access to users to be able to edit specific data while restricting access to fields that should not be changed.

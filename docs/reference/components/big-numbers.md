@@ -5,7 +5,7 @@ slug: big-numbers
 ---
 
 {% callout title="Meet the new Glide Apps" %}
-Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+Glide Pages are now Glide Apps. Please refer to [this article](/docs/meet-the-new-glide-apps) for up-to-date information, as some of this documentation is outdated.
 {% /callout %}
 
 The **Big Numbers** component displays a single number value in a large font and two smaller, optional text values. The Big Numbers component is ideal for showing top level reporting numbers. You can combine it with the [Chart Component](/docs/charts) and data grid layout to create useful dashboards in your projects.

@@ -5,7 +5,7 @@ slug: entry-components
 ---
 
 {% callout title="Meet the new Glide Apps" %}
-Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+Glide Pages are now Glide Apps. Please refer to [this article](/docs/meet-the-new-glide-apps) for up-to-date information, as some of this documentation is outdated.
 {% /callout %}
 
 Entry components can be used in [Forms](/docs/forms) or [Details/Custom screens](/docs/screens) to allow users to add or edit data in your project. Depending on the type of entry component that you select, users will be limited to the type of data they are able to input.

@@ -6,7 +6,7 @@ slug: localization
 ---
 
 {% callout title="Meet the new Glide Apps" %}
-Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+Glide Pages are now Glide Apps. Please refer to [this article](/docs/meet-the-new-glide-apps) for up-to-date information, as some of this documentation is outdated.
 {% /callout %}
 
 With traditional app development, localizing your app takes a considerable amount of effort. Luckily, Glide makes this process automatic, so you don't have to worry about translating all the elements within your app.

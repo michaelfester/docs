@@ -6,7 +6,7 @@ slug: adding-images
 ---
 
 {% callout title="Meet the new Glide Apps" %}
-Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+Glide Pages are now Glide Apps. Please refer to [this article](/docs/meet-the-new-glide-apps) for up-to-date information, as some of this documentation is outdated.
 {% /callout %}
 
 Images in Glide can appear in two primary places - in **Lists** and **Collections** and in [Components](/docs/components) like the [Title](/docs/title-component) and [Image](/docs/image-component) Component. You can add images from the web, upload your own, and even allow users to upload their own images from within your projects.

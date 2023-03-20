@@ -5,7 +5,7 @@ slug: link-component
 ---
 
 {% callout title="Meet the new Glide Apps" %}
-Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+Glide Pages are now Glide Apps. Please refer to [this article](/docs/meet-the-new-glide-apps) for up-to-date information, as some of this documentation is outdated.
 {% /callout %}
 
 ## Configure a Link component
@@ -30,4 +30,3 @@ Row** will display the link in a full-width row along with an optional **Caption
 - If using the **Row** style, use the menu in **Caption** to select the value from your data to display or select **Custom** to enter a custom value for this field.
 
 {% figure src="/docs/reference/components/link-component/link-component-configuration.png" caption="Configuring the Link Component" /%}
-

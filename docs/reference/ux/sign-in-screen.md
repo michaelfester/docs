@@ -6,7 +6,7 @@ slug: sign-in-screen
 ---
 
 {% callout title="Meet the new Glide Apps" %}
-Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+Glide Pages are now Glide Apps. Please refer to [this article](/docs/meet-the-new-glide-apps) for up-to-date information, as some of this documentation is outdated.
 {% /callout %}
 
 If your app uses any kind of sign-in method then you can customize the way your sign-in screen looks by uploading your own background, logo, greeting & description.

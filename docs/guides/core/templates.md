@@ -6,7 +6,7 @@ slug: templates
 ---
 
 {% callout title="Meet the new Glide Apps" %}
-Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+Glide Pages are now Glide Apps. Please refer to [this article](/docs/meet-the-new-glide-apps) for up-to-date information, as some of this documentation is outdated.
 {% /callout %}
 
 Templates are brilliant for kick-starting your project. There are [hundreds in our store](https://www.glideapps.com/templates) for all types of use cases, and you can use them to get your projects closer to the finish line. You'll find a list of sample templates at the bottom of your [Dashboard](/docs/glide-ui). Just click the plus (+) icon to copy, or you can browse and copy one from the [Template Store](https://www.glideapps.com/templates).

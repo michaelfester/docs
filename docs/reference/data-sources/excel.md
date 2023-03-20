@@ -5,7 +5,7 @@ slug: excel
 ---
 
 {% callout title="Meet the new Glide Apps" %}
-Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+Glide Pages are now Glide Apps. Please refer to [this article](/docs/meet-the-new-glide-apps) for up-to-date information, as some of this documentation is outdated.
 {% /callout %}
 
 Microsoft Excel is one of the most widely used spreadsheet applications in the world. Your projects can be integrated with your Excel Workbooks, allowing you to build Apps and Pages with a data source you're familiar with.

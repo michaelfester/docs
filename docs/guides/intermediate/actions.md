@@ -8,7 +8,7 @@ slug: actions
 ---
 
 {% callout title="Meet the new Glide Apps" %}
-Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+Glide Pages are now Glide Apps. Please refer to [this article](/docs/meet-the-new-glide-apps) for up-to-date information, as some of this documentation is outdated.
 {% /callout %}
 
 A useful way to think about apps is through the way users interact with them. Two very basic levels of interaction are **viewing** and **editing** data. But very often, apps need to be able to perform Actions.
@@ -21,10 +21,10 @@ You may not have thought of it this way before, but opening a [Form](/docs/form
 
 {% figure src="/docs/guides/intermediate/actions/usecase-for-show-form-screen-action.png" caption="" /%}
 
-Open Link and [Show Form Screen](/docs/show-form-screen) are examples of native Glide Actions. In other words, they trigger things that happen in your app. But you can also Integrate third party Integrations like Slack, Outlook, or OpenAI into Glide and trigger messages, emails, generated text and much more. 
+Open Link and [Show Form Screen](/docs/show-form-screen) are examples of native Glide Actions. In other words, they trigger things that happen in your app. But you can also Integrate third party Integrations like Slack, Outlook, or OpenAI into Glide and trigger messages, emails, generated text and much more.
 
 {% cta title="Learn more about integrations here." description="Integrations allow you to send Slack messages, emails, enhance data with AI, add chat or support functionality in your apps, and much more." url="/docs/introduction-to-integrations" /%}
- 
+
 ## The Action Editor
 
 As you can see in the images above, it's possible to manually add actions to components. However, Glide also has an Action Editor that allows you to save and reuse actions and combine them into more complex workflows.
@@ -33,7 +33,7 @@ As you can see in the images above, it's possible to manually add actions to com
 
 ## Creating Actions
 
-Navigate to the Action Editor by clicking on the third and final icon in the middle of the top bar. 
+Navigate to the Action Editor by clicking on the third and final icon in the middle of the top bar.
 
 {% figure src="/docs/guides/intermediate/actions/navigation-menus-in-glide.png" caption="" /%}
 
@@ -45,13 +45,13 @@ To create a new action, click the plus icon in the top left corner. You will be 
 
 ## Data Source
 
-The data source table you choose for an action determines where that action can be used. 
+The data source table you choose for an action determines where that action can be used.
 
 For instance, suppose you want to create an action where a user can tap a button on an inventory item and automatically send an email to an admin. The email should indicate that the stock level is low and include the current stock level.
 
-For this particular action to work, it needs to know what stock item it is and the current stock level. So this action must be made with the Inventory table as the source. 
+For this particular action to work, it needs to know what stock item it is and the current stock level. So this action must be made with the Inventory table as the source.
 
-This also means that this action cannot be triggered on a screen that has a different table. For example, it would not make sense to trigger this action on a Team Member’s profile. 
+This also means that this action cannot be triggered on a screen that has a different table. For example, it would not make sense to trigger this action on a Team Member’s profile.
 
 This means that although actions are reusable, they are only reusable on screens that have the same data source.
 
@@ -63,7 +63,7 @@ Once you create an action, you can reuse it in any part of your app as long as t
 
 ## Sequences
 
-You can have single step actions, or you can have multi-step actions. This means multiple things will happen when your action is triggered. 
+You can have single step actions, or you can have multi-step actions. This means multiple things will happen when your action is triggered.
 
 {% figure src="/docs/guides/intermediate/actions/example-for-a-multi-step-action.png" caption="" /%}
 
@@ -105,17 +105,17 @@ You can add many different conditions to your action.
 
 ## Types of Actions
 
-There are two main types of actions: Integration Actions and Glide Actions. 
+There are two main types of actions: Integration Actions and Glide Actions.
 
 ### Integration Actions
 
-Some Integrations come with actions that you can trigger in Glide. For example, the Slack integration makes it possible for you to trigger a Slack notification from a Glide Action. 
+Some Integrations come with actions that you can trigger in Glide. For example, the Slack integration makes it possible for you to trigger a Slack notification from a Glide Action.
 
-To learn more about Integrations, check out our Integrations Docs. 
+To learn more about Integrations, check out our Integrations Docs.
 
 ### Glide Actions
 
-Glide Actions are actions that affect only things within your app. Most of them do not communicate with the outside world. Examples include adding a row, opening a link, navigating to a tab, and returning to a previous screen. 
+Glide Actions are actions that affect only things within your app. Most of them do not communicate with the outside world. Examples include adding a row, opening a link, navigating to a tab, and returning to a previous screen.
 
 Mostly, they fall into four categories.
 
@@ -143,7 +143,7 @@ Communication actions trigger things like emails, text messages, and phone calls
 
 ## Action Locations
 
-There are many places where you can add Actions in your app. 
+There are many places where you can add Actions in your app.
 
 ### Component actions
 
@@ -151,7 +151,7 @@ There are many places where you can add Actions in your app.
 
 Some [Components](/docs/components) have Actions, and some do not. If a Component has the option for an Action, you'll see it in the component's configuration.
 
-Some components, like the Collection component have multiple actions you can add.  
+Some components, like the Collection component have multiple actions you can add.
 
 {% figure src="/docs/guides/intermediate/actions/list-actions.webp" caption="" /%}
 
@@ -183,18 +183,18 @@ However, you can change this to a number of other actions. For example, you coul
 
 Another type of Action is the After Submit Action. After users add/edit or submit Forms — you have the option to add Actions that trigger on submit.
 
-For example, you could create an action that notifies your Slack channel every time a form is submitted. 
+For example, you could create an action that notifies your Slack channel every time a form is submitted.
 
 ## Automations
 
-While you can create multi-step actions and set conditions within a single ‘action’ — this is different to automations. 
+While you can create multi-step actions and set conditions within a single ‘action’ — this is different to automations.
 
-Automations are a series of interdependent actions that achieve a specific goal without requiring constant user input. For example, you might want to run an action at a specific time every night or trigger an event every time a new row is added, or data meets a certain criteria. 
+Automations are a series of interdependent actions that achieve a specific goal without requiring constant user input. For example, you might want to run an action at a specific time every night or trigger an event every time a new row is added, or data meets a certain criteria.
 
-Glide does not have these automation capabilities yet, but we will add this functionality soon. 
+Glide does not have these automation capabilities yet, but we will add this functionality soon.
 
 ## Recent Runs
 
-If you are having trouble with your action or want to inspect its activity, you can look at the ‘Recent Runs’ tab in the Action Editor. 
+If you are having trouble with your action or want to inspect its activity, you can look at the ‘Recent Runs’ tab in the Action Editor.
 
 Here, you’ll see all the times your action has fired in the last 30 days and information about the run. This is currently an experimental feature, so please let us know if you encounter issues.

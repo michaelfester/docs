@@ -5,7 +5,7 @@ slug: users
 ---
 
 {% callout title="Meet the new Glide Apps" %}
-Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+Glide Pages are now Glide Apps. Please refer to [this article](/docs/meet-the-new-glide-apps) for up-to-date information, as some of this documentation is outdated.
 {% /callout %}
 
 When you log into your music app or social media account, your user experience is totally defined by your data. Your music app has your playlists and favorites, and your social media account is tied to your friends & likes. If you were to log into someone else's account, the app would look very different.

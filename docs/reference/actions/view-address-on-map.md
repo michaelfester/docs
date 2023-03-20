@@ -6,7 +6,7 @@ slug: view-address-on-map
 ---
 
 {% callout title="Meet the new Glide Apps" %}
-Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+Glide Pages are now Glide Apps. Please refer to [this article](/docs/meet-the-new-glide-apps) for up-to-date information, as some of this documentation is outdated.
 {% /callout %}
 
 The View Address on Map action allows users to tap a component like [Action Text](/docs/action-text), [Button](/docs/button-component), or [Image](/docs/image-component) and open the address on a map.
