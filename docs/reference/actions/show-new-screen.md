@@ -5,6 +5,10 @@ video:
 slug: show-new-screen
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 With the Show New Screen action, you can make a Button, an Action Text, or an Image link to another screen.
 
 {% figure src="/docs/reference/actions/show-new-screen/CleanShot%202021-09-17%20at%2013.35.17@2x.png" caption="Show New Screen" /%}

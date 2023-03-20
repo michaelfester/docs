@@ -5,6 +5,10 @@ video:
 slug: show-detail-screen
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 By default, list items link to their Details Screen. 'Show Detail Screen' is, therefore, an action that you will only find on Lists.
 
 {% cta title="Screen Types" description="Learn more about screen types here" url="/docs/screens" /%}

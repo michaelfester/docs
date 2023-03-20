@@ -5,6 +5,10 @@ video:
 slug: share-link
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 The Share Link action triggers the device's share panel, enabling them to share your content via other apps.
 
 ![](/docs/reference/actions/share-link/Group%2062.png)

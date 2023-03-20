@@ -5,6 +5,10 @@ video:
 slug: send-email
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 {% callout title="" %}
 The Send Email action delivers email from a generic email address (i.e. notifications@appuser.io).
 {% /callout %}

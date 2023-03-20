@@ -5,6 +5,10 @@ video:
 slug: upload-image
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 The Upload Image action allows your users to upload a new image or replace an existing image in your app. This action can only be enabled on an [Image Component](/docs/image-component).
 
 When you enable this action, a camera icon will be overlaid in the bottom right of your Image Component. When users tap this icon, they will be able to upload and replace the existing image.

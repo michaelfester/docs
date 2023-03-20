@@ -5,6 +5,10 @@ video:
 slug: show-edit-screen
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 We can now open the edit screen with a [Single Action](/docs/actions), Show Edit Screen. This allows us to prompt users to edit a screen with components such as a [Title](/docs/title-component) or a [Floating Button](/docs/button-component).
 
 {% figure src="/docs/reference/actions/show-edit-screen/Frame%2010.png" caption="Show Edit Screen" /%}

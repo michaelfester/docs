@@ -5,6 +5,10 @@ video:
 slug: compose-text-message
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 The Compose Text Message action allows you to trigger a text message when the item is tapped.
 
 ![](/docs/reference/actions/compose-text-message/2020-07-19%2021.37.35.gif)

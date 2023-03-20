@@ -5,6 +5,10 @@ video:
 slug: webhook
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 Webhooks are a way for apps to send messages to other apps. Here, we mean apps in the broadest sense – Gmail, Facebook, PayPal, Slack.
 
 Webhooks let these programs speak to each other and to be notified when something happens. For example; when a new payment is made in Stripe, send that data to Slack as a notification.

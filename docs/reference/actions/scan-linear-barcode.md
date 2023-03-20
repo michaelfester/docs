@@ -5,6 +5,10 @@ video: https://www.youtube.com/watch?v=ZGZGWQ02OCE
 slug: scan-linear-barcode
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 {% callout title="" %}
 Our standard scanner is an experimental feature. This scanner works but is not recommended for large scale use in a production environment. If you have a need for a production-quality scanner, that is capable of scanning thousands of barcodes and QR Codes, we strongly recommend using our upgraded scanner. This is a paid add-on. If you'd like more information about pricing, please reach out to [hello@glideapps.com](hello@glideapps.com).
 {% /callout %}

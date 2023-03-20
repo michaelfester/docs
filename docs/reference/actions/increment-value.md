@@ -5,6 +5,10 @@ video:
 slug: increment
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 With the Increment Value action, you can increment or decrement a number by any value that you want.
 
 {% figure src="/docs/reference/actions/increment-value/Incrementing-a-number-by-1.png" caption="Incrementing a Number By One" /%}

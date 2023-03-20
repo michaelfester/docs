@@ -5,6 +5,10 @@ video:
 slug: copy-to-clipboard
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 The Copy to Clipboard action copies a value to the user's clipboard.
 
 {% figure src="/docs/reference/actions/copy-to-clipboard/copy-to-clipboard.png" caption="Configure Copy to Clipboard" /%}
