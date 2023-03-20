@@ -4,6 +4,10 @@ description: Transform basic data in powerful new ways.
 slug: computed-columns
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 The [Data Editor](/docs/data-editor) is where you edit the data in your [Glide Table](/docs/glide-tables) or external [Data Source](https://www.glideapps.com/docs/reference/data-sources). It's also a place where you can add powerful Computed Columns that enhance your project's data.
 
 In this guide, we'll give you an overview of the six most commonly used types and point you to more in-depth documentation on each of them.

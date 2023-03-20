@@ -5,6 +5,10 @@ video:
 slug: sheets-faq
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 ## Why are rows appearing at the bottom of my sheet?
 
 If you have added a function to your sheet and copied it down to all columns, then Glide will see that data.

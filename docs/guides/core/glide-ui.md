@@ -5,6 +5,10 @@ video: https://youtu.be/ZkCfwed6DJM
 slug: glide-ui
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 ## Introduction
 
 When you log into[Glide](https://go.glideapps.com/) you'll arrive at your Dashboard.

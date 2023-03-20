@@ -4,6 +4,10 @@ description: Display multiple properties in different styles
 slug: title-component
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 The Title component in Glide provides extra functionalities that make it even more powerful.
 
 ## Data

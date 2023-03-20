@@ -4,6 +4,10 @@ description: Learn how to make your projects safe and secure
 slug: security
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 {% video src="https://www.youtube.com/embed/VGM6Ko9jtIc" /%}
 
 We want Glide apps to be as safe & secure as possible. To achieve this, we automatically secure many aspects of your app, but you as the app creator will always make the most important decisions about the security of your apps.

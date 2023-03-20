@@ -4,6 +4,10 @@ description: A secure way to restrict access to certain rows.
 slug: row-owners
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 {% callout type="warning" title="Restricting access" %}
 If your app has data that some users should access, but not all users should access, then you should use **Row Owners** to protect that data.
 {% /callout %}

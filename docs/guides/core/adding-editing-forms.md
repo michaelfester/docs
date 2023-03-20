@@ -5,6 +5,10 @@ video:
 slug: add-edit
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 With Glide, you can display your data in beautiful ways. But you can also give access to users to be able to edit specific data while restricting access to fields that should not be changed.
 
 This guide will give you an overview of adding, editing, deleting, and forms in both [Apps](https://www.glideapps.com/docs/apps) and [Pages](https://www.glideapps.com/docs/pages).

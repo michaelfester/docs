@@ -5,6 +5,9 @@ video: https://youtu.be/UYZ5S8RBEGM
 slug: intro-to-data-sources
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
 ​
 Every project you create in Glide is powered by data. Once you connect a data source to your project, it remains in two-way sync with your original data source. This means changes to one are reflected in the other.
 

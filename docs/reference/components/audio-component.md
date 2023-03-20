@@ -4,6 +4,10 @@ description: Play audio files
 slug: audio-component
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 Whether it's meeting notes, podcast episodes, or music — the audio component is a simple way of triggering and playing audio files in your App.
 
 {% figure src="/docs/reference/components/audio-component/image%20(2).png" caption="Use case of the Audio Component in a podcast app" /%}

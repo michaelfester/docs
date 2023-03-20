@@ -5,6 +5,10 @@ video:
 slug: files
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 Various Glide features require the hosting of files. For example, when you upload files in the **image** or **file picker** and when you fill out the **signature component** – Glide stores that file online and this counts against your storage quota.
 
 You can learn more about files and quotas over at **https://www.glideapps.com/pricing**.

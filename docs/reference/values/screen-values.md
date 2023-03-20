@@ -4,6 +4,10 @@ description: Values that you can access from the current screen.
 slug: screen-values
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 Occasionally you will see the option to work with 'Screen' values in Glide. This can sometimes seem very similar to **Column Values** – but they are different in a couple of respects.
 
 Screen values are useful when working with Forms or Inline Lists. Let's look at two examples.

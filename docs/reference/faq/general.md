@@ -4,6 +4,10 @@ description: Frequently asked questions about general topics
 slug: general-faqs
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 ## If my project gets a lot of traffic, will Glide be able to handle it?
 
 Yes. Glide scales with your app, so there is no difference if a hundred, a thousand, or a million people open your project at the same time. All of them will be able to access it.

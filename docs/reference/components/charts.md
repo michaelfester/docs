@@ -4,9 +4,6 @@ description: Visualize data in colorful charts.
 slug: charts
 ---
 
-
-Charts are a great way to quickly add eye-catching graphics to your projects to help the user see their data visually and from a different perspective. Glide provides many chart options.
-
 {% callout title="Meet the new Glide Apps" %}
 Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
 {% /callout %}

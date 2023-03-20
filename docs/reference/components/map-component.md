@@ -4,6 +4,10 @@ description: The Map component displays multiple addresses as an interactive m
 slug: map-component
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 The **Map component** displays address data as an interactive map on your app.
 
 ## General settings

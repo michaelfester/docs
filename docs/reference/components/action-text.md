@@ -4,6 +4,10 @@ description: Use text to trigger actions in your app
 slug: action-text
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 ## Data
 
 On the right side of the Layout Editor in **General > Data > Text**, use the menu to select the value that will be displayed for the user. This can be custom text or the data from a selected column.

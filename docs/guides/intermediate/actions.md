@@ -7,6 +7,10 @@ leadGraphic: /docs/guides/core/graphics/actions-graphic.svg
 slug: actions
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 A useful way to think about apps is through the way users interact with them. Two very basic levels of interaction are **viewing** and **editing** data. But very often, apps need to be able to perform Actions.
 
 For example, in this app, there is a [Button](/docs/button-component) which, when clicked, will take people to a website. This is because the button has the action [Open Link](/docs/open-link).

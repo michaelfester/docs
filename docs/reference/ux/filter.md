@@ -5,6 +5,10 @@ video:
 slug: filter
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 By default, your lists show all the rows coming from your data source (your data source could be a sheet or a Relation). However, you can filter the rows that appear in your list. You can also enable in-app filtering so that users can change the filtering themselves.
 
 ## Filtering from the layout

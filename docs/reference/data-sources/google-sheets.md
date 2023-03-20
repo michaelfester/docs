@@ -5,6 +5,10 @@ video:
 slug: google-sheets
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 [Google Sheets](https://sheets.google.com/) is a cloud-based spreadsheet program very similar to Excel. You can choose a spreadsheet from your Google account to serve as the data source for your Glide project.
 
 {% callout %}

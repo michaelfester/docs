@@ -4,6 +4,10 @@ description: Managing your projects within your Glide Team.
 slug: projects
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 ## Adding a project
 
 To create a new app, click on the "New Project" button to get started.

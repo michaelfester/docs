@@ -5,6 +5,10 @@ video:
 slug: unique-id
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 {% callout type="warning" title="Use Row IDs" %}
 We reccomend using the Row ID column instead of the Unique ID special value. [Learn more here](/docs/row-id).
 {% /callout %}

@@ -4,6 +4,10 @@ description: Display videos from YouTube, Vimeo, Twitch, and more
 slug: video-component
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 The Video component displays videos in your project from platforms like YouTube, Twitch, Vimeo, and more. To display a video in your project, you just need a video's URL.
 
 {% figure src="/docs/reference/components/video-component/video-com%5Bonent-use-case.png" caption="" /%}

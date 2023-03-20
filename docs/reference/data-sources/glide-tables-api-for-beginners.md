@@ -4,6 +4,10 @@ description: A guide to working with the Glide Tables API for non-developers.
 slug: glide-tables-api-for-beginners
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 {% cta title="Introduction To APIs: How APIs Work (With Examples)" description="Learn the fundamentals of APIs" url="https://www.glideapps.com/blog/introduction-to-apis" /%}
 
 {% callout title="" %}

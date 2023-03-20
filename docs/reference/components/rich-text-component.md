@@ -4,6 +4,10 @@ description: Display data as styled content
 slug: rich-text-component
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 With the Rich Text component, you can apply italic text, bold text, different text sizes, inline images, links, and more using Markdown syntax.
 
 {% figure src="/docs/reference/components/rich-text/rich-text-use-case.png" caption="" /%}

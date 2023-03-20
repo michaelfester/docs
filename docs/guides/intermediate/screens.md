@@ -5,6 +5,10 @@ video:
 slug: screens
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 In our core guide on [Data to Layout](/docs/data-to-layout) — we said that ‘Tables become Tabs'. This is, in fact, a bit of a simplification.
 
 Every tab has a top-level screen — which is often a List Screen, but it can also be a [Details Screen](/docs/details-layout). It's better to think of Tabs as windows through which you can visit many screens.

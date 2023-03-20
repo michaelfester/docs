@@ -4,6 +4,10 @@ description: An introduction to building web apps with Glide Pages
 slug: introduction-to-pages
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 {% video src="https://www.youtube.com/embed/qhGbbUUFzVk" /%}
 
 Glide Pages is a new tool that extends the software you can make; from mobile – to desktop and the web. Pages are powered by your Data, just like Glide Apps – but their design and functionality are more attuned to desktop use.

@@ -5,6 +5,10 @@ slug: visibility-conditions
 video:
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 {% callout type="warning" title="Appearance vs. security" %}
 Visibility conditions, hidden tabs, and removed components are not security features—they are merely changes to the appearance of your app. Do not rely on changes to the appearance of your app for security.
 {% /callout %}

@@ -5,6 +5,10 @@ video: https://youtu.be/StRizGWBqtA
 slug: airtable
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 Airtable is a spreadsheet-database hybrid with the features of a database but applied to a spreadsheet. Your projects can be integrated with Airtable bases, offering you a more robust approach to data management that you may not find in simple spreadsheets.
 
 {% callout %}

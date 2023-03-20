@@ -5,6 +5,10 @@ video:
 slug: deep-links
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 By default, all the screens in your app have the same URL, which makes it impossible to share a specific item in your app with someone.
 
 However, if your table uses **Row IDs**, viewing a details screen will update the current URL, which is available as a value called **Link to current** screen.

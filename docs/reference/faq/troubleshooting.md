@@ -5,6 +5,10 @@ video:
 slug: troubleshooting
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 If you're experiencing issues when signing in to or using Glide, follow the troubleshooting steps below to diagnose the problem. If you're still experiencing issues, let us know through the forum.
 
 **community.glideapps.com/**

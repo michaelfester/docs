@@ -5,6 +5,10 @@ video:
 slug: user-profile-columns
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 If you have enabled **User Profiles** in your app, you can submit User Profile _columns_ in **Form** & **Add screens**.
 
 For example, in the app below, we're **Previewing As** a user called Marie. When we configure our Add Screen's components, we can also submit values from the current user's profile. For example – we could add the Name of the person that added this item, their title, and their photo.

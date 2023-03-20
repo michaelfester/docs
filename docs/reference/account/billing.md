@@ -5,6 +5,10 @@ video:
 slug: billing
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 To add or update your billing information, open the Billing section under your Team folder.
 
 {% figure src="/docs/reference/account/billing/billing-profile.png" caption="Billing information" /%}

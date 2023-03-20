@@ -4,6 +4,10 @@ description: A pre-configured contact form for your page
 slug: contact-form
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 **Contact Form** is a quick way to add a simple ‘Contact Us' form to your page.
 
 {% figure src="/docs/reference/components/contact-form/contact-form.png" caption="" /%}

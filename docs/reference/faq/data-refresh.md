@@ -4,6 +4,10 @@ description: How long it takes for data to sync from projects → data source.
 slug: data-refresh
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 If you're curious about Sync modes in your project's Data settings, **jump to the last section**.
 
 ## Project → Project

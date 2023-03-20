@@ -5,6 +5,10 @@ video:
 slug: column-values
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 When you work with any component or list layout, you're usually displaying values from a column in your table. These are therefore referred to as Column Values.
 
 For example, in this app, the list layout is displaying the Column Value 'Item' for each item's title. It is also displaying the Column Value 'Collection' as the header.

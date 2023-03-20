@@ -4,6 +4,10 @@ description: Group components together
 slug: container-component
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 The **Container** component acts as a parent, into which you can add child Components. This allows you to style, arrange, and add conditions to groups of [Components](/docs/reference/components).
 
 {% figure src="/docs/reference/components/container/adding-components-in-to-container.png" caption="" /%}

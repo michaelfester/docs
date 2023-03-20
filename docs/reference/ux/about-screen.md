@@ -4,6 +4,10 @@ description: The about screen shows basic information about your app.
 video:
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 The About Screen is an additional tab pre-populated for each app. It displays information about your app including links to sending feedback or reports about the app.
 
 {% figure src="/docs/reference/ux/about-screen/about-screen-one.png" caption="About Screen" /%}

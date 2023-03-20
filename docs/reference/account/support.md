@@ -4,6 +4,10 @@ description: How to get support if you're experiencing issues with Glide.
 slug: support
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 ## Glide Community
 
 {% figure src="/docs/reference/account/support/glide-community-page.png" caption="Glide Community page" /%}

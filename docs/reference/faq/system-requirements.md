@@ -5,6 +5,10 @@ video:
 slug: system-requirements
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 ## Browser requirements (builder)
 
 When you're making your app in the builder, it's best to use the latest version of following browsers. Glide currently supports the following:

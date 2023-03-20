@@ -5,6 +5,10 @@ video: https://www.youtube.com/embed/reeS28W0YXQ
 slug: conditions-filtering-and-visibility
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 {% callout type="warning" title="" %}
 Filtering & Visibility conditions are NOT security features. When you hide tabs, components, or filter out items in lists, the data is still accessible on your device. Read our [Security Guide](/docs/security) to learn how to protect sensitive data.
 {% /callout %}

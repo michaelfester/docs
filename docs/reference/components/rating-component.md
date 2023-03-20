@@ -4,7 +4,6 @@ description: Submit rating values for items.
 slug: rating-component
 ---
 
-
 {% callout title="Meet the new Glide Apps" %}
 Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
 {% /callout %}
@@ -12,7 +11,6 @@ Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [t
 {% callout title="" %}
 The Rating Component is only available in Glide [Apps](/docs/introduction-to-apps), not Glide [Pages](/docs/introduction-to-pages).
 {% /callout %}
-
 
 The Rating Component lets users rate items in your apps. They can tap and drag through the different values and the rating will be written to your [Data Source](/docs/reference/data-sources/).
 

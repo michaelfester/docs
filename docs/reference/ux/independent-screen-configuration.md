@@ -4,6 +4,10 @@ description: Have different components on every details screen in your lists.
 slug: independent-screen-config
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 With lists – the default behavior is that each details screen within that list shares the same set of components. If we delete one component from one item, all the items will no longer have that same component. This saves a huge amount of time and allows us to design for new items that aren't in our lists yet.
 
 However, we can enable independent configuration for each screen, meaning we can have a totally unique layout of components for each item.

@@ -5,6 +5,10 @@ slug: roles
 video:
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 If your app is on a **Private Plan**, you can assign roles to the users in your **User Profiles** table. You can then use these roles with **Row Owner** columns to make certain records only accessible to certain users.
 
 This allows you to, for example, give many people the role of 'Admin' and then make 'Admin' a Row Owner for certain rows. Now, only people with the role of Admin will be able to access those rows.

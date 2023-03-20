@@ -5,6 +5,10 @@ video: https://www.youtube.com/watch?v=5lQdJn-bHto
 slug: user-profiles
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 User profiles lets you choose a specific table where data about your users (Name, Email, Image etc) lives. When a user profiles table is set, you can use that data in lots of different ways.
 
 {% figure src="/docs/reference/security-and-user-data/user-profiles/user-in-app-menu.png" caption="The name, email & avatar of the signed-in user also shows up in the app menu" /%}

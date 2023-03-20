@@ -5,6 +5,10 @@ video:
 slug: notifications
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 Push notifications for chat messages and comments are supported on Android but not iOS yet. If you have an app installed on your Android phone you will get notifications when:
 
 - Another user comments on a post that you have commented on, you will receive a notification

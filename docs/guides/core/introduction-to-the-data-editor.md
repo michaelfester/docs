@@ -5,6 +5,10 @@ video: https://www.youtube.com/embed/UYZ5S8RBEGM
 slug: data-editor
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 All software is powered by data. Data may sound like an abstract idea, but it's just the 'stuff' your software is about: customers, staff, locations, etc...
 
 Databases & Spreadsheets are the best way to organize and think about data, so Glide lets anyone build software from Spreadsheets and other [data sources](https://www.glideapps.com/docs/reference/data-sources).

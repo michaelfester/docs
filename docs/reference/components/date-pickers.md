@@ -4,6 +4,10 @@ description: Pick a date or date/time
 slug: date-pickers
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 ## Pick a date or date/time
 
 Date Pickers can be used in [Forms](/docs/forms) or [Details/Custom screens](/docs/screens) to allow users to add or edit dates in your project. Depending on the type of Date picker that you select, users will be asked to enter a date, or both date and time values.

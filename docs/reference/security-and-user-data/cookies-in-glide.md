@@ -5,6 +5,10 @@ video:
 slug: cookies-in-glide
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 Glide uses cookies to improve its service and provide a better user experience. Glide uses cookies to remember user preferences, store information for things like shopping carts, and provide anonymized tracking data to third party applications like Google Analytics.
 
 {% callout title="What are Cookies?" %}

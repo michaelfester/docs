@@ -5,6 +5,10 @@ video:
 slug: data-to-layout
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 Projects in Glide can have multiple Data Sources. This means you can have data from [Google Sheets](/docs/google-sheets), [Airtable](/docs/airtable), [Excel](/docs/excel), and more — all in one app.
 
 When you first create a project or add a new tab to an existing project, Glide will build a basic layout based on the data that it finds.

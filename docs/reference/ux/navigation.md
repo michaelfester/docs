@@ -5,6 +5,10 @@ video: https://www.youtube.com/watch?v=7YavG_Mj9N8
 slug: navigation
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 You can allow users to navigate to different screens in a variety of ways:
 
 1. Tabs

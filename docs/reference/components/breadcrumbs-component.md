@@ -4,6 +4,10 @@ description:
 slug: breadcrumbs-component
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 Depending on the complexity of your project you may want to include the **Breadcrumb** component to show users where they are and how they got there. For example, in the Applicant Tracker below, the Breadcrumb component shows that the current page is called **Cameron Williamson** and that the user got to that page from the **Applicants** screen.
 
 The Breadcrumb menu can also be used as navigation. Clicking on **Applicants** will take the user back to that screen.

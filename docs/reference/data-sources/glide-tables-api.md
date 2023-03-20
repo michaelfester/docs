@@ -4,6 +4,10 @@ description: Explore what you can do with the Glide Tables API
 slug: glide-tables-api
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 {% cta title="Glide Tables API for beginners" description="Learn the basics of APIs" url="/docs/glide-tables-api-beginners" /%}
 
 The Glide Tables API is available to anyone with the Pro, Business, or Enterprise plan. Connecting to your [Glide Tables](/docs/glide-tables) via the API allows you to automate your data management and integrate it with your own applications.

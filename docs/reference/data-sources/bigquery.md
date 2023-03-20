@@ -5,6 +5,10 @@ video: https://youtu.be/AGRPXQ2PPSU
 slug: bigquery
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 [Big Query](https://cloud.google.com/bigquery) is Google Cloud's data warehouse tool that allows businesses to run analytics across a tremendous amount of data using SQL (Structured Query Language).
 
 {% callout title="" %}

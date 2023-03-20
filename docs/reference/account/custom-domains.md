@@ -5,6 +5,10 @@ video: https://www.youtube.com/watch?v=6YluAzk2jRM&feature=emb_title
 slug: custom-domains
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 ## Custom domains
 
 When you publish your app, your app automatically gets hosted at a “glideapp.io” address. With **Glide Pro** and Public apps, you can publish your app to your own custom domain.

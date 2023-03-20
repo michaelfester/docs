@@ -7,6 +7,10 @@ leadGraphic: /docs/guides/core/graphics/components-graphic.svg
 slug: components
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 ## Everything is a Component
 
 When you're designing in Glide, everything is a [Screen](/docs/screens), and every Screen has Components on it. Components display and let your users interact with your data in powerful ways.

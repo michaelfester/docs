@@ -5,6 +5,10 @@ video:
 slug: guide-to-bigtables
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 If your project needs to scale beyond 25,000 rows of data, Glide Big Tables are the perfect solution. With support for up to 10 million rows, Big Tables can let your projects grow without worrying about row limits or storing your data in multiple places. 
 
 ## Use Cases

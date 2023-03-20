@@ -4,6 +4,10 @@ description: Learn how to create user-specific experiences.
 slug: users
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 When you log into your music app or social media account, your user experience is totally defined by your data. Your music app has your playlists and favorites, and your social media account is tied to your friends & likes. If you were to log into someone else's account, the app would look very different.
 
 With Glide, you can make projects that are public and don't have any focus on [User-specific Data](/docs/user-specific-data). Often, you'll want to create a user-specific experience in a variety of different ways. For example:

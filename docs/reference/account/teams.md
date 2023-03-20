@@ -4,6 +4,10 @@ description: Manage the different teams you belong to.
 slug: teams
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 ## Creating a team
 
 To create a new team, click on "+ New Team" on the left hand side of your Glide Dashboard. This will prompt a pop-up that will ask you for information about your new team. Fill out the info to add your new team.

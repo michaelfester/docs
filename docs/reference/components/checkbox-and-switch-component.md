@@ -4,6 +4,10 @@ description: Change true-false values.
 slug: checkbox-and-switch-components
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 The Switch and Checkbox components allow you to toggle boolean values in your data source.
 
 {% figure src="/docs/reference/components/checkbox-and-switch-components/use-case-of-a-switch-component-in-pages.png" caption="" /%}

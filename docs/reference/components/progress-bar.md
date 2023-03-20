@@ -4,7 +4,6 @@ description: Display the progress of a value between two limits
 slug: progress-bar
 ---
 
-
 {% callout title="Meet the new Glide Apps" %}
 Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
 {% /callout %}
@@ -12,7 +11,6 @@ Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [t
 {% callout title="" %}
 The Progress Bar Component is only available in [Apps](/docs/introduction-to-apps), not Glide [Pages](/docs/introduction-to-pages).
 {% /callout %}
-
 
 {% figure src="/docs/reference/components/progress-bar/progress-bar.png" caption="" /%}
 

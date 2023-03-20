@@ -5,6 +5,10 @@ video:
 slug: keys-unique-ids
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 In Google Sheets, rows don't really have an identity apart from their row number. In the image below we can see that the talk `State of UX` is located in `row 4`.
 
 ![](/docs/reference/values/keys-and-unique-ids/10.png)

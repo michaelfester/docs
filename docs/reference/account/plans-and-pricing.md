@@ -5,6 +5,10 @@ video:
 slug: plans-and-pricing
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 ## Plans and Features
 
 There are five plans that Glide offers: Free, Starter, Pro, Business, and Enterprise. Each plan has its own set of features that cater to different needs and requirements.

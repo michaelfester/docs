@@ -5,6 +5,10 @@ video:
 slug: data-grid-collection
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 The **Data Grid Collection** can be used to display your data in a layout that is similar to the way it appears in the [Data Editor](/docs/data-editor). You can even allow users to edit the data straight from the grid view. This can be very useful if you need to display many columns on a single page. 
 
 {% figure src="/docs/reference/components/data-grid-collection/usecase-of-the-data-grid-layout.png" caption="Usecase for the Data Grid layout" /%}

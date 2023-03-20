@@ -4,6 +4,10 @@ description: An explanation of updates and how they relate to billing.
 slug: updates
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 ## What are updates?
 
 Glide's pricing is based on how many updates your projects use. Updates happen whenever your published project's data is changed.
