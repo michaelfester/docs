@@ -4,6 +4,10 @@ description: Publish your first app in under 5 minutes
 slug: quick-start
 ---
 
+{% callout title="Meet the new Glide Apps" %}
+Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [this article](/docs/meet-the-new-glide-apps) for updated information, as some of this documentation is outdated.
+{% /callout %}
+
 {% banner text="Quick Start" /%}
 
 Getting a custom app or web page that you've made onto your phone or computer or into the hands of your team is an exhilarating feeling. With Glide, you can build and share in two simple steps in under five minutes. Here's how: 👇
