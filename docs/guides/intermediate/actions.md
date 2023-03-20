@@ -1,7 +1,7 @@
 ---
 title: Introduction to Actions
 description: Add actions that users can trigger.
-video: https://www.youtu.be/RX-snC6BwCE
+video: https://youtu.be/5e2Q1jWo9sc
 leadBackgroundColor: "#2C2855"
 leadGraphic: /docs/guides/core/graphics/actions-graphic.svg
 slug: actions
@@ -15,11 +15,11 @@ A useful way to think about apps is through the way users interact with them. Tw
 
 For example, in this app, there is a [Button](/docs/button-component) which, when clicked, will take people to a website. This is because the button has the action [Open Link](/docs/open-link).
 
-![Alt text](actions/usecase-for-open-link-action.png)
+{% figure src="/docs/guides/intermediate/actions/usecase-for-open-link-action.png" caption="" /%}
 
 You may not have thought of it this way before, but opening a [Form](/docs/forms) is a type of Action. If you look closely in the [Form Button](/docs/form-button)'s configuration, you will see the Action 'Show Form' enabled.
 
-![Alt text](actions/usecase-for-show-form-screen-action.png)
+{% figure src="/docs/guides/intermediate/actions/usecase-for-show-form-screen-action.png" caption="" /%}
 
 Open Link and [Show Form Screen](/docs/show-form-screen) are examples of native Glide Actions. In other words, they trigger things that happen in your app. But you can also Integrate third party Integrations like Slack, Outlook, or OpenAI into Glide and trigger messages, emails, generated text and much more. 
 
@@ -29,19 +29,19 @@ Open Link and [Show Form Screen](/docs/show-form-screen) are examples of nati
 
 As you can see in the images above, it's possible to manually add actions to components. However, Glide also has an Action Editor that allows you to save and reuse actions and combine them into more complex workflows.
 
-![Alt text](actions/creating-a-sequence-of-actions-using-conditions-and-integrations.png)
+{% figure src="/docs/guides/intermediate/actions/creating-a-sequence-of-actions-using-conditions-and-integrations.png" caption="" /%}
 
 ## Creating Actions
 
 Navigate to the Action Editor by clicking on the third and final icon in the middle of the top bar. 
 
-![Alt text](actions/navigation-menus-in-glide.png)
+{% figure src="/docs/guides/intermediate/actions/navigation-menus-in-glide.png" caption="" /%}
 
 If your app already has actions or you have created actions in the Layout Editor, they will automatically be listed in the left sidebar. Clicking on an action will load it in the Action Editor on the right.
 
 To create a new action, click the plus icon in the top left corner. You will be prompted to choose a data source table for your action.
 
-![Alt text](actions/adding-a-new-action.png)
+{% figure src="/docs/guides/intermediate/actions/adding-a-new-action.png" caption="" /%}
 
 ## Data Source
 
@@ -58,29 +58,31 @@ This means that although actions are reusable, they are only reusable on screens
 ## Re-using Actions
 
 Once you create an action, you can reuse it in any part of your app as long as the data source for the screen containing the action is the same as the action's data source.
-![Alt text](actions/re-using-actions.png)
+
+{% figure src="/docs/guides/intermediate/actions/re-using-actions.png" caption="" /%}
 
 ## Sequences
 
 You can have single step actions, or you can have multi-step actions. This means multiple things will happen when your action is triggered. 
-![Alt text](actions/example-for-a-multi-step-action.png)
+
+{% figure src="/docs/guides/intermediate/actions/example-for-a-multi-step-action.png" caption="" /%}
 
 To add new actions to the flow, hover just underneath an action and click the plus button.
 
-![Alt text](actions/adding-more-actions.png)
+{% figure src="/docs/guides/intermediate/actions/adding-more-actions.png" caption="" /%}
 
 To edit actions, click on the action.
 
-![Alt text](actions/editing-an-action.png)
+{% figure src="/docs/guides/intermediate/actions/editing-an-action.png" caption="" /%}
 
 
 To re-order actions, click and drag the action.
 
-![Alt text](actions/re-ordering-an-action.png)
+{% figure src="/docs/guides/intermediate/actions/re-ordering-an-action.png" caption="" /%}
 
 To delete actions, open the action, and click the trash icon.
 
-![Alt text](actions/deleting-an-action.png)
+{% figure src="/docs/guides/intermediate/actions/deleting-an-action.png" caption="" /%}
 
 ## Conditions
 
@@ -88,7 +90,7 @@ You may want only a single sequence of actions to be triggered each time, but so
 
 To add a condition to one of your sequences, click the plus icon at the top of a sequence.
 
-![Alt text](actions/adding-conditions-to-an-action.png)
+{% figure src="/docs/guides/intermediate/actions/adding-conditions-to-an-action.png" caption="" /%}
 
 The conditions you set determine when the following action sequence will run. If the condition is not met, the action sequence won't run.
 
@@ -96,11 +98,12 @@ If you don't want the action to do nothing, you'll need to create an alternate a
 
 To do this, add an 'Else' statement to your condition. With an else statement, if the first condition in the action editor is not met, the actions under the else section will be triggered.
 
-![Alt text](actions/creating-an-alternative-action.png)
+{% figure src="/docs/guides/intermediate/actions/creating-an-alternative-action.png" caption="" /%}
 
 You can add many different conditions to your action.
 
 ![Alt text](actions/adding-multiple-conditions.png)
+{% figure src="/docs/guides/intermediate/actions/usecase-for-open-link-action.png" caption="" /%}
 
 ## Types of Actions
 
@@ -146,12 +149,13 @@ There are many places where you can add Actions in your app.
 
 ### Component actions
 
-![Alt text](actions/adding-an-action-to-the-title-component.png)
+{% figure src="/docs/guides/intermediate/actions/adding-an-action-to-the-title-component.png" caption="" /%}
 
 Some [Components](/docs/components) have Actions, and some do not. If a Component has the option for an Action, you'll see it in the component's configuration.
 
 Some components, like the Collection component have multiple actions you can add.  
-![Alt text](actions/list-actions.webp)
+
+{% figure src="/docs/guides/intermediate/actions/list-actions.webp" caption="" /%}
 
 The full list of components that have actions (at the time of writing) is:
 
@@ -172,10 +176,12 @@ However, you can change this to a number of other actions. For example, you coul
 
 - A list of contacts that when tapped, triggers the [Dial Phone Number](/docs/dial-phone-number) action.
 - A list of inventory items that, when tapped, changes the number in the inventory.
-![Alt text](actions/collection-action-configuration.png)
+
+{% figure src="/docs/guides/intermediate/actions/collection-action-configuration.png" caption="" /%}
 
 ### After Submit Actions
-![Alt text](actions/configuring-an-after-submit-action.png)
+
+{% figure src="/docs/guides/intermediate/actions/configuring-an-after-submit-action.png" caption="" /%}
 
 Another type of Action is the After Submit Action. After users add/edit or submit Forms — you have the option to add Actions that trigger on submit.
 
