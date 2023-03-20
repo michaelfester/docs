@@ -13,11 +13,11 @@ Pages and Apps have been combined into just ‘Glide Apps’. Please refer to [t
 
 A useful way to think about apps is through the way users interact with them. Two very basic levels of interaction are **viewing** and **editing** data. But very often, apps need to be able to perform Actions.
 
-For example, in this app, there is a [Button](/docs/button-component) which, when clicked, will take people to a website. This is because the button has the action [Open Link](/docs/open-link).
+For example, in this app, there is a [Button](/docs/button-components) which, when clicked, will take people to a website. This is because the button has the action [Open Link](/docs/open-link).
 
 {% figure src="/docs/guides/intermediate/actions/usecase-for-open-link-action.png" caption="" /%}
 
-You may not have thought of it this way before, but opening a [Form](/docs/forms) is a type of Action. If you look closely in the [Form Button](/docs/form-button)'s configuration, you will see the Action 'Show Form' enabled.
+You may not have thought of it this way before, but opening a [Form](/docs/forms) is a type of Action.
 
 {% figure src="/docs/guides/intermediate/actions/usecase-for-show-form-screen-action.png" caption="" /%}
 
@@ -75,7 +75,6 @@ To edit actions, click on the action.
 
 {% figure src="/docs/guides/intermediate/actions/editing-an-action.png" caption="" /%}
 
-
 To re-order actions, click and drag the action.
 
 {% figure src="/docs/guides/intermediate/actions/re-ordering-an-action.png" caption="" /%}
@@ -86,7 +85,7 @@ To delete actions, open the action, and click the trash icon.
 
 ## Conditions
 
-You may want only a single sequence of actions to be triggered each time, but sometimes you'll want to create different scenarios where different actions happen depending on conditions you set. Therefore, the second dimension in building custom actions is working with **Conditions**.
+You may want only a single sequence of actions to be triggered each time, but sometimes you'll want to create different scenarios where different actions happen depending on conditions you set. Therefore, the second dimension in building custom actions is working with [Conditions](/docs/conditions-filtering-and-visibility).
 
 To add a condition to one of your sequences, click the plus icon at the top of a sequence.
 
@@ -102,8 +101,7 @@ To do this, add an 'Else' statement to your condition. With an else statement, i
 
 You can add many different conditions to your action.
 
-![Alt text](actions/adding-multiple-conditions.png)
-{% figure src="/docs/guides/intermediate/actions/usecase-for-open-link-action.png" caption="" /%}
+{% figure src="/docs/guides/intermediate/actions/adding-multiple-conditions.png" caption="" /%}
 
 ## Types of Actions
 
