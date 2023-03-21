@@ -29,9 +29,9 @@ To start using the Mixpanel integration, you first need to add it to your projec
 
 The **Send event to Mixpanel** action is used to send an analytics event to your Mixpanel project.
 
-| Field | Description | Required field? | Example | Notes |
-| --- | --- | --- | --- | --- |
-| Event name | The name of your analytics event | ✅ | click-button |  |
+| Field | Description | Required field? | Example |
+| --- | --- | --- | --- |
+| Event name | The name of your analytics event | ✅ | click-button |
 | Event parameter (+add value) | Optional event parameters you can send with your event | ❌ | First field: user-email
 Second field: User Profile > Email | The first field is used to name your event parameter. The second parameter is the value of the event parameter. |
 

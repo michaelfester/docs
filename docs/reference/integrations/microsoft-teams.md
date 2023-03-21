@@ -5,7 +5,7 @@ video:
 slug: microsoft-teams
 ---
 
-Microsoft Teams is a business communications platform. With the Microsoft Teams integration, you can send messages to channels within your Microsoft Team  from a Glide app. 
+[Microsoft Teams](https://www.microsoft.com/pl-pl/microsoft-teams/log-in?rtc=1) is a business communications platform. With the Microsoft Teams integration, you can send messages to channels within your Microsoft Team  from a Glide app. 
 
 {% figure src="/docs/reference/integrations/microsoft-teams/usecase-for-a-microsoft-teams-integration.png" caption="Usecase for a Microsoft Teams Integration" /%} 
 

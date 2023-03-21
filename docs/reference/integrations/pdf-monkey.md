@@ -41,14 +41,11 @@ The action can be added to a component that supports actions (e.g., a button), a
 
 ## FAQs
 
-{% faq question="How do I create a PDF Monkey template?" answer="To create a PDF Monkey template, sign in to your **[PDF Monkey dashboard](https://dashboard.pdfmonkey.com/)** and follow the instructions provided. You can use their template editor to design your PDF document and define placeholders for dynamic data. " /%}   
+{% faq question="How do I create a PDF Monkey template?" answer="To create a PDF Monkey template, sign in to your PDF Monkey account and follow the instructions provided. You can use their template editor to design your PDF document and define placeholders for dynamic data. " /%}   
 
 {% faq question="How do I share the generated PDF file?" answer="The `Generate PDF file` action allows you to save the URL to a column in Glide. You can then use this URL to share the PDF with users. " /%}   
 
-{% faq question="How can I ensure the privacy of my generated PDFs?" answer="PDF Monkey offers various security options, such as expiring URLs and password protection, to help you protect the confidentiality of your generated PDF documents. Check out [PDFMonkey’s Privacy and security documentation](https://docs.pdfmonkey.io/frequent-questions/security) for more details on securing your PDFs. " /%}   
-
-    
-    
+{% faq question="How can I ensure the privacy of my generated PDFs?" answer="PDF Monkey offers various security options, such as expiring URLs and password protection, to help you protect the confidentiality of your generated PDF documents. Check out [PDFMonkey’s Privacy and security documentation](https://docs.pdfmonkey.io/frequent-questions/security) for more details on securing your PDFs. " /%}  
 
 {% faq question="What kind of data can I send from my Glide app to PDFMonkey?" answer="You can only send one value per variable to PDFMonkey. For example, let’s say that the template in PDFMonkey expects data in this way:
     

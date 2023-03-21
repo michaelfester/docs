@@ -47,7 +47,7 @@ You can create a dynamic event by first creating a **Template** column in the **
 
 {% cta title="Introduction to Integrations" description="To learn more about Integrations, check out our Introduction to Integrations article. " url="/docs/introduction-to-integrations" /%}
 
-FAQ Section
+## FAQ Section
 
 {% faq question="Does the Google Calendar integration support multiple calendars?" answer="Yes, you can add events to multiple calendars by changing the Calendar ID. Make sure that the Google account you connected has permissions to add events to the calendar. " /%}
 

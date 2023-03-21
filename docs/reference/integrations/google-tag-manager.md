@@ -5,7 +5,7 @@ video:
 slug: google-tag-manager
 ---
 
-Google Tag Manager is a tag management system for web analytics. With the Google Tag Manager integration, you can track user behavior in your Glide app.
+[Google Tag Manager](https://tagmanager.google.com/#/home) is a tag management system for web analytics. With the Google Tag Manager integration, you can track user behavior in your Glide app.
 
 ## Adding and Configuring the Integration
 

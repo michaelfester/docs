@@ -15,9 +15,9 @@ slug: microsoft-outlook
 
 To start using the Outlook integration, you first need to add it to your project.
 
-- In **Glide**, click the ****************Settings**************** icon in the upper-right corner.
+- In **Glide**, click the **Settings** icon in the upper-right corner.
 - Click the **Integrations** tab and then select **Outlook**.
-- Click the **Add to app** button**.**
+- Click the **Add to app** button
 - Sign into your Microsoft account.
 - Once Glide has access to your Microsoft account, you will be able to send emails and add calendar events with Microsoft Outlook.
 

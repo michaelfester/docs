@@ -39,8 +39,6 @@ Twilio allows messaging to different numbers depending on what level of account 
 
 ### Send SMS with Twilio
 
-The [Send Email with Gmail](/docs/send-email-with-gmail) action allows you to send an email from your own Gmail account.
-
 | Field | Description | Required field? | Example | Notes |
 | ----- | ----------- | --------------- | ------- | ----- | 
 | Recipient |The recipient of the SMS message | ✅ |+1 (234) 567-8900 | You can use the Phone Number column in the Data Editor to properly format numbers. | 
