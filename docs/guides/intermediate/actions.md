@@ -1,7 +1,7 @@
 ---
 title: Introduction to Actions
 description: Add actions that users can trigger.
-video: https://youtu.be/5e2Q1jWo9sc
+video: https://youtu.be/hQhEXTTIlNA
 leadBackgroundColor: "#2C2855"
 leadGraphic: /docs/guides/core/graphics/actions-graphic.svg
 slug: actions
