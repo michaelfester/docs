@@ -41,6 +41,8 @@ The action can be added to a component that supports actions (e.g., a button), a
 
 ## FAQ
 
+{% faq question="I ran the Track custom event action in the Layout Editor and the Action Editor, but I do not see any events in Mixpanel. What’s wrong?" answer="The Track custom event action will only fire when you open your published app in a browser. " /%}
+
 {% faq question="Can I connect more than one Mixpanel project to my app?" answer="No, each Glide app can connect to only one Mixpanel project. However, different apps in your team can connect to different Mixpanel projects. " /%}
    
 {% faq question="How do I connect my app to a different Mixpanel project?" answer="You can connect a different Mixpanel project by changing your `Project token` in your Mixpanel integration settings. " /%}    
