@@ -1,6 +1,6 @@
 ---
 title: Discord
-description: Send discord messages to a channel.
+description: Send messages to your Discord server.
 video:
 slug: discord
 ---
