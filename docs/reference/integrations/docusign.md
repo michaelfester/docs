@@ -1,5 +1,5 @@
 ---
-title: Docusign
+title: DocuSign
 description: Send a document to sign with DocuSign.
 video:
 slug: docusign
