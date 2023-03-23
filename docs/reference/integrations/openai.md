@@ -36,11 +36,11 @@ Copy and paste the secret API key and click away, there is no need to hit the en
 
 The OpenAI integration comes with the following features:
 
-- Analyze Sentiment
+- Analyze Sentiment of Text
 - Answer a Question
-- Extract Keywords
+- Extract Keywords from Text
 - Generate Image
-- Send a Message to a Bot
+- Send Message to Bot
 - Suggest a Color
 - Suggest an Emoji
 - Summarize Text
@@ -57,16 +57,16 @@ The OpenAI integration comes with the following features:
 Ask yourself if the interaction with OpenAI should happen on a punctual basis such as on the click of a button: in this case, set up your feature in the Actions Editor. Or, should OpenAI process data as soon as the data arrives in a table regardless of user interaction? In this case, set up your feature in the Data Editor.
 {% /callout %}
 
-## Analyze Sentiment
+## Analyze Sentiment of Text
 
-The **Analyze sentiment** feature can be used as an action or as a computed column.
+The **Analyze Sentiment of Text** feature can be used as an action or as a computed column.
 
 | Field | Description | Required field? | Example | Notes |
 | --- | --- | --- | --- | --- |
 | Prompt | The prompt is what OpenAI is analyzing | ✅ | Today is a new day! |  |
-| Result | When using Analyze Sentiment as an action, you will need to set the column where the result should be written to | ✅ | positive | There are three possible outputs for this feature: positive, neutral, negative |
+| Result | When using Analyze Sentiment of Text as an action, you will need to set the column where the result should be written to | ✅ | positive | There are three possible outputs for this feature: positive, neutral, negative |
 
-OpenAI’s sentiment analysis is used to identify whether a piece of text is positive, negative or neutral. Some use cases for Analyze Sentiment might include:
+OpenAI’s sentiment analysis is used to identify whether a piece of text is positive, negative or neutral. Some use cases for Analyze Sentiment of Text might include:
 
 - Monitoring user comments to assess the likeability of your brand or products.
 - Improve customer support by identifying negative and neutral opinions.
@@ -75,7 +75,7 @@ OpenAI’s sentiment analysis is used to identify whether a piece of text is pos
 - Turn sentiment analysis results into numerical values and perform roll ups such as counts and averages for reporting.
 - Act promptly on negative comments submitted in a feedback form.
 
-### Input and output of Analyze Sentiment
+### Input and output of Analyze Sentiment of Text
 
 - Input (required text): Text such as a word, sentence or paragraph.
 - Output: The terms “positive”, “neutral” or “negative”.
@@ -83,10 +83,10 @@ OpenAI’s sentiment analysis is used to identify whether a piece of text is pos
 ### Setup
 
 - Step 1: Create a basic text column which will house the text whose sentiment is to be analyzed.
-- Step 2: Create a new computed column and select the Analyze Sentiment column, which you will find in the Integrations group or by using the Search function.
+- Step 2: Create a new computed column and select the Analyze Sentiment of Text column, which you will find in the Integrations group or by using the Search function.
 - Step 3: Set the Prompt field to point to the basic text column whose text is to be analyzed.
 
-Step 2: Create a new computed column and select the Analyze Sentiment column
+Step 2: Create a new computed column and select the Analyze Sentiment of Text column
 
 Step 3: Set the Prompt field to point to the basic text column whose text is to be analyzed
 
@@ -161,11 +161,11 @@ The Correct Grammar function corrects the grammar of a block of text.
 - Step 2: Create a new computed column and select the Correct Grammar column, which you will find in the Integrations group or by using the Search function.
 - Step 3: Set the Phrase to point to the basic text column housing the text whose grammar is to be completed.
 
-## Extract Keywords
+## Extract Keywords from Text
 
-The Extract Keywords functions allows you to extract keywords from a block of text such a sentence, paragraph or series of paragraphs. The most used and most important words and expressions from the text help summarize the content and identify the main topics.
+The Extract Keywords from Text functions allows you to extract keywords from a block of text such a sentence, paragraph or series of paragraphs. The most used and most important words and expressions from the text help summarize the content and identify the main topics.
 
-### Input and output of Extract Keywords
+### Input and output of Extract Keywords from Text
 
 - Input: A block of text (sentence, paragraphs).
 - Output: The most used and most important words and expressions from the text.
@@ -173,7 +173,7 @@ The Extract Keywords functions allows you to extract keywords from a block of te
 ### Setup
 
 - Step 1: Create a basic text column which will house the phrase or paragraph(s) whose keywords will be extracted.
-- Step 2: Create a new computed column and select the Extract Keywords column, which you will find in the Integrations group or by using the Search function.
+- Step 2: Create a new computed column and select the Extract Keywords from Text column, which you will find in the Integrations group or by using the Search function.
 - Step 3: Set the Prompt to point to the basic text column whose keywords will be extracted.
 
 ## Generate Image
@@ -274,12 +274,12 @@ The Table Question feature is experimental and maybe provide approximate or erro
 
 {% faq question="What types of AI tasks can I accomplish with Open AI and Glide?" answer="The OpenAI integration comes with the following functions:
     
-    - Analyze sentiment
+    - Analyze Sentiment of Text
     - Answer a question
     - Complete a prompt
     - Correct grammar
-    - Extract keywords
-    - Send a message to a bot
+    - Extract Keywords from Text
+    - Send Message to Bot
     - Suggest a color
     - Suggest an emoji
     - Summarize text " /%}
