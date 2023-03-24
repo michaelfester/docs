@@ -129,21 +129,24 @@ guides/core/templates/sharing-a-template-privately.png
 guides/core/templates/submitting-a-template-to-template-store.png
 guides/core/templates/team-templates.png
 guides/core/templates/templates.png
-guides/intermediate/actions/action-sequence.png
-guides/intermediate/actions/add-a-new-action.png
-guides/intermediate/actions/add-condition.png
-guides/intermediate/actions/add-else-condition.png
-guides/intermediate/actions/complecated-action-sequence.png
-guides/intermediate/actions/Components_actions.png
-guides/intermediate/actions/custom-actions.png
-guides/intermediate/actions/delete-actiosn.png
-guides/intermediate/actions/edit-action.png
-guides/intermediate/actions/list-actions.png
-guides/intermediate/actions/On_submit_actions.png
-guides/intermediate/actions/Open_link_action_on_button.png
-guides/intermediate/actions/re-order-actions.png
-guides/intermediate/actions/setting-up-open-link.png
-guides/intermediate/actions/Show_form_screen_action.png
+guides/intermediate/actions/adding-a-new-action.png
+guides/intermediate/actions/adding-an-action-to-the-title-component.png
+guides/intermediate/actions/adding-conditions-to-an-action.png
+guides/intermediate/actions/adding-more-actions.png
+guides/intermediate/actions/adding-multiple-conditions.png
+guides/intermediate/actions/collection-action-configuration.png
+guides/intermediate/actions/configuring-an-after-submit-action.png
+guides/intermediate/actions/creating-a-sequence-of-actions-using-conditions-and-integrations.png
+guides/intermediate/actions/creating-an-alternative-action.png
+guides/intermediate/actions/deleting-an-action.png
+guides/intermediate/actions/editing-an-action.png
+guides/intermediate/actions/example-for-a-multi-step-action.png
+guides/intermediate/actions/list-actions.webp
+guides/intermediate/actions/navigation-menus-in-glide.png
+guides/intermediate/actions/re-ordering-an-action.png
+guides/intermediate/actions/re-using-actions.png
+guides/intermediate/actions/usecase-for-open-link-action.png
+guides/intermediate/actions/usecase-for-show-form-screen-action.png
 guides/intermediate/computed-columns/if-then-else-column.png
 guides/intermediate/computed-columns/lookup-column.png
 guides/intermediate/computed-columns/math-column-usages.png
@@ -547,10 +550,6 @@ reference/components/action-text/image (6).png
 reference/components/audio-component/image (2).png
 reference/components/audio-component/image (3).png
 reference/components/audio-component/image (4).png
-reference/components/basic-table-component/adding-an-inline-list-to-basic-table.png
-reference/components/basic-table-component/basic-table-comparison.png
-reference/components/basic-table-component/configuring-the-basic-table.png
-reference/components/basic-table-component/re-ordering-rows.png
 reference/components/big-numbers/add-item.png
 reference/components/big-numbers/big-numbers.png
 reference/components/big-numbers/configuration.png
@@ -563,8 +562,6 @@ reference/components/button-component/action-configuration-apps.png
 reference/components/button-component/button-component-actions-oages.png
 reference/components/button-component/button-configuration-apps.png
 reference/components/button-component/configuring-button-component-pages.png
-reference/components/buy-button/app-purchase-example.png
-reference/components/buy-button/buy-button.png
 reference/components/charts/20.png
 reference/components/charts/23 (1).png
 reference/components/charts/chart-content-in-pages.png
@@ -580,10 +577,6 @@ reference/components/choice-component/configuring-choice-component.png
 reference/components/choice-component/designini-the-choice-component.png
 reference/components/collection-component/collection-component.png
 reference/components/collection-component/limiting-the-number-of-items-in-collections.png
-reference/components/comments-component/comments-sheet.png
-reference/components/comments-component/deleting-a-comment.png
-reference/components/comments-component/selecting-the-data-column.png
-reference/components/comments-component/use-case-of-a-comment-component.png
 reference/components/contact-form/actions.png
 reference/components/contact-form/additional-columns.png
 reference/components/contact-form/configuration.png
@@ -602,17 +595,10 @@ reference/components/data-grid-collection/usecase-of-the-data-grid-layout.png
 reference/components/date-pickers/date-picker-configuration.png
 reference/components/date-pickers/designing-date-picker.png
 reference/components/date-pickers/range.png
-reference/components/email-component/choosing-the-to-value.png
-reference/components/email-component/email-component.png
-reference/components/email-component/email-content-sheet.png
 reference/components/entry-components/designing-the-text-component.png
 reference/components/entry-components/entry-components.png
 reference/components/entry-components/number-entry-options.png
 reference/components/entry-components/text-entry-configuration.png
-reference/components/event-picker/bookings-relations.png
-reference/components/event-picker/event-picker-configuration.png
-reference/components/event-picker/event-picker.png
-reference/components/event-picker/using-in-forms.png
 reference/components/fields-component/configuring-the-field-component.png
 reference/components/file-and-image-pickers/configuring-file-picker.png
 reference/components/hint-component/adding-action-to-hint-component.png
@@ -629,16 +615,8 @@ reference/components/image-component/image (20).png
 reference/components/image-component/image (21).png
 reference/components/image-component/image (22).png
 reference/components/image-component/image (23).png
-reference/components/inline-list-component/choosing-the data-source-for-inline-list-component.png
-reference/components/inline-list-component/inline-list-component.png
-reference/components/inline-list-component/inline-list-options-configuration.png
-reference/components/inline-list-component/inline-list-options.png
-reference/components/inline-list-component/selecting-an-inline-list-style.png
 reference/components/link-component/configuring-link-component.png
 reference/components/link-component/link-component-configuration.png
-reference/components/list-relation/configuring-list-relation.png
-reference/components/list-relation/filtering-grouping-and-sorting-list-relation.png
-reference/components/list-relation/use-case-of-list-relation.png
 reference/components/location/image (10).png
 reference/components/map-component/designing-map-component-in-apps.png
 reference/components/map-component/image (1).gif
@@ -650,15 +628,11 @@ reference/components/map-component/image (15).png
 reference/components/map-component/image (16).png
 reference/components/map-component/image.gif
 reference/components/map-component/map-component-in-apps.png
-reference/components/phone-component/configuring-message.png
-reference/components/phone-component/turn-on-off-text-message.png
-reference/components/phone-component/use-case-of-the-phone-component.png
 reference/components/progress-bar/progress-bar-design.png
 reference/components/progress-bar/progress-bar.png
 reference/components/rating-component/image (4).png
 reference/components/rating-component/image (5).png
 reference/components/rating-component/image (6).png
-reference/components/relation/use-case-of-a-relation-cmponent.png
 reference/components/rich-text/rich-text-actions.png
 reference/components/rich-text/rich-text-configuration.png
 reference/components/rich-text/rich-text-use-case.png
@@ -666,8 +640,6 @@ reference/components/separator/separator-options.png
 reference/components/separator/separator.png
 reference/components/signature-component/an-use-case-of-a-signature-component.png
 reference/components/signature-component/choosing-the-right-column-for-signature-component.png
-reference/components/stopwatch/configuring-stop-watch's-duration.png
-reference/components/stopwatch/configuring-stopwatch-component's-start-time.png
 reference/components/text-component/image (2).png
 reference/components/text-component/image (3).png
 reference/components/title-component/data-section-of-title-component-in-pages.png
@@ -892,6 +864,29 @@ reference/integrations/big-query/choosing-the-bq-project.png
 reference/integrations/big-query/editing-the-query.png
 reference/integrations/big-query/naming-the-query.png
 reference/integrations/big-query/running-the-query.png
+reference/integrations/clearbit/adding-the-clearbit-integration.png
+reference/integrations/clearbit/clearbit-integration-settings.png
+reference/integrations/clearbit/configuring-the-enrich-contact-action.png
+reference/integrations/clearbit/getting-the-clearbit-api-key.png
+reference/integrations/discord/adding-an-image-for-the-bot.png
+reference/integrations/discord/adding-the-channel-id.png
+reference/integrations/discord/choosing-the-server.png
+reference/integrations/discord/confirming-which-permission-to-allow.png
+reference/integrations/discord/copying-the-channel-id.png
+reference/integrations/discord/discored-intergration-use-case.png
+reference/integrations/gmail/adding-gmail-integration.png
+reference/integrations/gmail/configuring-the-send-email-with-gmail-action.png
+reference/integrations/gmail/removing-access-from-google-account.png
+reference/integrations/gmail/usecase-for-a-gmail-integration.png
+reference/integrations/google-calendar/adding-the-google-calendar-intergration.png
+reference/integrations/google-calendar/google-calendar-configuration.png
+reference/integrations/google-calendar/use-case-of-google-calendar.png
+reference/integrations/intercom/choosing-the-intercom-intergration.png
+reference/integrations/intercom/copying-the-app-link.png
+reference/integrations/intercom/copying-the-intercom-workspace-id.png
+reference/integrations/intercom/live-view-of-intercom-widget.png
+reference/integrations/intercom/pasting-the-app-id-in-glide.png
+reference/integrations/intercom/sharing-an-app-in-private-mode.png
 reference/integrations/make/add-values-to-webhook.png
 reference/integrations/make/adding-an-action.gif
 reference/integrations/make/creating-a-webhook-in-make.gif
@@ -903,6 +898,31 @@ reference/integrations/make/setting-up-our-action.gif
 reference/integrations/make/stripe-and-google-sheets-scenario.png
 reference/integrations/make/testing-the-trigger.gif
 reference/integrations/make/triggering-webhook-settings.gif
+reference/integrations/microsoft-outlook/adding-microsoft-outlook-integration (1).png
+reference/integrations/microsoft-outlook/configuring-microsoft-outlook (1).png
+reference/integrations/microsoft-outlook/configuring-the-send-email-with-outlook-action (1).png
+reference/integrations/microsoft-outlook/usecase-for-a-outtlook-integration (1).png
+reference/integrations/microsoft-teams/adding-the-microsoft-teams-integration.png
+reference/integrations/microsoft-teams/configuring-the-send-message-to-teams-actions.png
+reference/integrations/microsoft-teams/usecase-for-a-microsoft-teams-integration.png
+reference/integrations/slack/adding-a-bot-name-and-an-avatar.png
+reference/integrations/slack/adding-the-glide-into-slack-channel.png
+reference/integrations/slack/adding-the-slack-intergration.png
+reference/integrations/slack/allowing-the-access-on-slack.png
+reference/integrations/slack/choosing-glide-to-remove-from-the-channel.png
+reference/integrations/slack/choosing-the-glide-inside-slack.png
+reference/integrations/slack/configuring-the-slack-action.png
+reference/integrations/slack/confirming-glide-is-listed-under-apps-section.png
+reference/integrations/slack/confirming-to-remove-glide-from-the-entire-slack-workspace.png
+reference/integrations/slack/removing-glide-from-slack-channel.png
+reference/integrations/slack/removing-glide-from-the-channel.png
+reference/integrations/slack/removing-glide-from-the-entire-slack-workspace.png
+reference/integrations/slack/removing-the-slcak-from-glide.png
+reference/integrations/slack/use-case-of-a-slack-intergration.png
+reference/integrations/twilio/account-info-in-twilio.png
+reference/integrations/twilio/adding-twilio-intergration.png
+reference/integrations/twilio/twilio-action-configuration.png
+reference/integrations/twilio/use-case-of-twilio.png
 reference/integrations/zapier/adding-sample-values.gif
 reference/integrations/zapier/adding-zap-action-to-button.gif
 reference/integrations/zapier/assigning-zap-values.gif
@@ -917,6 +937,10 @@ reference/integrations/zapier/testing-and-troubleshooting.gif
 reference/integrations/zapier/turning-on-a-zap.gif
 reference/integrations/zapier/zap-sending-an-email.gif
 reference/integrations/zapier/zapier-integration.png
+reference/integrations/zendesk/adding-zendesk-integration.png
+reference/integrations/zendesk/getting-the-zendesk-api-key.png
+reference/integrations/zendesk/usecase-for-zendesk-integration.png
+reference/integrations/zendesk/zendesk-integration-settings.png
 reference/pages-components/button-block/2021-09-29 12.59.27.gif
 reference/pages-components/button-block/Frame 13.png
 reference/pages-components/collections/2021-10-01 11.10.29.gif
