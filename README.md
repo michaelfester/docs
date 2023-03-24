@@ -3,6 +3,7 @@
 ## Content
 
 All docs content is under [docs](/docs).
+For a full tutorial on GitHub and VSCode for newbies, check this out: https://www.notion.so/glideapps/GitHub-Workflow-8ce09f0b53a440789ddbd3ed91ba0126
 
 ### Slugs
 
