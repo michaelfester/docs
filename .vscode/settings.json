@@ -8,5 +8,16 @@
     "**/*.svg": true,
     "**/*.woff*": true
   },
+  "files.exclude": {
+    "**/.git*": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/.dev": true,
+    "**/.swc": true,
+    "**/*.json": true
+  },
   "editor.wordWrap": "on"
 }
