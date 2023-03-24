@@ -905,6 +905,8 @@ reference/integrations/microsoft-outlook/usecase-for-a-outtlook-integration (1).
 reference/integrations/microsoft-teams/adding-the-microsoft-teams-integration.png
 reference/integrations/microsoft-teams/configuring-the-send-message-to-teams-actions.png
 reference/integrations/microsoft-teams/usecase-for-a-microsoft-teams-integration.png
+reference/integrations/push-notifications/adding-push-notification-integration.png
+reference/integrations/push-notifications/examples-for-pn-request-action.png
 reference/integrations/slack/adding-a-bot-name-and-an-avatar.png
 reference/integrations/slack/adding-the-glide-into-slack-channel.png
 reference/integrations/slack/adding-the-slack-intergration.png
