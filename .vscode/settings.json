@@ -17,7 +17,7 @@
     "**/Thumbs.db": true,
     "**/.dev": true,
     "**/.swc": true,
-    "**/*.json": true
+    "*.json": true
   },
   "editor.wordWrap": "on"
 }
