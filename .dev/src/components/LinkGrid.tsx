@@ -1,12 +1,8 @@
 import NextLink from "next/link";
 
-import { Icon } from "@/components/Icon";
-import { Header } from "./Typography";
-import Image from "next/image";
-
 export function LinkGrid({ children }) {
   return (
-    <div className="grid grid-cols-1 gap-6 my-12 not-prose sm:grid-cols-2">
+    <div className="not-prose my-12 grid grid-cols-1 gap-6 sm:grid-cols-2">
       {children}
     </div>
   );
@@ -32,7 +28,7 @@ LinkGrid.Link = function Link(props: Props) {
         className="group relative aspect-[2/1] h-full w-full rounded-2xl border border-neutrals-light-4"
       >
         <div className="p-8">
-          <div className="p-2 rounded-full w-max bg-aqua">
+          <div className="w-max rounded-full bg-aqua p-2">
             <svg
               width="24"
               height="24"
@@ -49,7 +45,7 @@ LinkGrid.Link = function Link(props: Props) {
           </div>
           <div className="mt-4">
             <p className="text-lg font-bold dark:text-white">{title}</p>
-            <p className="mt-2 text-neutrals-light-10 line-clamp-2 dark:text-neutrals-light-4">
+            <p className="mt-2 text-neutrals-light-10 dark:text-neutrals-light-4">
               {frontmatter.description}
             </p>
           </div>
