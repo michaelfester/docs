@@ -9,6 +9,12 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
+    "groups": [
+      {
+        "group": "API reference",
+        "openapi": "openapi.json"
+      }
+    ],
     "tabs": [
       {
         "tab": "Guides",
